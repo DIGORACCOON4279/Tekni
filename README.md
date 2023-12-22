@@ -18,26 +18,26 @@ En esta primera preentrega se piderealizar tres componentes:</br>
 
 La estructura a trabajar en los componentes src es creado una carpeta principal llamada components y se devivan las tres componentes antes nombrados con su respectivo archivos files.jsx & files.scss por cada componente. Tambien se decide trabajar con bootstrap & SASS.</br>
 
-src/
-|-- components/
-|   |-- NavBar/
-|   |   |-- NavBar.jsx
-|   |   |-- NavBar.scss
-|   |-- CartWidget/
-|   |   |-- CartWidget.jsx
-|   |   |-- CartWidget.scss
-|   |-- ItemListContainer/
-|   |   |-- ItemListContainer.jsx
-|   |   |-- ItemListContainer.scss
-|-- scss/
-|   |-- _variables.scss
-|   |-- _mixins.scss
-|   |-- _partials.scss
-|   |-- main.scss
-|-- App.jsx
+src/</br>
+|-- components/</br>
+|   |-- NavBar/</br>
+|   |   |-- NavBar.jsx</br>
+|   |   |-- NavBar.scss</br>
+|   |-- CartWidget/</br>
+|   |   |-- CartWidget.jsx</br>
+|   |   |-- CartWidget.scss</br>
+|   |-- ItemListContainer/</br>
+|   |   |-- ItemListContainer.jsx</br>
+|   |   |-- ItemListContainer.scss</br>
+|-- scss/</br>
+|   |-- _variables.scss</br>
+|   |-- _mixins.scss</br>
+|   |-- _partials.scss</br>
+|   |-- main.scss</br>
+|-- App.jsx</br>
 |-- index.jsx</br>
 
-# React + Vite
+# React + Vite</br>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.</br>
 
