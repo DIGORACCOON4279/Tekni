@@ -26,6 +26,7 @@ se realizaran dos ppreenregas y la entrega fianl  a medida que se vaya realziand
 ![css](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/b2e2f475-b8d9-4188-aae4-fe7e9a7acf4a)CSS (Lenguaje de estilos)</br>
 ![html](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/b0692228-5ca9-433d-a4c5-b52369d3c4bf)HTML (Lenguaje de marcado y estructura)</br>
 ![js](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/1ef7c489-c0b4-41a6-bdce-b12d8c0654ad)JavaScript (Lenguage de programación)</br>
+![react](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/af7de6da-ad17-45c7-95a6-3ef1e3c5f730) React </br>
 ![Bootstrap](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/570d9449-d0dc-4e46-b34c-cae994960cff)Bootstrap (Framework)</br>
 ![Sass](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/97214254-d103-46e6-a306-8f5c3c10571c)Sass (Preprocesador)</br>
 
