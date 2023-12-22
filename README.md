@@ -17,6 +17,7 @@ se realizaran dos ppreenregas y la entrega fianl  a medida que se vaya realziand
 ![photoshop](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/bcba26da-b44f-41a3-8d48-9f1255ebe12b) Photoshop</br>
 ![github](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/01f94f79-8e78-42f8-bc9a-2b6707a9a36d) Github</br>
 ![gitbash](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/3d2e83ec-bea3-47bf-a5a4-d9524e0406b0) Git Bash </br>
+![nodejs](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/1944cc14-d0b8-43f7-b859-7f15025239c0) NodeJS </br>
 ![npm](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/e703b698-4589-43d5-b5ba-2a75693a3691) npm &</br>
 ![vsc](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/bd61bcc5-5a44-4c33-b675-d03bb01589c0) VSC</br>
 
