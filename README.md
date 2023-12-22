@@ -6,7 +6,7 @@
 # Iniciativa</br>
 
 Este proyecto de ecommerce ficticio llamado " Tekni "  --venta de dispositivos electronicos --  fue escogido para trabajar durante la cursada de React. 
-se realizaran dos ppreenregas y la entrega fianl  a medida que se vaya realziando las consignas de cada entrega para moldear el proyecto segin los objetivos deñ curso.</br>
+Se realizaran dos preenregas y la entrega final a medida que se vaya realizando las consignas de cada entrega para moldear el proyecto segun los objetivos del curso.</br>
 
 👉 Herramientas utilizadas: 🛠 </br>
 
@@ -32,13 +32,13 @@ se realizaran dos ppreenregas y la entrega fianl  a medida que se vaya realziand
 
 # Desarrollo</br>
 
-En esta primera preentrega se piderealizar tres componentes:</br>
+En esta primera preentrega se pide realizar tres componentes:</br>
 
-** --NavBar</br>
-** --CartWidget</br>
-** --ItemListContainer</br>
+** ✔ --NavBar</br>
+** ✔ --CartWidget</br>
+** ✔ --ItemListContainer</br>
 
-La estructura a trabajar en los componentes src es creado una carpeta principal llamada components y se devivan las tres componentes antes nombrados con su respectivo archivos files.jsx & files.scss por cada componente. Tambien se decide trabajar con bootstrap & SASS.</br>
+La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se devivan los tres componentes antes nombrados con su respectivo archivos files.jsx & files.scss por cada componente.</br>
 
 src/</br>
 |-- components/</br>
