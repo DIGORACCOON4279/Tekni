@@ -8,7 +8,7 @@
 Este proyecto de ecommerce ficticio llamado " Tekni "  --venta de dispositivos electronicos --  fue escogido para trabajar durante la cursada de React. 
 Se realizaran dos preenregas y la entrega final a medida que se vaya realizando las consignas de cada entrega para moldear el proyecto segun los objetivos del curso.</br>
 
-👉 Herramientas utilizadas: 🛠 </br>
+👉 Herramientas que se utilizaran durante el desarrollo del proyecto: 🛠 </br>
 
 ![figma](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/fca318c0-6b7d-4046-b0aa-55a83f0419a3) Figma</br>
 ![animations](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/2fdc31da-eb29-4247-90d3-0b5727606aa7) Animations CSS (@keyframes & transitions)</br>
@@ -21,7 +21,7 @@ Se realizaran dos preenregas y la entrega final a medida que se vaya realizando 
 ![npm](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/e703b698-4589-43d5-b5ba-2a75693a3691) npm &</br>
 ![vsc](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/bd61bcc5-5a44-4c33-b675-d03bb01589c0) VSC</br>
 
-👉 Lenguajes, preprocesador, library & framework utilizadas: 🛠</br>
+👉 Lenguajes, preprocesador, library & framework que se utilizaran durante el desarrollo del proyecto: 🛠</br>
 
 ![css](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/b2e2f475-b8d9-4188-aae4-fe7e9a7acf4a)CSS (Lenguaje de estilos)</br>
 ![html](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/b0692228-5ca9-433d-a4c5-b52369d3c4bf)HTML (Lenguaje de marcado y estructura)</br>
