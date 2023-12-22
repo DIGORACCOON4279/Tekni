@@ -1,5 +1,5 @@
 #Tekni
-![image](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/373846ce-a67e-4bb0-823a-36481b91a955)</br>
+![tekni](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/e448a525-9747-4238-bc90-e6ea1e1ae05d)</br>
 
 # Desarrollo</br>
 
