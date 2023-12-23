@@ -3,7 +3,7 @@ import "./CartWidget.css";
 
 const CartWidget = () => {
     return (
-        <div>
+        <div className="cartWidget">
             <img className="cartShopping" src="./img/shoppingCart.svg" alt="Shopping cart" />
             <p><strong> 3 </strong></p>
         </div>
@@ -11,3 +11,4 @@ const CartWidget = () => {
 }
 
 export default CartWidget
+

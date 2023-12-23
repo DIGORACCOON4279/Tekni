@@ -1,6 +1,6 @@
 import User from "../User/User"
 import CartWidget from "../CartWidget/CartWidget";
-import Menu from "../menu/Menu";
+import Menu from "../Menu/Menu";
 import "./IconsMenu.css"
 
 const IconMenu = () => {

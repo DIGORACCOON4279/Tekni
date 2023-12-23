@@ -10,11 +10,11 @@ const NavBar = () => {
             {/* <input id="menu" type="checkbox"/> */}
             <nav className="navBar">
                 <ul>
-                    <li><img src="img/home.svg" alt=""/>Home</li>
-                    <li><img src="img/products.svg" alt=""/>Products</li>
+                    <li><img src="./img/home.svg" alt=""/>Home</li>
+                    <li><img src="./img/products.svg" alt=""/>Products</li>
                     <CategorySections/>
-                    <li><img src="img/services.svg" alt=""/>Services</li>
-                    <li><img src="img/contactUs.svg" alt=""/>Contact us</li>
+                    <li><img src="./img/services.svg" alt=""/>Services</li>
+                    <li><img src="./img/contactUs.svg" alt=""/>Contact us</li>
                 </ul>
             </nav>
 
