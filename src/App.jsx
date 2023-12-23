@@ -7,8 +7,6 @@ const App = () => {
       <NavBar/>
       <ItemListContainer greeting="Hola Mundo"/>
     </>
-
-
   )
 }
 
