@@ -5,10 +5,13 @@ import "./NavBar.css"
 const NavBar = () => {
     return (
         <header className="header">
-                <img src="img/logo.webp" alt="" className="logoTekni"/>
+            <img src="img/logo.webp" alt="" className="logoTekni"/>
 
-            {/* <input id="menu" type="checkbox"/> */}
+            <input id="menu" type="checkbox"/>
             <nav className="navBar">
+                <label htmlFor="menu">
+
+                </label>
                 <ul>
                     <li><img src="./img/home.svg" alt=""/>Home</li>
                     <li><img src="./img/products.svg" alt=""/>Products</li>

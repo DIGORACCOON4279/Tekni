@@ -28,6 +28,41 @@
     }
 }
 
+/* Icons Menu */
+
+.header .iconsMenu{
+    height:auto;
+    position:relative;
+    animation: icons 0.3s linear;
+}
+@keyframes icons{
+    0%{
+        transform:translateY(-150%) ;
+    }
+    100%{
+        transform:translateY(0%) ;
+    }
+}
+.header .iconsMenu ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+}
+.header .iconsMenu ul li{
+    list-style-type: none;
+}
+
+/* Header > IconsMenu > NavBar */
+
+.header #menu{
+    display: none;
+}
+.header #menu:checked + .navBar{
+    transform:translateY(0%);
+    opacity:1;
+}
 .header .navBar{
     width: 100%;
     height: fit-content;
@@ -36,7 +71,9 @@
     right:0%;
     left:0%;
     background-color: #CCCCCC;
-    /* opacity:0; */
+    opacity:0;
+    transform:translateY(35%);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 .header .navBar ul{
     width: fit-content;
@@ -67,5 +104,3 @@
 .header .navBar ul li img{
     width: 28px;
 }
-
-

@@ -3,5 +3,9 @@ li{
 }
 li label .menuIcon{
     width:100%;
+    cursor: pointer;
 
+}
+li label input{
+    display:none;
 }

@@ -3,10 +3,13 @@ import "./CartWidget.css";
 
 const CartWidget = () => {
     return (
-        <div className="cartWidget">
-            <img className="cartShopping" src="./img/shoppingCart.svg" alt="Shopping cart" />
-            <p><strong> 3 </strong></p>
-        </div>
+        <li>
+            <label htmlFor="cartWidget">
+                <img className="cartWidget" src="./img/shoppingCart.svg" alt=""/>
+                <p><strong> 3 </strong></p>
+                <input id="cartWidget" type="checkbox"/>
+            </label>
+        </li>
     )
 }
 

@@ -1,6 +1,30 @@
-.cartWidget{
+li label{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap:0px;
+    position: relative;
+}
+li label .cartWidget{
+    width:28px;
+    height:auto;
+    cursor:pointer;
+    transform:scale(100%);
+    transition:transform 0.3s ease-in-out;
+}
+li label .cartWidget:hover{
+    transform:scale(110%);
+}
+li label p{
+    position: absolute;
+    top:-5px;
+    right:-5px;
+    background-color:#FF5207;
+    border-radius: 50%;
+    padding:3px 6px;
+    font-size: 0.6rem;
+    color: #ffffff;
+}
+li label input{
+    display:none;
 }
