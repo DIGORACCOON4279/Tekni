@@ -11,7 +11,6 @@ const NavBar = () => {
             <input id="menu" type="checkbox"/>
             <nav className="navBar">
                 <label htmlFor="menu">
-
                 </label>
                 <ul>
                     <li><img src="./img/home.svg" alt=""/>Home</li>
