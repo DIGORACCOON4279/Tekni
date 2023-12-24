@@ -1,5 +1,5 @@
 #Tekni
-![tekni](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/e448a525-9747-4238-bc90-e6ea1e1ae05d)</br>
+![tekni](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/3eb163f7-1811-4034-93d9-b5a2e83bd3d9)</br>
 
 
 ********************************************************************************************************************************************************************************
