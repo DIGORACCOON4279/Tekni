@@ -1,3 +1,4 @@
+
 import CategorySections from "../CategorySections/CategorySections";
 import IconsMenu from "../IconsMenu/IconsMenu";
 import "./NavBar.css"

@@ -1,11 +1,13 @@
 
 h2{
+    width:100%;
+    max-width: 80%;
     margin: 5px auto;
     text-align: center;
-    font-size: 1rem;
-    /* position: relative;
-    top: ; */
-    animation: greeting 4s linear;
+    font-size: 0.8rem;
+    color: #FF5207;
+    font-family: 'Ubuntu', sans-serif;
+    animation: greeting 4s linear ;
 }
 @keyframes greeting{
     0%{
