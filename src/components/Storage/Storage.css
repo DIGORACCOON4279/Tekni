@@ -85,8 +85,10 @@
     width:100%;
     padding: 10px 15px;
     font-family: 'Ubuntu', sans-serif;
-    background-color:#FF5207;
-    border: 1px solid #FF5207;
+    /* background-color:#FF5207; */
+    background-color:#000000;
+
+    border: 1px solid #000000;
     font-size: 1rem;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -94,7 +96,8 @@
     transition: 0.3s ease-in-out;
 }
 .gallery .cardProduct button:hover{
-    background-color:#000000;
-    border: 1px solid #000000;
+    background-color:#ffffff;
+    border: 1px solid #FF5207;
+    color:#FF5207;
 }
 
