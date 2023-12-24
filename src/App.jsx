@@ -9,7 +9,7 @@ const App = () => {
     <>
       <Body/>
       <NavBar/>
-      <ItemListContainer greeting=" ⚡ Take advantage of our 35% discounts on all our devices this Black Friday!!! ⚡."/>
+      <ItemListContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/>
     </>
   )
 }
