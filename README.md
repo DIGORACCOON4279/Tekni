@@ -5,7 +5,7 @@
 # Iniciativa</br>
 
 Este proyecto de ecommerce ficticio llamado " Tekni "  --venta de dispositivos electronicos --  fue escogido para trabajar durante la cursada de React. 
-Se realizaran dos preenregas y la entrega final a medida que se vaya realizando las consignas de cada entrega para moldear el proyecto segun los objetivos del curso.</br>
+Se realizaran dos preentregas y la entrega final a medida que se vaya realizando las consignas de cada entrega para moldear el proyecto segun los objetivos del curso.</br>
 
 👉 Herramientas que se utilizaran durante el desarrollo del proyecto: 🛠 </br>
 
@@ -26,9 +26,16 @@ Se realizaran dos preenregas y la entrega final a medida que se vaya realizando 
 ![html](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/b0692228-5ca9-433d-a4c5-b52369d3c4bf)HTML (Lenguaje de marcado y estructura)</br>
 ![js](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/1ef7c489-c0b4-41a6-bdce-b12d8c0654ad)JavaScript (Lenguage de programación)</br>
 ![react](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/af7de6da-ad17-45c7-95a6-3ef1e3c5f730) React (Library)</br>
+![vite](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/f9c38eca-b09c-4f34-84a4-6e7d8ae983f0)Vite</br>
 ![Bootstrap](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/570d9449-d0dc-4e46-b34c-cae994960cff)Bootstrap (Framework)</br>
 ![Sass](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/97214254-d103-46e6-a306-8f5c3c10571c)Sass (Preprocesador)</br>
+![firebase](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/9646a3cf-f814-482a-adad-d8e928df9b8c)Firebase(BD)</br>
 
+Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener mejor entendimiento de lo que se quiere lograr:</br>
+
+
+💻[Prototipo desktop](https://www.figma.com/proto/uP83VlEVIz4hmSboxjuN2F/Tekny?page-id=2%3A10&type=design&node-id=57-589&viewport=-2255%2C1269%2C0.28&t=2HOa7ebSJPJxV5wp-1&scaling=scale-down&starting-point-node-id=57%3A589&mode=design)</br>
+🚧I´m so sorry📱Cellphone (man at work)</br>
 # Desarrollo</br>
 
 En esta primera preentrega se pide realizar tres componentes:</br>
@@ -37,24 +44,37 @@ En esta primera preentrega se pide realizar tres componentes:</br>
 ** ✔ --CartWidget</br>
 ** ✔ --ItemListContainer</br>
 
-La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se devivan los tres componentes antes nombrados con su respectivo archivos files.jsx & files.scss por cada componente.</br>
+La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se derivan los tres componentes antes nombrados con su respectivo archivos files.jsx & files.css por cada componente.</br>
 
 src/</br>
 |-- components/</br>
 |   |-- NavBar/</br>
 |   |   |-- NavBar.jsx</br>
-|   |   |-- NavBar.scss</br>
+|   |   |-- NavBar.css</br>
 |   |-- CartWidget/</br>
 |   |   |-- CartWidget.jsx</br>
 |   |   |-- CartWidget.scss</br>
 |   |-- ItemListContainer/</br>
 |   |   |-- ItemListContainer.jsx</br>
-|   |   |-- ItemListContainer.scss</br>
-|-- scss/</br>
-|   |-- _variables.scss</br>
-|   |-- _mixins.scss</br>
-|   |-- _partials.scss</br>
-|   |-- main.scss</br>
+|   |   |-- ItemListContainer.css</br>
+|   |-- Body/</br>
+|   |   |-- Body.jsx</br>
+|   |   |-- Body.scss</br>
+|   |-- User/</br>
+|   |   |-- User.jsx</br>
+|   |   |-- User.css</br>
+|   |-- Storage/</br>
+|   |   |-- Storage.jsx</br>
+|   |   |-- Storage.css</br>
+|   |-- Menu/</br>
+|   |   |-- Menu.jsx</br>
+|   |   |-- Menu.css</br>
+|   |-- IconsMenu/</br>
+|   |   |-- IconsMenu.jsx</br>
+|   |   |-- IconsMenu.css</br>
+|   |-- CategorySections/</br>
+|   |   |-- CategorySections.jsx</br>
+|   |   |-- CategorySections.css</br>
 |-- App.jsx</br>
 |-- index.jsx</br>
 
