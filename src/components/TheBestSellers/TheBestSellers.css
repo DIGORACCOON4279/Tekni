@@ -1,0 +1,107 @@
+.bestSellersSection{
+    width:100%;
+    height:auto;
+    margin:300px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+}
+.bestSellersSection  .info{
+    width:60%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.bestSellersSection  .info .titleSection{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500 ;
+    color: #000000;
+    text-align: center;
+}
+.bestSellersSection .info .description{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400 ;
+    color: #747474;
+    text-align: center;
+}
+.bestSellersSection .imgTheBestSellers{
+    width:100%;
+    height:auto;
+    display: grid;
+    grid-template-areas:
+    "bestSellersUno bestSellersDos  "
+    "bestSellersTres bestSellersCuatro "
+    "bestSellersCinco bestSellersSeis "
+    ;
+    gap:0;
+    overflow: hidden;
+}
+.bestSellersSection .imgTheBestSellers .theBestSellersUno{
+    grid-area: bestSellersUno;
+}
+.bestSellersSection .imgTheBestSellers .theBestSellersDos{
+    grid-area: bestSellersDos;
+}
+.bestSellersSection .imgTheBestSellers .theBestSellersTres{
+    grid-area: bestSellersTres;
+}
+.bestSellersSection .imgTheBestSellers .theBestSellersCuatro{
+    grid-area: bestSellersCuatro;
+}
+.bestSellersSection .imgTheBestSellers .theBestSellersCinco{
+    grid-area: bestSellersCinco;
+}
+.bestSellersSection .imgTheBestSellers .theBestSellersSeis{
+    grid-area: bestSellersSeis;
+}
+.bestSellersSection .imgTheBestSellers .theBestSellersUno,
+.bestSellersSection .imgTheBestSellers .theBestSellersDos,
+.bestSellersSection .imgTheBestSellers .theBestSellersTres,
+.bestSellersSection .imgTheBestSellers .theBestSellersCuatro,
+.bestSellersSection .imgTheBestSellers .theBestSellersCinco,
+.bestSellersSection .imgTheBestSellers .theBestSellersSeis{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    position: relative;
+}
+.bestSellersSection .imgTheBestSellers div .item{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    position: relative;
+    transform:scale(103%);
+    transition:transform 0.3s ease-in-out;
+}
+.bestSellersSection .imgTheBestSellers .theBestSellersUno:hover > .item,
+.bestSellersSection .imgTheBestSellers .theBestSellersDos:hover > .item,
+.bestSellersSection .imgTheBestSellers .theBestSellersTres:hover > .item,
+.bestSellersSection .imgTheBestSellers .theBestSellersCuatro:hover > .item,
+.bestSellersSection .imgTheBestSellers .theBestSellersCinco:hover > .item,
+.bestSellersSection .imgTheBestSellers .theBestSellersSeis:hover > .item{
+    transform:scale(107%);
+}
+.bestSellersSection .imgTheBestSellers .theBestSellersUno .paragraph,
+.bestSellersSection .imgTheBestSellers .theBestSellersDos .paragraph,
+.bestSellersSection .imgTheBestSellers .theBestSellersTres .paragraph,
+.bestSellersSection .imgTheBestSellers .theBestSellersCuatro .paragraph,
+.bestSellersSection .imgTheBestSellers .theBestSellersCinco .paragraph,
+.bestSellersSection .imgTheBestSellers .theBestSellersSeis .paragraph{
+    width:100%;
+    height:auto;
+    position: absolute;
+    bottom:40px;
+    left:0px;
+    z-index: 11;
+    font-size: 1.25rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    color: #ffffff;
+    text-align: left;
+    padding:0px 70px;
+}

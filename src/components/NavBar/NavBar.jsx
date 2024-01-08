@@ -1,4 +1,6 @@
 
+import ContactUs from "../ContactUs/ContactUs";
+import Services from "../Services/Services";
 import CategorySections from "../CategorySections/CategorySections";
 import IconsMenu from "../IconsMenu/IconsMenu";
 import "./NavBar.css"
@@ -16,8 +18,8 @@ const NavBar = () => {
                     <li><img src="./img/home.svg" alt=""/>Home</li>
                     <li><img src="./img/products.svg" alt=""/>Products</li>
                     <CategorySections/>
-                    <li><img src="./img/services.svg" alt=""/>Services</li>
-                    <li><img src="./img/contactUs.svg" alt=""/>Contact us</li>
+                    <Services/>
+                    <ContactUs />
                 </ul>
             </nav>
 

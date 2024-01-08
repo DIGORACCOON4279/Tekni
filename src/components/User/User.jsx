@@ -1,3 +1,4 @@
+import LogIn from "../LogIn/LogIn";
 import "./User.css";
 
 const User = () => {
@@ -5,8 +6,9 @@ const User = () => {
         <li>
             <label htmlFor="user">
                 <img className="userIcon" src="./img/user.svg" alt=""/>
-                <input id="user" type="checkbox"/>
             </label>
+            <input id="user" type="checkbox"/>
+            <LogIn/>
         </li>
     )
 }

@@ -1,0 +1,47 @@
+/* LogIn Style */
+
+
+
+/* Click to open SignUp */
+
+.logInSection form label .clickSignUp{
+    cursor:pointer;
+    font-size:0.9rem ;
+    font-weight: 400;
+    color:#747474;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: transparent;
+    border-radius: 0%;
+    text-align: center;
+}
+.logInSection form label .clickSignUp:hover{
+    text-decoration: underline;
+    color:#000000;
+}
+.logInSection form #createAccountClick{
+    display: none;
+}
+.logInSection form #createAccountClick:checked ~ .signUpSection {
+    opacity:1;
+    visibility: visible;
+}
+.signUpSection{
+    width:20vw;
+    height:100vh;
+    position: absolute;
+    top:0%;
+    right:0%;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:80px;
+    box-shadow: 0 0 3px 2px #747474;
+    padding:20px;
+    opacity:0;
+    visibility: hidden;
+    background-color: #ffffff;
+    /* transform:translate(105%);
+    transition:  transform 0.3s ease-in-out; */
+    transition:   0.3s ease-in-out;
+}

@@ -1,0 +1,87 @@
+
+.newGenerationSection{
+    width:100%;
+    height:auto;
+    margin:300px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+}
+.newGenerationSection  .info{
+    width:60%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.newGenerationSection  .info .titleSection{
+    font-size: 2.5rem;
+    font-weight:500 ;
+    color: #000000;
+    text-align: center;
+}
+.newGenerationSection .info .description{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400 ;
+    color: #747474;
+    text-align: center;
+}
+.newGenerationSection .imgNewGeneration{
+    width:100%;
+    height:auto;
+    display: grid;
+    grid-template-areas:
+    "newGenerationUno newGenerationDos  newGenerationTres"
+    ;
+    gap:0;
+    overflow: hidden;
+}
+.newGenerationSection .imgNewGeneration .newGenerationUno{
+    grid-area: newGenerationUno;
+}
+.newGenerationSection .imgNewGeneration .newGenerationDos{
+    grid-area: newGenerationDos;
+}
+.newGenerationSection .imgNewGeneration .newGenerationTres{
+    grid-area: newGenerationTres;
+}
+.newGenerationSection .imgNewGeneration .newGenerationUno,
+.newGenerationSection .imgNewGeneration .newGenerationDos,
+.newGenerationSection .imgNewGeneration .newGenerationTres{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    position: relative;
+}
+.newGenerationSection .imgNewGeneration div .item{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    position: relative;
+    transform:scale(103%);
+    transition:transform 0.3s ease-in-out;
+}
+.newGenerationSection .imgNewGeneration .newGenerationUno:hover > .item,
+.newGenerationSection .imgNewGeneration .newGenerationDos:hover > .item,
+.newGenerationSection .imgNewGeneration .newGenerationTres:hover > .item{
+    transform:scale(107%);
+}
+.newGenerationSection .imgNewGeneration .newGenerationUno .paragraph,
+.newGenerationSection .imgNewGeneration .newGenerationDos .paragraph,
+.newGenerationSection .imgNewGeneration .newGenerationTres .paragraph{
+    width:100%;
+    height:auto;
+    position: absolute;
+    top:60px;
+    left:0px;
+    z-index: 11;
+    font-size: 1.25rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    color: #ffffff;
+    text-align: left;
+    padding:0px 30px;
+}

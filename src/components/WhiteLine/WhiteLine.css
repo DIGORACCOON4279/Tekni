@@ -1,0 +1,89 @@
+.whiteLineSection{
+    width:100%;
+    height:auto;
+    margin:300px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+}
+.whiteLineSection  .info{
+    width:60%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.whiteLineSection .info .titleSection{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500 ;
+    color: #000000;
+    text-align: center;
+}
+.whiteLineSection .info .description{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400 ;
+    color: #747474;
+    text-align: center;
+}
+.whiteLineSection .imgWhiteLine{
+    width:100%;
+    height:auto;
+    display: grid;
+    grid-template-areas:
+    "itemUno  itemDos"
+    "itemUno itemDos"
+    "itemTres itemTres"
+    ;
+    gap:0;
+    overflow: hidden;
+}
+.whiteLineSection .imgWhiteLine .imgContainerUno{
+    grid-area: itemUno;
+}
+.whiteLineSection .imgWhiteLine .imgContainerDos{
+    grid-area: itemDos;
+}
+.whiteLineSection .imgWhiteLine .img.imgContainerTres{
+    grid-area:itemTres;
+}
+.whiteLineSection .imgWhiteLine .imgContainerUno,
+.whiteLineSection .imgWhiteLine .imgContainerDos,
+.whiteLineSection .imgWhiteLine .imgContainerTres{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    position: relative;
+}
+.whiteLineSection .imgWhiteLine div .item{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    position: relative;
+    transform:scale(103%);
+    transition:transform 0.3s ease-in-out;
+}
+.whiteLineSection .imgWhiteLine .imgContainerUno:hover > .item,
+.whiteLineSection .imgWhiteLine .imgContainerDos:hover > .item,
+.whiteLineSection .imgWhiteLine .imgContainerTres:hover > .item{
+    transform:scale(107%);
+}
+.whiteLineSection .imgWhiteLine .imgContainerUno .paragraph,
+.whiteLineSection .imgWhiteLine .imgContainerDos .paragraph,
+.whiteLineSection .imgWhiteLine .imgContainerTres .paragraph{
+    width:100%;
+    height:auto;
+    position: absolute;
+    bottom:80px;
+    left:0px;
+    z-index: 11;
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    color: #000000;
+    text-align: left;
+    padding:0px 70px;
+}

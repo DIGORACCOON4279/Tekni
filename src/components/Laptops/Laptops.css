@@ -1,0 +1,164 @@
+
+.laptopsSection{
+    width:100%;
+    height:auto;
+    margin:300px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+}
+.laptopsSection  .info{
+    width:60%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.laptopsSection  .info .titleSection{
+    font-size: 2.5rem;
+    font-weight:500 ;
+    color: #000000;
+    text-align: center;
+}
+.laptopsSection .info .description{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400 ;
+    color: #747474;
+    text-align: center;
+}
+.laptopsSection .imgLaptopsSection{
+    width:100%;
+    height:auto;
+    display: grid;
+    grid-template-areas:
+    "laptopUno laptopDos laptopTres laptopCuatro"
+    "laptopCinco laptopSeis laptopSiete laptopOcho"
+    ;
+    gap:0;
+    overflow: hidden;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionUno{
+    grid-area: laptopUno;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionDos{
+    grid-area: laptopDos;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionTres{
+    grid-area: laptopTres;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionCuatro{
+    grid-area: laptopCuatro;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionCinco{
+    grid-area: laptopCinco;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionSeis{
+    grid-area: laptopSeis;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionSiete{
+    grid-area: laptopSiete;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionOcho{
+    grid-area: laptopOcho;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionUno,
+.laptopsSection .imgLaptopsSection .laptopsSectionDos,
+.laptopsSection .imgLaptopsSection .laptopsSectionTres,
+.laptopsSection .imgLaptopsSection .laptopsSectionCuatro,
+.laptopsSection .imgLaptopsSection .laptopsSectionCinco,
+.laptopsSection .imgLaptopsSection .laptopsSectionSeis,
+.laptopsSection .imgLaptopsSection .laptopsSectionSiete,
+.laptopsSection .imgLaptopsSection .laptopsSectionOcho{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    position: relative;
+}
+.laptopsSection .imgLaptopsSection .item{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    position: relative;
+    transform:scale(103%);
+    transition:transform 0.3s ease-in-out;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionUno:hover > .item,
+.laptopsSection .imgLaptopsSection .laptopsSectionDos:hover > .item,
+.laptopsSection .imgLaptopsSection .laptopsSectionTres:hover > .item,
+.laptopsSection .imgLaptopsSection .laptopsSectionCuatro:hover > .item,
+.laptopsSection .imgLaptopsSection .laptopsSectionCinco:hover > .item,
+.laptopsSection .imgLaptopsSection .laptopsSectionSeis:hover > .item,
+.laptopsSection .imgLaptopsSection .laptopsSectionSiete:hover > .item,
+.laptopsSection .imgLaptopsSection .laptopsSectionOcho:hover > .item{
+    transform:scale(110%);
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionUno .btnInfo,
+.laptopsSection .imgLaptopsSection .laptopsSectionDos .btnInfo,
+.laptopsSection .imgLaptopsSection .laptopsSectionTres .btnInfo,
+.laptopsSection .imgLaptopsSection .laptopsSectionCuatro .btnInfo,
+.laptopsSection .imgLaptopsSection .laptopsSectionCinco .btnInfo,
+.laptopsSection .imgLaptopsSection .laptopsSectionSeis .btnInfo,
+.laptopsSection .imgLaptopsSection .laptopsSectionSiete .btnInfo,
+.laptopsSection .imgLaptopsSection .laptopsSectionOcho .btnInfo{
+    width:100%;
+    height:80%;
+    position: absolute;
+    top:30px;
+    left:0px;
+    z-index: 11;
+    padding:0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionUno .btnInfo .paragraph,
+.laptopsSection .imgLaptopsSection .laptopsSectionDos .btnInfo .paragraph,
+.laptopsSection .imgLaptopsSection .laptopsSectionTres .btnInfo .paragraph,
+.laptopsSection .imgLaptopsSection .laptopsSectionCuatro .btnInfo .paragraph,
+.laptopsSection .imgLaptopsSection .laptopsSectionCinco .btnInfo .paragraph,
+.laptopsSection .imgLaptopsSection .laptopsSectionSeis .btnInfo .paragraph,
+.laptopsSection .imgLaptopsSection .laptopsSectionSiete .btnInfo .paragraph,
+.laptopsSection .imgLaptopsSection .laptopsSectionOcho .btnInfo .paragraph{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    color: #FF5207;
+    text-align: left;
+    letter-spacing: 3px;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionUno .btnInfo .cta,
+.laptopsSection .imgLaptopsSection .laptopsSectionDos .btnInfo .cta,
+.laptopsSection .imgLaptopsSection .laptopsSectionTres .btnInfo .cta,
+.laptopsSection .imgLaptopsSection .laptopsSectionCuatro .btnInfo .cta,
+.laptopsSection .imgLaptopsSection .laptopsSectionCinco .btnInfo .cta,
+.laptopsSection .imgLaptopsSection .laptopsSectionSeis .btnInfo .cta,
+.laptopsSection .imgLaptopsSection .laptopsSectionSiete .btnInfo .cta,
+.laptopsSection .imgLaptopsSection .laptopsSectionOcho .btnInfo .cta{
+    width: 70%;
+    padding:10px;
+    font-size: rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing:2px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    transition:0.3s ease-in-out;
+}
+.laptopsSection .imgLaptopsSection .laptopsSectionUno .btnInfo .cta:hover,
+.laptopsSection .imgLaptopsSection .laptopsSectionDos .btnInfo .cta:hover,
+.laptopsSection .imgLaptopsSection .laptopsSectionTres .btnInfo .cta:hover,
+.laptopsSection .imgLaptopsSection .laptopsSectionCuatro .btnInfo .cta:hover,
+.laptopsSection .imgLaptopsSection .laptopsSectionCinco .btnInfo .cta:hover,
+.laptopsSection .imgLaptopsSection .laptopsSectionSeis .btnInfo .cta:hover,
+.laptopsSection .imgLaptopsSection .laptopsSectionSiete .btnInfo .cta:hover,
+.laptopsSection .imgLaptopsSection .laptopsSectionOcho .btnInfo .cta:hover{
+    border: 1px solid #FF5207;
+    background-color: #FF5207;
+    letter-spacing:3px;
+}

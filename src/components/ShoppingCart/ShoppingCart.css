@@ -1,0 +1,225 @@
+.shoppingCartSection{
+    width: 100vw;
+    height:100vh;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    top:-10px;
+    right: -65px;
+    margin: auto;
+    padding: 20px 50px 30px;
+    overflow: hidden;
+    z-index: 11;
+    box-shadow: 0 4px 0px 4px #747474;
+    transform: translateY(-110%);
+    transition:transform 0.3s ease-in-out;
+}
+.shoppingCartSection label{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.shoppingCartSection label .close{
+    cursor:pointer;
+    /* transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out; */
+}
+/* .shoppingCartSection label .close:hover{
+    transform: rotate(90deg);
+} */
+.shoppingCartSection .title{
+    width:80%;
+    color:#FF5207;
+    font-size:1.2rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px auto 20px;
+    text-align: left;
+    padding-left: 20px;
+    background-color:#ffffff;
+
+}
+.shoppingCartSection .shoppingItem{
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:#FF5207;
+    font-size:0.9rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+.shoppingCartSection .shoppingItem .categoryTitle{
+    color:#FF5207;
+    font-size:1rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+.shoppingCartSection .shoppingProducts{
+    width:80%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: scroll;
+    padding: 20px ;
+    margin: 20px auto;
+    gap:20px;
+}
+.shoppingCartSection .shoppingProducts .productItem{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    transition:0.3s ease-in-out;
+}
+.shoppingCartSection .shoppingProducts .productItem:hover{
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+}
+.shoppingCartSection .shoppingProducts .productItem:hover > .iconMenu .productImage{
+    transform: scale(104%);
+    filter: drop-shadow(0px 1px 2px #747474);
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu{
+    width:14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu .productImage{
+    width:100%;
+    transform: scale(100%);
+    transition:transform 0.3s ease-in-out;
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu .iconOption{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu .iconOption .icon{
+    width:20%;
+    height:auto;
+    border-radius: 50%;
+    padding: 3px;
+    cursor:pointer;
+    transition: 0.3s ease-in-out;
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu .iconOption .icon:hover{
+    background-color: #ffffff;
+}
+.shoppingCartSection .shoppingProducts .productItem .price,
+.shoppingCartSection .shoppingProducts .productItem .priceTotal {
+    width:8%;
+    color:#747474;
+    font-size:1rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    display:flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.shoppingCartSection .shoppingProducts .productItem .priceTotal{
+    width:5%;
+    color:#323232;
+    font-weight: 500;
+}
+
+.shoppingCartSection .shoppingProducts .productItem .counterProduct{
+    width: 15%;
+    color:#323232;
+    font-size:1.2rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    display:flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.shoppingCartSection .shoppingProducts .productItem .counterProduct .sum,
+.shoppingCartSection .shoppingProducts .productItem .counterProduct .minus{
+    padding: 5px 15px;
+    background-color: #cccccc;
+}
+.shoppingCartSection .shoppingProducts .productItem .counterProduct .counter{
+    padding: 5px 15px;
+    background-color: #ffffff;
+}
+.shoppingCartSection .emptyCart{
+    width:80%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.shoppingCartSection .emptyCartWord{
+    width: 25%;
+    color:#323232;
+    font-size:0.9rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.shoppingCartSection .emptyCartIcon{
+    width: 30px;
+    height:auto;
+    border-radius: 50%;
+    padding: 3px;
+    cursor:pointer;
+    transition: 0.3s ease-in-out;
+}
+.shoppingCartSection .emptyCartIcon:hover{
+    background-color:#f9f9f9;
+}
+.shoppingCartSection .totalProduct{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+.shoppingCartSection .totalProduct .sumTotal{
+    width:25%;
+    color:#FF5207;
+    font-size:1.2rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+.shoppingCartSection .totalProduct .btnPaymentTotal{
+    width:25%;
+    color:#ffffff;
+    font-size:1rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    cursor:pointer;
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+.shoppingCartSection .totalProduct .btnPaymentTotal:hover{
+    color:#000000;
+    border: 1px solid black;
+    background-color: #ffffff;
+}

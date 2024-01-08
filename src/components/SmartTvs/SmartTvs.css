@@ -1,0 +1,111 @@
+.smartTvsSection{
+    width:100%;
+    height:auto;
+    margin:300px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+}
+.smartTvsSection  .info{
+    width:60%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.smartTvsSection .info .titleSection{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500 ;
+    color: #000000;
+    text-align: center;
+}
+.smartTvsSection .info .description{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400 ;
+    color: #747474;
+    text-align: center;
+}
+.smartTvsSection .imgSmartTvsSection{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:20px;
+    overflow: hidden;
+}
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionUno,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionDos,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionTres{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+}
+.smartTvsSection .imgSmartTvsSection div .item{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    transform:scale(104%);
+    transition:transform 0.3s ease-in-out;
+}
+/* .smartTvsSection .imgSmartTvsSection .smartTvsSectionUno:hover > .item,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionDos:hover > .item,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionTres:hover > .item{
+    transform:scale(107%);
+} */
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionUno .btnInfo,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionDos .btnInfo,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionTres .btnInfo{
+    width:100%;
+    height:140px;
+    padding:0px 30px;
+    vertical-align:text-top;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionUno .btnInfo .paragraph,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionDos .btnInfo .paragraph,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionTres .btnInfo .paragraph{
+    width:100%;
+    height:auto;
+    font-size: 1.25rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    color: #747474;
+    text-align: left;
+}
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionUno .btnInfo .cta,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionDos .btnInfo .cta,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionTres .btnInfo .cta{
+    width: 70%;
+    padding:15px;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400;
+    color: #000000;
+    text-align: center;
+    letter-spacing:2px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    transition:0.3s ease-in-out;
+}
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionUno .btnInfo .cta:hover,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionDos .btnInfo .cta:hover,
+.smartTvsSection .imgSmartTvsSection .smartTvsSectionTres .btnInfo .cta:hover{
+    color: #ffffff;
+    border: 1px solid #FF5207;
+    background-color: #FF5207;
+    letter-spacing:3px;
+}

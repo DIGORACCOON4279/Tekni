@@ -1,0 +1,68 @@
+.servicesSection{
+    position: relative;
+}
+.servicesSection .servicesContainer{
+    width: 100vw;
+    height:max-content;
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 45px;
+    gap:30px;
+    position: absolute;
+    top: 105%;
+    right:-401.5%;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    transition: 0.3s ease-in-out;
+}
+.servicesSection:hover .servicesContainer{
+    display: flex;
+}
+.servicesSection .servicesContainer .servicesColumn{
+    width:45%;
+    height:65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+.servicesSection .servicesContainer .servicesColumn .infoServices{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:1px solid #cccccc;
+    transform: 0.3s ease-in-out;
+}
+.servicesSection .servicesContainer .servicesColumn .infoServices:hover{
+    background-color: #f9f9f9;
+    border:1px solid #f9f9f9;
+}
+.servicesSection .servicesContainer .servicesColumn .infoServices .iconServices{
+    width:20px;
+    height:auto;
+}
+.servicesSection .servicesContainer .servicesColumn .infoServices .info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.servicesSection .servicesContainer .servicesColumn .infoServices .title{
+    font-size:0.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color:#747474;
+}
+.servicesSection .servicesContainer .servicesColumn .infoServices .paragraph{
+    font-size:0.7rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color:#B0B0B0;
+}

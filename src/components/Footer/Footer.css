@@ -1,0 +1,140 @@
+.footerSection{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    margin: 0px auto;
+}
+.footerSection .sections{
+    width:100%;
+    max-width: 85%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    order:1;
+    gap:180px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.footerSection .sections .sectionContact{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+.footerSection .sections .sectionContact .distributors .flags{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.footerSection .sections .sectionContact .distributors .flags .canadaFlag,
+.footerSection .sections .sectionContact .distributors .flags .colombiaFlag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #747474;
+    padding:10px 15px;
+    cursor:pointer;
+}
+.footerSection .sections .sectionContact .distributors .flags .canadaFlag .icon,
+.footerSection .sections .sectionContact .distributors .flags .colombiaFlag .icon{
+    width:20px;
+    height: auto;
+}
+.footerSection .sections .sectionContact .distributors .flags .canadaFlag p,
+.footerSection .sections .sectionContact .distributors .flags .colombiaFlag p{
+    font-size: 0.7rem;
+    font-weight:500;
+    color: #000000;
+}
+.footerSection .sections .sectionContact .socialMedia .contactUs,
+.footerSection .sections .sectionContact .distributors .contactUs{
+    font-size: 0.9rem;
+    font-weight:400;
+    color: #FF5207;
+    text-align: left;
+    padding-bottom:10px;
+}
+.footerSection .sections .sectionContact .socialMedia .iconItems{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+    cursor:pointer;
+}
+.footerSection .sections .sectionContact .socialMedia .iconItems .icon{
+    width:22%;
+    height:auto;
+    padding: 5px;
+    border-radius: 50%;
+    border:1px solid #000000;
+    background-color:#747474;
+    transform:scale(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.footerSection .sections .sectionContact .socialMedia .iconItems .icon:hover{
+    background-color: #ff5107aa;
+    transform:scale(103%);
+}
+.footerSection .sections .categories ul,
+.footerSection .sections .products ul,
+.footerSection .sections .options ul{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px auto 20px 0px;
+}
+
+.footerSection .sections .categories ul li,
+.footerSection .sections .products ul li,
+.footerSection .sections .options ul li{
+    font-size: 0.7rem;
+    font-weight:400 ;
+    color: #CCCCCC;
+    text-align: left;
+    padding:5px;
+    cursor: pointer;
+    transition:0.3s ease-in-out;
+}
+.footerSection .sections .categories ul li:hover,
+.footerSection .sections .products ul li:hover,
+.footerSection .sections .options ul li:hover{
+    color:#FF5207;
+}
+
+.footerSection .developerInfo{
+    width:30%;
+    height:auto;
+    order:2;
+    margin: 10px auto;
+}
+.footerSection .developerInfo p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    font-size: 0.6rem;
+    font-weight:300 ;
+    color: #747474;
+}
+.footerSection .developerInfo .personalBrand{
+    width:20px;
+    height: auto;
+}

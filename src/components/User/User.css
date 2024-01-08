@@ -1,9 +1,9 @@
+
 li label{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 li label .userIcon{
     width:28px;
@@ -15,6 +15,45 @@ li label .userIcon{
 li label .userIcon:hover{
     transform:scale(110%);
 }
-li label input{
+
+/* Click to open LogIn */
+
+li #user{
     display:none;
 }
+li #user:checked ~ .logInSection{
+    /* transform: translate(0%); */
+    opacity:1;
+    visibility: visible;
+}
+.logInSection{
+    width:20vw;
+    height:100vh;
+    position: absolute;
+    top:-40%;
+    right:-59%;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:80px;
+    box-shadow: 0 0 3px 2px #747474;
+    padding:20px;
+    opacity:0;
+    visibility: hidden;
+    background-color: #ffffff;
+    /* transform:translate(105%);
+    transition:  transform 0.3s ease-in-out; */
+    transition:   0.3s ease-in-out;
+}
+.logInSection label .closeMenu{
+    cursor:pointer;
+    /* transform: scale(100%) rotate(0deg);
+    transition: transform 0.3s ease-in-out; */
+}
+/* .logInSection label .closeMenu:hover{
+    transform: rotate(90deg);
+} */
+
+
+

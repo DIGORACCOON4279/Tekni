@@ -1,0 +1,63 @@
+.heroSection{
+    width:100%;
+    height:auto;
+    margin:100px auto;
+    display:grid;
+    grid-template-areas:
+    "pic1 pic1 pic2 pic3 pic4 pic4"
+    "pic1 pic1 pic5 pic5 pic4 pic4"
+    "pic6 pic6 pic5 pic5 pic4 pic4"
+    "pic6 pic6 pic5 pic5 pic4 pic4"
+    "pic6 pic6 pic7 pic8 pic4 pic4"
+    ;
+    gap:15px;
+    overflow: hidden;
+}
+.heroSection img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.heroSection .imgUno{
+    grid-area:pic1;
+}
+.heroSection .imgDos{
+    grid-area:pic2;
+}
+.heroSection .imgTres{
+    grid-area:pic3;
+}
+.heroSection .imgCuatro{
+    grid-area:pic4;
+}
+.heroSection .imgCinco{
+    grid-area:pic8;
+}
+.heroSection .imgSeis{
+    grid-area:pic7;
+}
+.heroSection .imgSiete{
+    grid-area:pic6;
+}
+.heroSection .articleHeroSection{
+    grid-area:pic5;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.heroSection .articleHeroSection .mainTitle{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500 ;
+    color: #000000;
+    text-align: center;
+}
+.heroSection .articleHeroSection .mainSubtitle{
+    font-size: 1.5rem ;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400 ;
+    color: #747474;
+    text-align: center;
+}

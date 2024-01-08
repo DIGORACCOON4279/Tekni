@@ -25,6 +25,10 @@ li label p{
     font-size: 0.6rem;
     color: #ffffff;
 }
-li label input{
+li #cartWidget{
     display:none;
 }
+li #cartWidget:checked ~ .shoppingCartSection{
+    transform: translateY(0%);
+}
+
