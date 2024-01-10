@@ -1,3 +1,4 @@
+import Counter from "../Counter/Counter";
 import "./ShoppingCart.css";
 
 const ShoppingCart = () => {
@@ -26,9 +27,7 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$799</p>
                     <div className="counterProduct">
-                        <p className="sum">-</p>
-                        <p className="counter">1</p>
-                        <p className="minus">+</p>
+                        <Counter stock={5} initial={1}/>
                     </div>
                     <p className="priceTotal">$799</p>
                 </article>
@@ -44,9 +43,7 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$1099</p>
                     <div className="counterProduct">
-                        <p className="sum">-</p>
-                        <p className="counter">1</p>
-                        <p className="minus">+</p>
+                        <Counter stock={5} initial={1}/>
                     </div>
                     <p className="priceTotal">$1099</p>
                 </article>
@@ -62,9 +59,7 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$1599</p>
                     <div className="counterProduct">
-                        <p className="sum">-</p>
-                        <p className="counter">1</p>
-                        <p className="minus">+</p>
+                        <Counter stock={5} initial={1}/>
                     </div>
                     <p className="priceTotal">$1599</p>
                 </article>
@@ -80,9 +75,7 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$179</p>
                     <div className="counterProduct">
-                        <p className="sum">-</p>
-                        <p className="counter">1</p>
-                        <p className="minus">+</p>
+                        <Counter stock={5} initial={1}/>
                     </div>
                     <p className="priceTotal">$179</p>
                 </article>
@@ -98,9 +91,7 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$179</p>
                     <div className="counterProduct">
-                        <p className="sum">-</p>
-                        <p className="counter">1</p>
-                        <p className="minus">+</p>
+                        <Counter stock={5} initial={1}/>
                     </div>
                     <p className="priceTotal">$179</p>
                 </article>

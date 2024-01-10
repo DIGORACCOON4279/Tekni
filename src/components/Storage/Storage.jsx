@@ -11,7 +11,7 @@ const Storage = () => {
 
         // <main className="container">
 
-            <section className="gallery">
+            <section className="cardContainer">
                 <Counter stock={5} initial={1}/>
                 <Counter stock={15} initial={1}/>
                 <Counter stock={10} initial={1}/>
@@ -19,6 +19,45 @@ const Storage = () => {
                 <Counter stock={5} initial={1}/>
 
                 <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+                <CardProducts/>
+
                 <article className="cardProduct">
                     <img src="./img/tv1.webp" alt=""/>
                     <div className="description">

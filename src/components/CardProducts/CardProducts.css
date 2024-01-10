@@ -1,0 +1,101 @@
+.cardContainer{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin: 100px auto;
+    padding: 0px 50px ;
+}
+.cardContainer .cardProduct{
+    width:20%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding:20px 15px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #F2F2F2;
+}
+.cardContainer .cardProduct:hover{
+    background-color: #F8F8F8;
+    border: 1px solid #F8F8F8;
+}
+.cardContainer .cardProduct:hover > img{
+    transform:scale(105%);
+    filter:brightness(130%);
+}
+
+.cardContainer .cardProduct img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    filter:brightness(115%);
+    transform:scale(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.cardContainer .cardProduct .description{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cardContainer .cardProduct h3{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #323232;
+}
+.cardContainer .cardProduct p{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #747474;
+}
+.cardContainer .cardProduct p span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #FF5207;
+}
+.cardContainer .cardProduct button{
+    width:100%;
+    padding: 10px 15px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#000000;
+    border: 1px solid #000000;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.cardContainer .cardProduct button:hover{
+    background-color:#ffffff;
+    border: 1px solid #FF5207;
+    color:#FF5207;
+}
+
