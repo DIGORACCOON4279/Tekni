@@ -1,8 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Counter.css";
 
 const Counter = ({stock, initial}) => {
     const [counter, setCounter] = useState(initial);
+
+    useEffect(() => {
+        document.title = `Counter ${counter}`
+    }, [counter] );
 
     const increaseCounter = () => {
         if (counter < stock) {
