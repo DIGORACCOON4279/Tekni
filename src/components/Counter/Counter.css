@@ -1,0 +1,33 @@
+.counterSection{
+    width:15%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.counterSection .decrease,
+.counterSection .increase{
+    width:20%;
+    height: auto;
+    padding: 5px 10px;
+    color: #ffffff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.counterSection .counter{
+    padding:10px;
+    color: #000000;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+
+}

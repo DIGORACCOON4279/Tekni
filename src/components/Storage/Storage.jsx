@@ -1,3 +1,6 @@
+
+import Counter from "../Counter/Counter";
+import CardProducts from "../CardProducts/CardProducts";
 import "./Storage.css"
 
 // Se hara un solo componente para los ProductCards en el momento lo realice asi
@@ -9,6 +12,13 @@ const Storage = () => {
         // <main className="container">
 
             <section className="gallery">
+                <Counter stock={5} initial={1}/>
+                <Counter stock={15} initial={1}/>
+                <Counter stock={10} initial={1}/>
+                <Counter stock={15} initial={1}/>
+                <Counter stock={5} initial={1}/>
+
+                <CardProducts/>
                 <article className="cardProduct">
                     <img src="./img/tv1.webp" alt=""/>
                     <div className="description">
