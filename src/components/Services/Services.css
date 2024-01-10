@@ -12,8 +12,7 @@
     gap:30px;
     position: absolute;
     top: 105%;
-    right:-401.5%;
-    margin: 0 auto;
+    margin: 0px 0px 0px -240px;
     background-color: #F2F2F2;
     transition: 0.3s ease-in-out;
 }

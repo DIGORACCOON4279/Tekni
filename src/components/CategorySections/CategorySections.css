@@ -8,12 +8,12 @@
     display:none;
     position: absolute;
     top: 105%;
-    margin: 0 auto;
+    margin: 0px -10px 0px 0px;
     background-color: #F2F2F2;
     transition: 0.3s ease-in-out;
 }
 .categorySection:hover .categoryItems{
-    display: flex;
+    display: block;
 }
 .categorySection .categoryItems ul{
     max-width: 60%;
