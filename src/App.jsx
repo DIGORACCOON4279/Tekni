@@ -9,7 +9,6 @@ import TheBestSellers from "./components/TheBestSellers/TheBestSellers";
 import ArrowUp from "./components/ArrowUp/ArrowUp";
 import WhiteLine from "./components/WhiteLine/WhiteLine";
 import HeroSection from "./components/HeroSection/HeroSection";
-import Storage from "./components/Storage/Storage";
 import Body from "./components/Body/Body";
 import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
@@ -31,7 +30,6 @@ const App = () => {
       <Smartphone/>
       <Advantages />
       <Footer />
-      <Storage/>
     </>
   )
 }
