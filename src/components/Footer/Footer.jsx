@@ -57,7 +57,7 @@ const Footer = () => {
                 </article>
             </div>
             <div className="developerInfo">
-                <p>Developer with love by Diego Marin | <img src="./img/logoRaccoon.svg" alt="" className="personalBrand" /> | Colombia - Canada | 2024</p>
+                <p>Developer with 🧡 by Diego Marin | <img src="./img/logoRaccoon.svg" alt="" className="personalBrand" /> | Colombia - Canada | 2024</p>
             </div>
         </section>
     )

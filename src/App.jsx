@@ -1,3 +1,4 @@
+import Articles from "./components/Articles/Articles";
 import Footer from "./components/Footer/Footer";
 import Advantages from "./components/Advantages/Advantages";
 import Smartphone from "./components/Smartphone/Smartphone";
@@ -18,6 +19,7 @@ const App = () => {
     <>
       <Body/>
       <NavBar/>
+      <Articles/>
       <ItemListContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/>
       <HeroSection/>
       <ArrowUp/>

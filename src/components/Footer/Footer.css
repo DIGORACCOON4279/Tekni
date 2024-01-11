@@ -83,12 +83,10 @@
     border-radius: 50%;
     border:1px solid #000000;
     background-color:#747474;
-    transform:scale(100%);
-    transition: transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .footerSection .sections .sectionContact .socialMedia .iconItems .icon:hover{
     background-color: #ff5107aa;
-    transform:scale(103%);
 }
 .footerSection .sections .categories ul,
 .footerSection .sections .products ul,
@@ -100,7 +98,6 @@
     align-items: flex-start;
     padding: 20px auto 20px 0px;
 }
-
 .footerSection .sections .categories ul li,
 .footerSection .sections .products ul li,
 .footerSection .sections .options ul li{
@@ -117,7 +114,6 @@
 .footerSection .sections .options ul li:hover{
     color:#FF5207;
 }
-
 .footerSection .developerInfo{
     width:30%;
     height:auto;
