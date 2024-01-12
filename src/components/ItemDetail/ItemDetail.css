@@ -10,13 +10,13 @@
     transition:0.3s ease-in
 }
 .cardItem:hover{
-    box-shadow: 4px 8px 20px 1px #dbdbdb;
+    box-shadow: 1px 3px 6px 1px #dbdbdb;
 }
 .cardItem:hover .imgCounter{
     background-color: #f9f9f9;
 }
 .cardItem:hover .imgCounter > .image{
-    transform: scale(105%);
+    transform: scale(102%);
 }
 .cardItem:hover .categoryInfo{
     background-color: #ffffff;
@@ -28,11 +28,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: flex-start;
-    padding: 20px;
+    padding:20px 30px;
     transition: 0.3s ease-in-out;
 }
 .cardItem .imgCounter{
+    width:40%;
     align-items: center;
     background-color: #ffffff;
     border-bottom-left-radius: 10px;
@@ -50,7 +54,7 @@
     border-top-right-radius:10px;
 }
 .cardItem .categoryInfo .category{
-    color: black;
+    color: #000000;
     font-size: 1.3rem;
     font-weight: 500;
     font-family: 'Expletus Sans', sans-serif;
@@ -61,26 +65,43 @@
     gap:15px;
 }
 .cardItem .categoryInfo .info .id{
-    color: black;
+    color: #b0b0b0;
     font-size: 0.9rem;
     font-weight: 400;
     font-family: 'Ubuntu', sans-serif;
 }
 .cardItem .categoryInfo .info .reference{
-    color: black;
+    width:max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    color: #b0b0b0;
     font-size: 0.9rem;
     font-weight: 500;
     font-family: 'Expletus Sans', sans-serif;
 }
 .cardItem .categoryInfo .info .reference .price{
-    color: black;
+    color: #FF5207;
     font-size: 0.9rem;
     font-weight: 700;
     font-family: 'Ubuntu', sans-serif;
 }
 .cardItem .description{
-    color: black;
-    font-size: 0.9rem;
-    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+    color: #747474;
+    font-size: 0.8rem;
+    font-weight: 300;
     font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+}
+.cardItem .description .titleDescription{
+    color: #000000;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
 }
