@@ -14,18 +14,6 @@ const ItemList = ({products}) => {
 
                 {products.map(product => <Item key={product.id} {...product} />)}
 
-                {/* Estos ejercicios props me servirian para la descripcion de los productos
-                <Item img="https://primera-entrega-tekni.vercel.app/img/tv1.webp" title="SmartTV" reference="HNK-01" price="1599">
-                    <p className="soldOut">SoldOut</p>
-                </Item>
-                <Item img="" title=""reference="" price=""/>
-                <Item/>
-                <Item/>
-                <Item img="https://primera-entrega-tekni.vercel.app/img/smartphone4.webp" title="Smartphone" reference="NLX-04" price="799"/>
-                <Item img="" title="" reference="" price="">
-                    <p className="soldOut">SoldOut</p>
-                </Item>
-                <Item/> */}
             </section>
 
         // </main>
