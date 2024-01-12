@@ -3,8 +3,6 @@
     height:auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 .counterSection .decrease,
 .counterSection .increase{
