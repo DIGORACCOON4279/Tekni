@@ -1,0 +1,86 @@
+.cardItem{
+    width:70%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: #F9F9F9;
+    transition:0.3s ease-in
+}
+.cardItem:hover{
+    box-shadow: 4px 8px 20px 1px #dbdbdb;
+}
+.cardItem:hover .imgCounter{
+    background-color: #f9f9f9;
+}
+.cardItem:hover .imgCounter > .image{
+    transform: scale(105%);
+}
+.cardItem:hover .categoryInfo{
+    background-color: #ffffff;
+}
+.cardItem .imgCounter,
+.cardItem .categoryInfo{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+}
+.cardItem .imgCounter{
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px;
+}
+.cardItem .imgCounter .image{
+    width:auto;
+    height: auto;
+    object-fit: cover;
+    transform: scale(100%);
+    transition:transform 0.3s ease-in-out;
+}
+.cardItem .categoryInfo{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px;
+}
+.cardItem .categoryInfo .category{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Expletus Sans', sans-serif;
+}
+.cardItem .categoryInfo .info{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.cardItem .categoryInfo .info .id{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cardItem .categoryInfo .info .reference{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Expletus Sans', sans-serif;
+}
+.cardItem .categoryInfo .info .reference .price{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cardItem .description{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
