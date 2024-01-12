@@ -283,3 +283,12 @@ export const getProducts = () => {
         }, 2000)
     })
 }
+
+export const getOneProduct = (id) => {
+    return new Promise( (resolve) => {
+        setTimeout( () => {
+            const product = products.find(product => product.id === id);
+            resolve(product);
+        }, 2000)
+    })
+}
