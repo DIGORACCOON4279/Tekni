@@ -31,6 +31,10 @@ const ItemDetailContainer = () => {
                 <Counter stock={15} initial={1}/>
             </ItemDetail>
 
+            <ItemDetail img="https://primera-entrega-tekni.vercel.app/img/laptop9.webp" category="Laptop" reference="XKX-10" price="1099">
+                <Counter stock={10} initial={1}/>
+            </ItemDetail>
+
         </section>
     )
 }
