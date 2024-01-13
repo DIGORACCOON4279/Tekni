@@ -21,23 +21,23 @@
 }
 .advertisingSection .smart{
     grid-area: adv1;
-    background-image: url("./img/green.webp");
+    background-image: url("../img/green.webp");
 }
 .advertisingSection .smartphone{
     grid-area: adv2;
-    background-image: url("./img/blue.webp");
+    background-image: url("../img/blue.webp");
 }
 .advertisingSection .laptopOne{
     grid-area: adv3;
-    background-image: url("./img/gray.webp");
+    background-image: url("../img/gray.webp");
 }
 .advertisingSection .headset{
     grid-area: adv4;
-    background-image: url("./img/cream.webp");
+    background-image: url("../img/cream.webp");
 }
 .advertisingSection .laptopTwo{
     grid-area: adv5;
-    background-image: url("./img/lightBlue.webp");
+    background-image: url("../img/lightBlue.webp");
 }
 .advertisingSection .advertising .infoDiscount{
     width: 100%;
