@@ -1,0 +1,113 @@
+.advertisingSection{
+    width:90vw;
+    display: grid;
+    grid-template-areas:
+    "adv1 adv1 adv1 adv2 adv2 adv2"
+    "adv3 adv3 adv4 adv4 adv5 adv5"
+    ;
+    gap:20px;
+    margin: 100px auto;
+}
+.advertisingSection .advertising{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.advertisingSection .smart{
+    grid-area: adv1;
+    background-image: url("./img/green.webp");
+}
+.advertisingSection .smartphone{
+    grid-area: adv2;
+    background-image: url("./img/blue.webp");
+}
+.advertisingSection .laptopOne{
+    grid-area: adv3;
+    background-image: url("./img/gray.webp");
+}
+.advertisingSection .headset{
+    grid-area: adv4;
+    background-image: url("./img/cream.webp");
+}
+.advertisingSection .laptopTwo{
+    grid-area: adv5;
+    background-image: url("./img/lightBlue.webp");
+}
+.advertisingSection .advertising .infoDiscount{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap:15px;
+}
+.advertisingSection .advertising .infoDiscount .subtitle{
+    color:#FF5207;
+    font-size:1.5rem;
+    font-style: italic;
+    font-weight:700;
+    font-family: 'Expletus Sans', sans-serif;
+}
+.advertisingSection .advertising .infoDiscount .subtitle span{
+    font-size:60%;
+}
+.advertisingSection .advertising .infoDiscount .category{
+    color:#000000;
+    font-size:1.1rem;
+    font-weight:700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.advertisingSection .advertising .infoDiscount .startingFrom{
+    color:#000000;
+    font-size:0.8rem;
+    font-weight:400;
+    font-family: 'Ubuntu', sans-serif;
+}
+.advertisingSection .advertising .infoDiscount .btnDiscount{
+    color:#000000;
+    font-size:0.8rem;
+    font-weight:500;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 25px;
+    background-color:#F2F2f2;
+    border-radius: 5px;
+    border:1px solid #F2F2f2;
+    transform:scale(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.advertisingSection .advertising:nth-child(1) .imgProduct,
+.advertisingSection .advertising:nth-child(2) .imgProduct{
+    width:45%;
+}
+.advertisingSection .advertising:nth-child(3) .imgProduct,
+.advertisingSection .advertising:nth-child(4) .imgProduct,
+.advertisingSection .advertising:nth-child(5) .imgProduct{
+    width:65%;
+}
+.advertisingSection .advertising:nth-child(1),
+.advertisingSection .advertising:nth-child(2){
+    padding: 50px 70px;
+}
+.advertisingSection .advertising:nth-child(3),
+.advertisingSection .advertising:nth-child(4),
+.advertisingSection .advertising:nth-child(5){
+    padding: 50px 25px;
+}
+.advertisingSection .advertising .imgProduct{
+    transform:scale(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.advertisingSection .advertising:hover > .imgProduct{
+    transform:scale(105%);
+}
+.advertisingSection .advertising:hover > .infoDiscount .btnDiscount{
+    box-shadow: 1px 1px 3px 2px #CCCCCC;
+    transform:scale(105%);
+    background-color: #ffffff;
+}

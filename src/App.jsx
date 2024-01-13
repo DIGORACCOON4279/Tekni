@@ -1,3 +1,4 @@
+import Advertising from "./components/Advertising/Advertising";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import Footer from "./components/Footer/Footer";
 import Advantages from "./components/Advantages/Advantages";
@@ -19,6 +20,7 @@ const App = () => {
     <>
       <Body/>
       <NavBar/>
+      <Advertising/>
       <ItemDetailContainer/>
       <ItemListContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/>
       <HeroSection/>
