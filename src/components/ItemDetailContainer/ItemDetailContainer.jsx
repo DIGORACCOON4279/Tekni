@@ -3,6 +3,7 @@ import { getOneProduct } from "../../asyncmock";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import Counter from "../Counter/Counter";
 import "./ItemDetailContainer.css";
+import Advertising from "../Advertising/Advertising";
 
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState(null);
@@ -14,6 +15,7 @@ const ItemDetailContainer = () => {
 
     return (
         <section className="ItemDetailContainer">
+            <Advertising/>
             <ItemDetail {...product} >
                 <p className="soldOut">SoldOut</p>
                 <Counter stock={1} initial={1}/>
