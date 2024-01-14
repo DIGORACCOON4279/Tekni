@@ -73,7 +73,7 @@
     background-color: #CCCCCC;
     opacity:0;
     cursor: pointer;
-    transform:translateY(35%);
+    transform:translateY(-180%);
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 .header .navBar ul{

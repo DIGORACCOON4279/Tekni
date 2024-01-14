@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     gap:100px;
+    overflow: hidden;
 }
 .smartTvsSection  .info{
     width:60%;
@@ -46,29 +47,20 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     gap:40px;
 }
 .smartTvsSection .imgSmartTvsSection div .item{
     width:100%;
     height:auto;
-    object-fit: cover;
-    transform:scale(104%);
-    transition:transform 0.3s ease-in-out;
+    overflow: hidden;
 }
-/* .smartTvsSection .imgSmartTvsSection .smartTvsSectionUno:hover > .item,
-.smartTvsSection .imgSmartTvsSection .smartTvsSectionDos:hover > .item,
-.smartTvsSection .imgSmartTvsSection .smartTvsSectionTres:hover > .item{
-    transform:scale(107%);
-} */
 .smartTvsSection .imgSmartTvsSection .smartTvsSectionUno .btnInfo,
 .smartTvsSection .imgSmartTvsSection .smartTvsSectionDos .btnInfo,
 .smartTvsSection .imgSmartTvsSection .smartTvsSectionTres .btnInfo{
     width:100%;
     height:140px;
-    padding:0px 30px;
-    vertical-align:text-top;
+    padding:0px 20px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -94,10 +86,10 @@
     font-size: 1rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight:400;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     letter-spacing:2px;
-    background-color: transparent;
+    background-color: #000000;
     border: 1px solid #000000;
     transition:0.3s ease-in-out;
 }
