@@ -1,0 +1,81 @@
+.advantageTwoSection{
+    width:100%;
+    max-width: 90%;
+    height:auto;
+    margin:150px auto;
+    overflow: hidden;
+}
+.advantageTwoSection .sliderAdvantageTwo{
+    width:max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:50px;
+    animation:slider 120s linear infinite;
+}
+@keyframes slider {
+    0%{
+        transform: translate(-25%);
+    }
+    25%{
+        transform: translate(-50%);
+    }
+    50%{
+        transform: translate(-75%);
+    }
+    75%{
+        transform: translate(-100%);
+    }
+    100%{
+        transform: translate(-25%);
+    }
+}
+.advantageTwoSection .sliderAdvantageTwo .cards{
+    width:300px;
+    height:120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 0px;
+    padding: 20px 30px;
+    gap:50px;
+    overflow: hidden;
+    background-color:#F9F9F9;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.advantageTwoSection .sliderAdvantageTwo .cards:hover{
+    background-color:#ffffff;
+    box-shadow:0 0 10px 1px #f2f2f2;
+}
+.advantageTwoSection .sliderAdvantageTwo .cards:hover > .icon{
+    transform: scale(110%);
+}
+.advantageTwoSection .cards .icon{
+    transform: scale(100%);
+    transition:0.3s ease-in-out;
+}
+.advantageTwoSection .sliderAdvantageTwo .cards .infoServices{
+    width:max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+}
+.advantageTwoSection .sliderAdvantageTwo .cards .infoServices .titleCard{
+
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500 ;
+    color: #747474;
+    text-align: left;
+}
+.advantageTwoSection .sliderAdvantageTwo .cards .infoServices .infoCard{
+
+    font-size: 0.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:300 ;
+    color: #b0b0b0;
+    text-align: left;
+}

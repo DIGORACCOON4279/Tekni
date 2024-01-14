@@ -1,26 +1,17 @@
 .cardItem{
-    width:75%;
+    width:90%;
     height:auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 100px auto;
     border-radius: 10px;
-    background-color: #F9F9F9;
+    box-shadow:0 0 6px 3px #f2f2f2;
     transition:0.3s ease-in
-}
-.cardItem:hover{
-    box-shadow: 1px 3px 15px 1px #dbdbdb;
-}
-.cardItem:hover .imgCounter{
-    background-color: #f9f9f9;
 }
 .cardItem:hover .imgCounter > .image{
     transform: scale(102%);
     filter: brightness(115%) drop-shadow(0 0 3px #cccccc) ;
-}
-.cardItem:hover .categoryInfo{
-    background-color: #ffffff;
 }
 .cardItem .imgCounter,
 .cardItem .categoryInfo{
