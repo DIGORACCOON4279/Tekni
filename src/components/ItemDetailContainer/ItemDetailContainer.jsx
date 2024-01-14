@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { getOneProduct } from "../../asyncmock";
+import RandomItemList from "../RandomItemList/RandomItemList";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import Counter from "../Counter/Counter";
 import "./ItemDetailContainer.css";
@@ -37,6 +38,7 @@ const ItemDetailContainer = () => {
                 <Counter stock={10} initial={1}/>
             </ItemDetail>
 
+            <RandomItemList/>
         </section>
     )
 }
