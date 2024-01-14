@@ -30,5 +30,6 @@ li #cartWidget{
 }
 li #cartWidget:checked ~ .shoppingCartSection{
     transform: translateY(0%);
+    opacity: 1;
 }
 
