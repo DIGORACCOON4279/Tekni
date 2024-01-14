@@ -29,7 +29,7 @@
 }
 
 .randomProductContainer .productList .cardProduct{
-    width:20%;
+    width:18%;
     height:auto;
     display: flex;
     flex-direction: column;

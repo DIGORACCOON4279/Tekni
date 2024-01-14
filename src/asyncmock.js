@@ -273,6 +273,13 @@ const products = [
         category:"Headset",
         price:179 ,
         img:"https://primera-entrega-tekni.vercel.app/img/headset11.webp"
+    },
+    {
+        id: 40,
+        reference: "KJN-11",
+        category:"Headset",
+        price:179 ,
+        img:"https://primera-entrega-tekni.vercel.app/img/headset1.webp"
     }
 ]
 
@@ -280,7 +287,7 @@ export const getProducts = () => {
     return new Promise( (resolve) => {
         setTimeout( () => {
             resolve(products);
-        }, 2000)
+        }, 200)
     })
 }
 
@@ -289,6 +296,6 @@ export const getOneProduct = (id) => {
         setTimeout( () => {
             const product = products.find(product => product.id === id);
             resolve(product);
-        }, 2000)
+        }, 200)
     })
 }

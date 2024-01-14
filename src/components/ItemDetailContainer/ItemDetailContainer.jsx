@@ -10,7 +10,7 @@ const ItemDetailContainer = () => {
     const [product, setProduct] = useState(null);
 
     useEffect( () => {
-        getOneProduct(2)
+        getOneProduct(39)
             .then(response => setProduct(response));
     }, []);
 
@@ -22,7 +22,7 @@ const ItemDetailContainer = () => {
                 <Counter stock={1} initial={1}/>
             </ItemDetail>
 
-            <ItemDetail img="https://primera-entrega-tekni.vercel.app/img/tv1.webp" category="SmartTV" reference="HNK-01" price="1599">
+            {/* <ItemDetail img="https://primera-entrega-tekni.vercel.app/img/tv1.webp" category="SmartTV" reference="HNK-01" price="1599">
                 <Counter stock={10} initial={1}/>
             </ItemDetail>
 
@@ -36,7 +36,7 @@ const ItemDetailContainer = () => {
 
             <ItemDetail img="https://primera-entrega-tekni.vercel.app/img/laptop9.webp" category="Laptop" reference="XKX-10" price="1099">
                 <Counter stock={10} initial={1}/>
-            </ItemDetail>
+            </ItemDetail> */}
 
             <RandomItemList/>
         </section>
