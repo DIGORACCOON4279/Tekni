@@ -11,7 +11,7 @@
     flex-direction: row;
     align-items: center;
     gap:50px;
-    animation:slider 120s linear infinite;
+    animation:slider 180s linear infinite;
 }
 @keyframes slider {
     0%{
