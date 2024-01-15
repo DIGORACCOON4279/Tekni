@@ -2,14 +2,16 @@
 
 .randomProductContainer{
     width:100%;
+    max-width: 90%;
     height:auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     margin: 100px auto;
     padding: 0px 50px ;
     gap:100px;
+    overflow: hidden;
 }
 .randomProductContainer .titleSection{
     color: #000000;
@@ -18,18 +20,34 @@
     font-family: 'Expletus Sans', sans-serif;
 }
 .randomProductContainer .productList{
-    width:100%;
+    width:min-content;
     height:auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    overflow: hidden;
+    animation: relatedProducts 200s linear infinite 0.1s;
 }
-
+@keyframes relatedProducts{
+    0%{
+        transform: translate(-30%);
+    }
+    25%{
+        transform: translate(0%);
+    }
+    50%{
+        transform: translate(30%);
+    }
+    75%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(-30%);
+    }
+}
 .randomProductContainer .productList .cardProduct{
-    width:18%;
+    width:220px;
     height:auto;
     display: flex;
     flex-direction: column;

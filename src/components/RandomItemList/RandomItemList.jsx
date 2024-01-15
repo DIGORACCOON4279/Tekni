@@ -12,7 +12,7 @@ const RandomItemList = () => {
         const products = await getProducts();
         const randomProductsArray = [];
 
-        for (let i = 0; i < 10 && products.length > 0; i++) {
+        for (let i = 0; i < 20 && products.length > 0; i++) {
             const randomIndex = Math.floor(Math.random() * products.length);
             const randomProduct = products.splice(randomIndex, 1)[0];
             randomProductsArray.push(randomProduct);
