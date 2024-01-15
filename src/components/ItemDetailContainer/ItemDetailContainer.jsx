@@ -28,6 +28,8 @@ const ItemDetailContainer = ({greeting}) => {
             <RandomItemList/>
             <Footer/>
 
+            {/* Probando ItemList con diferentes propiedades */}
+
             {/* <ItemDetail img="https://primera-entrega-tekni.vercel.app/img/tv1.webp" category="SmartTV" reference="HNK-01" price="1599">
                 <Counter stock={10} initial={1}/>
             </ItemDetail>

@@ -14,6 +14,9 @@ const ShoppingCart = () => {
                 <h3 className="categoryTitle">Quantity</h3>
                 <h3 className="categoryTitle">Total</h3>
             </section>
+
+            {/* Esta seccion es prueba y como quedara los componentes del shopping cart por producto */}
+
             <section className="shoppingProducts">
                 <article className="productItem">
                     <section className="iconMenu">
@@ -101,7 +104,7 @@ const ShoppingCart = () => {
                 <img className="emptyCartIcon"src="../img/trashEmpty.svg" alt="trash icon" />
             </section>
             <section className="totalProduct">
-                <p className="sumTotal">Total........ <span className="numberTotal">$2087</span></p>
+                <p className="sumTotal">Total <span className="numberTotal">...$2087</span></p>
                 <button type="button" className="btnPaymentTotal">Secure checkout</button>
             </section>
         </section>
