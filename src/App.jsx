@@ -1,3 +1,7 @@
+import CategoryHeadset from "./components/CategoryHeadset/CategoryHeadset";
+import CategorySmartphone from "./components/CategorySmartphone/CategorySmartphone";
+import CategoryLaptop from "./components/CategoryLaptop/CategoryLaptop";
+import CategorySmartTv from "./components/CategorySmartTv/CategorySmartTv";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import Footer from "./components/Footer/Footer";
 import Advantages from "./components/Advantages/Advantages";
@@ -17,18 +21,22 @@ import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 const App = () => {
   return (
     <>
-      <Body/>
+      <Body />
       <NavBar/>
-      <ItemDetailContainer/>
+      <CategoryHeadset greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/>
+      <CategorySmartphone greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." />
+      <CategoryLaptop greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." />
+      <CategorySmartTv greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/>
+      <ItemDetailContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." />
       <ItemListContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/>
-      <HeroSection/>
+      <HeroSection />
       <ArrowUp/>
       <WhiteLine/>
       <TheBestSellers/>
       <NewGeneration/>
       <Laptops/>
-      <SmartTvs/>
       <Headset/>
+      <SmartTvs />
       <Smartphone/>
       <Advantages />
       <Footer />

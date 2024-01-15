@@ -1,4 +1,5 @@
 import {useState, useEffect} from "react";
+import Footer from "../Footer/Footer";
 import ItemList from "../ItemList/ItemList";
 import "./ItemListContainer.css";
 import { getProducts } from "../../asyncmock";
@@ -16,6 +17,7 @@ const ItemListContainer = ({greeting}) => {
       <section>
         <h2>{greeting}</h2>
         <ItemList products={products} />
+        <Footer/>
       </section>
     )
 }
