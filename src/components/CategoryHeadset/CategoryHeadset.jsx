@@ -27,12 +27,14 @@ const CategoryHeadset = ({ greeting }) => {
     return (
         <section className="categoryHeadset">
             <h2>{greeting}</h2>
-            <h3 className="title">Headset</h3>
-            <div className="containerHeadset">
-                {headsetProducts.map(product => (
-                    <Item key={product.id} {...product} />
-                ))}
-            </div>
+            <h3 className="titleSection">Headset</h3>
+            <section className="sectionHeadset">
+                <div className="containerHeadset">
+                    {headsetProducts.map(product => (
+                        <Item key={product.id} {...product} />
+                    ))}
+                </div>
+            </section>
             <Footer/>
         </section>
     );

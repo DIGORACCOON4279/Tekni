@@ -27,12 +27,14 @@ const CategoryLaptop = ({ greeting }) => {
     return (
         <section className="categoryLaptop">
             <h2>{greeting}</h2>
-            <h3 className="title">Laptops</h3>
-            <div className="containerLaptop">
-                {laptopProducts.map(product => (
-                    <Item key={product.id} {...product} />
-                ))}
-            </div>
+            <h3 className="titleSection">Laptops</h3>
+            <section className="sectionLaptop">
+                <div className="containerLaptop">
+                    {laptopProducts.map(product => (
+                        <Item key={product.id} {...product} />
+                    ))}
+                </div>
+            </section>
             <Footer/>
         </section>
     );

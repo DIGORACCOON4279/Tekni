@@ -25,14 +25,16 @@ const CategorySmartTv = ({ greeting }) => {
     }, []);
 
     return (
-        <section className="categorySmartTV">
+        <section className="categorySmartTv">
             <h2>{greeting}</h2>
-            <h3 className="title">SmartTV</h3>
-            <div className="containerSmartTv">
-                {smartTvProducts.map(product => (
-                    <Item key={product.id} {...product} />
-                ))}
-            </div>
+            <h3 className="titleSection">SmartTV</h3>
+            <section className="sectionSmartTv">
+                <div className="containerSmartTv">
+                    {smartTvProducts.map(product => (
+                        <Item key={product.id} {...product} />
+                    ))}
+                </div>
+            </section>
             <Footer/>
         </section>
     );
