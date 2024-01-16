@@ -15,9 +15,9 @@ const ItemDetail = ({id, reference, category, price, img, features, compatibilit
                     <div className="description">
                         <p className="title">Description:</p>
                         <section className="descriptionProduct">
-                            <p className="features"><span>Features: </span>{features}</p>
-                            <p className="compatibility"><span>Compatibility: </span>{compatibility}</p>
-                            <p className="compatibility"><span>Updates: </span>{updates}</p>
+                            <p className="features"><span>Key Features: </span>{features}</p>
+                            <p className="compatibility"><span>Connectivity and Compatibility: </span>{compatibility}</p>
+                            <p className="compatibility"><span>Operating System and Updates:  </span>{updates}</p>
                         </section>
                     </div>
 
