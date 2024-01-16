@@ -1,6 +1,7 @@
 
 .headsetSection{
     width:100%;
+    /* max-width: 90%; */
     height:auto;
     margin:300px auto;
     display: flex;
@@ -8,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     gap:100px;
+    overflow: hidden;
 }
 .headsetSection  .info{
     width:60%;
@@ -30,48 +32,65 @@
     text-align: center;
 }
 .headsetSection .imgHeadsetSection{
-    width:100%;
+    width:max-content;
     height:auto;
     display: grid;
     grid-template-areas:
-    "headsetUno headsetDos headsetTres headsetCuatro"
-    "headsetCinco headsetSeis headsetSiete headsetOcho"
+    "headsetOne headsetTwo headsetThree headsetFour headsetFive headsetSix headsetSeven headsetEight"
     ;
     gap:0;
     overflow: hidden;
+    animation: sliderHeadphones 50s linear infinite ;
 }
-.headsetSection .imgHeadsetSection .headsetSectionUno{
-    grid-area: headsetUno;
+@keyframes sliderHeadphones{
+    0%{
+        transform: translate(26%);
+    }
+    25%{
+        transform: translate(0%);
+    }
+    50%{
+        transform: translate(-26%);
+    }
+    75%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(26%);
+    }
 }
-.headsetSection .imgHeadsetSection .headsetSectionDos{
-    grid-area: headsetDos;
+.headsetSection .imgHeadsetSection .headsetSectionOne{
+    grid-area: headsetOne;
 }
-.headsetSection .imgHeadsetSection .headsetSectionTres{
-    grid-area: headsetTres;
+.headsetSection .imgHeadsetSection .headsetSectionTwo{
+    grid-area: headsetTwo;
 }
-.headsetSection .imgHeadsetSection .headsetSectionCuatro{
-    grid-area: headsetCuatro;
+.headsetSection .imgHeadsetSection .headsetSectionThree{
+    grid-area: headsetThree;
 }
-.headsetSection .imgHeadsetSection .headsetSectionCinco{
-    grid-area: headsetCinco;
+.headsetSection .imgHeadsetSection .headsetSectionFour{
+    grid-area: headsetFour;
 }
-.headsetSection .imgHeadsetSection .headsetSectionSeis{
-    grid-area: headsetSeis;
+.headsetSection .imgHeadsetSection .headsetSectionFive{
+    grid-area: headsetFive;
 }
-.headsetSection .imgHeadsetSection .headsetSectionnSiete{
-    grid-area: headsetSiete;
+.headsetSection .imgHeadsetSection .headsetSectionSix{
+    grid-area: headsetSix;
 }
-.headsetSection .imgHeadsetSection .headsetSectionOcho{
-    grid-area: headsetOcho;
+.headsetSection .imgHeadsetSection .headsetSectionSeven{
+    grid-area: headsetSeven;
 }
-.headsetSection .imgHeadsetSection .headsetSectionUno,
-.headsetSection .imgHeadsetSection .headsetSectionDos,
-.headsetSection .imgHeadsetSection .headsetSectionTres,
-.headsetSection .imgHeadsetSection .headsetSectionCuatro,
-.headsetSection .imgHeadsetSection .headsetSectionCinco,
-.headsetSection .imgHeadsetSection .headsetSectionSeis,
-.headsetSection .imgHeadsetSection .headsetSectionSiete,
-.headsetSection .imgHeadsetSection .headsetSectionOcho{
+.headsetSection .imgHeadsetSection .headsetSectionEight{
+    grid-area: headsetEight;
+}
+.headsetSection .imgHeadsetSection .headsetSectionOne,
+.headsetSection .imgHeadsetSection .headsetSectionTwo,
+.headsetSection .imgHeadsetSection .headsetSectionThree,
+.headsetSection .imgHeadsetSection .headsetSectionFour,
+.headsetSection .imgHeadsetSection .headsetSectionFive,
+.headsetSection .imgHeadsetSection .headsetSectionSix,
+.headsetSection .imgHeadsetSection .headsetSectionSeven,
+.headsetSection .imgHeadsetSection .headsetSectionEight{
     width:100%;
     height:auto;
     overflow: hidden;
@@ -85,24 +104,24 @@
     transform:scale(103%);
     transition:transform 0.3s ease-in-out;
 }
-.headsetSection .imgHeadsetSection .headsetSectionUno:hover > .item,
-.headsetSection .imgHeadsetSection .headsetSectionDos:hover > .item,
-.headsetSection .imgHeadsetSection .headsetSectionTres:hover > .item,
-.headsetSection .imgHeadsetSection .headsetSectionCuatro:hover > .item,
-.headsetSection .imgHeadsetSection .headsetSectionCinco:hover > .item,
-.headsetSection .imgHeadsetSection .headsetSectionSeis:hover > .item,
-.headsetSection .imgHeadsetSection .headsetSectionSiete:hover > .item,
-.headsetSection .imgHeadsetSection .headsetSectionOcho:hover > .item{
+.headsetSection .imgHeadsetSection .headsetSectionOne:hover > .item,
+.headsetSection .imgHeadsetSection .headsetSectionTwo:hover > .item,
+.headsetSection .imgHeadsetSection .headsetSectionThree:hover > .item,
+.headsetSection .imgHeadsetSection .headsetSectionFour:hover > .item,
+.headsetSection .imgHeadsetSection .headsetSectionFive:hover > .item,
+.headsetSection .imgHeadsetSection .headsetSectionSix:hover > .item,
+.headsetSection .imgHeadsetSection .headsetSectionSeven:hover > .item,
+.headsetSection .imgHeadsetSection .headsetSectionEight:hover > .item{
     transform:scale(110%);
 }
-.headsetSection .imgHeadsetSection .headsetSectionUno .btnInfo,
-.headsetSection .imgHeadsetSection .headsetSectionDos .btnInfo,
-.headsetSection .imgHeadsetSection .headsetSectionTres .btnInfo,
-.headsetSection .imgHeadsetSection .headsetSectionCuatro .btnInfo,
-.headsetSection .imgHeadsetSection .headsetSectionCinco .btnInfo,
-.headsetSection .imgHeadsetSection .headsetSectionSeis .btnInfo,
-.headsetSection .imgHeadsetSection .headsetSectionSiete .btnInfo,
-.headsetSection .imgHeadsetSection .headsetSectionOcho .btnInfo{
+.headsetSection .imgHeadsetSection .headsetSectionOne .btnInfo,
+.headsetSection .imgHeadsetSection .headsetSectionTwo .btnInfo,
+.headsetSection .imgHeadsetSection .headsetSectionThree .btnInfo,
+.headsetSection .imgHeadsetSection .headsetSectionFour .btnInfo,
+.headsetSection .imgHeadsetSection .headsetSectionFive .btnInfo,
+.headsetSection .imgHeadsetSection .headsetSectionSix .btnInfo,
+.headsetSection .imgHeadsetSection .headsetSectionSeven .btnInfo,
+.headsetSection .imgHeadsetSection .headsetSectionEight .btnInfo{
     width:100%;
     height:90%;
     position: absolute;
@@ -115,14 +134,14 @@
     justify-content: space-between;
     align-items: flex-start;
 }
-.headsetSection .imgHeadsetSection .headsetSectionUno .btnInfo .paragraph,
-.headsetSection .imgHeadsetSection .headsetSectionDos .btnInfo .paragraph,
-.headsetSection .imgHeadsetSection .headsetSectionTres .btnInfo .paragraph,
-.headsetSection .imgHeadsetSection .headsetSectionCuatro .btnInfo .paragraph,
-.headsetSection .imgHeadsetSection .headsetSectionCinco .btnInfo .paragraph,
-.headsetSection .imgHeadsetSection .headsetSectionSeis .btnInfo .paragraph,
-.headsetSection .imgHeadsetSection .headsetSectionSiete .btnInfo .paragraph,
-.headsetSection .imgHeadsetSection .headsetSectionOcho .btnInfo .paragraph{
+.headsetSection .imgHeadsetSection .headsetSectionOne .btnInfo .paragraph,
+.headsetSection .imgHeadsetSection .headsetSectionTwo .btnInfo .paragraph,
+.headsetSection .imgHeadsetSection .headsetSectionThree .btnInfo .paragraph,
+.headsetSection .imgHeadsetSection .headsetSectionFour .btnInfo .paragraph,
+.headsetSection .imgHeadsetSection .headsetSectionFive .btnInfo .paragraph,
+.headsetSection .imgHeadsetSection .headsetSectionSix .btnInfo .paragraph,
+.headsetSection .imgHeadsetSection .headsetSectionSeven .btnInfo .paragraph,
+.headsetSection .imgHeadsetSection .headsetSectionEight .btnInfo .paragraph{
     font-size: 1.1rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight:500;
@@ -132,14 +151,14 @@
     line-height: 30px;
     filter:drop-shadow(1px 1px 2px #000000);
 }
-.headsetSection .imgHeadsetSection .headsetSectionUno .btnInfo .cta,
-.headsetSection .imgHeadsetSection .headsetSectionDos .btnInfo .cta,
-.headsetSection .imgHeadsetSection .headsetSectionTres .btnInfo .cta,
-.headsetSection .imgHeadsetSection .headsetSectionCuatro .btnInfo .cta,
-.headsetSection .imgHeadsetSection .headsetSectionCinco .btnInfo .cta,
-.headsetSection .imgHeadsetSection .headsetSectionSeis .btnInfo .cta,
-.headsetSection .imgHeadsetSection .headsetSectionSiete .btnInfo .cta,
-.headsetSection .imgHeadsetSection .headsetSectionOcho .btnInfo .cta{
+.headsetSection .imgHeadsetSection .headsetSectionOne .btnInfo .cta,
+.headsetSection .imgHeadsetSection .headsetSectionTwo .btnInfo .cta,
+.headsetSection .imgHeadsetSection .headsetSectionThree .btnInfo .cta,
+.headsetSection .imgHeadsetSection .headsetSectionFour .btnInfo .cta,
+.headsetSection .imgHeadsetSection .headsetSectionFive .btnInfo .cta,
+.headsetSection .imgHeadsetSection .headsetSectionSix .btnInfo .cta,
+.headsetSection .imgHeadsetSection .headsetSectionSeven .btnInfo .cta,
+.headsetSection .imgHeadsetSection .headsetSectionEight .btnInfo .cta{
     width: 70%;
     padding:10px;
     font-size: 0.9rem;
@@ -152,14 +171,14 @@
     border: 1.5px solid #FF5207;
     transition:0.3s ease-in-out;
 }
-.headsetSection .imgHeadsetSection .headsetSectionUno .btnInfo .cta:hover,
-.headsetSection .imgHeadsetSection .headsetSectionDos .btnInfo .cta:hover,
-.headsetSection .imgHeadsetSection .headsetSectionTres .btnInfo .cta:hover,
-.headsetSection .imgHeadsetSection .headsetSectionCuatro .btnInfo .cta:hover,
-.headsetSection .imgHeadsetSection .headsetSectionCinco .btnInfo .cta:hover,
-.headsetSection .imgHeadsetSection .headsetSectionSeis .btnInfo .cta:hover,
-.headsetSection .imgHeadsetSection .headsetSectionSiete .btnInfo .cta:hover,
-.headsetSection .imgHeadsetSection .headsetSectionOcho .btnInfo .cta:hover{
+.headsetSection .imgHeadsetSection .headsetSectionOne .btnInfo .cta:hover,
+.headsetSection .imgHeadsetSection .headsetSectionTwo .btnInfo .cta:hover,
+.headsetSection .imgHeadsetSection .headsetSectionThree .btnInfo .cta:hover,
+.headsetSection .imgHeadsetSection .headsetSectionFour .btnInfo .cta:hover,
+.headsetSection .imgHeadsetSection .headsetSectionFive .btnInfo .cta:hover,
+.headsetSection .imgHeadsetSection .headsetSectionSix .btnInfo .cta:hover,
+.headsetSection .imgHeadsetSection .headsetSectionSeven .btnInfo .cta:hover,
+.headsetSection .imgHeadsetSection .headsetSectionEight .btnInfo .cta:hover{
     border: 1px solid #000000;
     background-color: #000000;
     letter-spacing:3px;
