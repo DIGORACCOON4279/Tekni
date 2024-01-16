@@ -1,6 +1,6 @@
 import "./ItemDetail.css";
 
-const ItemDetail = ({id, reference, category, price, img, children}) => {
+const ItemDetail = ({id, reference, category, price, img, features, compatibility, updates, children}) => {
     return (
         <article className="cardItem">
             <figure className="imgCounter">
@@ -11,7 +11,16 @@ const ItemDetail = ({id, reference, category, price, img, children}) => {
                 <div className="info">
                     <p className="id"> ID: {id} </p>
                     <p className="reference"> {reference} <span className="price"> ...${price} </span></p>
-                    <p className="description"> <span className="titleDescription">Description:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur earum maxime hic minima sint ab dicta laboriosam, architecto voluptatibus voluptatem quidem deserunt corporis molestiae odit magni perspiciatis, necessitatibus voluptas rerum?</p>
+
+                    <div className="description">
+                        <p className="title">Description:</p>
+                        <section className="descriptionProduct">
+                            <p className="features"><span>Features: </span>{features}</p>
+                            <p className="compatibility"><span>Compatibility: </span>{compatibility}</p>
+                            <p className="compatibility"><span>Updates: </span>{updates}</p>
+                        </section>
+                    </div>
+
                 </div>
                 <div className="add">
                     {children}

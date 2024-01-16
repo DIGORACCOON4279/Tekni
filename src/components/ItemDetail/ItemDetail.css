@@ -56,7 +56,7 @@
 .cardItem .categoryInfo .info{
     display: flex;
     flex-direction: column;
-    gap:15px;
+    gap:30px;
 }
 .cardItem .categoryInfo .info .id{
     color: #b0b0b0;
@@ -81,24 +81,49 @@
     font-weight: 700;
     font-family: 'Ubuntu', sans-serif;
 }
-.cardItem .description{
+.cardItem .categoryInfo .info .description{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap:10px;
+    gap:20px;
     color: #747474;
     font-size: 0.8rem;
     font-weight: 300;
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 0.5px;
 }
-.cardItem .description .titleDescription{
-    color: #000000;
-    font-size: 0.9rem;
+.cardItem .categoryInfo .info .description .title {
+    color: #323232;
+    font-size: 1rem;
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
 }
+.cardItem .categoryInfo .info .description .descriptionProduct{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.8rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cardItem .categoryInfo .info .description .descriptionProduct .features,
+.cardItem .categoryInfo .info .description .descriptionProduct .compatibility,
+.cardItem .categoryInfo .info .description .descriptionProduct .updates{
+    color: #b0b0b0;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+.cardItem .categoryInfo .info .description .descriptionProduct .features span,
+.cardItem .categoryInfo .info .description .descriptionProduct .compatibility span,
+.cardItem .categoryInfo .info .description .descriptionProduct .updates span{
+    color: #747474;
+    font-weight: 500;
+}
+
+
+
 .cardItem .categoryInfo .add{
     width:100%;
     display: flex;
