@@ -11,24 +11,24 @@
     flex-direction: row;
     align-items: center;
     gap:50px;
-    animation:slider 180s linear infinite;
+    animation:slider 80s linear infinite;
 }
 @keyframes slider {
     0%{
-        transform: translate(-25%);
-    }
-    25%{
-        transform: translate(-50%);
+        transform: translate(0%);
     }
     50%{
-        transform: translate(-75%);
+        transform: translate(-71%);
     }
-    75%{
+    100%{
+        transform: translate(0%);
+    }
+    /* 75%{
         transform: translate(-100%);
     }
     100%{
-        transform: translate(-25%);
-    }
+        transform: translate(0%);
+    } */
 }
 .advantageTwoSection .sliderAdvantageTwo .cards{
     width:300px;
