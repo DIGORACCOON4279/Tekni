@@ -12,7 +12,7 @@ const ItemDetailContainer = ({greeting}) => {
     const [product, setProduct] = useState(null);
 
     useEffect( () => {
-        getOneProduct(2)
+        getOneProduct(17)
             .then(response => setProduct(response));
     }, []);
 

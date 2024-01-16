@@ -10,7 +10,7 @@
     transition:0.3s ease-in
 }
 .cardItem:hover .imgCounter > .image{
-    transform: scale(102%);
+    transform: scale(105%);
     filter: brightness(115%) drop-shadow(0 0 3px #cccccc) ;
 }
 .cardItem .imgCounter,

@@ -11,7 +11,6 @@ const ItemDetail = ({id, reference, category, price, img, features, compatibilit
                 <div className="info">
                     <p className="id"> ID: {id} </p>
                     <p className="reference"> {reference} <span className="price"> ...${price} </span></p>
-
                     <div className="description">
                         <p className="title">Description:</p>
                         <section className="descriptionProduct">
@@ -20,7 +19,6 @@ const ItemDetail = ({id, reference, category, price, img, features, compatibilit
                             <p className="compatibility"><span>Operating System and Updates:  </span>{updates}</p>
                         </section>
                     </div>
-
                 </div>
                 <div className="add">
                     {children}
