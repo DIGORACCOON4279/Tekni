@@ -114,6 +114,7 @@
     color: #b0b0b0;
     font-weight: 300;
     letter-spacing: 0.3px;
+    line-height: 20px;
 }
 .cardItem .categoryInfo .info .description .descriptionProduct .features span,
 .cardItem .categoryInfo .info .description .descriptionProduct .compatibility span,

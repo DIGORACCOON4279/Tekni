@@ -291,7 +291,6 @@ const products = [
         features: "Elevate your productivity with our laptop's powerful octa-core processor and expansive 1TB HDD. Immerse yourself in stunning visuals on the high-definition display.",
         compatibility: "Stay connected with versatile USB-C ports and the latest Wi-Fi 6 technology. Connect wirelessly with Bluetooth 5.1 for efficient file sharing.",
         updates:"Experience the latest features and security enhancements with Windows [version]. Our laptop ensures regular updates for a reliable and secure computing environment."
-
     },
     {
         id: 30,
