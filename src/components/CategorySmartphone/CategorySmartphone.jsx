@@ -35,7 +35,6 @@ const CategorySmartphone = ({ greeting }) => {
                     ))}
                 </div>
             </section>
-            <Footer/>
         </section>
     );
 };

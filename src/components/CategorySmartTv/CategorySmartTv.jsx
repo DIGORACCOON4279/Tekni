@@ -35,7 +35,6 @@ const CategorySmartTv = ({ greeting }) => {
                     ))}
                 </div>
             </section>
-            <Footer/>
         </section>
     );
 };

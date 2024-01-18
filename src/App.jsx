@@ -8,8 +8,7 @@ import Home from "./components/Home/Home";
 
 
 
-import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
-import Footer from "./components/Footer/Footer";
+// import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 // import Advantages from "./components/Advantages/Advantages";
 // import Smartphone from "./components/Smartphone/Smartphone";
 // import Headset from "./components/Headset/Headset";
@@ -22,12 +21,16 @@ import Footer from "./components/Footer/Footer";
 // import HeroSection from "./components/HeroSection/HeroSection";
 import Body from "./components/Body/Body";
 import NavBar from "./components/NavBar/NavBar";
+import ArrowUp from "./components/ArrowUp/ArrowUp";
+import Footer from "./components/Footer/Footer";
+
 // import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <Body />
         <NavBar/>
         <Routes>
             <Route path="/categoryHeadset" element={<CategoryHeadset/>}/>
@@ -37,13 +40,13 @@ const App = () => {
             <Route path="/home" element={<Home/>}/>
             {/* Error404 se le da un enlace para retomar el home
             <Route path="*" element={<h2 className="construction">Under construction</h2>}/> */}
-
           </Routes>
+          <ArrowUp/>
           <Footer />
       </BrowserRouter>
 
 
-      <Body />
+
       {/* <CategoryHeadset greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/> */}
       {/* <CategorySmartphone greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." /> */}
       {/* <CategoryLaptop greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." /> */}
@@ -51,7 +54,7 @@ const App = () => {
       {/* <ItemDetailContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." /> */}
       {/* <ItemListContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/> */}
 
-      {/* <ArrowUp/> */}
+
       {/* <WhiteLine/> */}
       {/* <TheBestSellers/> */}
       {/* <NewGeneration/> */}

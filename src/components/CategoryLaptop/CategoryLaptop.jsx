@@ -35,7 +35,6 @@ const CategoryLaptop = ({ greeting }) => {
                     ))}
                 </div>
             </section>
-            <Footer/>
         </section>
     );
 };

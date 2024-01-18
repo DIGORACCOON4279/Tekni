@@ -9,7 +9,10 @@ import "./NavBar.css"
 const NavBar = () => {
     return (
         <header className="header">
-            <Link to="/" >
+            {/* Se usa / para ir a App
+            <Link to="/"></Link> */}
+
+            <Link to="../home" >
                 <img src="img/logo.webp" alt="" className="logoTekni"/>
             </Link>
             <input id="menu" type="checkbox"/>
