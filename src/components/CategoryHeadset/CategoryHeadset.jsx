@@ -35,7 +35,6 @@ const CategoryHeadset = ({ greeting }) => {
                     ))}
                 </div>
             </section>
-            <Footer/>
         </section>
     );
 };

@@ -10,7 +10,7 @@
 }
 .footerSection .sections{
     width:100%;
-    max-width: 85%;
+    max-width: 90%;
     height:auto;
     display: flex;
     flex-direction: row;
@@ -73,11 +73,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 5px;
     overflow: hidden;
     cursor:pointer;
 }
 .footerSection .sections .sectionContact .socialMedia .iconItems .icon{
-    width:22%;
+    width:100%;
     height:auto;
     padding: 5px;
     border-radius: 50%;

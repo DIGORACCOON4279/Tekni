@@ -15,7 +15,7 @@
     z-index:999;
 }
 .header .logoTekni{
-    width:5%;
+    width:23%;
     height:auto;
     animation:logo 0.3s linear;
 }
@@ -86,7 +86,11 @@
     margin: auto;
     gap:0px;
 }
-.header .navBar ul li{
+.header .navBar ul .navLink {
+    text-decoration: none;
+}
+.header .navBar ul .navLink .link{
+    height: 85px;
     list-style-type: none;
     color: #000000;
     font-family: 'Ubuntu', sans-serif;
@@ -99,15 +103,14 @@
     justify-content: center;
     align-items: center;
     gap:10px;
-    text-decoration: none;
     border-bottom: 4px solid transparent;
     transition: 0.3s ease-in-out;
 }
-.header .navBar ul li img{
+.header .navBar ul .navLink .link img{
     width: 28px;
     transition: 0.3s ease-in-out;
 }
-.header .navBar ul li:hover{
+.header .navBar ul .navLink .link:hover{
     background-color: #f2f2f2;
     border-bottom:  4px solid #FF5207;
 }

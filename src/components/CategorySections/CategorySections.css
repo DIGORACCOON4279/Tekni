@@ -1,10 +1,30 @@
 
 .categorySection{
+    height: 85px;
     position:relative;
+    list-style-type: none;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border-bottom: 4px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+.categorySection:hover{
+    background-color: #f2f2f2;
+    border-bottom:  4px solid #FF5207;
+}
+.categorySection img{
+    width: 28px;
 }
 .categorySection .categoryItems{
     width: 100vw;
-    height:auto;
     display:none;
     position: absolute;
     top: 105%;
@@ -24,19 +44,35 @@
     align-items: center;
     gap:0px;
 }
-.categorySection .categoryItems ul .li{
+.categorySection .categoryItems ul .navLinkCategory{
+    text-decoration: none;
+    border-bottom:4px solid #f2f2f2;
+    transition: 0.3s ease-in-out;
+}
+.categorySection .categoryItems ul .navLinkCategory:hover{
+    border-bottom:  4px solid #FF5207;
+}
+.categorySection .categoryItems ul .navLinkCategory .li{
     width:100%;
     height:auto;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 35px;
     transition: 0.3s ease-in-out;
 }
-.categorySection .categoryItems ul .li:hover{
+.categorySection .categoryItems ul .navLinkCategory .li:hover{
     background-color: #f9f9f9;
 }
-.categorySection .categoryItems ul .li:hover > img{
+.categorySection .categoryItems ul .navLinkCategory .li:hover > img{
     transform:scale(105%);
 }
-.categorySection .categoryItems ul .li img{
+.categorySection .categoryItems ul .navLinkCategory .li img{
     width:100%;
     object-fit: cover;
     transform:scale(100%);

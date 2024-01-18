@@ -14,6 +14,7 @@ const ItemListContainer = ({greeting}) => {
   }, [])
 
   return (
+    // No aparece en pantalla al dar click a products
       <section>
         <h2>{greeting}</h2>
         <ItemList products={products} />

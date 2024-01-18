@@ -1,5 +1,25 @@
 .servicesSection{
+    height: 85px;
     position: relative;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 15px 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border-bottom: 4px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+.servicesSection:hover{
+    background-color: #f2f2f2;
+    border-bottom:  4px solid #FF5207;
+}
+.servicesSection img{
+    width: 28px;
 }
 .servicesSection .servicesContainer{
     width: 100vw;
@@ -12,7 +32,7 @@
     gap:30px;
     position: absolute;
     top: 105%;
-    margin: 0px 15px 0px -240px;
+    margin: 0px 0px 0px -255px;
     background-color: #F2F2F2;
     transition: 0.3s ease-in-out;
 }

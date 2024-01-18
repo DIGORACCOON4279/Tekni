@@ -9,10 +9,10 @@ const Footer = () => {
                     <div className="socialMedia">
                         <h4 className="contactUs">Contact us</h4>
                         <section className="iconItems" >
-                            <img src="./img/facebook.svg" alt="" className="icon" />
-                            <img src="./img/twitter.svg" alt="" className="icon" />
-                            <img src="./img/instagram.svg" alt="" className="icon" />
-                            <img src="./img/youtube.svg" alt="" className="icon" />
+                            <a href="https://www.facebook.com/" target="_black"><img src="./img/facebook.svg" alt="" className="icon" /></a>
+                            <a href="https://twitter.com/" target="_black"><img src="./img/twitter.svg" alt="" className="icon" /></a>
+                            <a href="https://www.instagram.com/" target="_black"><img src="./img/instagram.svg" alt="" className="icon" /></a>
+                            <a href="https://www.youtube.com/" target="_black"><img src="./img/youtube.svg" alt="" className="icon" /></a>
                         </section>
                     </div>
                     <div className="distributors">
