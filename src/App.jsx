@@ -19,7 +19,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 // import ArrowUp from "./components/ArrowUp/ArrowUp";
 // import WhiteLine from "./components/WhiteLine/WhiteLine";
 // import HeroSection from "./components/HeroSection/HeroSection";
-// import Body from "./components/Body/Body";
+import Body from "./components/Body/Body";
 import NavBar from "./components/NavBar/NavBar";
 import ArrowUp from "./components/ArrowUp/ArrowUp";
 import Footer from "./components/Footer/Footer";
@@ -30,6 +30,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
+        <Body/>
         <NavBar/>
         <ArrowUp/>
         <Routes>
