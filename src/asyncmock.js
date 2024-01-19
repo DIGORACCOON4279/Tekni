@@ -128,6 +128,7 @@ const products = [
         reference: "XKX-01",
         category:"Laptop",
         price: 1099,
+        idCat: "1",
         img:"https://primera-entrega-tekni.vercel.app/img/laptop1.webp",
         features: "Experience top-notch performance with our laptop's powerful processor and expansive 512GB SSD storage. Enjoy crystal-clear visuals on the high-resolution display.",
         compatibility:"Stay connected on the go with ultra-fast Wi-Fi 6 technology. Connect seamlessly to other devices with Bluetooth 5.0 and experience lightning-fast file transfers.",
