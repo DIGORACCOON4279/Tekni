@@ -34,13 +34,10 @@ const App = () => {
         <NavBar/>
         <ArrowUp/>
         <Routes>
-
-
             <Route path="/categoryHeadset/:id" element={<CategoryHeadset/>}/>
-            <Route path="/categorySmartphone" element={<CategorySmartphone/>}/>
-            <Route path="/categoryLaptop" element={<CategoryLaptop/>}/>
-            <Route path="/categorySmartTv" element={<CategorySmartTv/>}/>
-
+            <Route path="/categorySmartphone:id" element={<CategorySmartphone/>}/>
+            <Route path="/categoryLaptop:id" element={<CategoryLaptop/>}/>
+            <Route path="/categorySmartTv:id" element={<CategorySmartTv/>}/>
             <Route path="/ItemListContainer" element={<ItemListContainer/>}/>
             <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
             <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
@@ -51,15 +48,12 @@ const App = () => {
           <Footer />
       </BrowserRouter>
 
-
-
-      {/* <CategoryHeadset greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/> */}
-      {/* <CategorySmartphone greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." /> */}
-      {/* <CategoryLaptop greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." /> */}
-      {/* <CategorySmartTv greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/> */}
-      {/* <ItemDetailContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." /> */}
-      {/* <ItemListContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/> */}
-
+      {/* <CategoryHeadset greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/>
+      <CategorySmartphone greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." />
+      <CategoryLaptop greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." />
+      <CategorySmartTv greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/>
+      <ItemDetailContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡." />
+      <ItemListContainer greeting=" ⚡ Get 35%  off on all our devices this Black Friday!!! ⚡."/> */}
 
       {/* <WhiteLine/> */}
       {/* <TheBestSellers/> */}

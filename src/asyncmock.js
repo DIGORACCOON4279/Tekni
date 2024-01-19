@@ -444,6 +444,8 @@ const products = [
     }
 ]
 
+// Funcion que me retorne un productos
+
 export const getProducts = () => {
     return new Promise( (resolve) => {
         setTimeout( () => {
@@ -451,6 +453,8 @@ export const getProducts = () => {
         }, 100)
     })
 }
+
+// Funcion que me retorne un solo item
 
 export const getOneProduct = (id) => {
     return new Promise( (resolve) => {
@@ -461,10 +465,12 @@ export const getOneProduct = (id) => {
     })
 }
 
+// Funcion que retorne toda la categoria
+
 export const getProductsByCategory = (idCategory) => {
     return new Promise( (resolve) => {
         setTimeout( () => {
-            const productsCategory= products.filter(product => product.idCat === idCategory);
+            const productsCategory = products.filter(product => product.idCat === idCategory);
             resolve(productsCategory);
         }, 100)
     })

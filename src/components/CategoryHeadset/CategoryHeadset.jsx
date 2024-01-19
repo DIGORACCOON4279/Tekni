@@ -1,16 +1,30 @@
 
 // CategoryHeadset.jsx
 
+
 import { useEffect, useState } from 'react';
 import Item from '../Item/Item';
 import './CategoryHeadset.css';
 import { getProducts } from "../../asyncmock";
 import { useParams } from 'react-router-dom';
 
-// Explicacion del profe
-
 const CategoryHeadset = ({ greeting }) => {
-    const {id} = useParams();
+    const [headsetProducts, setHeadsetProducts] = useState([]);
+    const { category } = useParams(); // Obtener el parámetro 'category' de la URL
+
+    useEffect(() => {
+        const fetchHeadsetProducts = async () => {
+            try {
+                const allProducts = await getProducts();
+                const filteredProducts = allProducts.filter(product => product.category === category);
+                setHeadsetProducts(filteredProducts);
+            } catch (error) {
+                console.error('Error fetching Headset products:', error);
+            }
+        };
+
+        fetchHeadsetProducts();
+    }, [category]);
 
     return (
         <section className="categoryHeadset">
@@ -27,7 +41,20 @@ const CategoryHeadset = ({ greeting }) => {
     );
 };
 
-// Esta es otra manera de hacerlo
+export default CategoryHeadset;
+
+
+
+
+
+// import { useEffect, useState } from 'react';
+// import Item from '../Item/Item';
+// import './CategoryHeadset.css';
+// import { getProducts } from "../../asyncmock";
+// import { useParams } from 'react-router-dom';
+
+
+// // Esta es otra manera de hacerlo
 
 // const CategoryHeadset = ({ greeting }) => {
 //     const [headsetProducts, setHeadsetProducts] = useState([]);
@@ -61,4 +88,4 @@ const CategoryHeadset = ({ greeting }) => {
 //     );
 // };
 
-export default CategoryHeadset;
+// export default CategoryHeadset;

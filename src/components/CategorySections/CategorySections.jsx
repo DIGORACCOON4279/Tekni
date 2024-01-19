@@ -1,5 +1,4 @@
 import { NavLink} from "react-router-dom";
-
 import "./CategorySections.css";
 
 const CategorySections = () => {
@@ -28,7 +27,6 @@ const CategorySections = () => {
                             <img src="./img/headset1.webp" alt="Headset pic"/>Headset
                         </li>
                     </NavLink>
-
                 </ul>
             </nav>
         </li>

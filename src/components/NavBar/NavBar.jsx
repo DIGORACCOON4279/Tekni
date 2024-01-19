@@ -9,7 +9,7 @@ import "./NavBar.css"
 const NavBar = () => {
     return (
         <header className="header">
-            {/* Se usa / para ir a App
+            {/* Se usa / para ir a home
             <Link to="/"></Link> */}
 
             <Link to="/" >
@@ -30,17 +30,14 @@ const NavBar = () => {
                             <img src="./img/products.svg" alt=""/>Products
                         </li>
                     </NavLink>
-
                     <CategorySections/>
                     <Services/>
                     <ContactUs />
                 </ul>
             </nav>
-
             <nav className="iconsMenu">
                 <IconsMenu/>
             </nav>
-
         </header>
     )
 }

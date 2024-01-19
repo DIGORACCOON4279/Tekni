@@ -4,9 +4,9 @@ import AdvantagesTwo from "../AdvantagesTwo/AdvantagesTwo";
 import RandomItemList from "../RandomItemList/RandomItemList";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import Counter from "../Counter/Counter";
-import "./ItemDetailContainer.css";
 import Advertising from "../Advertising/Advertising";
 import { useParams } from "react-router-dom";
+import "./ItemDetailContainer.css";
 
 const ItemDetailContainer = ({greeting}) => {
     const [product, setProduct] = useState(null);
