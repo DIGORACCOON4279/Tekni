@@ -31,6 +31,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <NavBar/>
+        <ArrowUp/>
         <Routes>
 
 
@@ -42,11 +43,10 @@ const App = () => {
             <Route path="/ItemListContainer" element={<ItemListContainer/>}/>
             <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
             <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
-            <Route path="/home" element={<Home/>}/>
+            <Route path="/" element={<Home/>}/>
             {/* Error404 se le da un enlace para retomar el home
             <Route path="*" element={<h2 className="construction">Under construction</h2>}/> */}
           </Routes>
-          <ArrowUp/>
           <Footer />
       </BrowserRouter>
 
