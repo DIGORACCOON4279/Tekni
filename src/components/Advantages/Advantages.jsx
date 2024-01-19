@@ -9,7 +9,7 @@ const Advantages = () => {
                 <p className="infoCard">The delivery time will depend on the city you are in.</p>
             </article>
             <article className="cards">
-            <img src="./img/payment.svg" alt="" className="icon" />
+                <img src="./img/payment.svg" alt="" className="icon" />
                 <h4 className="titleCard">Easy Shopping</h4>
                 <p className="infoCard"> Choose your product, select the payment method, provide the delivery address, and you're done.</p>
             </article>

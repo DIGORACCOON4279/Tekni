@@ -5,7 +5,7 @@ const AdvantagesTwo = () => {
         <section className="advantageTwoSection">
             <section className="sliderAdvantageTwo">
             <article className="cards">
-                <img src="./img/shipping.svg" alt="" className="icon" />
+                <img src="./img/shipping.svg" alt="" className="icon"/>
                 <div className="infoServices">
                     <h4 className="titleCard">Your speedy item</h4>
                     <p className="infoCard">The delivery timeframe will be contingent upon the city of residence.</p>

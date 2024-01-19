@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { getOneProduct } from "../../asyncmock";
-import Footer from "../Footer/Footer";
 import AdvantagesTwo from "../AdvantagesTwo/AdvantagesTwo";
 import RandomItemList from "../RandomItemList/RandomItemList";
 import ItemDetail from "../ItemDetail/ItemDetail";
