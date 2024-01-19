@@ -12,7 +12,7 @@ const NavBar = () => {
             {/* Se usa / para ir a App
             <Link to="/"></Link> */}
 
-            <Link to="../home" >
+            <Link to="/" >
                 <img src="img/logo.webp" alt="" className="logoTekni"/>
             </Link>
             <input id="menu" type="checkbox"/>
