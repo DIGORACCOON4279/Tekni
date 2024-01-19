@@ -20,7 +20,7 @@ const NavBar = () => {
                 <label htmlFor="menu">
                 </label>
                 <ul>
-                    <NavLink className="navLink" to="/home" >
+                    <NavLink className="navLink" to="/" >
                         <li className="link">
                             <img src="./img/home.svg" alt=""/>Home
                         </li>
