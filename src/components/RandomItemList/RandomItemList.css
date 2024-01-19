@@ -116,7 +116,7 @@
     font-weight: 700;
     color: #FF5207;
 }
-.randomProductContainer .productList .cardProduct button{
+.randomProductContainer .productList .cardProduct .ctaDetailProduct{
     width:100%;
     padding: 10px 15px;
     font-family: 'Ubuntu', sans-serif;
@@ -126,9 +126,11 @@
     font-weight: 700;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
     transition: 0.3s ease-in-out;
 }
-.randomProductContainer .productList .cardProduct button:hover{
+.randomProductContainer .productList .cardProduct .ctaDetailProduct:hover{
     background-color:#ffffff;
     border: 1px solid #FF5207;
     color:#FF5207;

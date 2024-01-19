@@ -7,8 +7,8 @@ import Home from "./components/Home/Home";
 // import Error404 from "./components/Error404/Error404";
 
 
-
-// import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 // import Advantages from "./components/Advantages/Advantages";
 // import Smartphone from "./components/Smartphone/Smartphone";
 // import Headset from "./components/Headset/Headset";
@@ -33,10 +33,15 @@ const App = () => {
         <Body />
         <NavBar/>
         <Routes>
-            <Route path="/categoryHeadset" element={<CategoryHeadset/>}/>
+            <Route path="/categoryHeadset/:id" element={<CategoryHeadset/>}/>
             <Route path="/categorySmartphone" element={<CategorySmartphone/>}/>
             <Route path="/categoryLaptop" element={<CategoryLaptop/>}/>
             <Route path="/categorySmartTv" element={<CategorySmartTv/>}/>
+
+            <Route path="/" element={<ItemListContainer/>}/>
+            <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
+            <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
+
             <Route path="/home" element={<Home/>}/>
             {/* Error404 se le da un enlace para retomar el home
             <Route path="*" element={<h2 className="construction">Under construction</h2>}/> */}

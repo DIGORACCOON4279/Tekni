@@ -7,14 +7,17 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import Counter from "../Counter/Counter";
 import "./ItemDetailContainer.css";
 import Advertising from "../Advertising/Advertising";
+import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = ({greeting}) => {
     const [product, setProduct] = useState(null);
 
+    const{ idItem } = useParams();
+
     useEffect( () => {
-        getOneProduct(17)
+        getOneProduct( idItem )
             .then(response => setProduct(response));
-    }, []);
+    }, [ idItem ]);
 
     return (
         <section className="ItemDetailContainer">
@@ -26,7 +29,6 @@ const ItemDetailContainer = ({greeting}) => {
             </ItemDetail>
             <AdvantagesTwo/>
             <RandomItemList/>
-            <Footer/>
         </section>
     )
 }
