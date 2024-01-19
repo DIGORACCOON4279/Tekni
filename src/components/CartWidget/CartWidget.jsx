@@ -6,7 +6,7 @@ const CartWidget = () => {
     return (
         <li>
             <label htmlFor="cartWidget">
-                <img className="cartWidget" src="./img/shoppingCart.svg" alt=""/>
+                <img className="cartWidget" src="../img/shoppingCart.svg" alt=""/>
                 <p><strong> 3 </strong></p>
             </label>
             <input id="cartWidget" type="checkbox"/>
