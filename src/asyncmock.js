@@ -448,7 +448,7 @@ export const getProducts = () => {
     return new Promise( (resolve) => {
         setTimeout( () => {
             resolve(products);
-        }, 2000)
+        }, 100)
     })
 }
 
@@ -457,7 +457,7 @@ export const getOneProduct = (id) => {
         setTimeout( () => {
             const product = products.find(product => product.id === id);
             resolve(product);
-        }, 2000)
+        }, 100)
     })
 }
 
@@ -466,6 +466,6 @@ export const getProductsByCategory = (idCategory) => {
         setTimeout( () => {
             const productsCategory= products.filter(product => product.idCat === idCategory);
             resolve(productsCategory);
-        }, 2000)
+        }, 100)
     })
 }
