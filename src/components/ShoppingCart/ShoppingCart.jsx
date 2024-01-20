@@ -1,6 +1,8 @@
 import Counter from "../Counter/Counter";
 import "./ShoppingCart.css";
 
+// Este componente cambiara reusando un solo compponente para que se renderize en shoppingCart
+
 const ShoppingCart = () => {
     return (
         <section className="shoppingCartSection">
