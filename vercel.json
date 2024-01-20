@@ -1,18 +1,4 @@
-// {
-//     "version": 2,
-//     "rewrites": [
-//       {
-//         "source": "/(.*)",
-//         "destination": "/index.html"
-//       }
-//     ],
-//     "builds": [
-//       {
-//         "src": "public/**/*",
-//         "use": "@vercel/static"
-//       }
-//     ]
-//   }
+
 
 {
     "version": 2,
