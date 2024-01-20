@@ -1,15 +1,35 @@
+// {
+//     "version": 2,
+//     "rewrites": [
+//       {
+//         "source": "/(.*)",
+//         "destination": "/index.html"
+//       }
+//     ],
+//     "builds": [
+//       {
+//         "src": "public/**/*",
+//         "use": "@vercel/static"
+//       }
+//     ]
+//   }
+
 {
     "version": 2,
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
-    ],
     "builds": [
-      {
-        "src": "public/**/*",
-        "use": "@vercel/static"
-      }
+        {
+            "src": "src/**/*.js",
+            "use": "@vercel/node"
+        }
+        ],
+        "routes": [
+        {
+            "src": "/public/(.*)",
+            "dest": "/public/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/index.html"
+        }
     ]
-  }
+}
