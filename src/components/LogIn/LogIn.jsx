@@ -8,7 +8,7 @@ const LoginForm = () => {
 
             {/* <input id="user" type="checkbox"/> */}
             <label htmlFor="user">
-                <img className="closeMenu" src="./img/close.svg" alt=""/>
+                <img className="closeMenu" src="../img/close.svg" alt=""/>
             </label>
 
             <form>
