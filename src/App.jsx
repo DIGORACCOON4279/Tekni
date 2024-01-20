@@ -28,6 +28,8 @@ import Footer from "./components/Footer/Footer";
 // import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 const App = () => {
+  document.getElementById('root')
+
   return (
     <>
       <BrowserRouter>
