@@ -28,7 +28,6 @@ import Footer from "./components/Footer/Footer";
 // import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 const App = () => {
-  document.getElementById('root')
 
   return (
     <>
@@ -41,10 +40,11 @@ const App = () => {
             <Route path="/categorySmartphone:id" element={<CategorySmartphone/>}/>
             <Route path="/categoryLaptop:id" element={<CategoryLaptop/>}/>
             <Route path="/categorySmartTv:id" element={<CategorySmartTv/>}/> */}
+            <Route path="/" element={<Home/>}/>
             <Route path="/ItemListContainer" element={<ItemListContainer/>}/>
             <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
             <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
-            <Route path="/" element={<Home/>}/>
+
             {/* Error404 se le da un enlace para retomar el home
             <Route path="*" element={<h2 className="construction">Under construction</h2>}/> */}
           </Routes>
