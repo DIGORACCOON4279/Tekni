@@ -1,7 +1,6 @@
 // import Footer from "../Footer/Footer";
 
 
-import ArrowUp from "../ArrowUp/ArrowUp";
 import Advantages from "../Advantages/Advantages";
 import Smartphone from "../Smartphone/Smartphone";
 import SmartTvs from "../SmartTvs/SmartTvs";
@@ -16,6 +15,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
+        <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
         <HeroSection />
         <WhiteLine/>
         <TheBestSellers/>

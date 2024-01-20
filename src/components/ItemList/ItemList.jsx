@@ -4,16 +4,11 @@ import "./ItemList.css";
 
 const ItemList = ({products}) => {
     return (
+        <section className="cardContainer">
 
-        // <main className="container">
+            {products.map(product => <Item key={product.id} {...product} />)}
 
-            <section className="cardContainer">
-
-                {products.map(product => <Item key={product.id} {...product} />)}
-
-            </section>
-
-        // </main>
+        </section>
     )
 }
 

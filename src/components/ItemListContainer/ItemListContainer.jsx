@@ -5,13 +5,12 @@ import { getProducts, getProductsByCategory } from "../../asyncmock";
 import { useParams } from "react-router-dom";
 import "./ItemListContainer.css";
 
-const ItemListContainer = ( { greeting } ) => {
+const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
 
   const {idCategory} = useParams();
 
   useEffect(() => {
-    // getProducts()
 
       const functionProducts = idCategory ? getProductsByCategory : getProducts;
 
@@ -23,7 +22,7 @@ const ItemListContainer = ( { greeting } ) => {
 
   return (
       <section>
-        <h2>{greeting}</h2>
+        <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
         <ItemList products={products} />
       </section>
     )

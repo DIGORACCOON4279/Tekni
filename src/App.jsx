@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CategoryHeadset from "./components/CategoryHeadset/CategoryHeadset";
-import CategorySmartphone from "./components/CategorySmartphone/CategorySmartphone";
-import CategoryLaptop from "./components/CategoryLaptop/CategoryLaptop";
-import CategorySmartTv from "./components/CategorySmartTv/CategorySmartTv";
+// import CategoryHeadset from "./components/CategoryHeadset/CategoryHeadset";
+// import CategorySmartphone from "./components/CategorySmartphone/CategorySmartphone";
+// import CategoryLaptop from "./components/CategoryLaptop/CategoryLaptop";
+// import CategorySmartTv from "./components/CategorySmartTv/CategorySmartTv";
 import Home from "./components/Home/Home";
 // import Error404 from "./components/Error404/Error404";
 
@@ -35,10 +35,10 @@ const App = () => {
         <NavBar/>
         <ArrowUp/>
         <Routes>
-            <Route path="/categoryHeadset/:id" element={<CategoryHeadset/>}/>
+            {/* <Route path="/categoryHeadset/:id" element={<CategoryHeadset/>}/>
             <Route path="/categorySmartphone:id" element={<CategorySmartphone/>}/>
             <Route path="/categoryLaptop:id" element={<CategoryLaptop/>}/>
-            <Route path="/categorySmartTv:id" element={<CategorySmartTv/>}/>
+            <Route path="/categorySmartTv:id" element={<CategorySmartTv/>}/> */}
             <Route path="/ItemListContainer" element={<ItemListContainer/>}/>
             <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
             <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
