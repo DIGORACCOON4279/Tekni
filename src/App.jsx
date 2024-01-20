@@ -24,6 +24,7 @@ import NavBar from "./components/NavBar/NavBar";
 import ArrowUp from "./components/ArrowUp/ArrowUp";
 import Footer from "./components/Footer/Footer";
 
+
 // import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 const App = () => {
@@ -69,3 +70,5 @@ const App = () => {
 }
 
 export default App
+
+
