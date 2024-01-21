@@ -22,11 +22,13 @@
     overflow:hidden;
     border-radius: 10px;
     cursor: pointer;
+    border-top: 3px solid #FF5207;
     transition: 0.3s ease-in-out;
 }
 .advantageSection .cards:hover{
     background-color:#F9F9F9;
     border:1px solid #F9F9F9;
+    border-top: 3px solid #F9F9F9;
 }
 .advantageSection .cards:hover > .icon{
     transform: scale(110%);
