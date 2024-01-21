@@ -1,9 +1,15 @@
 import "./Footer.css";
-
+import { NavLink, useLocation} from "react-router-dom";
 
 const Footer = () => {
-    return (
-        <section className="footerSection">
+ // Obtén la ubicación actual
+    const location = useLocation();
+
+    // Verifica si estás en la página de error 404
+    const is404Page = location.pathname === '/Error';
+
+    return !is404Page &&(
+        <section className="footerSection" id="footerSection">
             <div className="sections">
                 <article className="sectionContact">
                     <div className="socialMedia">
@@ -51,7 +57,13 @@ const Footer = () => {
                         <li>Tekni store</li>
                         <li>Customer service</li>
                         <li>Security policies</li>
-                        <li>Help with my product</li>
+
+                            <NavLink className="NavLink" to="/Error">
+                                <li>
+                                    <p>Help with my product</p>
+                                </li>
+                            </NavLink>
+
                         <li>More about Tekni ...</li>
                     </ul>
                 </article>
@@ -64,7 +76,6 @@ const Footer = () => {
 }
 
 export default Footer
-
 
 
 

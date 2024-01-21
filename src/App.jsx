@@ -22,6 +22,7 @@ import Body from "./components/Body/Body";
 import NavBar from "./components/NavBar/NavBar";
 import ArrowUp from "./components/ArrowUp/ArrowUp";
 import Footer from "./components/Footer/Footer";
+import Error404 from "./components/Error404/Error404";
 
 // import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
@@ -48,7 +49,7 @@ const App = () => {
             <Route path="/" element={<Home/>}/>
 
             {/* Error404 se le da un enlace para retomar el home */}
-            <Route path="*" element={<h2 className="construction">Under construction</h2>}/>
+            <Route path="*" element={<Error404/>}/>
           </Routes>
           <Footer />
       </BrowserRouter>
