@@ -23,6 +23,7 @@ import NavBar from "./components/NavBar/NavBar";
 import ArrowUp from "./components/ArrowUp/ArrowUp";
 import Footer from "./components/Footer/Footer";
 import Error404 from "./components/Error404/Error404";
+// import CategorySections from "./components/CategorySections/CategorySections";
 
 // import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
@@ -54,7 +55,15 @@ const App = () => {
             <Route path="/item/:idItem" element={<ItemDetailContainer />} />
             <Route path="*" element={<Error404 />} />
             <Route path="/ItemListContainer" element={<ItemListContainer/>}/>
+
+
             {/* Error404 se le da un enlace para retomar el home */}
+            {/* <Route path="/" element={<Home />} />
+            <Route path="/category/:idCategory" element={<ItemListContainer />} />
+            <Route path="/item/:idItem" element={<ItemDetailContainer />} />
+            <Route path="*" element={<Error404 />} />
+            <Route path="/ItemListContainer" element={<ItemListContainer/>}/> */}
+
           </Routes>
           <Footer />
       </BrowserRouter>
