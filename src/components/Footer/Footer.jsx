@@ -37,34 +37,79 @@ const Footer = () => {
                 </article>
                 <article className="categories">
                     <ul>
-                        <li>Home</li>
-                        <li>Products</li>
-                        <li>Categories</li>
-                        <li>Services</li>
-                        <li>Contact us</li>
+                        <li>
+                            <NavLink className="NavLink" to="/">
+                                Home
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/itemListContainer">
+                                Products
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/Error">
+                                Services
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/Error">
+                                Contact us
+                            </NavLink>
+                        </li>
                     </ul>
                 </article>
                 <article className="products">
                     <ul>
-                        <li>Laptops</li>
-                        <li>Smartphones</li>
-                        <li>SmartTVs</li>
-                        <li>Headset</li>
+                        <li>
+                            <NavLink className="NavLink" to="/category/1">
+                                Laptops
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/category/2">
+                                Smartphones
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/category/3">
+                                SmartTVs
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/category/4">
+                                Headset
+                            </NavLink>
+                        </li>
                     </ul>
                 </article>
                 <article className="options">
                     <ul>
-                        <li>Tekni store</li>
-                        <li>Customer service</li>
-                        <li>Security policies</li>
-
+                        <li>
                             <NavLink className="NavLink" to="/Error">
-                                <li>
-                                    <p>Help with my product</p>
-                                </li>
+                                Tekni Store
                             </NavLink>
-
-                        <li>More about Tekni ...</li>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/Error">
+                                Customer Service
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/Error">
+                                Security Policies
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/Error">
+                                Help with my product
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="NavLink" to="/Error">
+                                More about Tekni
+                            </NavLink>
+                        </li>
                     </ul>
                 </article>
             </div>

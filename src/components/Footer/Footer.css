@@ -99,20 +99,22 @@
     align-items: flex-start;
     padding: 20px auto 20px 0px;
 }
-.footerSection .sections .categories ul li,
-.footerSection .sections .products ul li,
-.footerSection .sections .options ul li{
+.footerSection .sections .categories ul li .NavLink,
+.footerSection .sections .products ul li .NavLink,
+.footerSection .sections .options ul li .NavLink{
     font-size: 0.7rem;
     font-weight:400 ;
     color: #CCCCCC;
     text-align: left;
     padding:5px;
     cursor: pointer;
+    text-decoration: none;
+
     transition:0.3s ease-in-out;
 }
-.footerSection .sections .categories ul li:hover,
-.footerSection .sections .products ul li:hover,
-.footerSection .sections .options ul li:hover{
+.footerSection .sections .categories ul li .NavLink:hover,
+.footerSection .sections .products ul li .NavLink:hover,
+.footerSection .sections .options ul li .NavLink:hover{
     color:#FF5207;
 }
 .footerSection .developerInfo{
