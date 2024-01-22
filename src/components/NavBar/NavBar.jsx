@@ -25,7 +25,7 @@ const NavBar = () => {
                             <img src="../img/home.svg" alt=""/>Home
                         </li>
                     </NavLink>
-                    <NavLink className="navLink" to="/itemListContainer" >
+                    <NavLink className="navLink" to="/item-list" >
                         <li className="link">
                             <img src="../img/products.svg" alt=""/>Products
                         </li>
@@ -43,3 +43,5 @@ const NavBar = () => {
 }
 
 export default NavBar
+
+

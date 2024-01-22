@@ -43,12 +43,17 @@ const App = () => {
             <Route path="/categoryLaptop:id" element={<CategoryLaptop/>}/>
             <Route path="/categorySmartTv:id" element={<CategorySmartTv/>}/> */}
 
-            <Route path="/ItemListContainer" element={<ItemListContainer/>}/>
+            {/* <Route path="/ItemListContainer" element={<ItemListContainer/>}/>
             <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
             <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
-
             <Route path="/" element={<Home/>}/>
-            <Route path="*" element={<Error404/>}/>
+            <Route path="*" element={<Error404/>}/> */}
+
+            <Route path="/" element={<Home />} />
+            <Route path="/category/:idCategory" element={<ItemListContainer />} />
+            <Route path="/item/:idItem" element={<ItemDetailContainer />} />
+            <Route path="*" element={<Error404 />} />
+            <Route path="/item-list" element={<ItemListContainer />} />
 
             {/* Error404 se le da un enlace para retomar el home */}
           </Routes>

@@ -14,7 +14,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <>
+    <div>
         <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
         <HeroSection />
         <WhiteLine/>
@@ -25,7 +25,7 @@ const Home = () => {
         <SmartTvs />
         <Smartphone/>
         <Advantages />
-    </>
+    </div>
   )
 }
 
