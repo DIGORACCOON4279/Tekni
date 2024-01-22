@@ -47,10 +47,6 @@ const App = () => {
             <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
             <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
 
-            <Route path="/" element={<ItemListContainer/>}/>
-            <Route path="/" element={<ItemDetailContainer/>}/>
-
-            {/* <Route path="/" element={<Home/>}/> */}
             <Route path="/" element={<Home/>}/>
             <Route path="*" element={<Error404/>}/>
 
