@@ -6,6 +6,7 @@
     width:100%;
     height:auto;
     background-image: url(../img/outerspace.webp);
+    background-color: #000000;
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,35 +20,53 @@
     overflow: hidden;
     margin: 0px auto;
     position:relative;
+    animation: background 10s linear infinite;
+}
+@keyframes background{
+    0%{
+        background-color: #000000;
+    }
+    25%{
+        background-color: #000000c7;
+    }
+    50%{
+        background-color: #0000007c;
+    }
+    75%{
+        background-color: #000000c7;
+    }
+    100%{
+        background-color: #000000;
+    }
 }
 .errorSection .earth{
-    width:2%;
+    width:3.5%;
     overflow: visible;
     position:absolute;
-    top:50px;
-    left:50px;
-    animation: earth 10s linear infinite;
+    top:0px;
+    left:20px;
+    animation: earth 30s linear infinite ;
 }
 @keyframes earth{
     0%{
-        transform: scale(100%) translateY(20px) rotate(0deg);
-        filter: drop-shadow(0 0 3px #747474) grayscale(70%);
+        transform: scale(0%, 0%) translate(0px, 0px) rotate(0deg);
+        filter: drop-shadow(0 0 3px #323232) grayscale(70%);
     }
     25%{
-        transform: scale(150%) translateY(0px) rotate(90deg);
-        filter: drop-shadow(1px 1px 6px #747474) grayscale(60%);
+        transform: scale(400%,400%) translate(400px, 200px) rotate(90deg);
+        filter: drop-shadow(1px 1px 6px #323232) grayscale(60%);
     }
     50%{
-        transform: scale(200%)translateY(20px) rotate(180deg);
-        filter: drop-shadow(2px 2px 12px #747474) grayscale(20%);
+        transform: scale(800%, 800%) translate(600px, 300px) rotate(180deg);
+        filter: drop-shadow(1px 1px 12px #323232) grayscale(20%);
     }
     75%{
-        transform: scale(150%) translateY(0px) rotate(270deg);
-        filter: drop-shadow(1px 1px 6px #747474) grayscale(60%);
+        transform: scale(1600%, 1600%) translate(800px, 400px) rotate(270deg);
+        filter: drop-shadow(1px 1px 18px #323232) grayscale(60%);
     }
     100%{
-        transform: scale(100%)translateY(20px) rotate(360deg) ;
-        filter: drop-shadow(0 0 3px #747474) grayscale(70%);
+        transform: scale(3200%, 3200%) translate(1000px, 500px) rotate(360deg) ;
+        filter: drop-shadow(1px 1px 36px #323232) grayscale(70%);
     }
 }
 .errorSection .image,
