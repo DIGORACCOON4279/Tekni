@@ -47,9 +47,9 @@ const App = () => {
             <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
             <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
             <Route path="/" element={<Home/>}/>
+            <Route path="*" element={<Error404/>}/>
 
             {/* Error404 se le da un enlace para retomar el home */}
-            <Route path="*" element={<Error404/>}/>
           </Routes>
           <Footer />
       </BrowserRouter>
