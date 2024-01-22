@@ -15,21 +15,21 @@ const Footer = () => {
                     <div className="socialMedia">
                         <h4 className="contactUs">Contact us</h4>
                         <section className="iconItems" >
-                            <a href="https://www.facebook.com/" target="_black"><img src="../img/facebook.svg" alt="" className="icon" /></a>
-                            <a href="https://twitter.com/" target="_black"><img src="../img/twitter.svg" alt="" className="icon" /></a>
-                            <a href="https://www.instagram.com/" target="_black"><img src="../img/instagram.svg" alt="" className="icon" /></a>
-                            <a href="https://www.youtube.com/" target="_black"><img src="../img/youtube.svg" alt="" className="icon" /></a>
+                            <a href="https://www.facebook.com/" target="_black"><img src="/img/facebook.svg" alt="" className="icon" /></a>
+                            <a href="https://twitter.com/" target="_black"><img src="/img/twitter.svg" alt="" className="icon" /></a>
+                            <a href="https://www.instagram.com/" target="_black"><img src="/img/instagram.svg" alt="" className="icon" /></a>
+                            <a href="https://www.youtube.com/" target="_black"><img src="/img/youtube.svg" alt="" className="icon" /></a>
                         </section>
                     </div>
                     <div className="distributors">
                         <h4 className="contactUs">Distributors</h4>
                         <section className="flags">
                             <div className="canadaFlag">
-                                <img src="../img/canadaFlag.svg" alt="" className="icon" />
+                                <img src="/img/canadaFlag.svg" alt="" className="icon" />
                                 <p>Canada - 250 223 4559</p>
                             </div>
                             <div className="colombiaFlag">
-                                <img src="../img/colombiaFlag.svg" alt="" className="icon" />
+                                <img src="/img/colombiaFlag.svg" alt="" className="icon" />
                                 <p>Colombia - 310 259 5845</p>
                             </div>
                         </section>
@@ -114,7 +114,7 @@ const Footer = () => {
                 </article>
             </div>
             <div className="developerInfo">
-                <p>Developer with 🧡 by Diego Marin | <img src="../img/logoRaccoon.svg" alt="" className="personalBrand" /> | Colombia - Canada | 2024</p>
+                <p>Developer with 🧡 by Diego Marin | <img src="/img/logoRaccoon.svg" alt="" className="personalBrand" /> | Colombia - Canada | 2024</p>
             </div>
         </section>
     )

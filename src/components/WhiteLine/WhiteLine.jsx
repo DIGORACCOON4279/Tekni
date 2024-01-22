@@ -9,11 +9,11 @@ const WhiteLine = () => {
             </article>
             <article className="imgWhiteLine">
                 <div className="imgContainerUno">
-                    <img className="item itemUno" src="./img/whiteLineUno.webp" alt="" />
+                    <img className="item itemUno" src="/img/whiteLineUno.webp" alt="" />
                     <p className="paragraph">Elevate Your Connectivity with Our Cutting-Edge Smartphones</p>
                 </div>
                 <div className="imgContainerDos">
-                    <img className="item itemDos" src="./img/whiteLineDos.webp" alt="" />
+                    <img className="item itemDos" src="/img/whiteLineDos.webp" alt="" />
                     <p className="paragraph">Redefining Communication with State-of-the-Art Smartphones</p>
                 </div>
             </article>

@@ -5,7 +5,7 @@ const SignUpForm = () => {
     return (
         <section className="signUpSection">
             <label htmlFor="createAccountClick">
-                <img className="closeMenu" src="../img/close.svg" alt=""/>
+                <img className="closeMenu" src="/img/close.svg" alt=""/>
             </label>
             <form className="signUpForm" onSubmit="">
                 <label>

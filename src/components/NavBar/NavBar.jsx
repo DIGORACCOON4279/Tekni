@@ -13,7 +13,7 @@ const NavBar = () => {
             <Link to="/"></Link> */}
 
             <Link to="/" >
-                <img src="../img/logo.webp" alt="" className="logoTekni"/>
+                <img src="/img/logo.webp" alt="" className="logoTekni"/>
             </Link>
             <input id="menu" type="checkbox"/>
             <nav className="navBar">
@@ -22,12 +22,12 @@ const NavBar = () => {
                 <ul>
                     <NavLink className="navLink" to="/" >
                         <li className="link">
-                            <img src="../img/home.svg" alt=""/>Home
+                            <img src="/img/home.svg" alt=""/>Home
                         </li>
                     </NavLink>
                     <NavLink className="navLink" to="/itemListContainer" >
                         <li className="link">
-                            <img src="../img/products.svg" alt=""/>Products
+                            <img src="/img/products.svg" alt=""/>Products
                         </li>
                     </NavLink>
                     <CategorySections/>

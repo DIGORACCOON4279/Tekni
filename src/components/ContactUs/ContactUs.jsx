@@ -3,7 +3,7 @@ import "./ContactUs.css";
 const ContactUs = () => {
     return (
         <li className="contactUsSection">
-            <img src="../img/contactUs.svg" alt=""/>Contact us
+            <img src="/img/contactUs.svg" alt=""/>Contact us
             <section className="contactUsContainer">
                 <div className="columnLocation">
                     <article className="titlesContactUs">
@@ -11,21 +11,21 @@ const ContactUs = () => {
                         <h3 className="title">Colombia</h3>
                     </article>
                     <article className="buildingLocation">
-                        <img className="buildingPic" src="../img/buildingUno.webp" alt="" />
+                        <img className="buildingPic" src="/img/buildingUno.webp" alt="" />
                         <div className="info">
                             <h4>Av. 80 58-99</h4>
                             <p>Medellin</p>
                         </div>
                     </article>
                     <article className="buildingLocation">
-                        <img className="buildingPic" src="../img/buildingDos.webp" alt="" />
+                        <img className="buildingPic" src="/img/buildingDos.webp" alt="" />
                         <div className="info">
                             <h4>Av. 74 85-40</h4>
                             <p>Bucaramanga</p>
                         </div>
                     </article>
                     <article className="buildingLocation">
-                        <img className="buildingPic" src="../img/buildingTres.webp" alt="" />
+                        <img className="buildingPic" src="/img/buildingTres.webp" alt="" />
                         <div className="info">
                             <h4>Calle. 10 25-30</h4>
                             <p>Barranquilla</p>
@@ -38,21 +38,21 @@ const ContactUs = () => {
                         <h3 className="title">Colombia</h3>
                     </article>
                     <article className="buildingLocation">
-                        <img className="buildingPic" src="../img/buildingCuatro.webp" alt="" />
+                        <img className="buildingPic" src="/img/buildingCuatro.webp" alt="" />
                         <div className="info">
                             <h4>Av. 58 38-92</h4>
                             <p>Bogota</p>
                         </div>
                     </article>
                     <article className="buildingLocation">
-                        <img className="buildingPic" src="../img/buildingCinco.webp" alt="" />
+                        <img className="buildingPic" src="/img/buildingCinco.webp" alt="" />
                         <div className="info">
                             <h4>Av. 97 22-09</h4>
                             <p>Ibague</p>
                         </div>
                     </article>
                     <article className="buildingLocation">
-                        <img className="buildingPic" src="../img/buildingSeis.webp" alt="" />
+                        <img className="buildingPic" src="/img/buildingSeis.webp" alt="" />
                         <div className="info">
                             <h4>Av. 12 15-65</h4>
                             <p>Armenia</p>
@@ -65,21 +65,21 @@ const ContactUs = () => {
                         <h3 className="title">Canada</h3>
                     </article>
                     <article className="buildingLocation">
-                        <img className="buildingPic" src="../img/buildingSiete.webp" alt="" />
+                        <img className="buildingPic" src="/img/buildingSiete.webp" alt="" />
                         <div className="info">
                             <h4>123 Main Street</h4>
                             <p>Montreal</p>
                         </div>
                     </article>
                     <article className="buildingLocation">
-                        <img className="buildingPic" src="../img/buildingOcho.webp" alt="" />
+                        <img className="buildingPic" src="/img/buildingOcho.webp" alt="" />
                         <div className="info">
                             <h4>456 Rue Maple</h4>
                             <p>Ville Quebec</p>
                         </div>
                     </article>
                     <article className="buildingLocation">
-                        <img className="buildingPic" src="../img/buildingNueve.webp" alt="" />
+                        <img className="buildingPic" src="/img/buildingNueve.webp" alt="" />
                         <div className="info">
                             <h4>548 Kelglen Crescent</h4>
                             <p>Manitoba</p>

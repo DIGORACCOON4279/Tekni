@@ -5,7 +5,7 @@ const User = () => {
     return (
         <li>
             <label htmlFor="user">
-                <img className="userIcon" src="../img/user.svg" alt=""/>
+                <img className="userIcon" src="/img/user.svg" alt=""/>
             </label>
             <input id="user" type="checkbox"/>
             <LogIn/>
