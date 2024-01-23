@@ -46,13 +46,14 @@ En esta segunda Preentrega se avanza en la estructura y programacion del proyect
 >> ** El menu desplegable cunenta con 5 secciones home, products, categories, services 6 contact us</br>
 >> ** Detallo que al realizar una secccion categories con 4 opciones: smartphones, laptops, headset & smartTVs </br>
 >> ** Se realiza la seccion de descripcion de cada producto con:</br>
->>     Key Features</br>
->>     Connectivity and Compatibility</br>
->>     Operating System and Updates</br>
->>     Con su respecyivo pevio, rating, stock, & add to cart</br>
->> ** Cada cartDel los productos explica su categoria, id, precio, imagen, referencia & rating y boton see more...</br>
->> ** En el footer estan las redes sociales y variosl links para tambien navegar entre categories y products, a las opciones sin relevancia se</br>
->     le asignaron un routing a la page Error404.</br>
+>>     ✔Key Features</br>
+>>     ✔Connectivity and Compatibility</br>
+>>     ✔Operating System and Updates</br>
+>>     ✔Con su respectivo precio, rating, stock, & add to cart</br>
+>> ** Cada cart de los productos explica su categoria, id, precio, imagen, referencia & rating y boton "see more..."</br>
+>> ** En el footer estan las redes sociales y variosl links para tambien navegar entre categories y products, a las opciones sin relevancia se
+>>    le asignaron un routing a la page Error404.</br>
+>> ** Se crea un archivo llamado asyncmock.js para guardar un array de objetos llamado "products", el cual contiene 40 productos</br>
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
@@ -73,7 +74,7 @@ A continuacion muestro algunas imagenes del proyecto </br>
 
 🚧I´m so sorry📱Cellphone (man at work)</br>
 
-En esta segunda preentrega se pide realizar:</br>
+En esta segunda preentrega se pide ya tener y realizar:</br>
 
 ** ✔ --NavBar</br>
 ** ✔ --CartWidget</br>
