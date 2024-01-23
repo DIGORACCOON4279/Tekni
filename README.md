@@ -44,11 +44,29 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 ** Error404 Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/9ac080f1-c52d-4aab-adfe-f443b4a0f27e)</br>
 
-En esta primera preentrega se pide realizar tres componentes:</br>
+** Category Products</br>
+![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/11835304-a29a-4026-8305-92b27de32c02)</br>
+
+** ShoppingCart</br>
+![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/7ef6e26b-0276-459f-b1cd-0c916b80588b)</br>
+
+** DetailsContainer</br>
+![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/274d2ba9-046d-44d3-87ae-4d3ff88e2de0)
+
+🚧I´m so sorry📱Cellphone (man at work)</br>
+
+En esta segunda preentrega se pide realizar:</br>
 
 ** ✔ --NavBar</br>
 ** ✔ --CartWidget</br>
+** ✔ --Item</br>
+** ✔ --ItemList</br>
 ** ✔ --ItemListContainer</br>
+** ✔ --ItemDetail</br>
+** ✔ --ItemDetailContainer</br>
+** ✔ --Asyncmock(Array de objetos con 40 produtos)</br>
+
+
 
 La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se derivan los tres componentes antes nombrados con su respectivo archivos files.jsx & files.css por cada componente.</br>
 
