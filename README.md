@@ -37,10 +37,9 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 En esta segunda Preentrega se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto es prenetrega y puntos adiconales al proyecto: </br>
 
 >> ** Se cumple con la consigna de realizar routing & navegacion</br>
-> Navbar con cart</br>
-> Catálogo</br>
-> Detalle de producto</br>
-
+>> Navbar con cart</br>
+>> Catálogo</br>
+>> Detalle de producto</br>
 >> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, createAccounr, menu con 5 secciones.</br>
 >> ** La navbar cuenta con: logo, user, shoppingCart & menu desplegable.</br>
 >> ** El menu desplegable cunenta con 5 secciones home, products, categories, services 6 contact us</br>
