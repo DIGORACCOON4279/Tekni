@@ -38,6 +38,12 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 🚧I´m so sorry📱Cellphone (man at work)</br>
 # Desarrollo</br>
 
+**Landing Page</br>
+![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/f423c45a-2aee-4e28-9445-b9215a9aad46)</br>
+
+** Error404 Page</br>
+![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/9ac080f1-c52d-4aab-adfe-f443b4a0f27e)</br>
+
 En esta primera preentrega se pide realizar tres componentes:</br>
 
 ** ✔ --NavBar</br>
