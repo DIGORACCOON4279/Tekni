@@ -4,7 +4,7 @@
 ********************************************************************************************************************************************************************************
 # Iniciativa</br>
 
-Este proyecto de ecommerce ficticio llamado " Tekni "  --venta de dispositivos electronicos --  fue escogido para trabajar durante la cursada de React. 
+Este proyecto de ecommerce ficticio llamado " Tekni "  -- venta de dispositivos electronicos --  fue escogido para trabajar durante la cursada de React. 
 Se realizaran dos preentregas y la entrega final a medida que se vaya realizando las consignas de cada entrega para moldear el proyecto segun los objetivos del curso.</br>
 
 👉 Herramientas que se utilizaran durante el desarrollo del proyecto: 🛠 </br>
@@ -29,10 +29,32 @@ Se realizaran dos preentregas y la entrega final a medida que se vaya realizando
 
 Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener mejor entendimiento de lo que se quiere lograr:</br>
 
-
 💻[Prototipo desktop](https://www.figma.com/proto/uP83VlEVIz4hmSboxjuN2F/Tekny?page-id=2%3A10&type=design&node-id=57-589&viewport=-2255%2C1269%2C0.28&t=2HOa7ebSJPJxV5wp-1&scaling=scale-down&starting-point-node-id=57%3A589&mode=design)</br>
 🚧I´m so sorry📱Cellphone (man at work)</br>
+
 # Desarrollo</br>
+
+En esta segunda Preentrega se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto es prenetrega y puntos adiconales al proyecto: </br>
+
+>> ** Se cumple con la consigna de realizar routing & navegacion</br>
+> Navbar con cart</br>
+> Catálogo</br>
+> Detalle de producto</br>
+
+>> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, createAccounr, menu con 5 secciones.</br>
+>> ** La navbar cuenta con: logo, user, shoppingCart & menu desplegable.</br>
+>> ** El menu desplegable cunenta con 5 secciones home, products, categories, services 6 contact us</br>
+>> ** Detallo que al realizar una secccion categories con 4 opciones: smartphones, laptops, headset & smartTVs </br>
+>> ** Se realiza la seccion de descripcion de cada producto con:</br>
+>>     Key Features</br>
+>>     Connectivity and Compatibility</br>
+>>     Operating System and Updates</br>
+>>     Con su respecyivo pevio, rating, stock, & add to cart</br>
+>> ** Cada cartDel los productos explica su categoria, id, precio, imagen, referencia & rating y boton see more...</br>
+>> ** En el footer estan las redes sociales y variosl links para tambien navegar entre categories y products, a las opciones sin relevancia se</br>
+>     le asignaron un routing a la page Error404.</br>
+
+A continuacion muestro algunas imagenes del proyecto </br>
 
 **Landing Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/f423c45a-2aee-4e28-9445-b9215a9aad46)</br>
@@ -61,8 +83,6 @@ En esta segunda preentrega se pide realizar:</br>
 ** ✔ --ItemDetail</br>
 ** ✔ --ItemDetailContainer</br>
 ** ✔ --Asyncmock.js(Array de objetos con 40 produtos)</br>
-
-
 
 La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se derivan los componentes antes nombrados con su respectivo archivos files.jsx & files.css por cada componente.</br>
 
@@ -112,8 +132,11 @@ src/</br>
 |-- asyncmock.js</br>
 |-- index.jsx</br>
 
-🚀 -- ![white_Vercel](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/fb91138d-5ff2-4e82-a2f5-b2c8f0ea6b15) -- [Vercel]() -- Coming soon </br>
-🚀 -- ![color_Netlify](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/90470fa3-b09f-4478-b1e3-02882d2d49a1) -- [Netlify](https://tekni.netlify.app/)</br>
+🚀 Deployment</br>
+
+-- ![color_Netlify](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/90470fa3-b09f-4478-b1e3-02882d2d49a1) -- [Netlify](https://tekni.netlify.app/)</br>
+-- ![white_Vercel](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/fb91138d-5ff2-4e82-a2f5-b2c8f0ea6b15) -- [Vercel]() -- Coming soon </br>
+
 
 ![raccon_Logo1](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/1903b752-acc7-4d2b-95db-cf877319fcb7)</br>
 
