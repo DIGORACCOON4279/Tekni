@@ -35,6 +35,7 @@ const ItemDetailContainer = () => {
 
 export default ItemDetailContainer
 
+// Codigo alternativo
 
 // const ItemDetailContainer = ({greeting}) => {
 //     const [product, setProduct] = useState(null);
