@@ -91,8 +91,10 @@ src/</br>
 |   |-- Home/</br>
 |   |-- IconsMenu/</br>
 |   |-- Item/</br>
-|   |-- Itemdetail/</br>
+|   |-- ItemDetail/</br>
 |   |-- ItemDetailContainer/</br>
+|   |-- ItemList/</br>
+|   |-- ItemListContainer/</br>
 |   |-- Laptops/</br>
 |   |-- LogIn/</br>
 |   |-- Menu/</br>
