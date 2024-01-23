@@ -60,42 +60,56 @@ En esta segunda preentrega se pide realizar:</br>
 ** ✔ --ItemListContainer</br>
 ** ✔ --ItemDetail</br>
 ** ✔ --ItemDetailContainer</br>
-** ✔ --Asyncmock(Array de objetos con 40 produtos)</br>
+** ✔ --Asyncmock.js(Array de objetos con 40 produtos)</br>
 
 
 
-La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se derivan los tres componentes antes nombrados con su respectivo archivos files.jsx & files.css por cada componente.</br>
+La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se derivan los componentes antes nombrados con su respectivo archivos files.jsx & files.css por cada componente.</br>
 
 src/</br>
 |-- components/</br>
-|   |-- NavBar/</br>
-|   |   |-- NavBar.jsx</br>
-|   |   |-- NavBar.css</br>
-|   |-- CartWidget/</br>
-|   |   |-- CartWidget.jsx</br>
-|   |   |-- CartWidget.scss</br>
-|   |-- ItemListContainer/</br>
-|   |   |-- ItemListContainer.jsx</br>
-|   |   |-- ItemListContainer.css</br>
+|   |-- Advantages/</br>
+|   |   |-- Advantages.jsx</br>
+|   |   |-- Advantages.css</br>
+|   |-- AdvantagesTwo/</br>
+|   |-- Advertising/</br>
+|   |-- ArrowUp/</br>
 |   |-- Body/</br>
-|   |   |-- Body.jsx</br>
-|   |   |-- Body.scss</br>
-|   |-- User/</br>
-|   |   |-- User.jsx</br>
-|   |   |-- User.css</br>
-|   |-- Storage/</br>
-|   |   |-- Storage.jsx</br>
-|   |   |-- Storage.css</br>
-|   |-- Menu/</br>
-|   |   |-- Menu.jsx</br>
-|   |   |-- Menu.css</br>
-|   |-- IconsMenu/</br>
-|   |   |-- IconsMenu.jsx</br>
-|   |   |-- IconsMenu.css</br>
+|   |-- CartWidget/</br>
+|   |-- CategoryHeadset/</br>
+|   |-- CategoryLaptop/</br>
 |   |-- CategorySections/</br>
-|   |   |-- CategorySections.jsx</br>
-|   |   |-- CategorySections.css</br>
+|   |-- CategorySmartphones/</br>
+|   |-- CategorySmarTv/</br>
+|   |-- ContactUs/</br>
+|   |-- Counter/</br>
+|   |-- CreateAccount/</br>
+|   |-- Error404/</br>
+|   |-- Footer/</br>
+|   |-- Headset/</br>
+|   |-- HeroSection/</br>
+
+|   |-- Home/</br>
+|   |-- IconsMenu/</br>
+|   |-- Item/</br>
+|   |-- Itemdetail/</br>
+
+|   |-- ItemDetailContainer/</br>
+|   |-- Laptops/</br>
+|   |-- LogIn/</br>
+|   |-- Menu/</br>
+|   |-- NavBar/</br>
+|   |-- NewGeneration/</br>
+|   |-- RandomItemList/</br>
+|   |-- Services/</br>
+|   |-- ShoppingCart/</br>
+|   |-- Smartphone/</br>
+|   |-- SmartTvs/</br>
+|   |-- TheBestSellers/</br>
+|   |-- User/</br>
+|   |-- WhiteLine/</br>
 |-- App.jsx</br>
+|-- asyncmock.js</br>
 |-- index.jsx</br>
 
 🚀 -- ![white_Vercel](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/fb91138d-5ff2-4e82-a2f5-b2c8f0ea6b15) -- [Vercel]() -- Coming soon </br>
