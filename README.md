@@ -42,7 +42,7 @@ En esta segunda Preentrega se avanza en la estructura y programacion del proyect
 >>    ✔Detalle de producto</br>
 >> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, createAccounr, menu con 5 secciones.</br>
 >> ** La navbar cuenta con: logo, user, shoppingCart & menu desplegable.</br>
->> ** El menu desplegable cunenta con 5 secciones home, products, categories, services 6 contact us</br>
+>> ** El menu desplegable cuenta con 5 secciones home, products, categories, services & contact us</br>
 >> ** Detallo que al realizar una secccion categories con 4 opciones: smartphones, laptops, headset & smartTVs </br>
 >> ** Se realiza la seccion de descripcion de cada producto con:</br>
 >>     ✔Key Features</br>
@@ -50,13 +50,13 @@ En esta segunda Preentrega se avanza en la estructura y programacion del proyect
 >>     ✔Operating System and Updates</br>
 >>     ✔Con su respectivo precio, rating, stock, & add to cart</br>
 >> ** Cada cart de los productos explica su categoria, id, precio, imagen, referencia & rating y boton "see more..."</br>
->> ** En el footer estan las redes sociales y variosl links para tambien navegar entre categories y products, a las opciones sin relevancia se
+>> ** En el footer estan las redes sociales y varios links para tambien navegar entre categories y products, a las opciones sin relevancia se
 >>    le asignaron un routing a la page Error404.</br>
 >> ** Se crea un archivo llamado asyncmock.js para guardar un array de objetos llamado "products", el cual contiene 40 productos</br>
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
-✔**Landing Page</br>
+✔** Landing Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/f423c45a-2aee-4e28-9445-b9215a9aad46)</br>
 
 ✔** Category Products</br>
@@ -132,7 +132,7 @@ src/</br>
 |-- asyncmock.js</br>
 |-- index.jsx</br>
 
-🚀 Deployment</br>
+#🚀 Deployment</br>
 
 -- ![color_Netlify](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/90470fa3-b09f-4478-b1e3-02882d2d49a1) -- [Netlify](https://tekni.netlify.app/)</br>
 -- ![white_Vercel](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/fb91138d-5ff2-4e82-a2f5-b2c8f0ea6b15) -- [Vercel]() -- Coming soon </br>
