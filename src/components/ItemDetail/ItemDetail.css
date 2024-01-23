@@ -61,7 +61,7 @@
     font-family: 'Expletus Sans', sans-serif;
 }
 .cardItem .categoryInfo .titleRating .rating{
-    width:120px;
+    width:100px;
 }
 .cardItem .categoryInfo .info{
     display: flex;
