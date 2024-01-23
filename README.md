@@ -41,9 +41,6 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 **Landing Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/f423c45a-2aee-4e28-9445-b9215a9aad46)</br>
 
-** Error404 Page</br>
-![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/9ac080f1-c52d-4aab-adfe-f443b4a0f27e)</br>
-
 ** Category Products</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/11835304-a29a-4026-8305-92b27de32c02)</br>
 
@@ -51,7 +48,10 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/7ef6e26b-0276-459f-b1cd-0c916b80588b)</br>
 
 ** DetailsContainer</br>
-![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/274d2ba9-046d-44d3-87ae-4d3ff88e2de0)
+![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/274d2ba9-046d-44d3-87ae-4d3ff88e2de0)</br>
+
+** Error404 Page</br>
+![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/9ac080f1-c52d-4aab-adfe-f443b4a0f27e)</br>
 
 🚧I´m so sorry📱Cellphone (man at work)</br>
 
