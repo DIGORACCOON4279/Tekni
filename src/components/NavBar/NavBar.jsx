@@ -9,9 +9,6 @@ import "./NavBar.css"
 const NavBar = () => {
     return (
         <header className="header">
-            {/* Se usa / para ir a home
-            <Link to="/"></Link> */}
-
             <Link to="/" >
                 <img src="/img/logo.webp" alt="" className="logoTekni"/>
             </Link>

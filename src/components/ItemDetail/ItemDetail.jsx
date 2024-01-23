@@ -7,7 +7,10 @@ const ItemDetail = ({id, reference, category, price, img, features, compatibilit
                 <img className="image" src={img} alt={category} />
             </figure>
             <section className="categoryInfo">
-                <h3 className="category"> {category} </h3>
+                <div className="titleRating">
+                    <h3 className="category"> {category} </h3>
+                    <img className="rating" src="/img/rating.svg" alt="Rating start"/>
+                </div>
                 <div className="info">
                     <p className="id"> ID: {id} </p>
                     <p className="reference"> {reference} <span className="price"> ...${price} </span></p>

@@ -6,7 +6,10 @@ const Item = ({id, reference, category, price, img}) => {
         <div className="cardProduct">
             <img src={img} alt={category}/>
             <div className="description">
-                <h3>{category}</h3>
+                <div className="titleRating">
+                    <h3>{category}</h3>
+                    <img className="rating" src="/img/rating.svg" alt="Rating star"  />
+                </div>
                 <p> ID: {id} </p>
                 <p>{reference}<span>...${price}</span></p>
             </div>

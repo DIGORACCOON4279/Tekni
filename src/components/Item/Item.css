@@ -40,7 +40,14 @@
     gap:20px;
     font-family: 'Ubuntu', sans-serif;
 }
-.cardContainer .cardProduct h3{
+.cardContainer .cardProduct .description .titleRating{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardContainer .cardProduct .description .titleRating h3{
     width:100%;
     height:auto;
     display: flex;
@@ -53,7 +60,10 @@
     font-weight: 700;
     color: #323232;
 }
-.cardContainer .cardProduct p{
+.cardContainer .cardProduct .description .titleRating .rating{
+    width:80px;
+}
+.cardContainer .cardProduct .description p{
     width:100%;
     height:auto;
     display: flex;
@@ -66,7 +76,7 @@
     font-weight: 400;
     color: #747474;
 }
-.cardContainer .cardProduct p span{
+.cardContainer .cardProduct .description p span{
     font-family: 'Ubuntu', sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
