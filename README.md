@@ -34,7 +34,7 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 
 # Desarrollo</br>
 
-En esta segunda Preentrega se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto es prenetrega y puntos adiconales al proyecto: </br>
+En esta segunda Preentrega se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto esta preentrega y puntos adicionales al proyecto: </br>
 
 >> ** Se cumple con la consigna de realizar routing & navegacion</br>
 >>    ✔Navbar con cart</br>
