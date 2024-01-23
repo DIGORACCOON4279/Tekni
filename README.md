@@ -37,9 +37,9 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 En esta segunda Preentrega se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto es prenetrega y puntos adiconales al proyecto: </br>
 
 >> ** Se cumple con la consigna de realizar routing & navegacion</br>
->> Navbar con cart</br>
->> Catálogo</br>
->> Detalle de producto</br>
+>>    ✔Navbar con cart</br>
+>>    ✔Catálogo</br>
+>>    ✔ Detalle de producto</br>
 >> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, createAccounr, menu con 5 secciones.</br>
 >> ** La navbar cuenta con: logo, user, shoppingCart & menu desplegable.</br>
 >> ** El menu desplegable cunenta con 5 secciones home, products, categories, services 6 contact us</br>
@@ -56,19 +56,19 @@ En esta segunda Preentrega se avanza en la estructura y programacion del proyect
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
-**Landing Page</br>
+✔**Landing Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/f423c45a-2aee-4e28-9445-b9215a9aad46)</br>
 
-** Category Products</br>
+✔** Category Products</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/11835304-a29a-4026-8305-92b27de32c02)</br>
 
-** ShoppingCart</br>
+✔** ShoppingCart</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/7ef6e26b-0276-459f-b1cd-0c916b80588b)</br>
 
-** DetailsContainer</br>
+✔** DetailsContainer</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/274d2ba9-046d-44d3-87ae-4d3ff88e2de0)</br>
 
-** Error404 Page</br>
+✔** Error404 Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/9ac080f1-c52d-4aab-adfe-f443b4a0f27e)</br>
 
 🚧I´m so sorry📱Cellphone (man at work)</br>
