@@ -132,7 +132,7 @@ src/</br>
 |-- asyncmock.js</br>
 |-- index.jsx</br>
 
-#🚀 Deployment</br>
+🚀# Deployment</br>
 
 -- ![color_Netlify](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/90470fa3-b09f-4478-b1e3-02882d2d49a1) -- [Netlify](https://tekni.netlify.app/)</br>
 -- ![white_Vercel](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/fb91138d-5ff2-4e82-a2f5-b2c8f0ea6b15) -- [Vercel]() -- Coming soon </br>
