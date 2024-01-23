@@ -88,12 +88,10 @@ src/</br>
 |   |-- Footer/</br>
 |   |-- Headset/</br>
 |   |-- HeroSection/</br>
-
 |   |-- Home/</br>
 |   |-- IconsMenu/</br>
 |   |-- Item/</br>
 |   |-- Itemdetail/</br>
-
 |   |-- ItemDetailContainer/</br>
 |   |-- Laptops/</br>
 |   |-- LogIn/</br>
