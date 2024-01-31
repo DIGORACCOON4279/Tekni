@@ -24,8 +24,16 @@ const ItemDetailContainer = () => {
             <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
             <Advertising/>
             <ItemDetail {...product} >
+
                 {/* <p className="soldOut">SoldOut</p> */}
-                <Counter stock={10} initial={1}/>
+
+                {/* Antes */}
+                {/* <Counter stock={10} initial={1}/> */}
+                {/* Ahora */}
+                {/* <Counter stock={10} initial={1}/> */}
+
+                <Counter/>
+
             </ItemDetail>
             <AdvantagesTwo/>
             {/* <RandomItemList/> */}

@@ -109,7 +109,6 @@
     padding:5px;
     cursor: pointer;
     text-decoration: none;
-
     transition:0.3s ease-in-out;
 }
 .footerSection .sections .categories ul li .NavLink:hover,

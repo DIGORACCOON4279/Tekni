@@ -1,9 +1,11 @@
-import Counter from "../Counter/Counter";
+// import Counter from "../Counter/Counter";
 import "./ShoppingCart.css";
 
-// Este componente cambiara reusando un solo compponente para que se renderize en shoppingCart
+// Este componente cambiara reusando un solo componente para que se renderize en shoppingCart
+// Agregarr stock e initial desde Counter, classe Context
+// const ShoppingCart = (stock, initial) => {
 
-const ShoppingCart = () => {
+const ShoppingCart = (stock, initial) => {
     return (
         <section className="shoppingCartSection">
             <label htmlFor="cartWidget">
@@ -32,7 +34,7 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$799</p>
                     <div className="counterProduct">
-                        <Counter stock={5} initial={1}/>
+                        {/* <Counter stock={5} initial={1}/> */}
                     </div>
                     <p className="priceTotal">$799</p>
                 </article>
@@ -48,7 +50,9 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$1099</p>
                     <div className="counterProduct">
-                        <Counter stock={5} initial={1}/>
+                         {/* <Counter stock={stock} initial={initial}/> */}
+
+                        {/* <Counter stock={5} initial={1}/> */}
                     </div>
                     <p className="priceTotal">$1099</p>
                 </article>
@@ -64,7 +68,7 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$1599</p>
                     <div className="counterProduct">
-                        <Counter stock={5} initial={1}/>
+                        {/* <Counter stock={5} initial={1}/> */}
                     </div>
                     <p className="priceTotal">$1599</p>
                 </article>
@@ -80,7 +84,7 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$179</p>
                     <div className="counterProduct">
-                        <Counter stock={5} initial={1}/>
+                        {/* <Counter stock={5} initial={1}/> */}
                     </div>
                     <p className="priceTotal">$179</p>
                 </article>
@@ -96,7 +100,7 @@ const ShoppingCart = () => {
                     </section>
                     <p className="price">$179</p>
                     <div className="counterProduct">
-                        <Counter stock={5} initial={1}/>
+                        {/* <Counter stock={5} initial={1}/> */}
                     </div>
                     <p className="priceTotal">$179</p>
                 </article>

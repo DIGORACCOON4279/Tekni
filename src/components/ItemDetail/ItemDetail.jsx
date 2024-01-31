@@ -1,6 +1,17 @@
+import { useState } from "react";
+import Counter from "../Counter/Counter";
+import { Link } from "react-router-dom";
 import "./ItemDetail.css";
 
-const ItemDetail = ({id, reference, category, price, img, features, compatibility, updates, children}) => {
+const ItemDetail = ({id, reference, category, price, img, stock, features, compatibility, updates, children}) => {
+
+    const [addQuantity, setAddQuantity] = useState(0);
+
+    const handleQuantity = (quantity) => {
+        setAddQuantity(quantity);
+        // console.log("Products added:" +  quantity);
+    }
+
     return (
         <article className="cardItem">
             <figure className="imgCounter">
@@ -23,10 +34,21 @@ const ItemDetail = ({id, reference, category, price, img, features, compatibilit
                         </section>
                     </div>
                 </div>
+                <p className="stock">Stock: {stock}</p>
+                {/* {children} */}
+
+                {
+                    addQuantity > 0 ? (<Link to="/shoppingCart"> Ending shopping </Link>) : (<Counter
+                    initial={1} stock={stock} functionAdd={handleQuantity}/>)
+                }
+
+
+                {/* A este button se cambio para Counter.jsx
+
                 <div className="add">
-                    {children}
                     <button className="addToCart">Add to cart</button>
-                </div>
+                </div> */}
+
             </section>
         </article>
     )
