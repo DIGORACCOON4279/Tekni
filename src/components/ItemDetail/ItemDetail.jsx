@@ -2,14 +2,25 @@ import { useState } from "react";
 import Counter from "../Counter/Counter";
 import { Link } from "react-router-dom";
 import "./ItemDetail.css";
+import { CartContext } from "../../context/CartContext";
+import { useContext } from "react";
 
 const ItemDetail = ({id, reference, category, price, img, stock, features, compatibility, updates, children}) => {
 
     const [addQuantity, setAddQuantity] = useState(0);
 
+    const { addToCart } = useContext(CartContext);
+
+
+
     const handleQuantity = (quantity) => {
         setAddQuantity(quantity);
         // console.log("Products added:" +  quantity);
+
+
+    const item = {id, category, price};
+        addToCart(item, quantity)
+
     }
 
     return (
@@ -38,7 +49,7 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
                 {/* {children} */}
 
                 {
-                    addQuantity > 0 ? (<Link to="/shoppingCart"> Ending shopping </Link>) : (<Counter
+                    addQuantity > 0 ? (<Link to="/ShoppingCart"> Ending shopping </Link>) : (<Counter
                     initial={1} stock={stock} functionAdd={handleQuantity}/>)
                 }
 
