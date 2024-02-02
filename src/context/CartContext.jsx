@@ -1,6 +1,5 @@
 import { useState, createContext } from "react";
 
-
 export const CartContext = createContext({
     cart: [],
     total: 0,
@@ -18,7 +17,7 @@ export const CartProvider = ({ children }) => {
     console.log("Cantidad de items: ", quantityTotal);
 
     const addToCart= (item, quantity) => {
-        const productStock = cart.find(product => product.item.id);
+        const productStock = cart.find(product => product.item.id === item.id);
 
         if(!productStock) {
             setCart(previous => [...previous, {item, quantity}]);
@@ -27,7 +26,7 @@ export const CartProvider = ({ children }) => {
         } else {
             const cartUpdate = cart.map(product => {
                 if(product.item.id === item.id) {
-                    return {...product, quantity: product.quantity + quantity}
+                    return {...product, quantity: product.quantity + quantity};
                 } else {
                     return product;
                 }
@@ -53,7 +52,7 @@ export const CartProvider = ({ children }) => {
         setTotal(previous => previous - (productDeleted.item.price * productDeleted.quantity));
     }
 
-    // Funcion vaciar carrito
+    // Funcion vaciar shoppingCart
 
     const emptyCart = () => {
         setCart([]);
@@ -61,7 +60,7 @@ export const CartProvider = ({ children }) => {
         setQuantityTotal(0);
     }
 
-    // Vaue para enviar caracteristicas del carrito:valor, total, cantidadtotal y funciones:
+    //  Value para enviar caracteristicas del carrito: valor, total, cantidadtotal y funciones:
 
     return (
         <CartContext.Provider value ={{cart, total, quantityTotal, addToCart, deleteProduct, emptyCart}}> { children } </CartContext.Provider>

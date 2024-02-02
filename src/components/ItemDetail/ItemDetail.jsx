@@ -20,7 +20,6 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
 
     const item = {id, category, price};
         addToCart(item, quantity)
-
     }
 
     return (
@@ -54,9 +53,9 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
                 }
 
 
-                {/* A este button se cambio para Counter.jsx
+                {/* A este button se cambio para Counter.jsx */}
 
-                <div className="add">
+                {/* <div className="add">
                     <button className="addToCart">Add to cart</button>
                 </div> */}
 

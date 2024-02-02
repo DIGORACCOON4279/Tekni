@@ -1,0 +1,89 @@
+.shoppingCartSection .shoppingProducts .productItem{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    transition:0.3s ease-in-out;
+}
+.shoppingCartSection .shoppingProducts .productItem:hover{
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+}
+.shoppingCartSection .shoppingProducts .productItem:hover > .iconMenu .productImage{
+    transform: scale(104%);
+    filter: drop-shadow(0px 1px 2px #747474);
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu{
+    width:14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu .productImage{
+    width:100%;
+    transform: scale(100%);
+    transition:transform 0.3s ease-in-out;
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu .iconOption{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu .iconOption .icon{
+    width:20%;
+    height:auto;
+    border-radius: 50%;
+    padding: 3px;
+    cursor:pointer;
+    transition: 0.3s ease-in-out;
+}
+.shoppingCartSection .shoppingProducts .productItem .iconMenu .iconOption .icon:hover{
+    background-color: #ffffff;
+}
+.shoppingCartSection .shoppingProducts .productItem .price,
+.shoppingCartSection .shoppingProducts .productItem .priceTotal {
+    width:8%;
+    color:#747474;
+    font-size:1rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    display:flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.shoppingCartSection .shoppingProducts .productItem .priceTotal{
+    width:5%;
+    color:#323232;
+    font-weight: 500;
+}
+
+.shoppingCartSection .shoppingProducts .productItem .counterProduct{
+    width: 15%;
+    color:#323232;
+    font-size:1.2rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    display:flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.shoppingCartSection .shoppingProducts .productItem .counterProduct .sum,
+.shoppingCartSection .shoppingProducts .productItem .counterProduct .minus{
+    padding: 5px 15px;
+    background-color: #cccccc;
+}
+.shoppingCartSection .shoppingProducts .productItem .counterProduct .counter{
+    padding: 5px 15px;
+    background-color: #ffffff;
+}

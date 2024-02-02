@@ -8,7 +8,7 @@ import NavBar from "./components/NavBar/NavBar";
 import ArrowUp from "./components/ArrowUp/ArrowUp";
 import Footer from "./components/Footer/Footer";
 import Error404 from "./components/Error404/Error404";
-// import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
+import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 
 
 const App = () => {
@@ -26,9 +26,11 @@ const App = () => {
                   <Route path="/item/:idItem" element={<ItemDetailContainer />} />
                   <Route path="*" element={<Error404 />} />
                   <Route path="/itemListContainer" element={<ItemListContainer/>}/>
-                  <Route path="/shoppingCart" element={<h2> Coming soon shoppingCart  </h2>}/>
+
+                  <Route path="/shoppingCart" element={<ShoppingCart/>}/>
+                  {/* <Route path="/shoppingCart" element={<h2> Coming soon shoppingCart </h2>}/> */}
+
               </Routes>
-              {/* <ShoppingCart/> */}
               <Footer />
           </CartProvider>
       </BrowserRouter>

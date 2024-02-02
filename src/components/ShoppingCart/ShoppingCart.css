@@ -65,7 +65,10 @@
     margin: 20px auto;
     gap:20px;
 }
-.shoppingCartSection .shoppingProducts .productItem{
+
+/* Este codigo se translado a CartItem */
+
+/* .shoppingCartSection .shoppingProducts .productItem{
     width:100%;
     display: flex;
     flex-direction: row;
@@ -153,7 +156,7 @@
 .shoppingCartSection .shoppingProducts .productItem .counterProduct .counter{
     padding: 5px 15px;
     background-color: #ffffff;
-}
+} */
 .shoppingCartSection .emptyCart{
     width:80%;
     height:auto;
@@ -198,6 +201,8 @@
 }
 .shoppingCartSection .totalProduct .btnPaymentTotal{
     width:98%;
+    text-align: center;
+    text-decoration: none;
     color:#ffffff;
     font-size:1rem;
     font-weight: 400;
@@ -214,3 +219,5 @@
     border: 1px solid black;
     background-color: #ffffff;
 }
+
+

@@ -1,13 +1,45 @@
 // import Counter from "../Counter/Counter";
+import CartItem from "../CartItem/CartItem";
+import { Link } from "react-router-dom";
+import { CartContext } from "../../context/CartContext";
+import { useContext } from "react";
 import "./ShoppingCart.css";
 
 // Este componente cambiara reusando un solo componente para que se renderize en shoppingCart
-// Agregarr stock e initial desde Counter, classe Context
-// const ShoppingCart = (stock, initial) => {
+// Agregar stock e initial desde Counter, class Context
 
-const ShoppingCart = (stock, initial) => {
+const ShoppingCart = () => {
+
+    const {cart, emptyCart, total, quantityTotal} = useContext(CartContext);
+
+    // Esto me lo muestra si no hay nada
+
+    // if(quantityTotal === 0) {
+    //     return (
+    //         <>
+    //             <h2>No products</h2>
+    //             <Link to="./ItemListContainer"> View products </Link>
+    //         </>
+    //     )
+    // }
+
+
     return (
+
+
+
         <section className="shoppingCartSection">
+            {/* {
+
+                cart.map(product => <CartItem key={product.id} {...product} />)
+
+            } */}
+
+            {/* <h3> Total: $ {total} </h3>
+            <button onClick={() => emptyCart()}> Empty cart</button>
+            <Link to="/checkout"> Ending purchase </Link> */}
+
+
             <label htmlFor="cartWidget">
                 <img className="close" src="/img/close.svg" alt="" />
             </label>
@@ -22,6 +54,7 @@ const ShoppingCart = (stock, initial) => {
             {/* Esta seccion es prueba y como quedara los componentes del shopping cart por producto */}
 
             <section className="shoppingProducts">
+
                 <article className="productItem">
                     <section className="iconMenu">
                         <img className="productImage" src="/img/smartphone1.webp" alt="" />
@@ -34,10 +67,12 @@ const ShoppingCart = (stock, initial) => {
                     </section>
                     <p className="price">$799</p>
                     <div className="counterProduct">
-                        {/* <Counter stock={5} initial={1}/> */}
+
+
                     </div>
                     <p className="priceTotal">$799</p>
                 </article>
+
                 <article className="productItem">
                     <section className="iconMenu">
                         <img className="productImage" src="/img/laptop5.webp" alt="" />
@@ -50,9 +85,8 @@ const ShoppingCart = (stock, initial) => {
                     </section>
                     <p className="price">$1099</p>
                     <div className="counterProduct">
-                         {/* <Counter stock={stock} initial={initial}/> */}
 
-                        {/* <Counter stock={5} initial={1}/> */}
+
                     </div>
                     <p className="priceTotal">$1099</p>
                 </article>
@@ -68,7 +102,8 @@ const ShoppingCart = (stock, initial) => {
                     </section>
                     <p className="price">$1599</p>
                     <div className="counterProduct">
-                        {/* <Counter stock={5} initial={1}/> */}
+
+
                     </div>
                     <p className="priceTotal">$1599</p>
                 </article>
@@ -84,7 +119,6 @@ const ShoppingCart = (stock, initial) => {
                     </section>
                     <p className="price">$179</p>
                     <div className="counterProduct">
-                        {/* <Counter stock={5} initial={1}/> */}
                     </div>
                     <p className="priceTotal">$179</p>
                 </article>
@@ -100,21 +134,23 @@ const ShoppingCart = (stock, initial) => {
                     </section>
                     <p className="price">$179</p>
                     <div className="counterProduct">
-                        {/* <Counter stock={5} initial={1}/> */}
                     </div>
                     <p className="priceTotal">$179</p>
                 </article>
             </section>
+
             <section className="emptyCart">
                 <p className="emptyCartWord">Empty shopping cart</p>
-                <img className="emptyCartIcon"src="/img/trashEmpty.svg" alt="trash icon" />
+                <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
             </section>
             <section className="totalProduct">
-                <p className="sumTotal">Total <span className="numberTotal">...$2087</span></p>
-                <button type="button" className="btnPaymentTotal">Secure checkout</button>
+                <p className="sumTotal">Total <span className="numberTotal">...${total}</span></p>
+                <Link to="/checkout" className="btnPaymentTotal"> Secure checkout </Link>
             </section>
         </section>
     )
 }
 
 export default ShoppingCart
+
+
