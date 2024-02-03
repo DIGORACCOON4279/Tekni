@@ -169,7 +169,7 @@ import "./ShoppingCart.css";
 
 const ShoppingCart = () => {
 
-    const {cart, emptyCart, total, quantityTotal} = useContext(CartContext);
+    const {cart, emptyCart, total, quantityTotal, deleteProduct } = useContext(CartContext);
 
     // Esto me lo muestra si no hay nada
 
@@ -181,7 +181,6 @@ const ShoppingCart = () => {
     //         </>
     //     )
     // }
-
 
 
     return (
@@ -215,7 +214,7 @@ const ShoppingCart = () => {
 
             {cart.map(({ item, quantity }) => (
 
-                <CartItem key={item.id} item={item} quantity={quantity} />
+                <CartItem key={item.id} item={item} quantity={quantity} onDelete={() => deleteProduct(item.id)} />
 
             ))}
 

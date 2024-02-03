@@ -1,7 +1,10 @@
 import "./CartItem.css";
 // import Counter from "../Counter/Counter";
+import { CartContext } from "../../context/CartContext";
+import { useContext } from "react";
 
-const CartItem = ( { item, quantity }) => {
+
+const CartItem = ( { item, quantity, onDelete }) => {
 
         // <div>
         //     <h3> {item} </h3>
@@ -31,9 +34,10 @@ const CartItem = ( { item, quantity }) => {
         <article className="productItem">
             <section className="iconMenu">
 
-                <img src={item.img}  className="productImage"  alt={item.category} />
+                <img className="productImage" src={item.img} alt={item.category} />
                 <div className="iconOption">
-                <img className="icon" src="/img/trash.svg"  alt="Trash icon" />
+
+                <img className="icon" src="/img/trash.svg"  alt="Trash icon" onClick={onDelete}/>
                 <img className="icon" src="/img/edit.svg" alt="Edit icon" />
                 <img className="icon" src="/img/share.svg" alt="Share icon" />
                 <img className="icon" src="/img/heart.svg" alt="Heart icon" />
