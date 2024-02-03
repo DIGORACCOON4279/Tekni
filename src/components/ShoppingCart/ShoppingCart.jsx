@@ -1,4 +1,163 @@
 // import Counter from "../Counter/Counter";
+// import CartItem from "../CartItem/CartItem";
+// import { Link } from "react-router-dom";
+// import { CartContext } from "../../context/CartContext";
+// import { useContext } from "react";
+// import "./ShoppingCart.css";
+
+// // Este componente cambiara reusando un solo componente para que se renderize en shoppingCart
+// // Agregar stock e initial desde Counter, class Context
+
+// const ShoppingCart = () => {
+
+//     const {cart, emptyCart, total, quantityTotal} = useContext(CartContext);
+
+//     // Esto me lo muestra si no hay nada
+
+//     // if(quantityTotal === 0) {
+//     //     return (
+//     //         <>
+//     //             <h2>No products</h2>
+//     //             <Link to="./ItemListContainer"> View products </Link>
+//     //         </>
+//     //     )
+//     // }
+
+
+
+//     return (
+
+
+
+//         <section className="shoppingCartSection">
+//             {/* {
+
+//                 cart.map(product => <CartItem key={product.id} {...product} />)
+
+//             } */}
+
+//             {/* <h3> Total: $ {total} </h3>
+//             <button onClick={() => emptyCart()}> Empty cart</button>
+//             <Link to="/checkout"> Ending purchase </Link> */}
+
+
+//             <label htmlFor="cartWidget">
+//                 <img className="close" src="/img/close.svg" alt="" />
+//             </label>
+//             <h3 className="title">ShoppingCart</h3>
+//             <section className="shoppingItem">
+//                 <h3 className="categoryTitle">Item</h3>
+//                 <h3 className="categoryTitle">Pricing</h3>
+//                 <h3 className="categoryTitle">Quantity</h3>
+//                 <h3 className="categoryTitle">Total</h3>
+//             </section>
+
+//             {/* Esta seccion es prueba y como quedara los componentes del shopping cart por producto */}
+
+//             <section className="shoppingProducts">
+
+//                 <article className="productItem">
+//                     <section className="iconMenu">
+//                         <img className="productImage" src="/img/smartphone1.webp" alt="" />
+//                         <div className="iconOption">
+//                             <img className="icon" src="/img/trash.svg" alt="Trash icon" />
+//                             <img className="icon" src="/img/edit.svg" alt="Edit icon" />
+//                             <img className="icon" src="/img/share.svg" alt="share icon" />
+//                             <img className="icon" src="/img/heart.svg" alt="Herat icon" />
+//                         </div>
+//                     </section>
+//                     <p className="price">$799</p>
+//                     <div className="counterProduct">
+
+
+//                     </div>
+//                     <p className="priceTotal">$799</p>
+//                 </article>
+
+//                 <article className="productItem">
+//                     <section className="iconMenu">
+//                         <img className="productImage" src="/img/laptop5.webp" alt="" />
+//                         <div className="iconOption">
+//                             <img className="icon" src="/img/trash.svg" alt="Trash icon" />
+//                             <img className="icon" src="/img/edit.svg" alt="Edit icon" />
+//                             <img className="icon" src="/img/share.svg" alt="share icon" />
+//                             <img className="icon" src="/img/heart.svg" alt="Herat icon" />
+//                         </div>
+//                     </section>
+//                     <p className="price">$1099</p>
+//                     <div className="counterProduct">
+
+
+//                     </div>
+//                     <p className="priceTotal">$1099</p>
+//                 </article>
+//                 <article className="productItem">
+//                     <section className="iconMenu">
+//                         <img className="productImage"src="/img/tv2.webp" alt="" />
+//                         <div className="iconOption">
+//                             <img className="icon" src="/img/trash.svg" alt="Trash icon" />
+//                             <img className="icon" src="/img/edit.svg" alt="Edit icon" />
+//                             <img className="icon" src="/img/share.svg" alt="share icon" />
+//                             <img className="icon" src="/img/heart.svg" alt="Herat icon" />
+//                         </div>
+//                     </section>
+//                     <p className="price">$1599</p>
+//                     <div className="counterProduct">
+
+
+//                     </div>
+//                     <p className="priceTotal">$1599</p>
+//                 </article>
+//                 <article className="productItem">
+//                     <section className="iconMenu">
+//                         <img className="productImage"src="/img/headset4.webp" alt="" />
+//                         <div className="iconOption">
+//                             <img className="icon" src="/img/trash.svg" alt="Trash icon" />
+//                             <img className="icon" src="/img/edit.svg" alt="Edit icon" />
+//                             <img className="icon" src="/img/share.svg" alt="share icon" />
+//                             <img className="icon" src="/img/heart.svg" alt="Herat icon" />
+//                         </div>
+//                     </section>
+//                     <p className="price">$179</p>
+//                     <div className="counterProduct">
+//                     </div>
+//                     <p className="priceTotal">$179</p>
+//                 </article>
+//                 <article className="productItem">
+//                     <section className="iconMenu">
+//                         <img className="productImage" src="/img/headset11.webp" alt="" />
+//                         <div className="iconOption">
+//                             <img className="icon" src="/img/trash.svg" alt="Trash icon" />
+//                             <img className="icon" src="/img/edit.svg" alt="Edit icon" />
+//                             <img className="icon" src="/img/share.svg" alt="share icon" />
+//                             <img className="icon" src="/img/heart.svg" alt="Herat icon" />
+//                         </div>
+//                     </section>
+//                     <p className="price">$179</p>
+//                     <div className="counterProduct">
+//                     </div>
+//                     <p className="priceTotal">$179</p>
+//                 </article>
+//             </section>
+
+//             <section className="emptyCart">
+//                 <p className="emptyCartWord">Empty shopping cart</p>
+//                 <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
+//             </section>
+//             <section className="totalProduct">
+//                 <p className="sumTotal">Total <span className="numberTotal">...${total}</span></p>
+//                 <Link to="/checkout" className="btnPaymentTotal"> Ending shopping </Link>
+
+
+//             </section>
+//         </section>
+
+//     )
+// }
+
+// export default ShoppingCart
+
+
 import CartItem from "../CartItem/CartItem";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
@@ -24,16 +183,13 @@ const ShoppingCart = () => {
     // }
 
 
+
     return (
 
 
 
         <section className="shoppingCartSection">
-            {/* {
 
-                cart.map(product => <CartItem key={product.id} {...product} />)
-
-            } */}
 
             {/* <h3> Total: $ {total} </h3>
             <button onClick={() => emptyCart()}> Empty cart</button>
@@ -55,74 +211,21 @@ const ShoppingCart = () => {
 
             <section className="shoppingProducts">
 
-                <article className="productItem">
-                    <section className="iconMenu">
-                        <img className="productImage" src="/img/smartphone1.webp" alt="" />
-                        <div className="iconOption">
-                            <img className="icon" src="/img/trash.svg" alt="Trash icon" />
-                            <img className="icon" src="/img/edit.svg" alt="Edit icon" />
-                            <img className="icon" src="/img/share.svg" alt="share icon" />
-                            <img className="icon" src="/img/heart.svg" alt="Herat icon" />
-                        </div>
-                    </section>
-                    <p className="price">$799</p>
-                    <div className="counterProduct">
+            {/* Con cuanlquiera de los dos funciona */}
+            
+            {cart.map(({ item, quantity }) => (
 
+                <CartItem key={item.id} item={item} quantity={quantity} />
 
-                    </div>
-                    <p className="priceTotal">$799</p>
-                </article>
+            ))}
 
-                <article className="productItem">
-                    <section className="iconMenu">
-                        <img className="productImage" src="/img/laptop5.webp" alt="" />
-                        <div className="iconOption">
-                            <img className="icon" src="/img/trash.svg" alt="Trash icon" />
-                            <img className="icon" src="/img/edit.svg" alt="Edit icon" />
-                            <img className="icon" src="/img/share.svg" alt="share icon" />
-                            <img className="icon" src="/img/heart.svg" alt="Herat icon" />
-                        </div>
-                    </section>
-                    <p className="price">$1099</p>
-                    <div className="counterProduct">
+            {/* {
 
+                cart.map(product => <CartItem key={product.id} {...product} />)
 
-                    </div>
-                    <p className="priceTotal">$1099</p>
-                </article>
-                <article className="productItem">
-                    <section className="iconMenu">
-                        <img className="productImage"src="/img/tv2.webp" alt="" />
-                        <div className="iconOption">
-                            <img className="icon" src="/img/trash.svg" alt="Trash icon" />
-                            <img className="icon" src="/img/edit.svg" alt="Edit icon" />
-                            <img className="icon" src="/img/share.svg" alt="share icon" />
-                            <img className="icon" src="/img/heart.svg" alt="Herat icon" />
-                        </div>
-                    </section>
-                    <p className="price">$1599</p>
-                    <div className="counterProduct">
+            } */}
 
-
-                    </div>
-                    <p className="priceTotal">$1599</p>
-                </article>
-                <article className="productItem">
-                    <section className="iconMenu">
-                        <img className="productImage"src="/img/headset4.webp" alt="" />
-                        <div className="iconOption">
-                            <img className="icon" src="/img/trash.svg" alt="Trash icon" />
-                            <img className="icon" src="/img/edit.svg" alt="Edit icon" />
-                            <img className="icon" src="/img/share.svg" alt="share icon" />
-                            <img className="icon" src="/img/heart.svg" alt="Herat icon" />
-                        </div>
-                    </section>
-                    <p className="price">$179</p>
-                    <div className="counterProduct">
-                    </div>
-                    <p className="priceTotal">$179</p>
-                </article>
-                <article className="productItem">
+                {/* <article className="productItem">
                     <section className="iconMenu">
                         <img className="productImage" src="/img/headset11.webp" alt="" />
                         <div className="iconOption">
@@ -136,7 +239,9 @@ const ShoppingCart = () => {
                     <div className="counterProduct">
                     </div>
                     <p className="priceTotal">$179</p>
-                </article>
+                </article> */}
+
+
             </section>
 
             <section className="emptyCart">
@@ -146,8 +251,11 @@ const ShoppingCart = () => {
             <section className="totalProduct">
                 <p className="sumTotal">Total <span className="numberTotal">...${total}</span></p>
                 <Link to="/checkout" className="btnPaymentTotal"> Ending shopping </Link>
+
+
             </section>
         </section>
+
     )
 }
 

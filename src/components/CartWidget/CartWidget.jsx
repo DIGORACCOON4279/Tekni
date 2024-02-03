@@ -58,17 +58,17 @@ const CartWidget = () => {
 
     return (
         <li>
-        <label htmlFor="cartWidget">
-            <img className="cartWidget" src="../img/shoppingCart.svg" alt="" />
-            {quantityTotal > 0 && <p><strong>{quantityTotal}</strong></p>}
-        </label>
-        <input
-            id="cartWidget"
-            type="checkbox"
-            checked={showCart}
-            onChange={handleCartToggle}
-        />
-        <ShoppingCart showCart={showCart} />
+            <label htmlFor="cartWidget">
+                <img className="cartWidget" src="../img/shoppingCart.svg" alt="" />
+                {quantityTotal > 0 && <p><strong>{quantityTotal}</strong></p>}
+            </label>
+            <input
+                id="cartWidget"
+                type="checkbox"
+                checked={showCart}
+                onChange={handleCartToggle}
+            />
+            <ShoppingCart showCart={showCart} />
         </li>
     );
 };

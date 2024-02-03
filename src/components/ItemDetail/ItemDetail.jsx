@@ -47,18 +47,17 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
                 <p className="stock">Stock: {stock}</p>
                 {/* {children} */}
                 <div className="add">
+                    {
+                        addQuantity > 0 ? (<Link to="/checkout" className="btnEndingShop"> Ending shopping </Link>) : (<Counter
+                        initial={1} stock={stock} functionAdd={handleQuantity}/>)
+                    }
 
-                {
-                    addQuantity > 0 ? (<Link to="/checkout" className="btnEndingShop"> Ending shopping </Link>) : (<Counter
-                    initial={1} stock={stock} functionAdd={handleQuantity}/>)
-                }
 
+                    {/* A este button se cambio para Counter.jsx */}
 
-                {/* A este button se cambio para Counter.jsx */}
-
-                {/* <div className="add">
-                    <button className="addToCart">Add to cart</button>
-                </div> */}
+                    {/* <div className="add">
+                        <button className="addToCart">Add to cart</button>
+                    </div> */}
                 </div>
             </section>
         </article>

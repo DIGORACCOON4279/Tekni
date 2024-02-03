@@ -30,6 +30,7 @@ const App = () => {
                   <Route path="/shoppingCart" element={<ShoppingCart/>}/>
                   {/* <Route path="/shoppingCart" element={<h2> Coming soon shoppingCart </h2>}/> */}
 
+
               </Routes>
               <Footer />
           </CartProvider>
