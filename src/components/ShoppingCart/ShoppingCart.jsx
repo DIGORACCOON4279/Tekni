@@ -321,6 +321,67 @@
 
 // Este es el que mas ha servido
 
+// Con este funciona igual a de abajo, pero abre otra ventana en el navegador
+
+
+
+// import CartItem from "../CartItem/CartItem";
+// import { Link } from "react-router-dom";
+// import { CartContext } from "../../context/CartContext";
+// import { useContext } from "react";
+// import "./ShoppingCart.css";
+
+// const ShoppingCart = () => {
+//     const { cart, emptyCart, total, quantityTotal, deleteProduct } = useContext(CartContext);
+
+//     return (
+//         <section className="shoppingCartSection">
+//             <label htmlFor="cartWidget">
+//                 <img className="close" src="/img/close.svg" alt="" />
+//             </label>
+//             <h3 className="title">ShoppingCart</h3>
+//             <section className="shoppingItem">
+//                 <h3 className="categoryTitle">Item</h3>
+//                 <h3 className="categoryTitle">Pricing</h3>
+//                 <h3 className="categoryTitle">Quantity</h3>
+//                 <h3 className="categoryTitle">Total</h3>
+//             </section>
+
+//             {quantityTotal === 0 ? (
+//                 <div className="emptyCart">
+//                     <p className="emptyCartWord">No products</p>
+//                     <Link to="./ItemListContainer" target="_blank" className="emptyCartLink">View products</Link>
+//                 </div>
+//             ) : (
+//                 <>
+//                     <section className="shoppingProducts">
+//                         {cart.map(({ item, quantity }) => (
+//                             <CartItem key={item.id} item={item} quantity={quantity} onDelete={() => deleteProduct(item.id)} />
+//                         ))}
+//                     </section>
+
+//                 </>
+//             )}
+
+//             <section className="emptyCart">
+//                 <p className="emptyCartWord">Empty shopping cart</p>
+//                 <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
+//             </section>
+
+
+//             <section className="totalProduct">
+//                 <p className="sumTotal">Total <span className="numberTotal">...${total}</span></p>
+//                 <Link to="/checkout" className="btnPaymentTotal">Ending shopping</Link>
+//             </section>
+//         </section>
+//     );
+// }
+
+// export default ShoppingCart
+
+
+
+// Con este se va directo a la seccion pero tiene que darle cerrar al shoppingCart
 
 
 import CartItem from "../CartItem/CartItem";
@@ -348,7 +409,7 @@ const ShoppingCart = () => {
             {quantityTotal === 0 ? (
                 <div className="emptyCart">
                     <p className="emptyCartWord">No products</p>
-                    <Link to="./ItemListContainer" target="_blank" className="emptyCartLink">View products</Link>
+                    <Link to="./ItemListContainer" className="emptyCartLink" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>View products</Link>
                 </div>
             ) : (
                 <>
@@ -358,14 +419,12 @@ const ShoppingCart = () => {
                         ))}
                     </section>
 
+                    <section className="emptyCart">
+                        <p className="emptyCartWord">Empty shopping cart</p>
+                        <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
+                    </section>
                 </>
             )}
-
-            <section className="emptyCart">
-                <p className="emptyCartWord">Empty shopping cart</p>
-                <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
-            </section>
-
 
             <section className="totalProduct">
                 <p className="sumTotal">Total <span className="numberTotal">...${total}</span></p>
