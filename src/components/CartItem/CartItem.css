@@ -65,7 +65,7 @@
     font-weight: 500;
 }
 
-.shoppingCartSection .shoppingProducts .productItem .counterProduct{
+ /* .shoppingCartSection .shoppingProducts .productItem .counterProduct{
     width: 15%;
     color:#323232;
     font-size:1.2rem;
@@ -77,6 +77,9 @@
     justify-self: center;
     align-self: center;
     cursor: pointer;
+} */
+.shoppingCartSection .shoppingProducts .productItem .add{
+    display:none
 }
 .shoppingCartSection .shoppingProducts .productItem .counterProduct .sum,
 .shoppingCartSection .shoppingProducts .productItem .counterProduct .minus{
