@@ -30,9 +30,10 @@ const CartItem = ( { item, quantity }) => {
     return (
         <article className="productItem">
             <section className="iconMenu">
-                <img src={item.img} className="productImage"  alt={item.category} />
+
+                <img src={item.img}  className="productImage"  alt={item.category} />
                 <div className="iconOption">
-                <img className="icon" src="/img/trash.svg" alt="Trash icon" />
+                <img className="icon" src="/img/trash.svg"  alt="Trash icon" />
                 <img className="icon" src="/img/edit.svg" alt="Edit icon" />
                 <img className="icon" src="/img/share.svg" alt="Share icon" />
                 <img className="icon" src="/img/heart.svg" alt="Heart icon" />

@@ -212,7 +212,7 @@ const ShoppingCart = () => {
             <section className="shoppingProducts">
 
             {/* Con cuanlquiera de los dos funciona */}
-            
+
             {cart.map(({ item, quantity }) => (
 
                 <CartItem key={item.id} item={item} quantity={quantity} />
