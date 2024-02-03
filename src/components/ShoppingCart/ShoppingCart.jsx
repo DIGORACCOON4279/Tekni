@@ -407,10 +407,11 @@ const ShoppingCart = () => {
             </section>
 
             {quantityTotal === 0 ? (
-                <div className="emptyCart">
-                    <p className="emptyCartWord">No products</p>
+                <section className="emptyCartSection">
+                    <img src="../img/emptyCart.gif" alt="" className="emptyCartIcon" />
+                    <p className="emptyCartNoProducts">No products</p>
                     <Link to="./ItemListContainer" className="emptyCartLink" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>View products</Link>
-                </div>
+                </section>
             ) : (
                 <>
                     <section className="shoppingProducts">
@@ -418,13 +419,15 @@ const ShoppingCart = () => {
                             <CartItem key={item.id} item={item} quantity={quantity} onDelete={() => deleteProduct(item.id)} />
                         ))}
                     </section>
-
-                    <section className="emptyCart">
-                        <p className="emptyCartWord">Empty shopping cart</p>
-                        <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
-                    </section>
                 </>
             )}
+
+            <section className="emptyCart">
+                    <p className="emptyCartWord">Empty shopping cart</p>
+                    <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
+                    <Link to="./ItemListContainer" className="emptyCartLink" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>View products</Link>
+
+            </section>
 
             <section className="totalProduct">
                 <p className="sumTotal">Total <span className="numberTotal">...${total}</span></p>
