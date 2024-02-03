@@ -455,7 +455,7 @@ const products = [
         reference: "HNK-01",
         category:"SmartTV",
         price: 1599,
-        img:"img/tv1.webp",
+        img:"/img/tv1.webp",
         idCat:"tv",
         stock: 100,
         features:"Immerse yourself in stunning visuals with our Smart TV's 4K UHD display, delivering vibrant colors and sharp details. Enjoy a smart viewing experience with built-in streaming apps and voice control.",
