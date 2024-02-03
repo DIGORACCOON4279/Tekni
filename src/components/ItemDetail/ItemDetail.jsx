@@ -46,9 +46,10 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
                 </div>
                 <p className="stock">Stock: {stock}</p>
                 {/* {children} */}
+                <div className="add">
 
                 {
-                    addQuantity > 0 ? (<Link to="/ShoppingCart"> Ending shopping </Link>) : (<Counter
+                    addQuantity > 0 ? (<Link to="/checkout" className="btnEndingShop"> Ending shopping </Link>) : (<Counter
                     initial={1} stock={stock} functionAdd={handleQuantity}/>)
                 }
 
@@ -58,7 +59,7 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
                 {/* <div className="add">
                     <button className="addToCart">Add to cart</button>
                 </div> */}
-
+                </div>
             </section>
         </article>
     )

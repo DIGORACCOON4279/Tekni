@@ -145,12 +145,10 @@ const ShoppingCart = () => {
             </section>
             <section className="totalProduct">
                 <p className="sumTotal">Total <span className="numberTotal">...${total}</span></p>
-                <Link to="/checkout" className="btnPaymentTotal"> Secure checkout </Link>
+                <Link to="/checkout" className="btnPaymentTotal"> Ending shopping </Link>
             </section>
         </section>
     )
 }
 
 export default ShoppingCart
-
-
