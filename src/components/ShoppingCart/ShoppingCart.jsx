@@ -158,6 +158,9 @@
 // export default ShoppingCart
 
 
+
+// Este es el que sirve
+
 import CartItem from "../CartItem/CartItem";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";

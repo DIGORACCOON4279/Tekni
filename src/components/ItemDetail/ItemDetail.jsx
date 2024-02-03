@@ -18,7 +18,7 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
         // console.log("Products added:" +  quantity);
 
 
-    const item = {id, category, price};
+    const item = {id, category, price, img, reference, stock, features, compatibility, updates};
         addToCart(item, quantity)
     }
 
@@ -65,3 +65,5 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
 }
 
 export default ItemDetail
+
+

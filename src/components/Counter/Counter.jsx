@@ -35,3 +35,6 @@ const Counter = ({stock, initial, functionAdd}) => {
 }
 
 export default Counter
+
+
+
