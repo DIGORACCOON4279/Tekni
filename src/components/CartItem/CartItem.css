@@ -66,8 +66,7 @@
     width:100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 }
 .shoppingCartSection .shoppingProducts .productItem .iconMenu .iconOption .icons .icon{
     width:25px;

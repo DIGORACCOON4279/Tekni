@@ -5,7 +5,7 @@ import "./ItemDetail.css";
 import { CartContext } from "../../context/CartContext";
 import { useContext } from "react";
 
-const ItemDetail = ({id, reference, category, price, img, stock, features, compatibility, updates, children}) => {
+const ItemDetail = ({id, reference, category, price, img, stock, features, compatibility, updates}) => {
 
     const [addQuantity, setAddQuantity] = useState(0);
 
@@ -44,21 +44,17 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
                         </section>
                     </div>
                 </div>
-                <p className="stock">Stock: {stock}</p>
-                {/* {children} */}
+                <div className="stockViewProducts">
+                    <p className="stock">Stock: {stock}</p>
+                    <Link to="/ItemListContainer" className="emptyCartLink">View products 🚀</Link>
+                </div>
                 <div className="add">
                     {
                         addQuantity > 0 ? (<Link to="/checkout" className="btnEndingShop"> Ending shopping </Link>) : (<Counter
                         initial={1} stock={stock} functionAdd={handleQuantity}/>)
                     }
-
-
-                    {/* A este button se cambio para Counter.jsx */}
-
-                    {/* <div className="add">
-                        <button className="addToCart">Add to cart</button>
-                    </div> */}
                 </div>
+
             </section>
         </article>
     )

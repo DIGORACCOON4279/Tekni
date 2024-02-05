@@ -132,6 +132,38 @@
     color: #747474;
     font-weight: 500;
 }
+.cardItem .categoryInfo .stockViewProducts{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardItem .categoryInfo .stockViewProducts .stock{
+    color: #747474;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cardItem .categoryInfo .stockViewProducts .emptyCartLink{
+    width: 30%;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #cccccc;
+    text-align: center;
+    border: 1px solid #cccccc;
+    transition: 0.3s ease-in-out;
+}
+.cardItem .categoryInfo .stockViewProducts .emptyCartLink:hover{
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    color:#747474;
+}
 .cardItem .categoryInfo .add{
     width:100%;
     display: flex;
