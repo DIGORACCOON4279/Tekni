@@ -501,7 +501,7 @@
 
 
 
-// Este ha sido el mejor codigo adaptado  a lo que necesito
+// Este ha sido el mejor codigo adaptado a lo que necesito
 //////////////////////////////////////////////////////////
 import CartItem from "../CartItem/CartItem";
 import { Link } from "react-router-dom";
@@ -529,7 +529,7 @@ const ShoppingCart = () => {
                 </>
             ) : (
                 <>
-                     <h3 className="title">ShoppingCart</h3>
+                    <h3 className="title">ShoppingCart</h3>
                     <section className="shoppingItem">
                         <h3 className="categoryTitle">Item</h3>
                         <h3 className="categoryTitle">Pricing</h3>
@@ -537,20 +537,19 @@ const ShoppingCart = () => {
                         <h3 className="categoryTitle">Total</h3>
                     </section>
 
-
                     <section className="shoppingProducts">
                         {cart.map(({ item, quantity }) => (
                             <CartItem key={item.id} item={item} quantity={quantity} onDelete={() => deleteProduct(item.id)} />
                         ))}
                     </section>
                     {quantityTotal > 0 && (
-                        <section className="emptyCart">
-                            <div className="emptySection">
-                                <p className="emptyCartWord">Empty shopping cart</p>
-                                <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
-                            </div>
-                            <Link to="./ItemListContainer" className="emptyCartLink" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>View products 🚀</Link>
-                        </section>
+                    <section className="emptyCart">
+                        <div className="emptySection">
+                            <p className="emptyCartWord">Empty shopping cart</p>
+                            <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
+                        </div>
+                        <Link to="./ItemListContainer" className="emptyCartLink" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>View products 🚀</Link>
+                    </section>
                     )}
                     <section className="totalProduct">
                         <p className="sumTotal">Total <span className="numberTotal">...${total}</span></p>

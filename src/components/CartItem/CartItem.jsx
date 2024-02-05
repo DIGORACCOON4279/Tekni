@@ -10,10 +10,19 @@ const CartItem = ( { item, quantity, onDelete }) => {
 
         <article className="productItem">
             <section className="iconMenu">
-                <img className="productImage" src={item.img} alt={item.category} />
+                <div className="productFeatures">
+                    <img className="productImage" src={item.img} alt={item.category} />
+                </div>
                 <div className="iconOption">
-                    <img className="icon" src="/img/trash.svg"  alt="Trash icon" onClick={onDelete}/>
-                    <img className="icon" src="/img/heart.svg" alt="Heart icon" />
+                    <div className="features">
+                        <p className="category">{item.category}</p>
+                        <p className="reference">{item.reference}</p>
+                    </div>
+                    <img className="rating" src="/img/rating.svg" alt="Rating star"  />
+                    <div className="icons">
+                        <img className="icon" src="/img/trash.svg"  alt="Trash icon" onClick={onDelete}/>
+                        <img className="icon" src="/img/heart.svg" alt="Heart icon" />
+                    </div>
                 </div>
             </section>
             <p className="price">${item.price}</p>
@@ -22,8 +31,6 @@ const CartItem = ( { item, quantity, onDelete }) => {
             </Counter> */}
             <div className="counterProduct">{quantity}</div>
             <p className="priceTotal">${item.price * quantity}</p>
-
-
         </article>
     );
 };
