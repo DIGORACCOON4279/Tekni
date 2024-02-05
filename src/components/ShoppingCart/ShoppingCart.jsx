@@ -522,8 +522,16 @@ const ShoppingCart = () => {
             {quantityTotal === 0 ? (
                 <>
                     <section className="emptyCartSection">
-                        <img src="../img/emptyCart.gif" alt="" className="emptyCartIcon" />
-                        <p className="emptyCartNoProducts">No products</p>
+                        <div className="animationGif">
+                            <div className="followBuying">
+                                {/* <div className="emptyCartIcon"></div> */}
+                                {/* <img src="../img/emptyBag.gif" alt="" className="emptyCartIcon" /> */}
+                                <div className="noProducts">
+                                    <img src="../img/emptyCart.svg" alt="" className="emptyCart" />
+                                    <p className="emptyCartNoProducts">No products</p>
+                                </div>
+                            </div>
+                        </div>
                         <Link to="./ItemListContainer" className="emptyCartLink" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>View products. Enjoy it!!! 🚀</Link>
                     </section>
                 </>
