@@ -176,7 +176,7 @@
     background-image: url("../img/emptyBag.gif");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 35%;
+    background-size: 30%;
     filter: blur(8px);
     z-index: -1;
 }
