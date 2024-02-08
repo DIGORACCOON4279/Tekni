@@ -58,7 +58,7 @@
     padding: 10px 10px;
     border-radius: 10px;
     border:1px solid #cccccc;
-    transform: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .servicesSection .servicesContainer .servicesColumn .infoServices:hover{
     background-color: #f9f9f9;

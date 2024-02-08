@@ -97,7 +97,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 20px auto 20px 0px;
 }
 .footerSection .sections .categories ul li .NavLink,
 .footerSection .sections .products ul li .NavLink,
