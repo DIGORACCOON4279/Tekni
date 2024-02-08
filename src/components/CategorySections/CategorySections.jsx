@@ -7,22 +7,22 @@ const CategorySections = () => {
             <img src="/img/categories.svg" alt=""/>Categories
             <nav className="categoryItems">
                 <ul>
-                    <NavLink className="navLinkCategory" to="/category/laptop">
+                    <NavLink className="navLinkCategory" to="../category/laptop">
                         <li className="li" >
                             <img src="/img/laptop6.webp" alt="Laptop pic"/>Laptops
                         </li>
                     </NavLink>
-                    <NavLink className="navLinkCategory" to="/category/smartphone">
+                    <NavLink className="navLinkCategory" to="../category/smartphone">
                         <li className="li" >
                             <img src="/img/smartphone6.webp" alt="smartphone pic"/>Smartphones
                         </li>
                     </NavLink>
-                    <NavLink className="navLinkCategory" to="/category/tv">
+                    <NavLink className="navLinkCategory" to="../category/tv">
                         <li className="li" >
                             <img src="/img/tv8.webp" alt="Tv pic"/>SmartTVs
                         </li>
                     </NavLink>
-                    <NavLink className="navLinkCategory" to="/category/headset">
+                    <NavLink className="navLinkCategory" to="../category/headset">
                         <li className="li" >
                             <img src="/img/headset1.webp" alt="Headset pic"/>Headset
                         </li>
@@ -34,3 +34,8 @@ const CategorySections = () => {
 }
 
 export default CategorySections
+
+
+
+
+

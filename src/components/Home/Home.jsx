@@ -1,5 +1,3 @@
-// import Footer from "../Footer/Footer";
-
 
 import Advantages from "../Advantages/Advantages";
 import Smartphone from "../Smartphone/Smartphone";

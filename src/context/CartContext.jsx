@@ -37,8 +37,6 @@ export const CartProvider = ({ children }) => {
         }
     }
 
-
-
     // Funcion para eliminar producto del carrito
 
     const deleteProduct = (id) => {

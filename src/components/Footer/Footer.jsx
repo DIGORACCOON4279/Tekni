@@ -43,7 +43,7 @@ const Footer = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className="NavLink" to="/itemListContainer">
+                            <NavLink className="NavLink" to="../itemListContainer">
                                 Products
                             </NavLink>
                         </li>
@@ -62,22 +62,22 @@ const Footer = () => {
                 <article className="products">
                     <ul>
                         <li>
-                            <NavLink className="NavLink" to="/category/laptop">
+                            <NavLink className="NavLink" to="../category/laptop">
                                 Laptops
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className="NavLink" to="/category/smartphone">
+                            <NavLink className="NavLink" to="../category/smartphone">
                                 Smartphones
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className="NavLink" to="/category/tv">
+                            <NavLink className="NavLink" to="../category/tv">
                                 SmartTVs
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className="NavLink" to="/category/headset">
+                            <NavLink className="NavLink" to="../category/headset">
                                 Headset
                             </NavLink>
                         </li>

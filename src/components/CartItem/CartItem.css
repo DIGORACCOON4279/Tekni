@@ -79,12 +79,6 @@
 .shoppingCartSection .shoppingProducts .productItem .iconMenu .iconOption .icons .icon:hover{
     background-color: #ffffff;
 }
-
-
-
-
-
-
 .shoppingCartSection .shoppingProducts .productItem .price,
 .shoppingCartSection .shoppingProducts .productItem .priceTotal {
     width:8%;
@@ -96,26 +90,11 @@
     justify-self: center;
     align-self: center;
 }
-
 .shoppingCartSection .shoppingProducts .productItem .priceTotal{
     width:5%;
     color:#323232;
     font-weight: 500;
 }
-
- /* .shoppingCartSection .shoppingProducts .productItem .counterProduct{
-    width: 15%;
-    color:#323232;
-    font-size:1.2rem;
-    font-weight: 400;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    display:flex;
-    flex-direction: row;
-    justify-self: center;
-    align-self: center;
-    cursor: pointer;
-} */
 .shoppingCartSection .shoppingProducts .productItem .add{
     display:none
 }

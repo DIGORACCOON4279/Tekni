@@ -6,7 +6,6 @@ const HeroSection = () => {
             <img className="imgUno" src="/img/heroSectionUno.webp" alt="" />
             <img className="imgDos" src="/img/heroSectionDos.webp" alt="" />
             <img className="imgTres"  src="/img/heroSectionTres.webp" alt="" />
-
             <img className="imgCuatro"  src="/img/heroSectionCuatro.webp" alt="" />
             <article className="articleHeroSection">
                 <h1 className="mainTitle">"Trust in us today; we create tomorrow."</h1>

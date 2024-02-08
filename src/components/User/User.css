@@ -22,7 +22,6 @@ li #user{
     display:none;
 }
 li #user:checked ~ .logInSection{
-    /* transform: translate(0%); */
     opacity:1;
     visibility: visible;
 }
@@ -42,18 +41,12 @@ li #user:checked ~ .logInSection{
     opacity:0;
     visibility: hidden;
     background-color: #ffffff;
-    /* transform:translate(105%);
-    transition:  transform 0.3s ease-in-out; */
     transition:   0.3s ease-in-out;
 }
 .logInSection label .closeMenu{
     cursor:pointer;
-    /* transform: scale(100%) rotate(0deg);
-    transition: transform 0.3s ease-in-out; */
 }
-/* .logInSection label .closeMenu:hover{
-    transform: rotate(90deg);
-} */
+
 
 
 

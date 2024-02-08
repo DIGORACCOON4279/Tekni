@@ -1,36 +1,47 @@
 import { useState, useEffect } from "react";
-import { getOneProduct } from "../../asyncmock";
+
+// import { getOneProduct } from "../../asyncmock";
+
 import AdvantagesTwo from "../AdvantagesTwo/AdvantagesTwo";
 // import RandomItemList from "../RandomItemList/RandomItemList";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import Counter from "../Counter/Counter";
 import Advertising from "../Advertising/Advertising";
 import { useParams } from "react-router-dom";
+import { db } from "../../services/config";
+import { getDoc, doc } from "firebase/firestore";
 import "./ItemDetailContainer.css";
 
 
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState(null);
-
     const{ idItem } = useParams();
 
     useEffect( () => {
-        getOneProduct( idItem )
-            .then(response => setProduct(response));
-    }, [ idItem ]);
+        const newDoc = doc(db, "products", idItem);
+
+        getDoc(newDoc)
+        .then(response => {
+            const data = response.data();
+            const newProduct = {id: response.id, ...data};
+            setProduct(newProduct);
+        })
+        .catch(error => console.log("Inconsistencia ", error))
+    }, [idItem])
+
+
+    // Con este funcionaba el asyncmock
+
+    // useEffect( () => {
+    //     getOneProduct( idItem )
+    //         .then(response => setProduct(response));
+    // }, [ idItem ]);
 
     return (
         <section className="ItemDetailContainer">
             <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
             <Advertising/>
             <ItemDetail {...product} >
-
-                {/* <p className="soldOut">SoldOut</p> */}
-
-                {/* Antes */}
-                {/* <Counter stock={10} initial={1}/> */}
-                {/* Ahora */}
-                {/* <Counter stock={10} initial={1}/> */}
 
                 <Counter/>
 
@@ -43,30 +54,3 @@ const ItemDetailContainer = () => {
 
 export default ItemDetailContainer
 
-// Codigo alternativo
-
-// const ItemDetailContainer = ({greeting}) => {
-//     const [product, setProduct] = useState(null);
-
-//     const{ idItem } = useParams();
-
-//     useEffect( () => {
-//         getOneProduct( idItem )
-//             .then(response => setProduct(response));
-//     }, [ idItem ]);
-
-//     return (
-//         <section className="ItemDetailContainer">
-//             <h2>{greeting}</h2>
-//             <Advertising/>
-//             <ItemDetail {...product} >
-//                 {/* <p className="soldOut">SoldOut</p> */}
-//                 <Counter stock={10} initial={1}/>
-//             </ItemDetail>
-//             <AdvantagesTwo/>
-//             <RandomItemList/>
-//         </section>
-//     )
-// }
-
-// export default ItemDetailContainer

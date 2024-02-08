@@ -1,7 +1,5 @@
 /* LogIn Style */
 
-
-
 /* Click to open SignUp */
 
 .logInSection form label .clickSignUp{
@@ -41,7 +39,5 @@
     opacity:0;
     visibility: hidden;
     background-color: #ffffff;
-    /* transform:translate(105%);
-    transition:  transform 0.3s ease-in-out; */
     transition:   0.3s ease-in-out;
 }
