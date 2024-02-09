@@ -3,6 +3,7 @@ import "./ServicesPage.css";
 const ServicesPage = () => {
     return (
         <section className="servicePage">
+            <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
             <section className="sectionServices">
                 <div>
                     <img src="/img/installationWhite.svg" alt="" />

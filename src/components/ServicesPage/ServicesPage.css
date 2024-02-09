@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-    padding:100px 0px
 }
 .servicePage .sectionServices{
     width: 45%;
@@ -14,6 +13,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    padding:100px 0px;
     margin-left: 5%;
     gap:15px;
 }
