@@ -138,7 +138,7 @@ const handleSubmit = (event) => {
                                 <div className="description">
                                     <img src={product.item.img} alt="" />
                                     <div className="info">
-                                        <p> {product.item.category} </p>
+                                        <p className="category" > {product.item.category} </p>
                                         <p> {product.item.reference} </p>
                                     </div>
                                 </div>

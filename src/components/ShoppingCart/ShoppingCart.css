@@ -73,6 +73,7 @@
     justify-content: center;
     align-items: center;
     overflow: visible;
+    padding-bottom: 50px;
 }
 .shoppingCartSection .emptyCartSection:before {
     content: "";
