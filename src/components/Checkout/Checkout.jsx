@@ -25,13 +25,13 @@ const handleSubmit = (event) => {
 
     //Verificamos que todos los campos se completen:
     if (!name || !lastName || !phone || !email || !emailConfirmation) {
-        setError("¡Por favor completa todos los campos o moriremos!");
+        setError("*Please complete all fields");
         return;
     }
 
     //Validamos que el email coincida:
     if (email !== emailConfirmation) {
-        setError("Los emails no coinciden, rata de dos patas!");
+        setError("*Emails do not match");
         return;
     }
 
@@ -56,7 +56,7 @@ const handleSubmit = (event) => {
 
 
 
-     ///Modificación para que descuente stock: lo que tenemos que hacer ahora es ejecutar varias promesas en paralelo. Por un lado puedo crear la orden de compra y el otro actualizar el stock:
+    ///Modificación para que descuente stock: lo que tenemos que hacer ahora es ejecutar varias promesas en paralelo. Por un lado puedo crear la orden de compra y el otro actualizar el stock:
 
     Promise.all(
         order.items.map( async (productOrder) => {
@@ -119,50 +119,65 @@ const handleSubmit = (event) => {
 
                 <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
 
-                <h3 className="endingPurchaseTitle">Shopping Cart</h3>
+                <h3 className="endingPurchaseTitle">Purchase summary</h3>
 
             <form className="formUpdate" onSubmit={handleSubmit}>
 
                 <div className="checkoutProducts">
+                    <div className="titleItem">
+                        <h4>Product</h4>
+                        <h4>Description</h4>
+                        <h4>Price</h4>
+                        <h4>Quantity</h4>
+                        <h4>Total</h4>
+                    </div>
 
                     {
                         cart.map(product => (
-                            <div key={product.item.id}>
-                                <img src={product.item.img} alt="" />
-                                <p> {product.item.reference} </p>
-                                <p> {product.item.category} </p>
+                            <div className="resumeProduct" key={product.item.id}>
+                                <div className="infoItem">
+                                    <img src={product.item.img} alt="" />
+                                    <div className="description">
+                                        <p> {product.item.reference} </p>
+                                        <p> {product.item.category} </p>
+                                    </div>
+                                </div>
                                 <p> ${product.item.price}  </p>
-                                <p> Quantity: {product.quantity} </p>
-                                <p> Price: ${product.item.price * product.quantity} </p>
+                                <p> {product.quantity} </p>
+                                <p> ${product.item.price * product.quantity} </p>
                             </div>
                         ))
                     }
 
-                    <p> Total... <span> ${total} </span> </p>
+                    <p className="totalCheckout"> Total... <span> ${total} </span> </p>
                 </div>
 
                 <div className="informationClient">
-                    <div className="form-group">
+                    <div className="legend">
+                        <p className="advise"> *The items are reserved for 60 minutes* </p>
+                    </div>
+
+                    <div className="formBox">
                         <label htmlFor="name"> Name </label>
                         <input type="text" value={name} id="name" onChange={(e) => setName(e.target.value)} />
                     </div>
 
-                    <div className="form-group">
+                    <div className="formBox">
                         <label htmlFor="lastName"> LastName </label>
                         <input type="text" value={lastName} id="lastName" onChange={(e) => setLastName(e.target.value)} />
                     </div>
 
-                    <div className="form-group">
+                    <div className="formBox">
                         <label htmlFor="phone"> Phone </label>
                         <input type="text" value={phone} id="phone" onChange={(e) => setPhone(e.target.value)} />
                     </div>
 
-                    <div className="form-group">
+                    <div className="formBox">
                         <label htmlFor="email"> Email </label>
                         <input type="email" value={email} id="email" onChange={(e) => setEmail(e.target.value)} />
                     </div>
 
-                    <div className="form-group">
+                    <div className="formBox">
                         <label htmlFor="emailConfirmation"> Confirmation Email </label>
                         <input type="email" value={emailConfirmation} id="emailConfirmation" onChange={(e) => setEmailConfirmation(e.target.value)} />
                     </div>
@@ -173,7 +188,7 @@ const handleSubmit = (event) => {
 
                     <div className="buttons">
                         <button className="myBtn checkout" disabled={cart.length === 0}> Ending order </button>
-                        <button className="myBtn checkout" type="reset"> Reset </button>
+                        <button className="myBtn reset" type="reset"> Reset </button>
                     </div>
                 </div>
                 {/* {

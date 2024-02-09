@@ -56,7 +56,7 @@
     padding-top:50px;
     color: #000000;
     font-size:1.5rem;
-    font-weight: 500;
+    font-weight: 700;
     margin: 0px auto;
 }
 .checkout .formUpdate{
@@ -65,26 +65,141 @@
     flex-direction: row;
     justify-content:space-between ;
     margin: 30px auto 50px;
-    background-color: #07ff66;
-    gap:100px;
+    gap:40px;
 }
 .checkout .formUpdate .checkoutProducts{
     width:100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-end;
     margin: 0px auto;
     gap:5px;
-    background-color: #07a4ff;
+}
+.checkout .formUpdate .checkoutProducts .titleItem{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.checkout .formUpdate .checkoutProducts .resumeProduct{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    border-top: 1px solid #F2F2F2;
+    font-size:0.8rem;
+    font-weight: 500;
+    color: #323232;
+}
+.checkout .formUpdate .checkoutProducts .resumeProduct .infoItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:30px;
+}
+.checkout .formUpdate .checkoutProducts .resumeProduct .infoItem img{
+    width:130px;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    margin: 30px 0px;
+    padding: 10px;
+}
+.checkout .formUpdate .checkoutProducts .resumeProduct .infoItem .description{
+    font-size:0.8rem;
+    font-weight: 700;
+    color:#000000;
+}
+.checkout .formUpdate .checkoutProducts .totalCheckout{
+    width: 100%;
+    text-align: end;
+    padding-top: 20px;
+    border-top: 1px solid #F2F2F2;
+    font-size:1rem;
+    font-weight: 700;
+    color: #323232;
 }
 .checkout .formUpdate .informationClient{
-    width:100%;
+    width:50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items:flex-start;
     margin: 0px auto;
-    gap:5px;
-    background-color: #07a4ff;
+}
+.checkout .formUpdate .informationClient .legend {
+    width:100%;
+    background-color: #F9F9F9;
+    margin-bottom: 20px;
+}
+.checkout .formUpdate .informationClient .legend .advise{
+    width:100%;
+    text-align: center;
+    color: #747474;
+    margin:30px auto;
+    font-size:0.8rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+.checkout .formUpdate .informationClient .formBox{
+    width:100%;
+    padding: 10px;
+    color: #747474;
+    font-size:0.8rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.checkout .formUpdate .informationClient .formBox input{
+    padding:10px;
+}
+.checkout .formUpdate .informationClient .buttons{
+    width:100%;
+    padding: 15px;
+    color: #747474;
+    font-size:0.8rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding-top: 25px;
+}
+.checkout .formUpdate .informationClient .myBtn{
+    width:100%;
+    padding: 15px;
+    font-size:1rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+.checkout .formUpdate .informationClient .checkout{
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    transition:0.3s ease-in-out;
+}
+.checkout .formUpdate .informationClient .checkout:hover{
+    color: #000000;
+    background-color: #F2F2F2;
+    border: 1px solid #000000;
+}
+.checkout .formUpdate .informationClient .reset{
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    transition:0.3s ease-in-out;
+}
+.checkout .formUpdate .informationClient .reset:hover{
+    color: #F2F2F2;
+    background-color: #000000;
+    border: 1px solid #F2F2F2;
 }
