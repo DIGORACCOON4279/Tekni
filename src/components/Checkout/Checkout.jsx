@@ -3,25 +3,24 @@ import { useState, useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { db } from "../../services/config";
 import { collection, addDoc, updateDoc, getDoc, doc } from "firebase/firestore";
-// import Swal from 'sweetalert2';
-
-
+import Swal from 'sweetalert2';
 
 const checkout = () => {
     const { cart, emptyCart, total } = useContext(CartContext);
+
 
     const [name, setName] = useState("");
     const [lastName, setLastName] = useState("");
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
     const [emailConfirmation, setEmailConfirmation] = useState("");
-    const [orderId, setOrderId] = useState("");
+    // const [orderId, setOrderId] = useState("");
     const [error, setError] = useState("");
 
 
  //Funcion manejador del form:
 
- const handleSubmit = (event) => {
+const handleSubmit = (event) => {
     event.preventDefault();
 
     //Verificamos que todos los campos se completen:
@@ -55,6 +54,8 @@ const checkout = () => {
     }
 
 
+
+
      ///Modificación para que descuente stock: lo que tenemos que hacer ahora es ejecutar varias promesas en paralelo. Por un lado puedo crear la orden de compra y el otro actualizar el stock:
 
     Promise.all(
@@ -72,9 +73,36 @@ const checkout = () => {
     .then(()=> {
         addDoc(collection(db, "orders"), order)
             .then(docRef => {
-                setOrderId(docRef.id);
+                // setOrderId(docRef.id);
                 emptyCart();
+
+
                 //Acá pueden limpiar los input y usar el Sweet Alert 2 para mostrar el Order ID.
+                // Función para manejar el clic en el enlace de continuar comprando
+                Swal.fire({
+                    text: `
+                    <div class="popup">
+                        <img src="/img/logo.webp" alt="Logo" />
+                    </div>
+                    `,
+                    icon: 'success',
+                    imageUrl: '/img/logo.webp',
+                    imageWidth: 80,
+                    html: `
+                        <div class="message">
+                            <p> "Your order has been successfully registered."</p>
+                            <p>Thank you for your purchase! Your order number is: </p>
+                            <p> ${docRef.id} </p>
+                        </div>
+                    `,
+                    showCancelButton: false,
+                    confirmButtonText: 'Ok',
+                    customClass: {
+                        popup: 'custom-popup-container',
+                        confirmButton: 'btnOk',
+                    },
+                });
+
             })
             .catch(error => console.log("Error, making the order", error))
     })
@@ -144,9 +172,9 @@ const checkout = () => {
                     <button className="myBtn checkout" disabled={cart.length === 0}> Ending order </button>
                     <button className="myBtn checkout" type="reset"> Reset </button>
                 </div>
-                {
+                {/* {
                     orderId && <strong>¡Thanks for you purchase! your order number is: {orderId} </strong>
-                }
+                } */}
             </form>
 
         </section>
