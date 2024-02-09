@@ -9,7 +9,7 @@
     padding:100px 0px
 }
 .servicePage .sectionServices{
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
