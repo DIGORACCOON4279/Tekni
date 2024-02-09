@@ -125,11 +125,11 @@ const handleSubmit = (event) => {
 
                 <div className="checkoutProducts">
                     <div className="titleItem">
-                        <h4 className="titleOne">Product</h4>
-                        <h4 className="titleTwo">Description</h4>
-                        <h4 className="titleThree">Price</h4>
-                        <h4 className="titleFour">Quantity</h4>
-                        <h4 className="titleFive">Total</h4>
+                        <h4>Product</h4>
+                        <h4>Description</h4>
+                        <h4>Price</h4>
+                        <h4>Quantity</h4>
+                        <h4>Total</h4>
                     </div>
 
                     {
