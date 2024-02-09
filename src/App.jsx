@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import Error404 from "./components/Error404/Error404";
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 import Checkout from "./components/Checkout/Checkout";
+import ServicesPage from "./components/ServicesPage/ServicesPage";
 
 const App = () => {
   console.log
@@ -28,6 +29,8 @@ const App = () => {
                   <Route path="*" element={<Error404 />} />
                   <Route path="/shoppingCart" element={<ShoppingCart/>}/>
                   <Route path="/checkout" element={<Checkout/>}/>
+                  <Route path="/servicesPage" element={<ServicesPage/>}/>
+
               </Routes>
               <Footer />
           </CartProvider>
