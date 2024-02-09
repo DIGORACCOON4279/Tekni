@@ -119,27 +119,27 @@ const handleSubmit = (event) => {
 
                 <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
 
-                <h3 className="endingPurchaseTitle">Purchase summary</h3>
+                <h3 className="endingPurchaseTitle">Order summary</h3>
 
             <form className="formUpdate" onSubmit={handleSubmit}>
 
                 <div className="checkoutProducts">
                     <div className="titleItem">
-                        <h4>Product</h4>
-                        <h4>Description</h4>
-                        <h4>Price</h4>
-                        <h4>Quantity</h4>
-                        <h4>Total</h4>
+                        <h4 className="titleOne">Product</h4>
+                        <h4 className="titleTwo">Description</h4>
+                        <h4 className="titleThree">Price</h4>
+                        <h4 className="titleFour">Quantity</h4>
+                        <h4 className="titleFive">Total</h4>
                     </div>
 
                     {
                         cart.map(product => (
                             <div className="resumeProduct" key={product.item.id}>
-                                <div className="infoItem">
+                                <div className="description">
                                     <img src={product.item.img} alt="" />
-                                    <div className="description">
-                                        <p> {product.item.reference} </p>
+                                    <div className="info">
                                         <p> {product.item.category} </p>
+                                        <p> {product.item.reference} </p>
                                     </div>
                                 </div>
                                 <p> ${product.item.price}  </p>
@@ -156,39 +156,40 @@ const handleSubmit = (event) => {
                     <div className="legend">
                         <p className="advise"> *The items are reserved for 60 minutes* </p>
                     </div>
+                    <div className="background">
+                        <div className="formBox">
+                            <label htmlFor="name">  </label>
+                            <input type="text" placeholder="Name" value={name} id="name" onChange={(e) => setName(e.target.value)} />
+                        </div>
 
-                    <div className="formBox">
-                        <label htmlFor="name"> Name </label>
-                        <input type="text" value={name} id="name" onChange={(e) => setName(e.target.value)} />
-                    </div>
+                        <div className="formBox">
+                            <label htmlFor="lastName">  </label>
+                            <input type="text" placeholder="Last name" value={lastName} id="lastName" onChange={(e) => setLastName(e.target.value)} />
+                        </div>
 
-                    <div className="formBox">
-                        <label htmlFor="lastName"> LastName </label>
-                        <input type="text" value={lastName} id="lastName" onChange={(e) => setLastName(e.target.value)} />
-                    </div>
+                        <div className="formBox">
+                            <label htmlFor="phone">  </label>
+                            <input type="text" placeholder="Phone" value={phone} id="phone" onChange={(e) => setPhone(e.target.value)} />
+                        </div>
 
-                    <div className="formBox">
-                        <label htmlFor="phone"> Phone </label>
-                        <input type="text" value={phone} id="phone" onChange={(e) => setPhone(e.target.value)} />
-                    </div>
+                        <div className="formBox">
+                            <label htmlFor="email">  </label>
+                            <input type="email" placeholder="Email" value={email} id="email" onChange={(e) => setEmail(e.target.value)} />
+                        </div>
 
-                    <div className="formBox">
-                        <label htmlFor="email"> Email </label>
-                        <input type="email" value={email} id="email" onChange={(e) => setEmail(e.target.value)} />
-                    </div>
+                        <div className="formBox">
+                            <label htmlFor="emailConfirmation">  </label>
+                            <input type="email" placeholder="Confirmation Email" value={emailConfirmation} id="emailConfirmation" onChange={(e) => setEmailConfirmation(e.target.value)} />
+                        </div>
 
-                    <div className="formBox">
-                        <label htmlFor="emailConfirmation"> Confirmation Email </label>
-                        <input type="email" value={emailConfirmation} id="emailConfirmation" onChange={(e) => setEmailConfirmation(e.target.value)} />
-                    </div>
+                        {
+                            error && <p style={{ color: "red" }}> {error} </p>
+                        }
 
-                    {
-                        error && <p style={{ color: "red" }}> {error} </p>
-                    }
-
-                    <div className="buttons">
-                        <button className="myBtn checkout" disabled={cart.length === 0}> Ending order </button>
-                        <button className="myBtn reset" type="reset"> Reset </button>
+                        <div className="buttons">
+                            <button className="myBtn checkout" disabled={cart.length === 0}> Checkout </button>
+                            <button className="myBtn reset" type="reset"> Reset </button>
+                        </div>
                     </div>
                 </div>
                 {/* {

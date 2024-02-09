@@ -83,6 +83,15 @@
     justify-content: space-between;
     align-items: center;
     margin: 0px auto;
+    border-top: 1px solid #F2F2F2;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.checkout .formUpdate .checkoutProducts .titleItem h4{
+    font-size:0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .checkout .formUpdate .checkoutProducts .resumeProduct{
     width: 100%;
@@ -95,24 +104,36 @@
     font-size:0.8rem;
     font-weight: 500;
     color: #323232;
+    font-family: 'Ubuntu', sans-serif;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct .infoItem{
+.checkout .formUpdate .checkoutProducts .resumeProduct .description{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:30px;
+    gap:20px;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct .infoItem img{
+.checkout .formUpdate .checkoutProducts .resumeProduct .description img{
     width:130px;
     background-color: #F9F9F9;
     border-radius: 5px;
     margin: 30px 0px;
     padding: 10px;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct .infoItem .description{
+.checkout .formUpdate .checkoutProducts .resumeProduct .description .info p{
+    width:100%;
     font-size:0.8rem;
     font-weight: 700;
     color:#000000;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+}
+.checkout .formUpdate .checkoutProducts .resumeProduct p{
+    width:100%;
+    font-size:0.8rem;
+    font-weight: 500;
+    color:#000000;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: end;
 }
 .checkout .formUpdate .checkoutProducts .totalCheckout{
     width: 100%;
@@ -124,17 +145,16 @@
     color: #323232;
 }
 .checkout .formUpdate .informationClient{
-    width:50%;
+    width:55%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items:flex-start;
     margin: 0px auto;
 }
 .checkout .formUpdate .informationClient .legend {
     width:100%;
     background-color: #F9F9F9;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .checkout .formUpdate .informationClient .legend .advise{
     width:100%;
@@ -145,24 +165,30 @@
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
 }
-.checkout .formUpdate .informationClient .formBox{
+.checkout .formUpdate .informationClient .background{
     width:100%;
-    padding: 10px;
-    color: #747474;
-    font-size:0.8rem;
-    font-weight: 500;
-    font-family: 'Ubuntu', sans-serif;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+.checkout .formUpdate .informationClient .background .formBox{
+    width:100%;
     background-color: #F9F9F9;
     display: flex;
     flex-direction: column;
     gap:10px;
 }
-.checkout .formUpdate .informationClient .formBox input{
-    padding:10px;
+.checkout .formUpdate .informationClient .background .formBox input{
+    color: #747474;
+    font-size:0.8rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    padding:15px;
+    border: 1px solid #cccccc;
 }
-.checkout .formUpdate .informationClient .buttons{
+.checkout .formUpdate .informationClient .background .buttons{
     width:100%;
-    padding: 15px;
     color: #747474;
     font-size:0.8rem;
     font-weight: 500;
@@ -173,7 +199,7 @@
     gap:15px;
     padding-top: 25px;
 }
-.checkout .formUpdate .informationClient .myBtn{
+.checkout .formUpdate .informationClient .background .myBtn{
     width:100%;
     padding: 15px;
     font-size:1rem;
@@ -181,24 +207,24 @@
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
 }
-.checkout .formUpdate .informationClient .checkout{
+.checkout .formUpdate .informationClient .background .checkout{
     color: #ffffff;
     background-color: #000000;
     border: 1px solid #000000;
     transition:0.3s ease-in-out;
 }
-.checkout .formUpdate .informationClient .checkout:hover{
+.checkout .formUpdate .informationClient .background .checkout:hover{
     color: #000000;
     background-color: #F2F2F2;
     border: 1px solid #000000;
 }
-.checkout .formUpdate .informationClient .reset{
+.checkout .formUpdate .informationClient .background .reset{
     color: #000000;
     background-color: #ffffff;
     border: 1px solid #000000;
     transition:0.3s ease-in-out;
 }
-.checkout .formUpdate .informationClient .reset:hover{
+.checkout .formUpdate .informationClient .background .reset:hover{
     color: #F2F2F2;
     background-color: #000000;
     border: 1px solid #F2F2F2;

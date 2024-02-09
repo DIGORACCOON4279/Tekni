@@ -47,7 +47,7 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
                 </div>
                 <div className="add">
                     {
-                        addQuantity > 0 ? (<Link to="/checkout" className="btnEndingShop"> Ending shopping </Link>) : (<Counter
+                        addQuantity > 0 ? (<Link to="/checkout" className="btnEndingShop">  Finish shopping </Link>) : (<Counter
                         initial={1} stock={stock} functionAdd={handleQuantity}/>)
                     }
                 </div>
