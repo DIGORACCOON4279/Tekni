@@ -188,7 +188,7 @@ const handleSubmit = (event) => {
 
                         <div className="buttons">
                             <button className="myBtn checkout" disabled={cart.length === 0}> Checkout </button>
-                            <button className="myBtn reset" type="reset"> Reset </button>
+                            <button type="reset" className="myBtn reset" > Reset </button>
                         </div>
                     </div>
                 </div>
