@@ -14,46 +14,82 @@ const ContactUsPage = () => {
                         <article className="location">
                             <img className="buildingPic" src="/img/buildingUno.webp" alt="" />
                             <div className="info">
-                                <h4>Av. 80 58-99</h4>
+                                <div>
+                                    <img src="/img/location.svg" alt="location" />
+                                    <h4>Av. 80 58-99</h4>
+                                </div>
                                 <p>Medellin</p>
                             </div>
+                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                            </a>
                         </article>
                         <article className="location">
                             <img className="buildingPic" src="/img/buildingDos.webp" alt="" />
                             <div className="info">
-                                <h4>Av. 74 85-40</h4>
+                                <div>
+                                    <img src="/img/location.svg" alt="location" />
+                                    <h4>Av. 74 85-40</h4>
+                                </div>
                                 <p>Bucaramanga</p>
                             </div>
+                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                            </a>
                         </article>
                         <article className="location">
                             <img className="buildingPic" src="/img/buildingTres.webp" alt="" />
                             <div className="info">
-                                <h4>Calle. 10 25-30</h4>
+                                <div>
+                                    <img src="/img/location.svg" alt="location" />
+                                    <h4>Calle. 10 25-30</h4>
+                                </div>
                                 <p>Barranquilla</p>
                             </div>
+                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                            </a>
                         </article>
                     </div>
                     <div className="columnLocation">
                         <article className="location">
                             <img className="buildingPic" src="/img/buildingCuatro.webp" alt="" />
                             <div className="info">
-                                <h4>Av. 58 38-92</h4>
+                                <div>
+                                    <img src="/img/location.svg" alt="location" />
+                                    <h4>Av. 58 38-92</h4>
+                                </div>
                                 <p>Bogota</p>
                             </div>
+                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                            </a>
                         </article>
                         <article className="location">
                             <img className="buildingPic" src="/img/buildingCinco.webp" alt="" />
                             <div className="info">
-                                <h4>Av. 97 22-09</h4>
+                                <div>
+                                    <img src="/img/location.svg" alt="location" />
+                                    <h4>Av. 97 22-09</h4>
+                                </div>
                                 <p>Ibague</p>
                             </div>
+                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                            </a>
                         </article>
                         <article className="location">
                             <img className="buildingPic" src="/img/buildingSeis.webp" alt="" />
                             <div className="info">
-                                <h4>Av. 12 15-65</h4>
+                                <div>
+                                    <img src="/img/location.svg" alt="location" />
+                                    <h4>Av. 12 15-65</h4>
+                                </div>
                                 <p>Armenia</p>
                             </div>
+                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                            </a>
                         </article>
                     </div>
                     <div className="columnLocation">
@@ -64,23 +100,41 @@ const ContactUsPage = () => {
                         <article className="location">
                             <img className="buildingPic" src="/img/buildingSiete.webp" alt="" />
                             <div className="info">
-                                <h4>123 Main Street</h4>
+                                <div>
+                                    <img src="/img/location.svg" alt="location" />
+                                    <h4>123 Main Street</h4>
+                                </div>
                                 <p>Montreal</p>
                             </div>
+                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                            </a>
                         </article>
                         <article className="location">
                             <img className="buildingPic" src="/img/buildingOcho.webp" alt="" />
                             <div className="info">
-                                <h4>456 Rue Maple</h4>
+                                <div>
+                                    <img src="/img/location.svg" alt="location" />
+                                    <h4>456 Rue Maple</h4>
+                                </div>
                                 <p>Ville Quebec</p>
                             </div>
+                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                            </a>
                         </article>
                         <article className="location">
                             <img className="buildingPic" src="/img/buildingNueve.webp" alt="" />
                             <div className="info">
-                                <h4>548 Kelglen Crescent</h4>
+                                <div>
+                                    <img src="/img/location.svg" alt="location" />
+                                    <h4>548 Kelglen Crescent</h4>
+                                </div>
                                 <p>Manitoba</p>
                             </div>
+                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                            </a>
                         </article>
                     </div>
                 </section>
