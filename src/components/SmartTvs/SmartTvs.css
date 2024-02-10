@@ -89,6 +89,7 @@
     color: #ffffff;
     text-align: center;
     letter-spacing:2px;
+    text-decoration: none;
     background-color: #000000;
     border: 1px solid #000000;
     transition:0.3s ease-in-out;

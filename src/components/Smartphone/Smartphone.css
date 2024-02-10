@@ -89,6 +89,7 @@
     color: #FF5207;
     text-align: center;
     letter-spacing:2px;
+    text-decoration: none;
     background-color: transparent;
     border: 1.5px solid #FF5207;
     transition:0.3s ease-in-out;

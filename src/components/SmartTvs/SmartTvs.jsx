@@ -1,4 +1,5 @@
-import "./SmartTvs.css"
+import "./SmartTvs.css";
+import { Link } from "react-router-dom";
 
 const SmartTvs = () => {
     return (
@@ -12,21 +13,21 @@ const SmartTvs = () => {
                 <img className="item" src="/img/smartTvUno.webp" alt="" />
                 <section className="btnInfo">
                     <p className="paragraph">Enhance your visual experience with SmartTV</p>
-                    <button className="cta" type="button">See more...</button>
+                    <Link to="../category/tv" className="cta"> See more...</Link>
                 </section>
             </div>
             <div className="smartTvsSectionDos">
                 <img className="item" src="/img/smartTvDos.webp" alt="" />
                 <section className="btnInfo">
                     <p className="paragraph">Connect, enjoy, live with SmartTV.</p>
-                    <button className="cta" type="button">See more...</button>
+                    <Link to="../category/tv" className="cta"> See more...</Link>
                 </section>
             </div>
             <div className="smartTvsSectionTres">
                 <img className="item" src="/img/smartTvTres.webp" alt="" />
                 <section className="btnInfo">
                     <p className="paragraph">More than a screen, your window to the world with SmartTV.</p>
-                    <button className="cta" type="button">See more...</button>
+                    <Link to="../category/tv" className="cta"> See more...</Link>
                 </section>
             </div>
         </article>

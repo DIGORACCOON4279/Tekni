@@ -1,4 +1,5 @@
 import "./Smartphone.css";
+import { Link } from "react-router-dom";
 
 const Smartphone = () => {
     return (
@@ -8,7 +9,7 @@ const Smartphone = () => {
                     <img className="item" src="/img/smartphoneUno.webp" alt="" />
                     <section className="btnInfo">
                         <p className="paragraph">Capture life's moments with precision using our smartphones</p>
-                        <button className="cta" type="button">See more...</button>
+                        <Link to="../category/smartphone" className="cta"> See more...</Link>
                     </section>
                 </div>
                 <div className="info">
@@ -19,7 +20,7 @@ const Smartphone = () => {
                     <img className="item" src="/img/smartphoneDos.webp" alt="" />
                     <section className="btnInfo">
                         <p className="paragraph">Unleash the power of connectivity with our smartphones.</p>
-                        <button className="cta" type="button">See more...</button>
+                        <Link to="../category/smartphone" className="cta"> See more...</Link>
                     </section>
                 </div>
             </article>

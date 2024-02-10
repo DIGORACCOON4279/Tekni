@@ -165,6 +165,8 @@
     font-weight:400;
     color: #FF5207;
     text-align: center;
+    cursor: pointer;
+    text-decoration: none;
     letter-spacing:2px;
     background-color: transparent;
     border: 1.5px solid #FF5207;
