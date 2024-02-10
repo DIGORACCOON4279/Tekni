@@ -11,7 +11,7 @@ import { getFirestore } from "firebase/firestore";
 // y esto devuelve una instance de firebase
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCyVCg2cV5MadjJLY7zkiV4te3KyEbqaVk",
+    apiKey: import.meta.env.VITE_API_KEY_FIREBASE_CONFIG,
     authDomain: "tekni-200c1.firebaseapp.com",
     projectId: "tekni-200c1",
     storageBucket: "tekni-200c1.appspot.com",
