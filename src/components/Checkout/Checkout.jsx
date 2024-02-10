@@ -4,6 +4,7 @@ import { CartContext } from "../../context/CartContext";
 import { db } from "../../services/config";
 import { collection, addDoc, updateDoc, getDoc, doc } from "firebase/firestore";
 import Swal from 'sweetalert2';
+import { Link } from "react-router-dom";
 
 const checkout = () => {
     const { cart, emptyCart, total } = useContext(CartContext);
@@ -153,6 +154,7 @@ const handleSubmit = (event) => {
                     }
 
                     <p className="totalCheckout"> Total... <span> ${total} </span> </p>
+                    <Link to="../ItemListContainer" className="emptyCartLink"> View products 🚀</Link>
                 </div>
 
                 <div className="informationClient">

@@ -57,7 +57,7 @@ const ShoppingCart = () => {
                     )}
                     <section className="totalProduct">
                         <p className="sumTotal">Total <span className="numberTotal">...${total}</span></p>
-                        <Link to="../checkout" className="btnPaymentTotal"> Finish shopping </Link>
+                        <Link to="./checkout" className="btnPaymentTotal"> Finish shopping </Link>
                     </section>
                 </>
             )}

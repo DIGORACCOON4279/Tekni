@@ -168,6 +168,26 @@
     font-weight: 700;
     color: #FF5207;
 }
+.checkout .formUpdate .checkoutProducts .emptyCartLink{
+    width:30%;
+    color:#ffffff;
+    font-size:1rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    padding:10px;
+    margin-top:20px;
+    background-color: #cccccc;
+    text-align: center;
+    border: 1px solid #cccccc;
+    transition:0.3s ease-in-out;
+}
+.checkout .formUpdate .checkoutProducts .emptyCartLink:hover{
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    color:#747474;
+}
 .checkout .formUpdate .informationClient{
     width:55%;
     height: 100vh;
