@@ -57,7 +57,7 @@ const ContactUsPage = () => {
                         </article>
                     </div>
                     <div className="columnLocation">
-                        <article className="titlesContactUs">
+                        <article className="titlesContactUs" id="titlesContactUs">
                             <h3 className="title">Location</h3>
                             <h3 className="title">Canada</h3>
                         </article>
@@ -85,20 +85,48 @@ const ContactUsPage = () => {
                     </div>
                 </section>
                 <section className="mainAddress">
-                    <div className="ContactNumber">
+                    <div className="contactNumber">
                         <article className="contactCountry">
                             <h4 className="title">Colombia</h4>
-                            <p>Customer service<strong>300 547 8528</strong></p>
-                            <p>Distribution<strong>310 259 5845</strong></p>
-                            <p>Warranty<strong>302 254 8798</strong></p>
-                            <p>Providers<strong>320 514 5982</strong></p>
+                            <div>
+                                <p>Customer service</p>
+                                <p><strong>300 547 8528</strong></p>
+                            </div>
+                            <div>
+                                <p>Distribution</p>
+                                <p><strong>310 259 5845</strong></p>
+                            </div>
+                            <div>
+                                <p>Distribution</p>
+                                <p><strong>310 259 5845</strong></p>
+                            </div>
+                            <div>
+                                <p>Warranty</p>
+                                <p><strong>302 254 8798</strong></p>
+                            </div>
+                            <div>
+                                <p>Providers</p>
+                                <p><strong>320 514 5982</strong></p>
+                            </div>
                         </article>
                         <article  className="contactCountry">
                             <h4 className="title">Canada</h4>
-                            <p>Customer service<strong>778 995 6523</strong></p>
-                            <p>Distribution<strong>250 223 4559</strong></p>
-                            <p>Warranty<strong>608 235 7779</strong></p>
-                            <p>Providers<strong>250 654 9857</strong></p>
+                            <div>
+                                <p>Customer service</p>
+                                <p><strong>778 995 6523</strong></p>
+                            </div>
+                            <div>
+                                <p>Distribution</p>
+                                <p><strong>250 223 4559</strong></p>
+                            </div>
+                            <div>
+                                <p>Warranty</p>
+                                <p><strong>608 235 7779</strong></p>
+                            </div>
+                            <div>
+                                <p>Providers</p>
+                                <p><strong>250 654 9857</strong></p>
+                            </div>
                         </article>
                     </div>
                 </section>
