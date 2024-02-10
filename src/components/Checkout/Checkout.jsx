@@ -138,8 +138,11 @@ const handleSubmit = (event) => {
                                 <div className="description">
                                     <img src={product.item.img} alt="" />
                                     <div className="info">
-                                        <p className="category" > {product.item.category} </p>
-                                        <p> {product.item.reference} </p>
+                                        <div className="text">
+                                            <p className="category" > {product.item.category} </p>
+                                            <p> {product.item.reference} </p>
+                                        </div>
+                                        <img className="rating" src="/img/rating.svg" alt="Rating" />
                                     </div>
                                 </div>
                                 <p> ${product.item.price}  </p>
@@ -196,7 +199,32 @@ const handleSubmit = (event) => {
                     orderId && <strong>¡Thanks for you purchase! your order number is: {orderId} </strong>
                 } */}
             </form>
-
+            <section className="advantages">
+                <div className="advantagesIcons">
+                    <img src="./img/shippingWhite.svg" alt="Shipping" />
+                    <p>Your fast product</p>
+                </div>
+                <div className="advantagesIcons">
+                    <img src="./img/paymentWhite.svg" alt="Payment" />
+                    <p>Easy Shopping</p>
+                </div>
+                <div className="advantagesIcons">
+                    <img src="./img/freeShippingWhite.svg" alt="Free shipping" />
+                    <p>FREE Shipping*</p>
+                </div>
+                <div className="advantagesIcons">
+                    <img src="./img/directWarrantyWhite.svg" alt="Warranty" />
+                    <p>Direct Warranty</p>
+                </div>
+                <div className="advantagesIcons">
+                    <img src="./img/easyReturnWhite.svg" alt="Returns" />
+                    <p>Easy returns</p>
+                </div>
+                <div className="advantagesIcons">
+                    <img src="./img/secureWhite.svg" alt="secure" />
+                    <p>100% certified secure purchase</p>
+                </div>
+            </section>
         </section>
     )
 }

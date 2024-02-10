@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between ;
-    margin: 30px auto 150px;
+    margin: 30px auto 100px;
     gap:40px;
 }
 .checkout .formUpdate .checkoutProducts{
@@ -101,7 +101,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px auto;
+    padding: 30px 0px;
     border-top: 1px solid #F2F2F2;
     font-size:0.8rem;
     font-weight: 500;
@@ -112,21 +112,26 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:20px;
+    gap:30px;
 }
 .checkout .formUpdate .checkoutProducts .resumeProduct .description img{
     width:130px;
     background-color: #F9F9F9;
     border-radius: 5px;
-    margin: 30px 0px;
+    /* margin: 30px 0px; */
     padding: 10px;
 }
 .checkout .formUpdate .checkoutProducts .resumeProduct .description .info{
     width:100px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap:10px;
+    align-items: flex-start;
+    gap:30px;
+}
+.checkout .formUpdate .checkoutProducts .resumeProduct .description .info .text{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
 }
 .checkout .formUpdate .checkoutProducts .resumeProduct .description .info .category{
     font-size:0.9rem;
@@ -142,6 +147,9 @@
     color:#000000;
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
+}
+.checkout .formUpdate .checkoutProducts .resumeProduct .description .info .rating{
+    width:90%;
 }
 .checkout .formUpdate .checkoutProducts .resumeProduct p{
     width:70px;
@@ -247,4 +255,49 @@
     color: #F2F2F2;
     background-color: #000000;
     border: 1px solid #F2F2F2;
+}
+.checkout .advantages{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin: 0px auto 150px;
+    background-color: #000000;
+    padding:50px 10%;
+}
+.checkout .advantages .advantagesIcons{
+    width:300px;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.checkout .advantages .advantagesIcons:hover{
+    box-shadow: 0 0 3px 2px #313131;
+}
+.checkout .advantages .advantagesIcons:hover img{
+    transform: scale(110%);
+}
+.checkout .advantages .advantagesIcons img{
+    width:auto;
+    height:auto;
+    transform: scale(100%);
+    transition: 0.3s ease-in-out;
+}
+.checkout .advantages .advantagesIcons p{
+    color: #ffffff;
+    font-size:1rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
