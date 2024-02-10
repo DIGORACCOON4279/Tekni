@@ -17,3 +17,6 @@ regular:400;
 medium:500;
 bold:700; */
 
+html{
+    scroll-behavior: smooth;
+}
