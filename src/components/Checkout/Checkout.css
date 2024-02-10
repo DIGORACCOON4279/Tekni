@@ -285,7 +285,7 @@
     justify-content: center;
     align-items: center;
     gap:50px;
-    margin: 0px auto 150px;
+    margin: 0px auto 50px;
     background-color: #000000;
     padding:50px 10%;
 }
@@ -308,6 +308,10 @@
 .checkout .advantages .advantagesIcons:hover img{
     transform: scale(110%);
 }
+.checkout .advantages .advantagesIcons:hover p{
+    color: #ffffff;
+    letter-spacing: 10px;
+}
 .checkout .advantages .advantagesIcons img{
     width:auto;
     height:auto;
@@ -315,9 +319,10 @@
     transition: 0.3s ease-in-out;
 }
 .checkout .advantages .advantagesIcons p{
-    color: #ffffff;
-    font-size:1rem;
+    color: #b0b0b0;
+    font-size:0.9rem;
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    transition: 0.3s ease-in-out;
 }
