@@ -1,4 +1,5 @@
 import "./Services.css"
+import { Link } from "react-router-dom";
 
 const Services = () => {
     return (
@@ -78,6 +79,7 @@ const Services = () => {
                             <p className="paragraph">Offer extended warranties or additional warranty services to provide customers with added peace of mind when making purchases.</p>
                         </div>
                     </article>
+                    <Link className="btnServices" to="../servicesPage">View more...</Link>
                 </div>
             </section>
         </li>

@@ -1,4 +1,5 @@
 import "./ContactUs.css";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
     return (
@@ -101,6 +102,7 @@ const ContactUs = () => {
                         <p>Warranty<strong>608 235 7779</strong></p>
                         <p>Providers<strong>250 654 9857</strong></p>
                     </article>
+                    <Link className="btnContactUs" to="../contactUsPage">View more...</Link>
                 </div>
             </section>
         </li>

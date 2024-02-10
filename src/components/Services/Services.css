@@ -47,7 +47,7 @@
     align-items: flex-start;
     gap: 10px;
     padding: 0px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .servicesSection .servicesContainer .servicesColumn .infoServices{
     width:100%;
@@ -84,4 +84,25 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     color:#B0B0B0;
+}
+.servicesSection .servicesContainer .servicesColumn .btnServices{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size:0.9rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    color:#ffffff;
+    border: 1px solid #000000;
+    transition:0.3s ease-in-out;
+}
+.servicesSection .servicesContainer .servicesColumn .btnServices:hover{
+    background-color: #ffffff;
+    color:#000000;
 }
