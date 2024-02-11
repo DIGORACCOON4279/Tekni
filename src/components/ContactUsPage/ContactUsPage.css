@@ -4,7 +4,7 @@
     background-color:#ffffff;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: auto;
 }
 .sectionContactUs .sideBySide{
@@ -12,36 +12,33 @@
     height:auto;
     display: flex;
     flex-direction: row-reverse;
-    gap:20px;
+    justify-content: space-between;
     margin: 100px auto;
     position: relative;
+    gap: 150px;
 }
 .sectionContactUs .sideBySide .contactUs{
     width:100%;
     height:auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation{
     width:100%;
     height:auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    gap:30px;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation .titlesContactUs{
-    width:70%;
+    width:100%;
     height:auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     background-color:  #F9F9F9;
-    padding: 30px;
+    padding:20px;
     border-radius: 10px;
     font-size:1rem;
     font-weight: 500;
@@ -49,18 +46,16 @@
     color:#747474;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation #titlesContactUs{
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation .location{
-    width:70%;
+    width:100%;
     height:auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border:1px solid #F9F9F9;
-    padding: 30px;
-    margin: 10px auto;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
 }
@@ -71,7 +66,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap:10px;
+    gap:5px;
+    margin-left: -40px;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation .location .info div{
     display: flex;
@@ -95,15 +91,19 @@
     color:#cccccc;
     padding-left:26px;
 }
-
+.sectionContactUs .sideBySide .contactUs .columnLocation .location .info p span{
+    font-weight: 700;
+}
 .sectionContactUs .sideBySide .contactUs .columnLocation .location .buildingPic{
-    width:18%;
+    width:15%;
+    aspect-ratio: 3/4;
     height:auto;
     object-fit: cover;
-    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation .location a{
-    width:30%;
+    width:25%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -111,6 +111,8 @@
     align-self: self-end;
     gap: 20px;
     padding: 10px;
+    margin-bottom:15px ;
+    margin-right: 15px;
     background-color: #cccccc;
     text-decoration: none;
     border-radius: 5px;
@@ -128,52 +130,64 @@
     width:22px;
 }
 .sectionContactUs .sideBySide .mainAddress{
-    width:35%;
+    width:60%;
     height:max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px  auto;
-    background-color: #f9f9f9;
-    padding: 30px;
-    border-radius: 10px;
     position: sticky;
-    top:25%;
+    top:17%;
 }
 .sectionContactUs .sideBySide .mainAddress .contactNumber{
+    width:100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap:30px;
+    align-items: center;
+    gap:20px;
 }
 .sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry{
+    width:100%;
     display: flex;
     flex-direction: column;
     gap:10px;
 }
-.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry .contactNumber{
+.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry .contactPhone{
+    width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap:10px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
 }
-.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry img{
+.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry .contactPhone  .title{
+    font-size:1rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    color:#747474;
+}
+.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry .contactPhone img{
     width:22px;
 }
-.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry div{
+.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry section{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry section div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap:50px;
 }
-.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry h4{
-    font-size:1rem;
-    font-weight: 500;
-    font-family: 'Ubuntu', sans-serif;
-    color:#747474;
-    margin-bottom: 15px;
-}
-.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry div p{
+.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry section div p{
     font-size:0.8rem;
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
