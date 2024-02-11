@@ -141,7 +141,10 @@ const ContactUsPage = () => {
                 <section className="mainAddress">
                     <div className="contactNumber">
                         <article className="contactCountry">
-                            <h4 className="title">Colombia</h4>
+                            <div className="contactNumber">
+                                <h4 className="title">Canada</h4>
+                                <img src="/img/phoneContact.svg" alt="Phone icon" />
+                            </div>
                             <div>
                                 <p>Customer service</p>
                                 <p><strong>300 547 8528</strong></p>
@@ -164,7 +167,10 @@ const ContactUsPage = () => {
                             </div>
                         </article>
                         <article  className="contactCountry">
-                            <h4 className="title">Canada</h4>
+                            <div className="contactNumber">
+                                <h4 className="title">Canada</h4>
+                                <img src="/img/phoneContact.svg" alt="Phone icon" />
+                            </div>
                             <div>
                                 <p>Customer service</p>
                                 <p><strong>778 995 6523</strong></p>

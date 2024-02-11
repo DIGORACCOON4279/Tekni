@@ -151,6 +151,15 @@
     flex-direction: column;
     gap:10px;
 }
+.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry .contactNumber{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry img{
+    width:22px;
+}
 .sectionContactUs .sideBySide .mainAddress .contactNumber .contactCountry div{
     display: flex;
     flex-direction: row;
