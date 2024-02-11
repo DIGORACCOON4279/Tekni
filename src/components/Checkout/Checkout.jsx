@@ -172,7 +172,7 @@ const handleSubmit = (event) => {
 
                 <div className="informationClient">
                     <div className="shippingFree">
-                        <p className="message">¡Congratulations!!! Your shipping is free this month</p>
+                        <p className="message"><span>¡Congratulations!!</span>Your shipping is free this month</p>
                         <div className="journey" >
                             <div className="shippingLine"></div>
                             <img src="/img/shippingOrange.svg" alt="Shipping icon" className="shipping" />

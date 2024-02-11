@@ -240,11 +240,15 @@
 }
 .checkout .formUpdate .informationClient .shippingFree .message{
     width:100%;
+    display: flex;
+    flex-direction: row;
     color: #747474;
     font-size:0.8rem;
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
-    text-align: center;
+}
+.checkout .formUpdate .informationClient .shippingFree .message span{
+    color: #FF5207;
 }
 .checkout .formUpdate .informationClient .shippingFree .journey{
     width:100%;
