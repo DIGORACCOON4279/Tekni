@@ -171,6 +171,13 @@ const handleSubmit = (event) => {
                 </div>
 
                 <div className="informationClient">
+                    <div className="shippingFree">
+                        <p className="message">¡Congratulations!!! Your shipping is free this month</p>
+                        <div className="journey" >
+                            <div className="shippingLine"></div>
+                            <img src="/img/shippingOrange.svg" alt="Shipping icon" className="shipping" />
+                        </div>
+                    </div>
                     <div className="legend">
                         <p className="advise"> *The items are reserved for 60 minutes* </p>
                     </div>
@@ -206,7 +213,6 @@ const handleSubmit = (event) => {
 
                         <div className="buttons">
                             <button className="myBtn checkout" disabled={cart.length === 0}> Checkout </button>
-                            <button type="reset" className="myBtn reset" > Reset </button>
                         </div>
                     </div>
                 </div>

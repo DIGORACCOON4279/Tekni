@@ -166,7 +166,6 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    cursor: pointer;
 }
 .checkout .formUpdate .checkoutProducts .emptySection .emptyCartWord{
     width: 25%;
@@ -220,10 +219,48 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
     margin: 0px auto;
     position: sticky;
     top:60px;
+}
+.checkout .formUpdate .informationClient .shippingFree {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+    margin: 0px auto 10px;
+    padding:20px;
+    color: #747474;
+    font-size:0.8rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+.checkout .formUpdate .informationClient .shippingFree .message{
+    width:100%;
+    color: #747474;
+    font-size:0.8rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.checkout .formUpdate .informationClient .shippingFree .journey{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.checkout .formUpdate .informationClient .shippingFree .journey .shippingLine{
+    width:100%;
+    height:3px;
+    background-color: #FF5207;
+    align-self: self-end;
+    border-radius: 30px;
+}
+.checkout .formUpdate .informationClient .shippingFree .journey .shipping{
+    width:24px;
 }
 .checkout .formUpdate .informationClient .legend {
     width:100%;
@@ -291,16 +328,5 @@
     color: #000000;
     background-color: #F2F2F2;
     border: 1px solid #000000;
-}
-.checkout .formUpdate .informationClient .background .reset{
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px solid #000000;
-    transition:0.3s ease-in-out;
-}
-.checkout .formUpdate .informationClient .background .reset:hover{
-    color: #F2F2F2;
-    background-color: #000000;
-    border: 1px solid #F2F2F2;
 }
 
