@@ -161,10 +161,9 @@ const handleSubmit = (event) => {
                             </div>
                         ))
                     }
-
                     <div className="emptySection">
-                            <p className="emptyCartWord">Empty shopping cart</p>
-                            <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
+                        <p className="emptyCartWord">Empty shopping cart</p>
+                        <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
                     </div>
 
                     <p className="totalCheckout"> Total... <span> ${total} </span> </p>
