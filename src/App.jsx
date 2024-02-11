@@ -33,7 +33,6 @@ const App = () => {
                   <Route path="/servicesPage" element={<ServicesPage/>}/>
                   <Route path="/contactUsPage" element={<ContactUsPage/>}/>
 
-
               </Routes>
               <Footer />
           </CartProvider>

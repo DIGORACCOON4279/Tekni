@@ -1,0 +1,50 @@
+.checkout .advantages{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin: 0px auto 150px;
+    padding:50px 10%;
+}
+.checkout .advantages .advantagesIcons{
+    width:300px;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000000;
+    transition: 0.3s ease-in-out;
+}
+.checkout .advantages .advantagesIcons:hover{
+    box-shadow: 0 0 3px 2px #313131;
+}
+.checkout .advantages .advantagesIcons:hover img{
+    transform: scale(110%);
+}
+.checkout .advantages .advantagesIcons:hover p{
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+.checkout .advantages .advantagesIcons img{
+    width:auto;
+    height:auto;
+    transform: scale(100%);
+    transition: 0.3s ease-in-out;
+}
+.checkout .advantages .advantagesIcons p{
+    color: #b0b0b0;
+    font-size:0.9rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
