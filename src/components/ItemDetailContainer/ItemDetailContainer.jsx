@@ -1,9 +1,5 @@
 import { useState, useEffect } from "react";
-
-// import { getOneProduct } from "../../asyncmock";
-
 import AdvantagesTwo from "../AdvantagesTwo/AdvantagesTwo";
-// import RandomItemList from "../RandomItemList/RandomItemList";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import Counter from "../Counter/Counter";
 import Advertising from "../Advertising/Advertising";
@@ -11,7 +7,6 @@ import { useParams } from "react-router-dom";
 import { db } from "../../services/config";
 import { getDoc, doc } from "firebase/firestore";
 import "./ItemDetailContainer.css";
-
 
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState(null);
@@ -29,25 +24,14 @@ const ItemDetailContainer = () => {
         .catch(error => console.log("Inconsistencia ", error))
     }, [idItem])
 
-
-    // Con este funcionaba el asyncmock
-
-    // useEffect( () => {
-    //     getOneProduct( idItem )
-    //         .then(response => setProduct(response));
-    // }, [ idItem ]);
-
     return (
         <section className="ItemDetailContainer">
             <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
             <Advertising/>
             <ItemDetail {...product} >
-
                 <Counter/>
-
             </ItemDetail>
             <AdvantagesTwo/>
-            {/* <RandomItemList/> */}
         </section>
     )
 }

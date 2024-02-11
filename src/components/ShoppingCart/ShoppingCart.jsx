@@ -14,14 +14,11 @@ const ShoppingCart = () => {
                 <img className="close" src="/img/close.svg" alt="" />
             </label>
 
-
             {quantityTotal === 0 ? (
                 <>
                     <section className="emptyCartSection">
                         <div className="animationGif">
                             <div className="followBuying">
-                                {/* <div className="emptyCartIcon"></div> */}
-                                {/* <img src="../img/emptyBag.gif" alt="" className="emptyCartIcon" /> */}
                                 <div className="noProducts">
                                     <img src="../img/emptyCart.svg" alt="" className="emptyCart" />
                                     <p className="emptyCartNoProducts">No products</p>
