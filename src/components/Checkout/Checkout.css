@@ -313,8 +313,7 @@
     justify-content: center;
     align-items: center;
     gap:50px;
-    margin: 0px auto 50px;
-    background-color: #000000;
+    margin: 0px auto 150px;
     padding:50px 10%;
 }
 .checkout .advantages .advantagesIcons{
@@ -328,6 +327,7 @@
     padding: 20px;
     border-radius: 10px;
     cursor: pointer;
+    background-color: #000000;
     transition: 0.3s ease-in-out;
 }
 .checkout .advantages .advantagesIcons:hover{
