@@ -159,11 +159,39 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: end;
 }
+.checkout .formUpdate .checkoutProducts .emptySection{
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+.checkout .formUpdate .checkoutProducts .emptySection .emptyCartWord{
+    width: 25%;
+    color:#323232;
+    font-size:0.9rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.checkout .formUpdate .checkoutProducts .emptySection .emptyCartIcon{
+    width: 30px;
+    height:auto;
+    border-radius: 50%;
+    padding: 3px;
+    cursor:pointer;
+    transition: 0.3s ease-in-out;
+}
+.checkout .formUpdate .checkoutProducts .emptySection .emptyCartIcon:hover{
+    background-color:#f9f9f9;
+
+}
 .checkout .formUpdate .checkoutProducts .totalCheckout{
     width: 100%;
     text-align: end;
-    padding-top: 20px;
-    border-top: 1px solid #F2F2F2;
     font-size:1.2rem;
     font-weight: 700;
     color: #FF5207;

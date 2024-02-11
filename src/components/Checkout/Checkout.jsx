@@ -5,6 +5,7 @@ import { db } from "../../services/config";
 import { collection, addDoc, updateDoc, getDoc, doc } from "firebase/firestore";
 import Swal from 'sweetalert2';
 import { Link } from "react-router-dom";
+// import CartItem from "../CartItem/CartItem";
 
 const checkout = () => {
     const { cart, emptyCart, total } = useContext(CartContext);
@@ -144,6 +145,14 @@ const handleSubmit = (event) => {
                                             <p> {product.item.reference} </p>
                                         </div>
                                         <img className="rating" src="/img/rating.svg" alt="Rating" />
+
+                                        {/* <section className="shoppingProducts">
+                                            {cart.map(({ item, quantity }) => (
+                                                <CartItem key={product.item.id} item={product.item} quantity={quantity} onDelete={() => deleteProduct(item.id)} />
+                                            ))}
+                                        </section> */}
+
+
                                     </div>
                                 </div>
                                 <p> ${product.item.price}  </p>
@@ -152,6 +161,11 @@ const handleSubmit = (event) => {
                             </div>
                         ))
                     }
+
+                    <div className="emptySection">
+                            <p className="emptyCartWord">Empty shopping cart</p>
+                            <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
+                    </div>
 
                     <p className="totalCheckout"> Total... <span> ${total} </span> </p>
                     <Link to="../ItemListContainer" className="emptyCartLink"> View products 🚀</Link>
