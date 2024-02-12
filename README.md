@@ -34,14 +34,15 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 
 # Desarrollo</br>
 
-En esta segunda Preentrega se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto esta preentrega y puntos adicionales al proyecto: </br>
+En esta entrega final se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto esta entrega y puntos adicionales al proyecto: </br>
 
 >> ** Se cumple con la consigna de realizar routing & navegacion</br>
 >>    ✔Navbar con cart</br>
 >>    ✔Catálogo</br>
 >>    ✔Detalle de producto</br>
->> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, createAccounr, menu con 5 secciones.</br>
->> ** La navbar cuenta con: logo, user, shoppingCart & menu desplegable.</br>
+>> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, oreder summary & menu con 5 secciones.</br>
+>> ** Todas las secciones y pages son navegables y las que no te dirigen a la pagina de Error404 con opcion de regresar a home </br>
+>> ** La navbar cuenta con: logo, shoppingCart & menu desplegable.</br>
 >> ** El menu desplegable cuenta con 5 secciones home, products, categories, services & contact us</br>
 >> ** Detallo que al realizar una secccion categories con 4 opciones: smartphones, laptops, headset & smartTVs </br>
 >> ** Se realiza la seccion de descripcion de cada producto con:</br>
@@ -49,10 +50,16 @@ En esta segunda Preentrega se avanza en la estructura y programacion del proyect
 >>     ✔Connectivity and Compatibility</br>
 >>     ✔Operating System and Updates</br>
 >>     ✔Con su respectivo precio, rating, stock, & add to cart</br>
->> ** Cada cart de los productos explica su categoria, id, precio, imagen, referencia & rating y boton "see more..."</br>
+>> ** Cada cart de los productos explica su categoria, id, precio, imagen, referencia & rating y boton "View product..."</br>
 >> ** En el footer estan las redes sociales y varios links para tambien navegar entre categories y products, a las opciones sin relevancia se
 >>    le asignaron un routing a la page Error404.</br>
->> ** Se crea un archivo llamado asyncmock.js para guardar un array de objetos llamado "products", el cual contiene 40 productos</br>
+>> ** Se crea deja de usar el file asyncmock para utilizar Firebase para guardar un array d de objetos llamado "products", el cual contiene 40 productos</br>
+>> ** Se crea el file .env para guardar la respetiva IP_KEY</br>
+>> ** Se crea el file context donde se ubica la logica en un archivo llamado cartContext.jsx</br>
+>> ** Se crea el file servoces para guardar la informacion de la respectiva informacion API para usar Firebase y manipular el array products y orders</br>
+>> ** En Firebase se crean fuera del array de products otro con respecto a manipular las ordenes de compra llamado "orders"que expide un id para al terminar la compra el usuario como >>    confirmacion</br>.
+>> ** Se crearon 35 componentes en React</br>.
+>> ** Aunque no se pide en las consignas pero se realiza el SEO</br>.
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
@@ -73,7 +80,7 @@ A continuacion muestro algunas imagenes del proyecto </br>
 
 🚧I´m so sorry📱Cellphone (man at work)</br>
 
-En esta segunda preentrega se pide ya tener y realizar:</br>
+En esta entrega final se pide ya tener listo y realizar:</br>
 
 ** ✔ --NavBar</br>
 ** ✔ --CartWidget</br>
@@ -82,9 +89,13 @@ En esta segunda preentrega se pide ya tener y realizar:</br>
 ** ✔ --ItemListContainer</br>
 ** ✔ --ItemDetail</br>
 ** ✔ --ItemDetailContainer</br>
-** ✔ --Asyncmock.js(Array de objetos con 40 produtos)</br>
+** ✔ --Firebase(Products: Array de objetos con 40 produtos)</br>
+** ✔ --Firebase(Orders)</br>
+** ✔ --.env</br>
+** ✔ --context/CartContext.jsx</br>
+** ✔ --services/config.js</br>
 
-La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se derivan los componentes antes nombrados con su respectivo archivos files.jsx & files.css por cada componente.</br>
+La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se derivan los componentes antes nombrados con su respectivo archivos file.jsx & file.css por cada componente.</br>
 
 src/</br>
 |-- components/</br>
@@ -95,15 +106,13 @@ src/</br>
 |   |-- Advertising/</br>
 |   |-- ArrowUp/</br>
 |   |-- Body/</br>
+|   |-- CartItem/</br>
 |   |-- CartWidget/</br>
-|   |-- CategoryHeadset/</br>
-|   |-- CategoryLaptop/</br>
 |   |-- CategorySections/</br>
-|   |-- CategorySmartphones/</br>
-|   |-- CategorySmarTv/</br>
+|   |-- Checkout/</br>
 |   |-- ContactUs/</br>
+|   |-- ContactUsPage/</br>
 |   |-- Counter/</br>
-|   |-- CreateAccount/</br>
 |   |-- Error404/</br>
 |   |-- Footer/</br>
 |   |-- Headset/</br>
@@ -116,23 +125,26 @@ src/</br>
 |   |-- ItemList/</br>
 |   |-- ItemListContainer/</br>
 |   |-- Laptops/</br>
-|   |-- LogIn/</br>
 |   |-- Menu/</br>
 |   |-- NavBar/</br>
 |   |-- NewGeneration/</br>
-|   |-- RandomItemList/</br>
+|   |-- SectionAdvantagesThree/</br>
 |   |-- Services/</br>
+|   |-- ServicesPage/</br>
 |   |-- ShoppingCart/</br>
 |   |-- Smartphone/</br>
 |   |-- SmartTvs/</br>
 |   |-- TheBestSellers/</br>
-|   |-- User/</br>
 |   |-- WhiteLine/</br>
+|-- context</br>
+    |-- CartContext.jsx/</br>
+|-- services</br>
+    |-- config.js/</br>
 |-- App.jsx</br>
-|-- asyncmock.js</br>
-|-- index.jsx</br>
+|-- main.jsx</br>
 
 # Deployment</br>
+Po ultimo se realizo su respectivo deployment en Netlify llamandose tekniapp.netlify.app/
 
 🚀-- ![color_Netlify](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/90470fa3-b09f-4478-b1e3-02882d2d49a1) -- [Netlify](https://tekniapp.netlify.app)</br>
 
