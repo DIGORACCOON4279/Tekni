@@ -32,12 +32,24 @@
 .footerSection .sections .sectionContact .distributors .flags{
     width:100%;
     height:auto;
+}
+.footerSection .sections .sectionContact .distributors .flags ul{
+    width:100%;
+    height:auto;
     display:flex;
     flex-direction: column;
     gap:10px;
 }
-.footerSection .sections .sectionContact .distributors .flags .canadaFlag,
-.footerSection .sections .sectionContact .distributors .flags .colombiaFlag{
+.footerSection .sections .sectionContact .distributors .flags ul li,
+.footerSection .sections .sectionContact .distributors .flags ul li{
+    width:100%;
+}
+.footerSection .sections .sectionContact .distributors .flags ul li .navLink,
+.footerSection .sections .sectionContact .distributors .flags ul li .navLink{
+    text-decoration: none;
+}
+.footerSection .sections .sectionContact .distributors .flags ul li .navLink .canadaFlag,
+.footerSection .sections .sectionContact .distributors .flags ul li .navLink .colombiaFlag{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -47,13 +59,13 @@
     padding:10px 15px;
     cursor:pointer;
 }
-.footerSection .sections .sectionContact .distributors .flags .canadaFlag .icon,
-.footerSection .sections .sectionContact .distributors .flags .colombiaFlag .icon{
+.footerSection .sections .sectionContact .distributors .flags ul li .navLink .canadaFlag .icon,
+.footerSection .sections .sectionContact .distributors .flags ul li .navLink .colombiaFlag .icon{
     width:20px;
     height: auto;
 }
-.footerSection .sections .sectionContact .distributors .flags .canadaFlag p,
-.footerSection .sections .sectionContact .distributors .flags .colombiaFlag p{
+.footerSection .sections .sectionContact .distributors .flags ul li .navLink .canadaFlag p,
+.footerSection .sections .sectionContact .distributors .flags ul li .navLink .colombiaFlag p{
     font-size: 0.7rem;
     font-weight:500;
     color: #000000;

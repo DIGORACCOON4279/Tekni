@@ -45,7 +45,6 @@ const handleSubmit = (event) => {
             category: product.item.category,
             quantity: product.quantity,
 
-
         })),
         total: total,
         date: new Date(),
@@ -54,9 +53,6 @@ const handleSubmit = (event) => {
         phone,
         email
     }
-
-
-
 
     ///Modificación para que descuente stock: lo que tenemos que hacer ahora es ejecutar varias promesas en paralelo. Por un lado puedo crear la orden de compra y el otro actualizar el stock:
 
@@ -114,8 +110,6 @@ const handleSubmit = (event) => {
     })
 }
 
-
-
     return (
         <section className="checkout">
 
@@ -145,14 +139,6 @@ const handleSubmit = (event) => {
                                             <p> {product.item.reference} </p>
                                         </div>
                                         <img className="rating" src="/img/rating.svg" alt="Rating" />
-
-                                        {/* <section className="shoppingProducts">
-                                            {cart.map(({ item, quantity }) => (
-                                                <CartItem key={product.item.id} item={product.item} quantity={quantity} onDelete={() => deleteProduct(item.id)} />
-                                            ))}
-                                        </section> */}
-
-
                                     </div>
                                 </div>
                                 <p> ${product.item.price}  </p>

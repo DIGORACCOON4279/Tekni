@@ -1,6 +1,0 @@
-.logInSection #user{
-    display: flex;
-}
-.logInSection #user:checked ~ .createAccount{
-    display: none;
-}

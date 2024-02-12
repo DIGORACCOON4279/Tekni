@@ -11,7 +11,7 @@ const ShoppingCart = () => {
     return (
         <section className="shoppingCartSection">
             <label htmlFor="cartWidget">
-                <img className="close" src="/img/close.svg" alt="" />
+                <img className="close" src="/img/close.svg" alt="Close icon" />
             </label>
 
             {quantityTotal === 0 ? (

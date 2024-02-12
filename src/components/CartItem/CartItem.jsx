@@ -3,7 +3,6 @@ import "./CartItem.css";
 const CartItem = ( { item, quantity, onDelete }) => {
 
     return (
-
         <article className="productItem">
             <section className="iconMenu">
                 <div className="productFeatures">
@@ -17,7 +16,6 @@ const CartItem = ( { item, quantity, onDelete }) => {
                     <img className="rating" src="/img/rating.svg" alt="Rating star"  />
                     <div className="icons">
                         <img className="icon" src="/img/trash.svg"  alt="Trash icon" onClick={onDelete}/>
-                        <img className="icon" src="/img/heart.svg" alt="Heart icon" />
                     </div>
                 </div>
             </section>

@@ -171,10 +171,6 @@ const ContactUsPage = () => {
                                     <p><strong>310 259 5845</strong></p>
                                 </div>
                                 <div>
-                                    <p>Distribution</p>
-                                    <p><strong>310 259 5845</strong></p>
-                                </div>
-                                <div>
                                     <p>Warranty</p>
                                     <p><strong>302 254 8798</strong></p>
                                 </div>

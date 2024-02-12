@@ -24,14 +24,24 @@ const Footer = () => {
                     <div className="distributors">
                         <h4 className="contactUs">Distributors</h4>
                         <section className="flags">
-                            <div className="canadaFlag">
-                                <img src="/img/canadaFlag.svg" alt="" className="icon" />
-                                <p>Canada - 250 223 4559</p>
-                            </div>
-                            <div className="colombiaFlag">
-                                <img src="/img/colombiaFlag.svg" alt="" className="icon" />
-                                <p>Colombia - 310 259 5845</p>
-                            </div>
+                            <ul>
+                                <li>
+                                    <NavLink className="navLink" to="../ContactUsPage">
+                                        <div className="canadaFlag">
+                                            <img src="/img/canadaFlag.svg" alt="" className="icon" />
+                                            <p>Canada - 250 223 4559</p>
+                                        </div>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink className="navLink" to="../ContactUsPage">
+                                        <div className="colombiaFlag">
+                                            <img src="/img/colombiaFlag.svg" alt="" className="icon" />
+                                            <p>Colombia - 310 259 5845</p>
+                                        </div>
+                                    </NavLink>
+                                </li>
+                            </ul>
                         </section>
                     </div>
                 </article>
