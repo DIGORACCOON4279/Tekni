@@ -26,6 +26,7 @@ Se realizaran dos preentregas y la entrega final a medida que se vaya realizando
 ![react](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/af7de6da-ad17-45c7-95a6-3ef1e3c5f730) React (Library)</br>
 ![vite](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/f9c38eca-b09c-4f34-84a4-6e7d8ae983f0)Vite</br>
 ![firebase](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/9646a3cf-f814-482a-adad-d8e928df9b8c)Firebase(BD)</br>
+![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) (Library)</br>
 
 Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener mejor entendimiento de lo que se quiere lograr:</br>
 
