@@ -57,9 +57,9 @@ En esta entrega final se avanza en la estructura y programacion del proyecto eco
 >> ** Se crea el file .env para guardar la respetiva IP_KEY</br>
 >> ** Se crea el file context donde se ubica la logica en un archivo llamado cartContext.jsx</br>
 >> ** Se crea el file servoces para guardar la informacion de la respectiva informacion API para usar Firebase y manipular el array products y orders</br>
->> ** En Firebase se crean fuera del array de products otro con respecto a manipular las ordenes de compra llamado "orders"que expide un id para al terminar la compra el usuario como >>    confirmacion</br>.
->> ** Se crearon 35 componentes en React</br>.
->> ** Aunque no se pide en las consignas pero se realiza el SEO</br>.
+>> ** En Firebase se crean fuera del array de products otro con respecto a manipular las ordenes de compra llamado "orders"que expide un id para al terminar la compra el usuario como >>    confirmacion</br>
+>> ** Se crearon 35 componentes en React</br>
+>> ** Aunque no se pide en las consignas pero se realiza el SEO</br>
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
