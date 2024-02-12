@@ -70,11 +70,11 @@ A continuacion muestro algunas imagenes del proyecto </br>
 ✔** Category Products</br>
 ![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/4993de0a-d0e6-4f6e-ba43-ffeaa5ba27c7)</br>
 
-✔** Shopping Cart</br>
-![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/f283cfa6-d43d-4dca-9e52-2abacdadc3eb)
-
 ✔** Details Container</br>
-![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/274d2ba9-046d-44d3-87ae-4d3ff88e2de0)</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/f283cfa6-d43d-4dca-9e52-2abacdadc3eb)</br>
+
+✔** Shopping Cart</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/8ee9c59a-808a-4019-90c7-75d8d75b7902)</br>
 
 ✔** Error404 Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/9ac080f1-c52d-4aab-adfe-f443b4a0f27e)</br>
