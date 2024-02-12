@@ -56,11 +56,11 @@ En esta segunda Preentrega se avanza en la estructura y programacion del proyect
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
-✔** Landing Page</br>
-![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/f423c45a-2aee-4e28-9445-b9215a9aad46)</br>
+✔** Order Summary Page</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/7f3e0e32-93d7-460e-a496-9dbd1b62024e)</br>
 
 ✔** Category Products</br>
-![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/11835304-a29a-4026-8305-92b27de32c02)</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/4993de0a-d0e6-4f6e-ba43-ffeaa5ba27c7)</br>
 
 ✔** ShoppingCart</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/7ef6e26b-0276-459f-b1cd-0c916b80588b)</br>
