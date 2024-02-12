@@ -56,7 +56,7 @@ En esta segunda Preentrega se avanza en la estructura y programacion del proyect
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
-✔** Order Summary Page</br>
+✔** Order Summary</br>
 ![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/7f3e0e32-93d7-460e-a496-9dbd1b62024e)</br>
 
 ✔** Category Products</br>
