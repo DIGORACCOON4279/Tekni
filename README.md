@@ -60,6 +60,8 @@ En esta entrega final se avanza en la estructura y programacion del proyecto eco
 >> ** En Firebase se crean fuera del array de products otro con respecto a manipular las ordenes de compra llamado "orders"que expide un id para al terminar la compra el usuario como >>    confirmacion</br>
 >> ** Se crearon 35 componentes en React</br>
 >> ** Aunque no se pide en las consignas pero se realiza el SEO</br>
+>> ** Se uyilizo sweetAleert2 para crear el popup final de confirmacion de compra con su orden</br>
+
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
