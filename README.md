@@ -51,7 +51,7 @@ En esta entrega final se avanza en la estructura y programacion del proyecto eco
 >> ** Cada cart de los productos explica su categoria, id, precio, imagen, referencia & rating y boton "View product..."</br>
 >> ** En el footer estan las redes sociales y varios links para tambien navegar entre categories y products, a las opciones sin relevancia se
 >>    le asignaron un routing a la page Error404.</br>
->> ** Se crea deja de usar el file asyncmock para utilizar Firebase para guardar un array d de objetos llamado "products", el cual contiene 40 productos</br>
+>> ** Se deja de usar el file asyncmock para utilizar Firebase para guardar un array d de objetos llamado "products", el cual contiene 40 productos</br>
 >> ** Se crea el file .env para guardar la respetiva IP_KEY</br>
 >> ** Se crea el file context donde se ubica la logica en un archivo llamado cartContext.jsx</br>
 >> ** Se crea el file servoces para guardar la informacion de la respectiva informacion API para usar Firebase y manipular el array products y orders</br>
