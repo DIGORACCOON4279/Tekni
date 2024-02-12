@@ -1,5 +1,5 @@
 #Tekni
-![heroSection](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/7f8b23be-b2ab-44c9-9443-4b080eeedb6c)</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/29ab3c95-9056-4208-97b2-26a3024917c5)</br>
 
 ********************************************************************************************************************************************************************************
 # Iniciativa</br>
