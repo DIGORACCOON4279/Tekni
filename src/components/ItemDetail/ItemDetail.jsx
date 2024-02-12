@@ -51,7 +51,6 @@ const ItemDetail = ({id, reference, category, price, img, stock, features, compa
                         initial={1} stock={stock} functionAdd={handleQuantity}/>)
                     }
                 </div>
-
             </section>
         </article>
     )

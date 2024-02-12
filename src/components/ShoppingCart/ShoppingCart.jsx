@@ -37,7 +37,6 @@ const ShoppingCart = () => {
                         <h3 className="categoryTitle">Quantity</h3>
                         <h3 className="categoryTitle">Total</h3>
                     </section>
-
                     <section className="shoppingProducts">
                         {cart.map(({ item, quantity }) => (
                             <CartItem key={item.id} item={item} quantity={quantity} onDelete={() => deleteProduct(item.id)} />

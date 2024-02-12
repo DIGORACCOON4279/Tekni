@@ -112,9 +112,7 @@ const handleSubmit = (event) => {
 
     return (
         <section className="checkout">
-
                 <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
-
                 <h3 className="endingPurchaseTitle">Order summary</h3>
 
             <form className="formUpdate" onSubmit={handleSubmit}>
@@ -147,11 +145,11 @@ const handleSubmit = (event) => {
                             </div>
                         ))
                     }
+
                     <div className="emptySection">
                         <p className="emptyCartWord">Empty shopping cart</p>
                         <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
                     </div>
-
                     <p className="totalCheckout"> Total... <span> ${total} </span> </p>
                     <Link to="../ItemListContainer" className="emptyCartLink"> View products 🚀</Link>
                 </div>
@@ -202,11 +200,7 @@ const handleSubmit = (event) => {
                         </div>
                     </div>
                 </div>
-                {/* {
-                    orderId && <strong>¡Thanks for you purchase! your order number is: {orderId} </strong>
-                } */}
             </form>
-
             <SectionAdvantagesThree/>
         </section>
     )

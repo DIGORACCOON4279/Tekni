@@ -1,9 +1,6 @@
 
 import {useState, useEffect} from "react";
 import ItemList from "../ItemList/ItemList";
-
-// import { getProducts, getProductsByCategory } from "../../asyncmock";
-
 import { useParams } from "react-router-dom";
 import { db } from "../../services/config";
 import { collection, getDocs, where, query } from "firebase/firestore";
@@ -27,18 +24,6 @@ const ItemListContainer = () => {
       .catch(error => console.log("Inconsistencia ", error))
 
     }, [idCategory])
-
-  // Esto funcionaba con asynmock
-
-  // useEffect(() => {
-
-  //     const functionProducts = idCategory ? getProductsByCategory : getProducts;
-
-  //     functionProducts(idCategory)
-  //       .then(response => setProducts(response))
-  //       .catch(error => console.log(error))
-
-  // }, [idCategory]);
 
   return (
       <section>

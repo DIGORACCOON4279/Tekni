@@ -2,7 +2,7 @@ import "./Footer.css";
 import { NavLink, useLocation} from "react-router-dom";
 
 const Footer = () => {
- // Obtén la ubicación actual
+ // Obténiene la ubicación actual
     const location = useLocation();
 
     // Verifica si estás en la página de error 404

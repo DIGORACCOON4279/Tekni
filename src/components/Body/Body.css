@@ -9,6 +9,9 @@ body{
     font-family: 'Expletus Sans', sans-serif, 'Ubuntu', sans-serif;
     -webkit-font-smoothing:antialiased;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* Font-weigth
 
@@ -17,6 +20,3 @@ regular:400;
 medium:500;
 bold:700; */
 
-html{
-    scroll-behavior: smooth;
-}
