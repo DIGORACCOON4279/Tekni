@@ -51,11 +51,11 @@ En esta entrega final se avanza en la estructura y programacion del proyecto eco
 >> ** Cada cart de los productos explica su categoria, id, precio, imagen, referencia & rating y boton "View product..."</br>
 >> ** En el footer estan las redes sociales y varios links para tambien navegar entre categories y products, a las opciones sin relevancia se
 >>    le asignaron un routing a la page Error404.</br>
->> ** Se deja de usar el file asyncmock para utilizar Firebase para guardar un array d de objetos llamado "products", el cual contiene 40 productos</br>
+>> ** Se deja de usar el file asyncmock para utilizar Firebase para guardar un array de objetos llamado "products", el cual contiene 40 productos</br>
 >> ** Se crea el file .env para guardar la respetiva IP_KEY</br>
 >> ** Se crea el file context donde se ubica la logica en un archivo llamado cartContext.jsx</br>
->> ** Se crea el file servoces para guardar la informacion de la respectiva informacion API para usar Firebase y manipular el array products y orders</br>
->> ** En Firebase se crean fuera del array de products otro con respecto a manipular las ordenes de compra llamado "orders"que expide un id para al terminar la compra el usuario como >>    confirmacion</br>
+>> ** Se crea el file services para guardar la informacion de la respectiva informacion API para usar Firebase y manipular el array products y orders</br>
+>> ** En Firebase se crea fuera del array de products otro con respecto a manipular las ordenes de compra llamado "orders"</br>
 >> ** Se crearon 35 componentes en React</br>
 >> ** Aunque no se pide en las consignas pero se realiza el SEO</br>
 >> ** Se utilizo sweetAleert2 para crear el popup final de confirmacion de compra con su orden</br>
@@ -70,10 +70,10 @@ A continuacion muestro algunas imagenes del proyecto </br>
 ✔** Category Products</br>
 ![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/4993de0a-d0e6-4f6e-ba43-ffeaa5ba27c7)</br>
 
-✔** ShoppingCart</br>
+✔** Shopping Cart</br>
 ![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/f283cfa6-d43d-4dca-9e52-2abacdadc3eb)
 
-✔** DetailsContainer</br>
+✔** Details Container</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/274d2ba9-046d-44d3-87ae-4d3ff88e2de0)</br>
 
 ✔** Error404 Page</br>
@@ -96,7 +96,7 @@ En esta entrega final se pide ya tener listo y realizar:</br>
 ** ✔ --context/CartContext.jsx</br>
 ** ✔ --services/config.js</br>
 
-La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se derivan los componentes antes nombrados con su respectivo archivos file.jsx & file.css por cada componente.</br>
+La estructura a trabajar en los componentes src se crea una carpeta principal llamada components y se derivan los componentes antes nombrados con su respectivo archivos file.jsx & file.css por cada componente.</br>
 
 src/</br>
 |-- components/</br>
@@ -145,7 +145,7 @@ src/</br>
 |-- main.jsx</br>
 
 # Deployment</br>
-Po ultimo se realizo su respectivo deployment en Netlify llamandose tekniapp.netlify.app/
+Por ultimo se realizo su respectivo deployment en Netlify llamandose tekniapp.netlify.app/
 
 🚀-- ![color_Netlify](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/90470fa3-b09f-4478-b1e3-02882d2d49a1) -- [Netlify](https://tekniapp.netlify.app)</br>
 
