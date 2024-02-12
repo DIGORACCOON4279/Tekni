@@ -37,10 +37,7 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 
 En esta entrega final se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto esta entrega y puntos adicionales al proyecto: </br>
 
->> ** Se cumple con la consigna de realizar routing & navegacion</br>
->>    ✔Navbar con cart</br>
->>    ✔Catálogo</br>
->>    ✔Detalle de producto</br>
+>> ** Se cumple con la consigna de realizar routing & navegacion usando React Router desde app.jsx</br>
 >> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, oreder summary & menu con 5 secciones.</br>
 >> ** Todas las secciones y pages son navegables y las que no te dirigen a la pagina de Error404 con opcion de regresar a home </br>
 >> ** La navbar cuenta con: logo, shoppingCart & menu desplegable.</br>
