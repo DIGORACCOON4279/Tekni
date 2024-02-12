@@ -42,7 +42,7 @@ En esta entrega final se avanza en la estructura y programacion del proyecto eco
 >> ** Todas las secciones y pages son navegables y las que no te dirigen a la pagina de Error404 con opcion de regresar a home </br>
 >> ** La navbar cuenta con: logo, shoppingCart & menu desplegable.</br>
 >> ** El menu desplegable cuenta con 5 secciones home, products, categories, services & contact us</br>
->> ** Detallo que al realizar una secccion categories con 4 opciones: smartphones, laptops, headset & smartTVs </br>
+>> ** Detallo que al realizar una seccion categories con 4 opciones: smartphones, laptops, headset & smartTVs </br>
 >> ** Se realiza la seccion de descripcion de cada producto con:</br>
 >>     ✔Key Features</br>
 >>     ✔Connectivity and Compatibility</br>
