@@ -35,7 +35,7 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 
 # Desarrollo</br>
 
-En esta entrega final se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto esta entrega y puntos adicionales al proyecto: </br>
+En esta entrega final se avanza en la estructura y programacion del proyecto ecommerce. Explico en mas detalle como ejecuto esta entrega y puntos adicionales al proyecto: </br>
 
 >> ** Se cumple con la consigna de realizar routing & navegacion usando React Router desde app.jsx</br>
 >> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, oreder summary & menu con 5 secciones.</br>
