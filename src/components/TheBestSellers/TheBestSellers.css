@@ -134,7 +134,7 @@
     .bestSellersSection .imgTheBestSellers .theBestSellersCinco .paragraph,
     .bestSellersSection .imgTheBestSellers .theBestSellersSeis .paragraph{
         width:100%;
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding: 0 25px;
         bottom:15px;
     }
