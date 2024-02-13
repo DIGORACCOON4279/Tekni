@@ -2,7 +2,7 @@ li{
     list-style-type: none;
 }
 li label .menuIcon{
-    width:100%;
+    width:28px;
     cursor: pointer;
 
 }
