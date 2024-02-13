@@ -18,7 +18,7 @@
 }
 .smartTvsSection .info .titleSection{
     font-size: 2.5rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Expletus Sans', sans-serif;
     font-weight:500 ;
     color: #000000;
     text-align: center;
@@ -101,4 +101,12 @@
     border: 1px solid #FF5207;
     background-color: #FF5207;
     letter-spacing:3px;
+}
+
+/* MediaQueries */
+
+@media screen and (max-width: 950px){
+    .smartTvsSection  .info{
+        width:100%;
+    }
 }

@@ -89,11 +89,26 @@
 /* MediaQueries */
 
 @media screen and (max-width: 950px){
-    .bestSellersSection .imgTheBestSellers{
+    .newGenerationSection  .info{
         width:100%;
+    }
+    .newGenerationSection .imgNewGeneration{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .newGenerationSection  .info .titleSection{
+        font-size: 2.1rem;
+    }
+    .newGenerationSection .info .description{
+        font-size: 1rem;
+    }
+    .newGenerationSection .imgNewGeneration .newGenerationUno .paragraph,
+    .newGenerationSection .imgNewGeneration .newGenerationDos .paragraph,
+    .newGenerationSection .imgNewGeneration .newGenerationTres .paragraph{
+        font-size: 1.25rem;
+        padding:0px 30px;
     }
 }
