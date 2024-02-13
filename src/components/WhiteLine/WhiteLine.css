@@ -87,13 +87,20 @@
 
 /* MediaQueries */
 
-@media screen and (max-width: 700px){
-    .whiteLineSection .imgWhiteLine{
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width: 1120px){
+    .whiteLineSection .imgWhiteLine .imgContainerUno .paragraph,
+    .whiteLineSection .imgWhiteLine .imgContainerDos .paragraph{
+        bottom:10px;
+        padding:40px 30px;
     }
 }
 
+@media screen and (max-width: 950px){
+    .whiteLineSection .imgWhiteLine{
+        display:flex;
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 500px){
     .whiteLineSection .info .titleSection{
         font-size: 2.1rem;
@@ -102,12 +109,6 @@
     .whiteLineSection .info .description{
         font-size: 1rem;
         text-align: center;
-    }
-    .whiteLineSection .imgWhiteLine .imgContainerUno,
-    .whiteLineSection .imgWhiteLine .imgContainerDos{
-        display:flex;
-        justify-content: center;
-        align-items: flex-end;
     }
     .whiteLineSection .imgWhiteLine .imgContainerUno .paragraph,
     .whiteLineSection .imgWhiteLine .imgContainerDos .paragraph{
