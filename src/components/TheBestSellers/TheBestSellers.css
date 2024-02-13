@@ -105,3 +105,37 @@
     text-align: left;
     padding:0px 70px;
 }
+
+/* MediaQueries */
+
+@media screen and (max-width: 950px){
+    .bestSellersSection .imgTheBestSellers{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 500px){
+    .bestSellersSection  .info .titleSection{
+        font-size: 2.1rem;
+        font-family: 'Expletus Sans', sans-serif;
+        font-weight:500 ;
+    }
+    .bestSellersSection .info .description{
+        font-size: 1rem;
+        font-weight:400;
+    }
+    .bestSellersSection .imgTheBestSellers .theBestSellersUno .paragraph,
+    .bestSellersSection .imgTheBestSellers .theBestSellersDos .paragraph,
+    .bestSellersSection .imgTheBestSellers .theBestSellersTres .paragraph,
+    .bestSellersSection .imgTheBestSellers .theBestSellersCuatro .paragraph,
+    .bestSellersSection .imgTheBestSellers .theBestSellersCinco .paragraph,
+    .bestSellersSection .imgTheBestSellers .theBestSellersSeis .paragraph{
+        width:100%;
+        font-size: 1.1rem;
+        padding: 0 25px;
+        bottom:15px;
+    }
+}
