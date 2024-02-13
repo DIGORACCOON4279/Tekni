@@ -101,3 +101,30 @@
     letter-spacing:3px;
     color: #ffffff;
 }
+
+/* MediaQueries */
+
+@media screen and (max-width: 950px){
+    .smartphoneSection .imgSmartphoneSection{
+        flex-direction: column;
+    }
+    .smartphoneSection .imgSmartphoneSection .info{
+        margin-bottom: 100px;
+    }
+    .smartphoneSection .imgSmartphoneSection .smartphoneSectionUno{
+        order:2;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .smartphoneSection .imgSmartphoneSection .info .titleSection{
+        font-size: 2.1rem;
+    }
+    .smartphoneSection .imgSmartphoneSection .info .description{
+        font-size: 1.1rem;
+    }
+    .smartphoneSection .imgSmartphoneSection .smartphoneSectionUno .btnInfo .cta,
+    .smartphoneSection .imgSmartphoneSection .smartphoneSectionDos .btnInfo .cta{
+        width: 100%;
+    }
+}
