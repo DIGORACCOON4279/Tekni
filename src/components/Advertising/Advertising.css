@@ -10,7 +10,7 @@
 }
 .advertisingSection .advertising{
     width: auto;
-    min-width:300px;
+    min-width:250px;
     height:auto;
     display: flex;
     flex-direction: row;
@@ -126,7 +126,7 @@
         gap:25px;
     }
     .advertisingSection .advertising{
-        width:40%;
+        width:30%;
         gap:50px;
         flex-direction: column;
     }
@@ -159,19 +159,27 @@
     }
 }
 
+@media screen and (max-width: 900px){
+    .advertisingSection .advertising{
+        width:45%;
+    }
+}
+
 @media screen and (max-width: 750px){
     .advertisingSection .advertising .infoDiscount{
         gap:10px;
     }
     .advertisingSection .advertising{
-        width:50%;
-        gap:50px;
+        gap:20px;
     }
 }
 
 @media screen and (max-width: 600px){
     .advertisingSection{
         gap:20px;
+    }
+    .advertisingSection .advertising{
+        width:80%;
     }
 }
 
