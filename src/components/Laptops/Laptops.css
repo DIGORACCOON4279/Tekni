@@ -16,7 +16,7 @@
     flex-direction: column;
     gap:20px;
 }
-.laptopsSection  .info .titleSection{
+.laptopsSection .info .titleSection{
     font-size: 2.5rem;
     font-weight:500 ;
     color: #000000;
@@ -138,7 +138,7 @@
 .laptopsSection .imgLaptopsSection .laptopsSectionSeis .btnInfo .cta,
 .laptopsSection .imgLaptopsSection .laptopsSectionSiete .btnInfo .cta,
 .laptopsSection .imgLaptopsSection .laptopsSectionOcho .btnInfo .cta{
-    width: 70%;
+    width: 100%;
     padding:10px;
     font-size: 1rem;
     font-family: 'Ubuntu', sans-serif;
@@ -162,4 +162,48 @@
     border: 1px solid #FF5207;
     background-color: #FF5207;
     letter-spacing:3px;
+}
+
+/* MediaQueries */
+
+@media screen and (max-width: 950px){
+    .newGenerationSection  .info{
+        width:100%;
+    }
+    .newGenerationSection .imgNewGeneration{
+        display: flex;
+        flex-direction: column;
+    }
+    .laptopsSection .imgLaptopsSection{
+        grid-template-areas:
+        "laptopUno laptopDos"
+        "laptopTres laptopCuatro"
+        "laptopCinco laptopSeis"
+        "laptopSiete laptopOcho"
+        ;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .laptopsSection  .info .titleSection{
+        font-size: 2.1rem;
+    }
+    .laptopsSection .info .description{
+        font-size: 1rem;
+    }
+    .laptopsSection .imgLaptopsSection{
+        width:100%;
+        grid-template-areas:
+        "laptopUno"
+        "laptopDos"
+        "laptopTres"
+        "laptopCuatro"
+        "laptopCinco"
+        "laptopSeis"
+        "laptopSiete"
+        "laptopOcho"
+        ;
+        gap:0;
+        overflow: hidden;
+    }
 }
