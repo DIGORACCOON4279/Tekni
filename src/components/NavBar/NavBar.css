@@ -2,20 +2,24 @@
 .header{
     width:100%;
     height:50px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 50px;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
     background-color: #F2F2F2;
     z-index:999;
+    margin:-5px;
+}
+.header .headerSection{
+    max-width: 90%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 .header .logoTekni{
-    width:23%;
+    width:24%;
     height:auto;
     animation:logo 0.3s linear;
 }

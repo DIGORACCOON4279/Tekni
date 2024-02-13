@@ -1,7 +1,6 @@
 
 .cardContainer .cardProduct{
     width: calc(auto - 10px);
-    /* width:20%; */
     max-width: 240px;
     height:auto;
     display: flex;

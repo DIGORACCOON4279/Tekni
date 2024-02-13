@@ -8,10 +8,10 @@
     align-items: center;
     background-color: #000000;
     margin: 0px auto;
-    padding: 0px 50px;
 }
 .footerSection .sections{
     width:100%;
+    max-width: 90%;
     height:auto;
     display: flex;
     flex-direction: row;
