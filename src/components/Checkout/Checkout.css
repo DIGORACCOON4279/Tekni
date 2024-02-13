@@ -341,6 +341,9 @@
     .checkout .formUpDate .checkoutProducts .emptyCartLink{
         width:50%;
     }
+    .checkout .formUpDate .checkoutProducts .emptySection .emptyCartWord{
+        width: 45%;
+    }
 }
 @media screen and (max-width: 850px){
     .checkout .formUpDate{
@@ -390,5 +393,7 @@
     .checkout .formUpDate .checkoutProducts .resumeProduct p{
         width:30px;
     }
-
+    .checkout .formUpDate .checkoutProducts .emptySection .emptyCartWord{
+        width: 100%;
+    }
 }
