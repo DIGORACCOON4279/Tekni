@@ -11,7 +11,7 @@
     padding:50px 10%;
 }
 .checkout .advantages .advantagesIcons{
-    width:300px;
+    width:400px;
     height:100px;
     display: flex;
     flex-direction: row;
@@ -48,3 +48,26 @@
     text-align: center;
     transition: 0.3s ease-in-out;
 }
+
+ /* MediaQueries */
+
+ @media screen and (max-width: 1120px){
+    .checkout .advantages{
+        width:90%;
+        padding: 0px;
+    }
+    .checkout .advantages .advantagesIcons{
+        width:40%;
+    }
+}
+@media screen and (max-width: 850px){
+    .checkout .advantages {
+        width:90%;
+        gap:30px;
+    }
+    .checkout .advantages .advantagesIcons{
+        width:100%;
+    }
+}
+
+

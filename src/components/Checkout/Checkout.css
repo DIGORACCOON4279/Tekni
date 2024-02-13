@@ -1,4 +1,4 @@
-/* Section popup */
+/* Section popup - Purchase order*/
 
 .custom-popup-container{
     width:30%;
@@ -60,7 +60,7 @@
     font-weight: 700;
     margin: 0px auto;
 }
-.checkout .formUpdate{
+.checkout .formUpDate{
     width:90%;
     display: flex;
     flex-direction: row;
@@ -68,7 +68,7 @@
     margin: 30px auto 100px;
     gap:40px;
 }
-.checkout .formUpdate .checkoutProducts{
+.checkout .formUpDate .checkoutProducts{
     width:100%;
     display: flex;
     flex-direction: column;
@@ -77,7 +77,7 @@
     margin: 0px auto;
     gap:5px;
 }
-.checkout .formUpdate .checkoutProducts .titleItem{
+.checkout .formUpDate .checkoutProducts .titleItem{
     width:100%;
     display: flex;
     flex-direction: row;
@@ -89,13 +89,13 @@
     padding-bottom: 10px;
     text-transform: uppercase;
 }
-.checkout .formUpdate .checkoutProducts .titleItem h4{
+.checkout .formUpDate .checkoutProducts .titleItem h4{
     font-size:0.8rem;
     font-weight: 700;
     text-transform: uppercase;
     text-align: left;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct{
+.checkout .formUpDate .checkoutProducts .resumeProduct{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -108,38 +108,38 @@
     color: #323232;
     font-family: 'Ubuntu', sans-serif;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct .description{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap:30px;
-}
-.checkout .formUpdate .checkoutProducts .resumeProduct .description img{
-    width:130px;
+.checkout .formUpDate .checkoutProducts .resumeProduct .img{
+    width:15%;
     background-color: #F9F9F9;
     border-radius: 5px;
     padding: 10px;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct .description .info{
+.checkout .formUpDate .checkoutProducts .resumeProduct .description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkout .formUpDate .checkoutProducts .resumeProduct .description .info{
     width:100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap:30px;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct .description .info .text{
+.checkout .formUpDate .checkoutProducts .resumeProduct .description .info .text{
     display: flex;
     flex-direction: column;
     gap:5px;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct .description .info .category{
+.checkout .formUpDate .checkoutProducts .resumeProduct .description .info .category{
     font-size:0.9rem;
     font-weight: 700;
     color:#000000;
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct .description .info p{
+.checkout .formUpDate .checkoutProducts .resumeProduct .description .info p{
     width:100%;
     font-size:0.7rem;
     font-weight: 700;
@@ -147,10 +147,13 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct .description .info .rating{
+.checkout .formUpDate .checkoutProducts .resumeProduct .description .info .rating{
     width:90%;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    padding: 10px;
 }
-.checkout .formUpdate .checkoutProducts .resumeProduct p{
+.checkout .formUpDate .checkoutProducts .resumeProduct p{
     width:70px;
     font-size:0.8rem;
     font-weight: 500;
@@ -158,7 +161,7 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: end;
 }
-.checkout .formUpdate .checkoutProducts .emptySection{
+.checkout .formUpDate .checkoutProducts .emptySection{
     width: 100%;
     padding-top: 20px;
     border-top: 1px solid #F2F2F2;
@@ -167,7 +170,7 @@
     justify-content: flex-end;
     align-items: center;
 }
-.checkout .formUpdate .checkoutProducts .emptySection .emptyCartWord{
+.checkout .formUpDate .checkoutProducts .emptySection .emptyCartWord{
     width: 25%;
     color:#323232;
     font-size:0.9rem;
@@ -175,7 +178,7 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
 }
-.checkout .formUpdate .checkoutProducts .emptySection .emptyCartIcon{
+.checkout .formUpDate .checkoutProducts .emptySection .emptyCartIcon{
     width: 30px;
     height:auto;
     border-radius: 50%;
@@ -183,17 +186,17 @@
     cursor:pointer;
     transition: 0.3s ease-in-out;
 }
-.checkout .formUpdate .checkoutProducts .emptySection .emptyCartIcon:hover{
+.checkout .formUpDate .checkoutProducts .emptySection .emptyCartIcon:hover{
     background-color:#f9f9f9;
 }
-.checkout .formUpdate .checkoutProducts .totalCheckout{
+.checkout .formUpDate .checkoutProducts .totalCheckout{
     width: 100%;
     text-align: end;
     font-size:1.2rem;
     font-weight: 700;
     color: #FF5207;
 }
-.checkout .formUpdate .checkoutProducts .emptyCartLink{
+.checkout .formUpDate .checkoutProducts .emptyCartLink{
     width:30%;
     color:#ffffff;
     font-size:1rem;
@@ -208,12 +211,12 @@
     border: 1px solid #cccccc;
     transition:0.3s ease-in-out;
 }
-.checkout .formUpdate .checkoutProducts .emptyCartLink:hover{
+.checkout .formUpDate .checkoutProducts .emptyCartLink:hover{
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
     color:#747474;
 }
-.checkout .formUpdate .informationClient{
+.checkout .formUpDate .informationClient{
     width:55%;
     height: 100vh;
     display: flex;
@@ -222,7 +225,7 @@
     position: sticky;
     top:60px;
 }
-.checkout .formUpdate .informationClient .shippingFree {
+.checkout .formUpDate .informationClient .shippingFree {
     width:100%;
     height: auto;
     display: flex;
@@ -237,7 +240,7 @@
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
 }
-.checkout .formUpdate .informationClient .shippingFree .message{
+.checkout .formUpDate .informationClient .shippingFree .message{
     width:100%;
     display: flex;
     flex-direction: row;
@@ -246,31 +249,31 @@
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
 }
-.checkout .formUpdate .informationClient .shippingFree .message span{
+.checkout .formUpDate .informationClient .shippingFree .message span{
     color: #FF5207;
 }
-.checkout .formUpdate .informationClient .shippingFree .journey{
+.checkout .formUpDate .informationClient .shippingFree .journey{
     width:100%;
     display: flex;
     flex-direction: row;
     gap:10px;
 }
-.checkout .formUpdate .informationClient .shippingFree .journey .shippingLine{
+.checkout .formUpDate .informationClient .shippingFree .journey .shippingLine{
     width:100%;
     height:3px;
     background-color: #FF5207;
     align-self: self-end;
     border-radius: 30px;
 }
-.checkout .formUpdate .informationClient .shippingFree .journey .shipping{
+.checkout .formUpDate .informationClient .shippingFree .journey .shipping{
     width:24px;
 }
-.checkout .formUpdate .informationClient .legend {
+.checkout .formUpDate .informationClient .legend {
     width:100%;
     background-color: #F9F9F9;
     margin-bottom: 10px;
 }
-.checkout .formUpdate .informationClient .legend .advise{
+.checkout .formUpDate .informationClient .legend .advise{
     width:100%;
     text-align: center;
     color: #747474;
@@ -279,21 +282,21 @@
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
 }
-.checkout .formUpdate .informationClient .background{
+.checkout .formUpDate .informationClient .background{
     width:100%;
     background-color: #F9F9F9;
     display: flex;
     flex-direction: column;
     padding:20px;
 }
-.checkout .formUpdate .informationClient .background .formBox{
+.checkout .formUpDate .informationClient .background .formBox{
     width:100%;
     background-color: #F9F9F9;
     display: flex;
     flex-direction: column;
     gap:10px;
 }
-.checkout .formUpdate .informationClient .background .formBox input{
+.checkout .formUpDate .informationClient .background .formBox input{
     color: #747474;
     font-size:0.7rem;
     font-weight: 300;
@@ -301,7 +304,7 @@
     padding:15px;
     border: 1px solid #cccccc;
 }
-.checkout .formUpdate .informationClient .background .buttons{
+.checkout .formUpDate .informationClient .background .buttons{
     width:100%;
     color: #747474;
     font-size:0.8rem;
@@ -313,7 +316,7 @@
     gap:15px;
     padding-top: 25px;
 }
-.checkout .formUpdate .informationClient .background .myBtn{
+.checkout .formUpDate .informationClient .background .myBtn{
     width:100%;
     padding: 15px;
     font-size:1rem;
@@ -321,15 +324,53 @@
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
 }
-.checkout .formUpdate .informationClient .background .checkout{
+.checkout .formUpDate .informationClient .background .checkout{
     color: #ffffff;
     background-color: #000000;
     border: 1px solid #000000;
     transition:0.3s ease-in-out;
 }
-.checkout .formUpdate .informationClient .background .checkout:hover{
+.checkout .formUpDate .informationClient .background .checkout:hover{
     color: #000000;
     background-color: #F2F2F2;
     border: 1px solid #000000;
 }
 
+/* MediaQueries */
+
+@media screen and (max-width: 1120px){
+    .checkout .formUpDate .informationClient{
+        width:60%;
+    }
+    .checkout .formUpDate .checkoutProducts .emptyCartLink{
+        width:50%;
+    }
+}
+@media screen and (max-width: 850px){
+    .checkout .formUpDate{
+        flex-direction: column;
+    }
+    .checkout .formUpDate .informationClient{
+        width: 100%;
+        position:static;
+        top:0;
+    }
+    .checkout .formUpDate .checkoutProducts .resumeProduct .img{
+        width:20%;
+    }
+    .checkout .formUpDate .checkoutProducts .emptyCartLink{
+        width:100%;
+    }
+}
+@media screen and (max-width: 700px){
+    .checkout .formUpDate .checkoutProducts .emptyCartLink{
+        width:100%;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .checkout .formUpDate .checkoutProducts .emptyCartLink{
+        width:100%;
+    }
+
+}

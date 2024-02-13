@@ -115,7 +115,7 @@ const handleSubmit = (event) => {
                 <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
                 <h3 className="endingPurchaseTitle">Order summary</h3>
 
-            <form className="formUpdate" onSubmit={handleSubmit}>
+            <form className="formUpDate" onSubmit={handleSubmit}>
 
                 <div className="checkoutProducts">
                     <div className="titleItem">
@@ -129,8 +129,8 @@ const handleSubmit = (event) => {
                     {
                         cart.map(product => (
                             <div className="resumeProduct" key={product.item.id}>
+                                <img className="img" src={product.item.img} alt="" />
                                 <div className="description">
-                                    <img src={product.item.img} alt="" />
                                     <div className="info">
                                         <div className="text">
                                             <p className="category" > {product.item.category} </p>
