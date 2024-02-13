@@ -173,7 +173,7 @@ const ContactUsPage = () => {
                     </div>
                 </section>
                 <section className="mainAddress">
-                    <img src="/img/supportContactUs.png" alt="ContactUs img" className="imgContactUs" />
+                    <img src="/img/supportContactUs.webp" alt="ContactUs img" className="imgContactUs" />
                     <div className="contactNumber">
                         <article className="contactCountry">
                             <section className="contactPhone">
