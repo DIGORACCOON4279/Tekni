@@ -4,7 +4,7 @@
     background: url(../img/backgroundServices.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 .servicePage .sectionServices{
@@ -34,7 +34,7 @@
     background-image: linear-gradient(to bottom right, #323232,  #414141);
 }
 .servicePage .sectionServices div img{
-    width: 8%;
+    width: 50px;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -62,4 +62,14 @@
     border-radius: 5px;
     background-color:#323232 ;
     padding: 20px;
+}
+
+
+/* MediaQueries */
+
+@media screen and (max-width: 800px){
+    .servicePage .sectionServices{
+        width: 90%;
+        margin: auto
+    }
 }
