@@ -378,9 +378,12 @@
         width:120px;
         font-size:0.6rem;
         margin-left: 10px;
-    }.titleItem
+    }
     .checkout .formUpDate .checkoutProducts .emptyCartLink{
         width:100%;
+    }
+    .checkout .formUpDate .checkoutProducts .emptySection .emptyCartWord{
+        width: 100%;
     }
 }
 @media screen and (max-width: 500px){
@@ -392,8 +395,5 @@
     }
     .checkout .formUpDate .checkoutProducts .resumeProduct p{
         width:30px;
-    }
-    .checkout .formUpDate .checkoutProducts .emptySection .emptyCartWord{
-        width: 100%;
     }
 }
