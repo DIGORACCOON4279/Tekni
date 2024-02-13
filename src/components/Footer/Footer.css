@@ -170,10 +170,11 @@
 }
 @media screen and (max-width: 630px){
     .footerSection .sections{
-        gap:40px;
+        justify-content: space-between;
         flex-wrap: wrap;
+        gap:40px;
     }
     .footerSection .sections .sectionContact{
-       order:1;
+        order:1;
     }
 }
