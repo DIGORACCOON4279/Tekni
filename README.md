@@ -1,5 +1,5 @@
 #Tekni
-![heroSection](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/7f8b23be-b2ab-44c9-9443-4b080eeedb6c)</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/29ab3c95-9056-4208-97b2-26a3024917c5)</br>
 
 ********************************************************************************************************************************************************************************
 # Iniciativa</br>
@@ -26,6 +26,7 @@ Se realizaran dos preentregas y la entrega final a medida que se vaya realizando
 ![react](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/af7de6da-ad17-45c7-95a6-3ef1e3c5f730) React (Library)</br>
 ![vite](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/f9c38eca-b09c-4f34-84a4-6e7d8ae983f0)Vite</br>
 ![firebase](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/9646a3cf-f814-482a-adad-d8e928df9b8c)Firebase(BD)</br>
+![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) (Library)</br>
 
 Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener mejor entendimiento de lo que se quiere lograr:</br>
 
@@ -34,46 +35,53 @@ Aunque no es necesario ni evaluativo, pero realizo un mockup en figma para tener
 
 # Desarrollo</br>
 
-En esta segunda Preentrega se avanza en la estructura y programacion del proyecto ecommerce -- Tekni -- despues de realizar la navbar, cartWidget & un greeting en ItemListcontainer explico en mas detalle como ejecuto esta preentrega y puntos adicionales al proyecto: </br>
+En esta entrega final se avanza en la estructura y programacion del proyecto ecommerce. Explico en mas detalle como ejecuto esta entrega y puntos adicionales al proyecto: </br>
 
->> ** Se cumple con la consigna de realizar routing & navegacion</br>
->>    ✔Navbar con cart</br>
->>    ✔Catálogo</br>
->>    ✔Detalle de producto</br>
->> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, createAccounr, menu con 5 secciones.</br>
->> ** La navbar cuenta con: logo, user, shoppingCart & menu desplegable.</br>
+>> ** Se cumple con la consigna de realizar routing & navegacion usando React Router desde app.jsx</br>
+>> ** La app contiene landing page, Error404, catalogo, descripcion por producto, 4 categorias, shoppingCart, order summary & menu con 5 secciones.</br>
+>> ** Todas las secciones y pages son navegables y las que no te dirigen a la pagina de Error404 con opcion de regresar a home </br>
+>> ** La navbar cuenta con: logo, shoppingCart & menu desplegable.</br>
 >> ** El menu desplegable cuenta con 5 secciones home, products, categories, services & contact us</br>
->> ** Detallo que al realizar una secccion categories con 4 opciones: smartphones, laptops, headset & smartTVs </br>
+>> ** Detallo que al realizar una seccion categories con 4 opciones: smartphones, laptops, headset & smartTVs </br>
 >> ** Se realiza la seccion de descripcion de cada producto con:</br>
 >>     ✔Key Features</br>
 >>     ✔Connectivity and Compatibility</br>
 >>     ✔Operating System and Updates</br>
 >>     ✔Con su respectivo precio, rating, stock, & add to cart</br>
->> ** Cada cart de los productos explica su categoria, id, precio, imagen, referencia & rating y boton "see more..."</br>
+>> ** Cada cart de los productos explica su categoria, id, precio, imagen, referencia & rating y boton "View product..."</br>
 >> ** En el footer estan las redes sociales y varios links para tambien navegar entre categories y products, a las opciones sin relevancia se
 >>    le asignaron un routing a la page Error404.</br>
->> ** Se crea un archivo llamado asyncmock.js para guardar un array de objetos llamado "products", el cual contiene 40 productos</br>
+>> ** Se deja de usar el file asyncmock para utilizar Firebase para guardar un array de objetos llamado "products", el cual contiene 40 productos</br>
+>> ** Se crea el file .env para guardar la respetiva IP_KEY</br>
+>> ** Se crea el file context donde se ubica la logica en un archivo llamado cartContext.jsx</br>
+>> ** Se crea el file services para guardar la informacion de la respectiva informacion API para usar Firebase y manipular el array products y orders</br>
+>> ** En Firebase se crea fuera del array de products otro con respecto a manipular las ordenes de compra llamado "orders"</br>
+>> ** Se crearon 35 componentes en React</br>
+>> ** Aunque no se pide en las consignas pero se realiza el SEO</br>
+>> ** Se utilizo sweetAleert2 para crear el popup final de confirmacion de compra con su orden</br>
+>> ** Todas las animaciones se crearon con CSS3 nativo</br>
+
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
-✔** Landing Page</br>
-![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/f423c45a-2aee-4e28-9445-b9215a9aad46)</br>
+✔** Order Summary</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/7f3e0e32-93d7-460e-a496-9dbd1b62024e)</br>
 
 ✔** Category Products</br>
-![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/11835304-a29a-4026-8305-92b27de32c02)</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/4993de0a-d0e6-4f6e-ba43-ffeaa5ba27c7)</br>
 
-✔** ShoppingCart</br>
-![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/7ef6e26b-0276-459f-b1cd-0c916b80588b)</br>
+✔** Details Container</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/f283cfa6-d43d-4dca-9e52-2abacdadc3eb)</br>
 
-✔** DetailsContainer</br>
-![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/274d2ba9-046d-44d3-87ae-4d3ff88e2de0)</br>
+✔** Shopping Cart</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/8ee9c59a-808a-4019-90c7-75d8d75b7902)</br>
 
 ✔** Error404 Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/9ac080f1-c52d-4aab-adfe-f443b4a0f27e)</br>
 
 🚧I´m so sorry📱Cellphone (man at work)</br>
 
-En esta segunda preentrega se pide ya tener y realizar:</br>
+En esta entrega final se pide ya tener listo y realizar:</br>
 
 ** ✔ --NavBar</br>
 ** ✔ --CartWidget</br>
@@ -82,9 +90,13 @@ En esta segunda preentrega se pide ya tener y realizar:</br>
 ** ✔ --ItemListContainer</br>
 ** ✔ --ItemDetail</br>
 ** ✔ --ItemDetailContainer</br>
-** ✔ --Asyncmock.js(Array de objetos con 40 produtos)</br>
+** ✔ --Firebase(Products: Array de objetos con 40 produtos)</br>
+** ✔ --Firebase(Orders)</br>
+** ✔ --.env</br>
+** ✔ --context/CartContext.jsx</br>
+** ✔ --services/config.js</br>
 
-La estructura a trabajar en los componentes src es crea una carpeta principal llamada components y se derivan los componentes antes nombrados con su respectivo archivos files.jsx & files.css por cada componente.</br>
+La estructura a trabajar en los componentes src se crea una carpeta principal llamada components y se derivan los componentes antes nombrados con su respectivo archivos file.jsx & file.css por cada componente.</br>
 
 src/</br>
 |-- components/</br>
@@ -95,15 +107,13 @@ src/</br>
 |   |-- Advertising/</br>
 |   |-- ArrowUp/</br>
 |   |-- Body/</br>
+|   |-- CartItem/</br>
 |   |-- CartWidget/</br>
-|   |-- CategoryHeadset/</br>
-|   |-- CategoryLaptop/</br>
 |   |-- CategorySections/</br>
-|   |-- CategorySmartphones/</br>
-|   |-- CategorySmarTv/</br>
+|   |-- Checkout/</br>
 |   |-- ContactUs/</br>
+|   |-- ContactUsPage/</br>
 |   |-- Counter/</br>
-|   |-- CreateAccount/</br>
 |   |-- Error404/</br>
 |   |-- Footer/</br>
 |   |-- Headset/</br>
@@ -116,26 +126,28 @@ src/</br>
 |   |-- ItemList/</br>
 |   |-- ItemListContainer/</br>
 |   |-- Laptops/</br>
-|   |-- LogIn/</br>
 |   |-- Menu/</br>
 |   |-- NavBar/</br>
 |   |-- NewGeneration/</br>
-|   |-- RandomItemList/</br>
+|   |-- SectionAdvantagesThree/</br>
 |   |-- Services/</br>
+|   |-- ServicesPage/</br>
 |   |-- ShoppingCart/</br>
 |   |-- Smartphone/</br>
 |   |-- SmartTvs/</br>
 |   |-- TheBestSellers/</br>
-|   |-- User/</br>
 |   |-- WhiteLine/</br>
+|-- context</br>
+    |-- CartContext.jsx/</br>
+|-- services</br>
+    |-- config.js/</br>
 |-- App.jsx</br>
-|-- asyncmock.js</br>
-|-- index.jsx</br>
+|-- main.jsx</br>
 
 # Deployment</br>
+Por ultimo se realizo su respectivo deployment en Netlify llamandose tekniapp.netlify.app/
 
 🚀-- ![color_Netlify](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/90470fa3-b09f-4478-b1e3-02882d2d49a1) -- [Netlify](https://tekniapp.netlify.app)</br>
-🚀-- ![white_Vercel](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/fb91138d-5ff2-4e82-a2f5-b2c8f0ea6b15) -- [Vercel]() -- Coming soon </br>
 
 
 ![raccon_Logo1](https://github.com/DIGORACCOON4279/PrimeraEntrega-DiegoMarinMora/assets/88150970/1903b752-acc7-4d2b-95db-cf877319fcb7)</br>
