@@ -12,7 +12,8 @@
 }
 .advantageSection .cards{
     width:30%;
-    height:190px;
+    /* max-width: 300px; */
+    height:220px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,4 +51,33 @@
     font-weight:400 ;
     color: #b0b0b0;
     text-align: center;
+}
+
+/* MediaQueries */
+
+@media screen and (max-width: 950px){
+    .advantageSection{
+        width:100%;
+    }
+    .advantageSection .cards{
+        width:40%;
+    }
+}
+@media screen and (max-width: 650px){
+    .advantageSection{
+        width:100%;
+    }
+    .advantageSection .cards{
+        width:70%;
+        height:200px ;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .advantageSection{
+        flex-direction: column;
+    }
+    .advantageSection .cards{
+        width:100%;
+    }
 }
