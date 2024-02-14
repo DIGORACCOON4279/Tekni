@@ -185,6 +185,14 @@
     }
 }
 @media screen and (max-width: 700px){
+    .errorSection .earth{
+        width:3.5%;
+        overflow: visible;
+        position:absolute;
+        top:30%;
+        left:20px;
+        animation: earth 30s linear infinite ;
+    }
     .errorSection .info .infoSection{
         display: flex;
         flex-direction: row;
