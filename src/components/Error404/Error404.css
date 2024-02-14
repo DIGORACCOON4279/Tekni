@@ -1,7 +1,7 @@
 
 .errorSection{
     width:100%;
-    height:auto;
+    height:100vh;
     background-image: url(../img/outerspace.webp);
     background-color: #000000;
     background-position: 100%;
@@ -11,7 +11,7 @@
     object-fit: cover;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -154,3 +154,84 @@
     box-shadow:1px 1px 46px 4px #b0b0b0;
 }
 
+/* MediaQueries */
+
+@media screen and (max-width: 1210px){
+    .errorSection{
+        flex-direction: column;
+        background-color: #FF5207;
+    }
+    .errorSection .image{
+        width:450px;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        position: absolute;
+        top:10%;
+        left:0%;
+        right:35%;
+        margin:0px auto;
+    }
+    .errorSection .info .backToHome{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 850px){
+    .errorSection .info{
+        width: 50%;
+    }
+    .errorSection .info .backToHome{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    .errorSection .info .infoSection{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .errorSection .image{
+        width:350px;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        position: absolute;
+        top:20%;
+        left:0%;
+        right:55%;
+        margin:0px auto;
+    }
+    .errorSection .info .infoSection .fourZeroFour{
+        font-size: 13rem;
+    }
+    .errorSection .info .construction{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .errorSection .image{
+        width:300px;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        position: absolute;
+        top:20%;
+        left:-50%;
+        right:25%;
+        margin:0px auto;
+    }
+    .errorSection .info{
+        width: 90%;
+    }
+    .errorSection .info .backToHome{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    .errorSection .info .infoSection .fourZeroFour{
+        font-size: 11rem;
+    }
+    .errorSection .info .construction{
+        font-size: 2rem;
+    }
+}
