@@ -17,3 +17,11 @@ h2{
         transform: translate(0%);
     }
 }
+
+/* MediaQueries */
+
+@media screen and (max-width: 500px){
+    h2{
+        font-size: 0.6rem;
+    }
+}
