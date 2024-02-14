@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between ;
-    margin: 30px auto 100px;
+    margin: 0px auto 0px;
     gap:40px;
 }
 .checkout .formUpDate .checkoutProducts{
@@ -384,6 +384,9 @@
     }
     .checkout .formUpDate .checkoutProducts .emptySection .emptyCartWord{
         width: 100%;
+    }
+    .checkout .formUpDate .informationClient{
+        margin: 60px auto -150px;
     }
 }
 @media screen and (max-width: 500px){
