@@ -9,6 +9,7 @@
     background-color: #F2F2F2;
     z-index:999;
     margin: 0px -300px;
+    overflow:hidden;
 }
 .header .headerSection{
     max-width: 90%;
@@ -19,7 +20,7 @@
     margin: auto;
 }
 .header .logoTekni{
-    width:24%;
+    width:90px;
     height:auto;
     animation:logo 0.3s linear;
 }
