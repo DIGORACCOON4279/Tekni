@@ -385,9 +385,6 @@
     .checkout .formUpDate .checkoutProducts .emptySection .emptyCartWord{
         width: 100%;
     }
-    .checkout .formUpDate .informationClient{
-        margin: 60px auto -150px;
-    }
 }
 @media screen and (max-width: 500px){
     .checkout .formUpDate .checkoutProducts .emptyCartLink{
