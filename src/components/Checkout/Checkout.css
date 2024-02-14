@@ -386,7 +386,7 @@
         width: 100%;
     }
     .checkout .formUpDate .informationClient{
-        margin: 100px auto;
+        margin: 100px 40px;
     }
 }
 @media screen and (max-width: 500px){
