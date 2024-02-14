@@ -82,7 +82,9 @@
     top: 0;
     left: 0;
     width: 100%;
+    min-width: 300px;
     height: 100%;
+    margin: 0px auto;
     background-image: url("../img/emptyBag.gif");
     background-repeat: no-repeat;
     background-position: center center;
@@ -227,4 +229,54 @@
     background-color: #ffffff;
 }
 
+/* MediaQueries */
 
+@media screen and (max-width: 1250px){
+    .shoppingCartSection .emptyCartSection:before {
+        background-size: 40%;
+    }
+    .shoppingCartSection .emptyCartSection .emptyCartLink{
+        width:40%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .shoppingCartSection .emptyCartSection:before {
+        background-size: 50%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .shoppingCartSection .emptyCartSection:before {
+        background-size: 60%;
+    }
+    .shoppingCartSection .emptyCartSection .emptyCartLink{
+        width:60%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .shoppingCartSection .emptyCartSection:before {
+        background-size: 70%;
+    }
+    .shoppingCartSection .emptyCartSection .emptyCartLink{
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .shoppingCartSection .emptyCartSection:before {
+        background-size: 90%;
+    }
+    .shoppingCartSection .emptyCartSection .emptyCartLink{
+        width:100%;
+    }
+}
+@media screen and (max-width: 400px){
+    .shoppingCartSection .emptyCartSection:before {
+        background-size: 100%;
+    }
+    .shoppingCartSection .emptyCartSection .emptyCartLink{
+        width:100%;
+    }
+}
