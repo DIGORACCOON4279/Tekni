@@ -61,13 +61,13 @@
     height:auto;
     object-fit: cover;
     position: relative;
-    transform:scale(103%);
+    transform:scale(107%);
     transition:transform 0.3s ease-in-out;
 }
 .newGenerationSection .imgNewGeneration .newGenerationUno:hover > .item,
 .newGenerationSection .imgNewGeneration .newGenerationDos:hover > .item,
 .newGenerationSection .imgNewGeneration .newGenerationTres:hover > .item{
-    transform:scale(107%);
+    transform:scale(116%);
 }
 .newGenerationSection .imgNewGeneration .newGenerationUno .paragraph,
 .newGenerationSection .imgNewGeneration .newGenerationDos .paragraph,

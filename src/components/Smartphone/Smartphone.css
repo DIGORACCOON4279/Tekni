@@ -45,13 +45,13 @@
     height:auto;
     object-fit: cover;
     position: relative;
-    transform:scale(103%);
+    transform:scale(107%);
     transition:transform 0.3s ease-in-out;
 }
 .smartphoneSection .imgSmartphoneSection .smartphoneSectionUno:hover > .item,
 .smartphoneSection .imgSmartphoneSection .smartphoneSectionDos:hover > .item{
     transform:scale(108%);
-    filter:brightness(105%);
+    filter:brightness(116%);
 }
 .smartphoneSection .imgSmartphoneSection .smartphoneSectionUno .btnInfo,
 .smartphoneSection .imgSmartphoneSection .smartphoneSectionDos .btnInfo{

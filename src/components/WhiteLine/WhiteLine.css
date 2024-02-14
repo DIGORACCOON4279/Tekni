@@ -62,12 +62,12 @@
     height:auto;
     object-fit: cover;
     position: relative;
-    transform:scale(103%);
+    transform:scale(107%);
     transition:transform 0.3s ease-in-out;
 }
 .whiteLineSection .imgWhiteLine .imgContainerUno:hover > .item,
 .whiteLineSection .imgWhiteLine .imgContainerDos:hover > .item{
-    transform:scale(107%);
+    transform:scale(116%);
 }
 .whiteLineSection .imgWhiteLine .imgContainerUno .paragraph,
 .whiteLineSection .imgWhiteLine .imgContainerDos .paragraph{
