@@ -144,9 +144,8 @@
 }
 @media screen and (max-width: 670px){
     .servicesSection{
-        
         height:85px;
-        z-index: 98;
+        z-index: 9;
         border-top: 4px solid transparent;
     }
 }

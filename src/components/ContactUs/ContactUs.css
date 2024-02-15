@@ -186,7 +186,7 @@
 @media screen and (max-width: 670px){
     .contactUsSection{
         height:85px;
-        z-index: 97;
+        z-index: 9;
         border-top: 4px solid transparent;
     }
 }

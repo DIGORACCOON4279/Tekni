@@ -128,8 +128,7 @@
     .header .navBar {
         width:100vw;
         height: 100vh;
-        padding-top: 70px;
-
+        padding-top: 30px;
     }
     .header .navBar ul{
         width:100vw;
