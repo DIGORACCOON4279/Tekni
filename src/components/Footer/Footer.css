@@ -80,29 +80,6 @@
     text-align: left;
     padding-bottom:10px;
 }
-.footerSection .sections .sectionContact .socialMedia .iconItems{
-    width:90%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 5px;
-    overflow: hidden;
-    cursor:pointer;
-}
-.footerSection .sections .sectionContact .socialMedia .iconItems .icon{
-    width:100%;
-    height:auto;
-    padding: 5px;
-    border-radius: 50%;
-    border:1px solid #000000;
-    background-color:#747474;
-    transition: 0.3s ease-in-out;
-}
-.footerSection .sections .sectionContact .socialMedia .iconItems .icon:hover{
-    background-color: #ff5107aa;
-}
 .footerSection .sections .categories ul,
 .footerSection .sections .products ul,
 .footerSection .sections .options ul{

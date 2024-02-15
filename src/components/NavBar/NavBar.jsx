@@ -1,4 +1,4 @@
-
+import SocialMedia from "../SocialMedia/SocialMedia";
 import { Link, NavLink} from "react-router-dom";
 import ContactUs from "../ContactUs/ContactUs";
 import Services from "../Services/Services";
@@ -15,8 +15,6 @@ const NavBar = () => {
                 </Link>
                 <input id="menu" type="checkbox"/>
                 <nav className="navBar">
-                    <label htmlFor="menu">
-                    </label>
                     <ul>
                         <NavLink className="navLink" to="/" >
                             <li className="link">
@@ -32,6 +30,7 @@ const NavBar = () => {
                         <Services/>
                         <ContactUs />
                     </ul>
+                    <SocialMedia/>
                 </nav>
                 <nav className="iconsMenu">
                     <IconsMenu/>
