@@ -104,6 +104,14 @@
     }
 }
 
+@media screen and (max-width: 500px){
+    .shoppingCartSection .shoppingProducts .productItem .productFeatures .productImage{
+        max-width: 45px;
+        margin-right: 10px;
+    }
+}
+
+
 @media screen and (max-width: 700px){
     .shoppingCartSection .shoppingProducts .productItem .iconOption .rating{
         width:45px;
@@ -126,3 +134,5 @@
         gap:2px;
     }
 }
+
+

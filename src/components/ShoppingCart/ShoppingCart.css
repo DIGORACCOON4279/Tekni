@@ -236,8 +236,8 @@
     .shoppingCartSection .emptyCartSection .emptyCartLink{
         width:40%;
     }
-    .shoppingCartSection .shoppingItem .{
-        width:100%;
+    .shoppingCartSection .shoppingItem{
+        width:80%;
     }
     .shoppingCartSection .shoppingProducts{
         width:90%;
@@ -317,8 +317,20 @@
     }
 }
 
+@media screen and (max-width: 450px){
+    .shoppingCartSection .shoppingItem .categoryTitle:nth-child(2),
+    .shoppingCartSection .shoppingItem .categoryTitle:nth-child(3),
+    .shoppingCartSection .shoppingItem .categoryTitle:nth-child(4),
+    .shoppingCartSection .shoppingItem .categoryTitle:nth-child(5){
+        margin-left:10px;
+    }
+}
+
 @media screen and (max-width: 400px){
     .shoppingCartSection .emptyCartSection:before {
         background-size: 100%;
     }
 }
+
+
+
