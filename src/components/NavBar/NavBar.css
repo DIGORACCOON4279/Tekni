@@ -69,6 +69,7 @@
 }
 .header .navBar{
     width: 100%;
+    max-width: 100%;
     height: fit-content;
     position:absolute;
     top:100%;
@@ -123,7 +124,7 @@
 
 /* MediaQueries */
 
-@media screen and (max-width: 660px){
+@media screen and (max-width: 670px){
     .header .navBar {
         width:100vw;
         height: 100vh;
