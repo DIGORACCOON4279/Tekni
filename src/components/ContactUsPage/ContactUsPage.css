@@ -270,6 +270,9 @@
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
     }
+    .sectionContactUs .sideBySide .contactUs .imgContactUs{
+        width:70%;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -287,6 +290,22 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width: 670px){
+    .sectionContactUs .sideBySide .mainAddress{
+        flex-direction: column;
+        gap:50px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .sectionContactUs .sideBySide .contactUs{
+        flex-direction: column;
+    }
+    .sectionContactUs .sideBySide .contactUs .imgContactUs{
+        width:100%;
+    }
+}
+
 @media screen and (max-width: 670px){
     .sectionContactUs .sideBySide .mainAddress{
         flex-direction: column;
