@@ -31,17 +31,7 @@
     font-size:1.2rem;
     font-weight: 400;
     font-family: 'Ubuntu', sans-serif;
-    margin: 0px auto 10px;
-    text-align: left;
-    background-color:#ffffff;
-}
-.shoppingCartSection .title{
-    width:75%;
-    color:#FF5207;
-    font-size:1.2rem;
-    font-weight: 400;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0px auto 10px;
+    margin: 0px auto 0px;
     text-align: left;
     background-color:#ffffff;
 }
@@ -70,7 +60,7 @@
     align-items: center;
     overflow-y: scroll;
     padding: 20px;
-    margin: 10px auto;
+    margin: 0px auto;
     gap:20px;
 }
 .shoppingCartSection .emptyCartSection{
