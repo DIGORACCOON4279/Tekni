@@ -151,9 +151,10 @@
     left:0px;
     background-color: aquamarine;
 }
-.sectionContactUs .sideBySide .mainAddress .imgContactUs{
+.sectionContactUs .sideBySide .contactUs .imgContactUs{
     display:flex;
     object-fit: cover;
+    width:100%;
 }
 .sectionContactUs .sideBySide .mainAddress .contactNumber{
     width:100%;
@@ -236,10 +237,6 @@
         flex-direction: row;
         gap:80px;
     }
-    .sectionContactUs .sideBySide .mainAddress .imgContactUs{
-        width:48%;
-        display:flex;
-    }
     .sectionContactUs .sideBySide .contactUs{
         flex-direction: column;
     }
@@ -293,10 +290,6 @@
     .sectionContactUs .sideBySide .mainAddress{
         flex-direction: column;
         gap:50px;
-    }
-    .sectionContactUs .sideBySide .mainAddress .contactNumber,
-    .sectionContactUs .sideBySide .mainAddress .imgContactUs{
-        width:100%;
     }
 }
 
