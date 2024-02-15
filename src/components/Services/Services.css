@@ -1,4 +1,4 @@
-.servicesSection{
+/* .servicesSection{
     height: 85px;
     position: relative;
     color: #000000;
@@ -17,12 +17,40 @@
 .servicesSection:hover{
     background-color: #f2f2f2;
     border-bottom:  4px solid #FF5207;
-}
-.servicesSection img{
+} */
+/* .servicesSection figure img{
     width: 28px;
+} */
+.servicesSection ul .navLink {
+    text-decoration: none;
+}
+.servicesSection ul .navLink .link{
+    height: 85px;
+    list-style-type: none;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 15px 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border-bottom: 4px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+.servicesSection ul .navLink .link img{
+    width: 28px;
+    transition: 0.3s ease-in-out;
+}
+.servicesSection .navBar ul .navLink .link:hover{
+    background-color: #f2f2f2;
+    border-bottom:  4px solid #FF5207;
 }
 .servicesSection .servicesContainer{
-    width: 100vw;
+    width: 100%;
     height:max-content;
     display:none;
     flex-direction: row;
@@ -30,9 +58,10 @@
     align-items: center;
     padding: 40px 45px;
     gap:30px;
-    position: absolute;
-    top: 105%;
-    margin: 0px 0px 0px -255px;
+    position: fixed;
+    top: 100%;
+    right: 0px;
+    left: 0px;
     background-color: #F2F2F2;
     transition: 0.3s ease-in-out;
 }
@@ -108,6 +137,11 @@
 
 /* MediaQueries */
 
+@media screen and (max-width: 1300px){
+    .servicesSection #servicesContainer{
+        display: none;
+    }
+}
 @media screen and (max-width: 670px){
     .servicesSection{
         width:50vw;

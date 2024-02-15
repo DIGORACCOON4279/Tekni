@@ -1,11 +1,17 @@
 import "./Services.css"
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Services = () => {
     return (
         <li className="servicesSection">
-            <img src="/img/services.svg" alt=""/>Services
-            <section className="servicesContainer">
+            <ul>
+                <NavLink className="navLink" to="../ServicesPage" >
+                    <li className="link">
+                        <img src="/img/services.svg" alt=""/>Services
+                    </li>
+                </NavLink>
+            </ul>
+            <section className="servicesContainer" id="servicesContainer">
                 <div className="servicesColumn">
                     <article className="infoServices">
                         <img src="/img/installation.svg" alt="" className="iconServices" />
@@ -79,7 +85,6 @@ const Services = () => {
                             <p className="paragraph">Offer extended warranties or additional warranty services to provide customers with added peace of mind when making purchases.</p>
                         </div>
                     </article>
-                    <Link className="btnServices" to="../servicesPage">View more...</Link>
                 </div>
             </section>
         </li>

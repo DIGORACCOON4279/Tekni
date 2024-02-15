@@ -1,11 +1,17 @@
 import "./ContactUs.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const ContactUs = () => {
     return (
         <li className="contactUsSection">
-            <img src="/img/contactUs.svg" alt=""/>Contact us
-            <section className="contactUsContainer">
+            <ul>
+                <NavLink className="navLink" to="../ContactUsPage" >
+                    <li className="link">
+                        <img src="/img/contactUs.svg" alt=""/>Contact us
+                    </li>
+                </NavLink>
+            </ul>
+            <section className="contactUsContainer" id="contactUsContainer">
                 <div className="columnLocation">
                     <article className="titlesContactUs">
                         <h3 className="title">Location</h3>
@@ -102,7 +108,6 @@ const ContactUs = () => {
                         <p>Warranty<strong>608 235 7779</strong></p>
                         <p>Providers<strong>250 654 9857</strong></p>
                     </article>
-                    <Link className="btnContactUs" to="../contactUsPage">View more...</Link>
                 </div>
             </section>
         </li>
