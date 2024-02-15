@@ -88,10 +88,13 @@
         z-index: 97;
         border-top: 4px solid transparent;
     }
+    .categorySection:hover{
+        background-color: #d6d6d6;
+        border-bottom:  4px solid #d6d6d6;
+    }
 }
 @media screen and (max-width: 450px){
     .categorySection{
         width:100%;
-
     }
 }
