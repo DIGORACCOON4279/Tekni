@@ -334,6 +334,63 @@
 
 /* MediaQueries */
 
+/* Section popup - Purchase order*/
+
+@media screen and (max-width: 1120px){
+    .custom-popup-container{
+        width:40%;
+        height:auto;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .custom-popup-container{
+        width:50%;
+        height:auto;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+    }
+}
+@media screen and (max-width: 750px){
+    .custom-popup-container{
+        width:60%;
+        height:auto;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .custom-popup-container{
+        width:75%;
+        height:auto;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .custom-popup-container{
+        width:90%;
+        height:auto;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .custom-popup-container{
+        width:95%;
+        height:auto;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+    }
+}
+
+/* Section Checkout */
+
 @media screen and (max-width: 1120px){
     .checkout .formUpDate .informationClient{
         width:60%;
