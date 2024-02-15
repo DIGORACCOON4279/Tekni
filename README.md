@@ -64,6 +64,8 @@ En esta entrega final se avanza en la estructura y programacion del proyecto eco
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
+💻Desktop </br>
+
 ✔** Order Summary</br>
 ![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/7f3e0e32-93d7-460e-a496-9dbd1b62024e)</br>
 
@@ -79,7 +81,41 @@ A continuacion muestro algunas imagenes del proyecto </br>
 ✔** Error404 Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/9ac080f1-c52d-4aab-adfe-f443b4a0f27e)</br>
 
-🚧I´m so sorry📱Cellphone (man at work)</br>
+📲Tablet </br>
+
+✔** NavBar</br>
+![tabletNavBar](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/803903bd-09ba-4656-93f6-714dea19e86e)
+
+✔** Category Smartphone</br>
+![tabletSmartphones](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/b12f45f3-5db0-4a3a-8326-cd13a0768c36)</br>
+
+✔** Product Description</br>
+![tabletDescription](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/822671c5-f610-4633-9c9d-f0f8f0f6e6ef)</br>
+
+✔** ContactUs</br>
+![tabletContactUs](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/5a0d9a35-1017-4b6a-a9ef-695acd03d404)</br>
+
+
+📱Cellphone </br>
+
+✔** Home</br>
+![cellHome](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/bb0a5ff5-0165-4b32-9bc2-1c33ef6d7155)</br>
+
+✔** Menu</br>
+![cellMenu](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/74f7c9ae-98e0-441e-9dec-d2746057b326)</br>
+
+✔** Shopping Cart</br>
+![cellShoppingCart](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/61985952-4985-4142-b2b6-a7d9a8edcc34)</br>
+
+✔** Form</br>
+![celForm](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/f293ad2a-8ccc-4ea6-b346-36f053ebb2a5)</br>
+
+✔** ContactUs</br>
+![cellContactUs](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/ec04af0e-db8b-4d01-b160-9de9fe249334)</br>
+
+✔** Services</br>
+![cellServices](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/d403edd5-6427-4249-bcc3-1497185f6381)</br>
+
 
 En esta entrega final se pide ya tener listo y realizar:</br>
 
