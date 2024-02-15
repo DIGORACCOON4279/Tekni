@@ -64,6 +64,8 @@ En esta entrega final se avanza en la estructura y programacion del proyecto eco
 
 A continuacion muestro algunas imagenes del proyecto </br>
 
+💻Desktop </br>
+
 ✔** Order Summary</br>
 ![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/7f3e0e32-93d7-460e-a496-9dbd1b62024e)</br>
 
@@ -79,7 +81,35 @@ A continuacion muestro algunas imagenes del proyecto </br>
 ✔** Error404 Page</br>
 ![image](https://github.com/DIGORACCOON4279/Preentrega2-DiegoMarinMora/assets/88150970/9ac080f1-c52d-4aab-adfe-f443b4a0f27e)</br>
 
-🚧I´m so sorry📱Cellphone (man at work)</br>
+📲Tablet </br>
+
+✔** Order Summary</br>
+✔** Order Summary</br>
+✔** Order Summary</br>
+✔** Order Summary</br>
+✔** Order Summary</br>
+
+
+📱Cellphone </br>
+
+✔** Home</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/89543ec4-cdef-4fbb-a26c-23c3af26dec3)</br>
+
+✔** Menu</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/9ac35398-4f04-49ae-99cc-256aa2f14c6e)</br>
+
+✔** Shopping Cart</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/9659038f-0c5b-4df7-991a-47699d5edae9)</br>
+
+✔** Form</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/30182276-7fc5-4bea-b128-1334d14fb809)</br>
+
+✔** ContactUs</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/4b9d12c0-e104-43d0-b58d-6ea8eba50c18)</br>
+
+✔** Services</br>
+![image](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/28695d23-581a-4471-9920-3e311a8f9d73)</br>
+
 
 En esta entrega final se pide ya tener listo y realizar:</br>
 
