@@ -128,17 +128,14 @@
     .header .navBar {
         width:100vw;
         height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding-top: 70px;
+
     }
     .header .navBar ul{
         width:100vw;
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
     }
     .header .navBar ul .navLink {
         width:50%;
