@@ -76,7 +76,6 @@
     left:0%;
     background-color: #CCCCCC;
     opacity:0;
-    cursor: pointer;
     margin: auto;
     z-index: 9;
     transform:translateY(-180%);
@@ -94,6 +93,7 @@
 }
 .header .navBar ul .navLink {
     text-decoration: none;
+    cursor: pointer;
 }
 .header .navBar ul .navLink .link{
     height: 85px;
@@ -123,7 +123,7 @@
 
 /* MediaQueries */
 
-@media screen and (max-width: 670px){
+@media screen and (max-width: 660px){
     .header .navBar {
         width:100vw;
         height: 100vh;

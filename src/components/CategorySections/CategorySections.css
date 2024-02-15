@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     gap:10px;
+    cursor: pointer;
     border-bottom: 4px solid transparent;
     transition: 0.3s ease-in-out;
 }
@@ -81,7 +82,7 @@
 
 /* MediaQueries */
 
-@media screen and (max-width: 670px){
+@media screen and (max-width: 660px){
     .categorySection{
         width:50%;
         height:85px;
