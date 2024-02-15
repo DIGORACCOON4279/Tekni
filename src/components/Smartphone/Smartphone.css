@@ -50,7 +50,7 @@
 }
 .smartphoneSection .imgSmartphoneSection .smartphoneSectionUno:hover > .item,
 .smartphoneSection .imgSmartphoneSection .smartphoneSectionDos:hover > .item{
-    transform:scale(108%);
+    transform:scale(116%);
     filter:brightness(116%);
 }
 .smartphoneSection .imgSmartphoneSection .smartphoneSectionUno .btnInfo,

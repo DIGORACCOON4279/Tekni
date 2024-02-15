@@ -6,174 +6,178 @@ const ContactUsPage = () => {
             <h2>⚡ Get 35%  off on all our devices this Black Friday!!! ⚡</h2>
             <div className="sideBySide">
                 <section className="contactUs">
+                    <img className="imgContactUs" src="/img/supportContactUs.webp" alt="ContactUs img"  />
                     <div className="columnLocation">
                         <article className="titlesContactUs">
                             <h3 className="title">Location</h3>
                             <h3 className="title">Colombia</h3>
                         </article>
-                        <article className="location">
-                            <div className="picInfo">
-                                <img className="buildingPic" src="/img/buildingUno.webp" alt="" />
-                                <div className="info">
-                                    <div>
-                                        <img src="/img/location.svg" alt="location" />
-                                        <h4>Av. 80 58-99</h4>
+                        <div className="splitLocation">
+                            <article className="location">
+                                <div className="picInfo">
+                                    <img className="buildingPic" src="/img/buildingUno.webp" alt="" />
+                                    <div className="info">
+                                        <div>
+                                            <img src="/img/location.svg" alt="location" />
+                                            <h4>Av. 80 58-99</h4>
+                                        </div>
+                                        <p><span>Medellin</span></p>
+                                        <p>Business hours: 9am - 5pm</p>
+                                        <p>Monday - Friday</p>
                                     </div>
-                                    <p><span>Medellin</span></p>
-                                    <p>Business hours: 9am - 5pm</p>
-                                    <p>Monday - Friday</p>
                                 </div>
-                            </div>
-                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
-                            </a>
-                        </article>
-                        <article className="location">
-                            <div className="picInfo">
-                                <img className="buildingPic" src="/img/buildingDos.webp" alt="" />
-                                <div className="info">
-                                    <div>
-                                        <img src="/img/location.svg" alt="location" />
-                                        <h4>Av. 74 85-40</h4>
+                                <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                                </a>
+                            </article>
+                            <article className="location">
+                                <div className="picInfo">
+                                    <img className="buildingPic" src="/img/buildingDos.webp" alt="" />
+                                    <div className="info">
+                                        <div>
+                                            <img src="/img/location.svg" alt="location" />
+                                            <h4>Av. 74 85-40</h4>
+                                        </div>
+                                        <p><span>Bucaramanga</span></p>
+                                        <p>Business hours: 9am - 5pm</p>
+                                        <p>Monday - Friday</p>
                                     </div>
-                                    <p><span>Bucaramanga</span></p>
-                                    <p>Business hours: 9am - 5pm</p>
-                                    <p>Monday - Friday</p>
                                 </div>
-                            </div>
-                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
-                            </a>
-                        </article>
-                        <article className="location">
-                            <div className="picInfo">
-                                <img className="buildingPic" src="/img/buildingTres.webp" alt="" />
-                                <div className="info">
-                                    <div>
-                                        <img src="/img/location.svg" alt="location" />
-                                        <h4>Calle. 10 25-30</h4>
+                                <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                                </a>
+                            </article>
+                            <article className="location">
+                                <div className="picInfo">
+                                    <img className="buildingPic" src="/img/buildingTres.webp" alt="" />
+                                    <div className="info">
+                                        <div>
+                                            <img src="/img/location.svg" alt="location" />
+                                            <h4>Calle. 10 25-30</h4>
+                                        </div>
+                                        <p><span>Barranquilla</span></p>
+                                        <p>Business hours: 9am - 5pm</p>
+                                        <p>Monday - Friday</p>
                                     </div>
-                                    <p><span>Barranquilla</span></p>
-                                    <p>Business hours: 9am - 5pm</p>
-                                    <p>Monday - Friday</p>
                                 </div>
-                            </div>
-                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
-                            </a>
-                        </article>
-                        <article className="location">
-                            <div className="picInfo">
-                                <img className="buildingPic" src="/img/buildingCuatro.webp" alt="" />
-                                <div className="info">
-                                    <div>
-                                        <img src="/img/location.svg" alt="location" />
-                                        <h4>Av. 58 38-92</h4>
+                                <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                                </a>
+                            </article>
+                            <article className="location">
+                                <div className="picInfo">
+                                    <img className="buildingPic" src="/img/buildingCuatro.webp" alt="" />
+                                    <div className="info">
+                                        <div>
+                                            <img src="/img/location.svg" alt="location" />
+                                            <h4>Av. 58 38-92</h4>
+                                        </div>
+                                        <p><span>Bogota</span></p>
+                                        <p>Business hours: 9am - 5pm</p>
+                                        <p>Monday - Friday</p>
                                     </div>
-                                    <p><span>Bogota</span></p>
-                                    <p>Business hours: 9am - 5pm</p>
-                                    <p>Monday - Friday</p>
                                 </div>
-                            </div>
-                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
-                            </a>
-                        </article>
-                        <article className="location">
-                            <div className="picInfo">
-                                <img className="buildingPic" src="/img/buildingCinco.webp" alt="" />
-                                <div className="info">
-                                    <div>
-                                        <img src="/img/location.svg" alt="location" />
-                                        <h4>Av. 97 22-09</h4>
+                                <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                                </a>
+                            </article>
+                            <article className="location">
+                                <div className="picInfo">
+                                    <img className="buildingPic" src="/img/buildingCinco.webp" alt="" />
+                                    <div className="info">
+                                        <div>
+                                            <img src="/img/location.svg" alt="location" />
+                                            <h4>Av. 97 22-09</h4>
+                                        </div>
+                                        <p><span>Ibague</span></p>
+                                        <p>Business hours: 9am - 5pm</p>
+                                        <p>Monday - Friday</p>
                                     </div>
-                                    <p><span>Ibague</span></p>
-                                    <p>Business hours: 9am - 5pm</p>
-                                    <p>Monday - Friday</p>
                                 </div>
-                            </div>
-                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
-                            </a>
-                        </article>
-                        <article className="location">
-                            <div className="picInfo">
-                                <img className="buildingPic" src="/img/buildingSeis.webp" alt="" />
-                                <div className="info">
-                                    <div>
-                                        <img src="/img/location.svg" alt="location" />
-                                        <h4>Av. 12 15-65</h4>
+                                <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                                </a>
+                            </article>
+                            <article className="location">
+                                <div className="picInfo">
+                                    <img className="buildingPic" src="/img/buildingSeis.webp" alt="" />
+                                    <div className="info">
+                                        <div>
+                                            <img src="/img/location.svg" alt="location" />
+                                            <h4>Av. 12 15-65</h4>
+                                        </div>
+                                        <p><span>Armenia</span></p>
+                                        <p>Business hours: 9am - 5pm</p>
+                                        <p>Monday - Friday</p>
                                     </div>
-                                    <p><span>Armenia</span></p>
-                                    <p>Business hours: 9am - 5pm</p>
-                                    <p>Monday - Friday</p>
                                 </div>
-                            </div>
-                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
-                            </a>
-                        </article>
+                                <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                                </a>
+                            </article>
+                        </div>
                     </div>
                     <div className="columnLocation">
                         <article className="titlesContactUs">
                             <h3 className="title">Location</h3>
                             <h3 className="title">Canada</h3>
                         </article>
-                        <article className="location">
-                            <div className="picInfo">
-                                <img className="buildingPic" src="/img/buildingSiete.webp" alt="" />
-                                <div className="info">
-                                    <div>
-                                        <img src="/img/location.svg" alt="location" />
-                                        <h4>123 Main Street</h4>
+                        <div className="splitLocation">
+                            <article className="location">
+                                <div className="picInfo">
+                                    <img className="buildingPic" src="/img/buildingSiete.webp" alt="" />
+                                    <div className="info">
+                                        <div>
+                                            <img src="/img/location.svg" alt="location" />
+                                            <h4>123 Main Street</h4>
+                                        </div>
+                                        <p><span>Montreal</span></p>
+                                        <p>Business hours: 9am - 4pm</p>
+                                        <p>Monday - Friday</p>
                                     </div>
-                                    <p><span>Montreal</span></p>
-                                    <p>Business hours: 9am - 4pm</p>
-                                    <p>Monday - Friday</p>
                                 </div>
-                            </div>
-                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
-                            </a>
-                        </article>
-                        <article className="location">
-                            <div className="picInfo">
-                                <img className="buildingPic" src="/img/buildingOcho.webp" alt="" />
-                                <div className="info">
-                                    <div>
-                                        <img src="/img/location.svg" alt="location" />
-                                        <h4>456 Rue Maple</h4>
+                                <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                                </a>
+                            </article>
+                            <article className="location">
+                                <div className="picInfo">
+                                    <img className="buildingPic" src="/img/buildingOcho.webp" alt="" />
+                                    <div className="info">
+                                        <div>
+                                            <img src="/img/location.svg" alt="location" />
+                                            <h4>456 Rue Maple</h4>
+                                        </div>
+                                        <p><span>Ville Quebec</span></p>
+                                        <p>Business hours: 9am - 4pm</p>
+                                        <p>Monday - Friday</p>
                                     </div>
-                                    <p><span>Ville Quebec</span></p>
-                                    <p>Business hours: 9am - 4pm</p>
-                                    <p>Monday - Friday</p>
                                 </div>
-                            </div>
-                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
-                            </a>
-                        </article>
-                        <article className="location">
-                            <div className="picInfo">
-                                <img className="buildingPic" src="/img/buildingNueve.webp" alt="" />
-                                <div className="info">
-                                    <div>
-                                        <img src="/img/location.svg" alt="location" />
-                                        <h4>548 Kelglen Crescent</h4>
+                                <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                                </a>
+                            </article>
+                            <article className="location">
+                                <div className="picInfo">
+                                    <img className="buildingPic" src="/img/buildingNueve.webp" alt="" />
+                                    <div className="info">
+                                        <div>
+                                            <img src="/img/location.svg" alt="location" />
+                                            <h4>548 Kelglen Crescent</h4>
+                                        </div>
+                                        <p><span>Manitoba</span></p>
+                                        <p>Business hours: 9am - 4pm</p>
+                                        <p>Monday - Friday</p>
                                     </div>
-                                    <p><span>Manitoba</span></p>
-                                    <p>Business hours: 9am - 4pm</p>
-                                    <p>Monday - Friday</p>
                                 </div>
-                            </div>
-                            <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
-                                <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
-                            </a>
-                        </article>
+                                <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                                    <img src="/img/whatsApp.svg" alt="Whatsapp" />Whatsapp
+                                </a>
+                            </article>
+                        </div>
                     </div>
                 </section>
                 <section className="mainAddress">
-                    <img src="/img/supportContactUs.webp" alt="ContactUs img" className="imgContactUs" />
                     <div className="contactNumber">
                         <article className="contactCountry">
                             <section className="contactPhone">
