@@ -78,7 +78,7 @@
     left:0%;
     background-color: #CCCCCC;
     opacity:0;
-    /* margin: auto; */
+    margin: auto;
     z-index: 9;
     transform:translateY(-180%);
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -105,7 +105,7 @@
     font-size: 0.7rem;
     font-weight: 500;
     padding: 15px 40px;
-    /* margin: auto; */
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
