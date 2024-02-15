@@ -58,7 +58,6 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     overflow-y: scroll;
     padding: 20px;
@@ -258,7 +257,6 @@
     .shoppingCartSection .shoppingProducts{
         width:90%;
         padding: 20px 0px;
-        gap:0px;
     }
     .shoppingCartSection .emptyCart .emptySection .emptyCartWord{
         width:35%;
