@@ -84,16 +84,17 @@ A continuacion muestro algunas imagenes del proyecto </br>
 📲Tablet </br>
 
 ✔** NavBar</br>
+![tabletNavBar](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/803903bd-09ba-4656-93f6-714dea19e86e)
+
+✔** Category Smartphone</br>
 ![tabletSmartphones](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/b12f45f3-5db0-4a3a-8326-cd13a0768c36)</br>
 
-✔** Order Summary</br>
-![tabletContactUs](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/5a0d9a35-1017-4b6a-a9ef-695acd03d404)</br>
-
-✔** Order Summary</br>
+✔** Product Description</br>
 ![tabletDescription](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/822671c5-f610-4633-9c9d-f0f8f0f6e6ef)</br>
 
-✔** Order Summary</br>
-![tabletNavBar](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/803903bd-09ba-4656-93f6-714dea19e86e)</br>
+✔** ContactUs</br>
+![tabletContactUs](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/5a0d9a35-1017-4b6a-a9ef-695acd03d404)</br>
+
 
 📱Cellphone </br>
 
