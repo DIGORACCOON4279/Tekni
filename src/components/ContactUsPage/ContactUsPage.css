@@ -15,7 +15,7 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 100px auto;
-    gap: 100px;
+    gap: 50px;
     position: relative;
 }
 .sectionContactUs .sideBySide .contactUs{
@@ -25,6 +25,9 @@
     flex-direction: column;
     align-items: center;
     gap:100px;
+}
+.sectionContactUs .sideBySide .contactUs .columnLocation{
+    width:100%;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation .splitLocation{
     width:100%;
@@ -140,7 +143,7 @@
     width:22px;
 }
 .sectionContactUs .sideBySide .mainAddress{
-    width:100%;
+    width:65%;
     height:max-content;
     display: flex;
     flex-direction: row-reverse;
