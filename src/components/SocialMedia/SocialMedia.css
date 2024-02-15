@@ -9,13 +9,12 @@
     height:auto;
     padding: 5px;
     border-radius: 50%;
-    background-color:#747474;
+    background-color:#b0b0b0;
     transition: 0.3s ease-in-out;
 }
 .header .headerSection .navBar .iconItems a .icon:hover{
     background-color: #ff5107aa;
 }
-
 
 /* SocialMedia at footer */
 
