@@ -4,8 +4,8 @@
     height:100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    gap:10px;;
     background-color:#ffffff;
     position:fixed;
     top:0px;
