@@ -144,13 +144,9 @@
 }
 @media screen and (max-width: 670px){
     .servicesSection{
-        width:50vw;
+        
+        height:85px;
         z-index: 98;
         border-top: 4px solid transparent;
-    }
-    .servicesSection:hover{
-        border-radius: 10px;
-        border-top:4px solid #FF5207;
-        border-bottom: 4px solid #f2f2f2;
     }
 }
