@@ -63,7 +63,7 @@
 }
 .shoppingCartSection .shoppingProducts{
     width:80%;
-    height: 320px;
+    height: 280px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
