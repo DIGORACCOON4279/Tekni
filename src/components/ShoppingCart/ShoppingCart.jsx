@@ -33,6 +33,7 @@ const ShoppingCart = () => {
                     <h3 className="title">ShoppingCart</h3>
                     <section className="shoppingItem">
                         <h3 className="categoryTitle">Item</h3>
+                        <h3 className="categoryTitle">Description</h3>
                         <h3 className="categoryTitle">Pricing</h3>
                         <h3 className="categoryTitle">Quantity</h3>
                         <h3 className="categoryTitle">Total</h3>
@@ -46,7 +47,7 @@ const ShoppingCart = () => {
                     <section className="emptyCart">
                         <div className="emptySection">
                             <p className="emptyCartWord">Empty shopping cart</p>
-                            <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="trash icon" />
+                            <img className="emptyCartIcon" onClick={() => emptyCart()} src="/img/trashEmpty.svg" alt="Trash icon" />
                         </div>
                         <Link to="./ItemListContainer" className="emptyCartLink" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>View products 🚀</Link>
                     </section>
