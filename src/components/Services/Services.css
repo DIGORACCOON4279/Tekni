@@ -10,12 +10,12 @@
     font-size: 0.7rem;
     font-weight: 500;
     padding: 15px 40px;
-    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap:10px;
+    cursor: pointer;
     border-bottom: 4px solid transparent;
     transition: 0.3s ease-in-out;
 }
@@ -122,8 +122,18 @@
 }
 @media screen and (max-width: 670px){
     .servicesSection{
-        height:85px;
-        z-index: 9;
-        border-top: 4px solid transparent;
+        width:100%;
+    }
+    .servicesSection ul .navLink{
+        width:50%;
+    }
+    .servicesSection ul .navLink .link{
+        width: 100%;
+        padding: 0px;
+    }
+    .servicesSection ul .navLink .link:hover{
+        background-color: #d6d6d6;
+        border-bottom:  4px solid #d6d6d6;
     }
 }
+

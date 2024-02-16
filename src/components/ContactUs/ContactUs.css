@@ -10,7 +10,6 @@
     font-size: 0.7rem;
     font-weight: 500;
     padding: 15px 40px;
-    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,8 +162,17 @@
 
 @media screen and (max-width: 670px){
     .contactUsSection{
-        height:85px;
-        z-index: 9;
-        border-top: 4px solid transparent;
+        width:100%;
+    }
+    .contactUsSection ul .navLink{
+        width:50%;
+    }
+    .contactUsSection ul .navLink .link{
+        width: 100%;
+        padding: 0px;
+    }
+    .contactUsSection ul .navLink .link:hover{
+        background-color: #d6d6d6;
+        border-bottom:  4px solid #d6d6d6;
     }
 }
