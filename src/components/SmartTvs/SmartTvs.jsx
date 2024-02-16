@@ -10,21 +10,21 @@ const SmartTvs = () => {
         </article>
         <article className="imgSmartTvsSection">
             <div className="smartTvsSectionUno">
-                <img className="item" src="/img/smartTvUno.webp" alt="" />
+                <img className="item" src="/img/smartTvUno.webp" alt="Product pic" />
                 <section className="btnInfo">
                     <p className="paragraph">Enhance your visual experience with SmartTV</p>
                     <Link to="../category/tv" className="cta"> See more...</Link>
                 </section>
             </div>
             <div className="smartTvsSectionDos">
-                <img className="item" src="/img/smartTvDos.webp" alt="" />
+                <img className="item" src="/img/smartTvDos.webp" alt="Product pic" />
                 <section className="btnInfo">
                     <p className="paragraph">Connect, enjoy, live with SmartTV.</p>
                     <Link to="../category/tv" className="cta"> See more...</Link>
                 </section>
             </div>
             <div className="smartTvsSectionTres">
-                <img className="item" src="/img/smartTvTres.webp" alt="" />
+                <img className="item" src="/img/smartTvTres.webp" alt="Product pic" />
                 <section className="btnInfo">
                     <p className="paragraph">More than a screen, your window to the world with SmartTV.</p>
                     <Link to="../category/tv" className="cta"> See more...</Link>

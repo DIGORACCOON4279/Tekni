@@ -11,19 +11,19 @@ const NavBar = () => {
         <header className="header">
             <div className="headerSection">
                 <Link to="/" >
-                    <img src="/img/logo.webp" alt="" className="logoTekni"/>
+                    <img src="/img/logo.webp" alt="Logo" className="logoTekni"/>
                 </Link>
                 <input id="menu" type="checkbox"/>
                 <nav className="navBar">
                     <ul>
                         <NavLink className="navLink" to="/" >
                             <li className="link">
-                                <img src="/img/home.svg" alt=""/>Home
+                                <img src="/img/home.svg" alt="Category"/>Home
                             </li>
                         </NavLink>
                         <NavLink className="navLink" to="../itemListContainer" >
                             <li className="link">
-                                <img src="/img/products.svg" alt=""/>Products
+                                <img src="/img/products.svg" alt="Category"/>Products
                             </li>
                         </NavLink>
                         <CategorySections/>

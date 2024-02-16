@@ -10,56 +10,56 @@ const Laptops = () => {
             </article>
             <article className="imgLaptopsSection">
                 <div className="laptopsSectionUno">
-                    <img className="item" src="/img/laptopUno.webp" alt="" />
+                    <img className="item" src="/img/laptopUno.webp" alt="Product" />
                     <section className="btnInfo">
                         <p className="paragraph">Portability</p>
                         <Link to="../category/laptop" className="cta"> See more...</Link>
                     </section>
                 </div>
                 <div className="laptopsSectionDos">
-                    <img className="item" src="/img/laptopDos.webp" alt="" />
+                    <img className="item" src="/img/laptopDos.webp" alt="Product" />
                     <section className="btnInfo">
                         <p className="paragraph">Versatility</p>
                         <Link to="../category/laptop" className="cta"> See more...</Link>
                     </section>
                 </div>
                 <div className="laptopsSectionTres">
-                    <img className="item" src="/img/laptopTres.webp" alt="" />
+                    <img className="item" src="/img/laptopTres.webp" alt="Product" />
                     <section className="btnInfo">
                         <p className="paragraph">Performance</p>
                         <Link to="../category/laptop" className="cta"> See more...</Link>
                     </section>
                 </div>
                 <div className="laptopsSectionCuatro">
-                    <img className="item" src="/img/laptopCuatro.webp" alt="" />
+                    <img className="item" src="/img/laptopCuatro.webp" alt="Product" />
                     <section className="btnInfo">
                         <p className="paragraph">Connectivity</p>
                         <Link to="../category/laptop" className="cta"> See more...</Link>
                     </section>
                 </div>
                 <div className="laptopsSectionCinco">
-                    <img className="item" src="/img/laptopCinco.webp" alt="" />
+                    <img className="item" src="/img/laptopCinco.webp" alt="Product" />
                     <section className="btnInfo">
                         <p className="paragraph">Battery Life</p>
                         <Link to="../category/laptop" className="cta"> See more...</Link>
                     </section>
                 </div>
                 <div className="laptopsSectionSeis">
-                    <img className="item" src="/img/laptopSeis.webp" alt="" />
+                    <img className="item" src="/img/laptopSeis.webp" alt="Product" />
                     <section className="btnInfo">
                         <p className="paragraph">Display</p>
                         <Link to="../category/laptop" className="cta"> See more...</Link>
                     </section>
                 </div>
                 <div className="laptopsSectionSiete">
-                    <img className="item" src="/img/laptopSiete.webp" alt="" />
+                    <img className="item" src="/img/laptopSiete.webp" alt="Product" />
                     <section className="btnInfo">
                         <p className="paragraph">Storage</p>
                         <Link to="../category/laptop" className="cta"> See more...</Link>
                     </section>
                 </div>
                 <div className="laptopsSectionOcho">
-                    <img className="item" src="/img/laptopOcho.webp" alt="" />
+                    <img className="item" src="/img/laptopOcho.webp" alt="Product" />
                     <section className="btnInfo">
                         <p className="paragraph">Ergonomic Design</p>
                         <Link to="../category/laptop" className="cta"> See more...</Link>

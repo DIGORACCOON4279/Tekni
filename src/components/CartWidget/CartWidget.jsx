@@ -15,7 +15,7 @@ const CartWidget = () => {
     return (
         <li>
             <label htmlFor="cartWidget">
-                <img className="cartWidget" src="../img/shoppingCart.svg" alt="" />
+                <img className="cartWidget" src="../img/shoppingCart.svg" alt="Icon" />
                 {quantityTotal > 0 && <p><strong>{quantityTotal}</strong></p>}
             </label>
             <input

@@ -20,7 +20,7 @@ const ShoppingCart = () => {
                         <div className="animationGif">
                             <div className="followBuying">
                                 <div className="noProducts">
-                                    <img  className="emptyCart" src="../img/emptyCart.svg" alt="" />
+                                    <img  className="emptyCart" src="../img/emptyCart.svg" alt="Icon" />
                                     <p className="emptyCartNoProducts">No products</p>
                                 </div>
                             </div>

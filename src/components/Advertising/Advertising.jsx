@@ -10,7 +10,7 @@ const Advertising = () => {
                 <p className="startingFrom">Starting from $100</p>
                 <button className="btnDiscount">Get offer!</button>
             </div>
-            <img className="imgProduct" src="../img/tv6.webp" alt="" />
+            <img className="imgProduct" src="../img/tv6.webp" alt="Product image" />
         </section>
         <section className="advertising smartphone">
             <div className="infoDiscount">
@@ -19,7 +19,7 @@ const Advertising = () => {
                 <p className="startingFrom">Starting from $100</p>
                 <button className="btnDiscount">Get offer!</button>
             </div>
-            <img className="imgProduct" src="../img/smartphone9.webp" alt="" />
+            <img className="imgProduct" src="../img/smartphone9.webp" alt="Product image" />
         </section>
         <section className="advertising laptopOne">
             <div className="infoDiscount">
@@ -28,7 +28,7 @@ const Advertising = () => {
                 <p className="startingFrom">Starting from $100</p>
                 <button className="btnDiscount">Get offer!</button>
             </div>
-            <img className="imgProduct" src="../img/laptop7.webp" alt="" />
+            <img className="imgProduct" src="../img/laptop7.webp" alt="Product image" />
         </section>
         <section className="advertising headset">
             <div className="infoDiscount">
@@ -37,7 +37,7 @@ const Advertising = () => {
                 <p className="startingFrom">Starting from $100</p>
                 <button className="btnDiscount">Get offer!</button>
             </div>
-            <img className="imgProduct" src="../img/headset8.webp" alt="" />
+            <img className="imgProduct" src="../img/headset8.webp" alt="Product image" />
         </section>
         <section className="advertising laptopTwo">
             <div className="infoDiscount">
@@ -46,7 +46,7 @@ const Advertising = () => {
                 <p className="startingFrom">Starting from $100</p>
                 <button className="btnDiscount">Get offer!</button>
             </div>
-            <img className="imgProduct" src="../img/laptop2.webp" alt="" />
+            <img className="imgProduct" src="../img/laptop2.webp" alt="Product image" />
         </section>
     </section>
     )

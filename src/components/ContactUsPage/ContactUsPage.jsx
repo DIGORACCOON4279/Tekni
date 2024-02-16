@@ -15,7 +15,7 @@ const ContactUsPage = () => {
                         <div className="splitLocation">
                             <article className="location">
                                 <div className="picInfo">
-                                    <img className="buildingPic" src="/img/buildingUno.webp" alt="" />
+                                    <img className="buildingPic" src="/img/buildingUno.webp" alt="Building pic" />
                                     <div className="info">
                                         <div>
                                             <img src="/img/location.svg" alt="location" />
@@ -32,7 +32,7 @@ const ContactUsPage = () => {
                             </article>
                             <article className="location">
                                 <div className="picInfo">
-                                    <img className="buildingPic" src="/img/buildingDos.webp" alt="" />
+                                    <img className="buildingPic" src="/img/buildingDos.webp" alt="Building pic" />
                                     <div className="info">
                                         <div>
                                             <img src="/img/location.svg" alt="location" />
@@ -49,7 +49,7 @@ const ContactUsPage = () => {
                             </article>
                             <article className="location">
                                 <div className="picInfo">
-                                    <img className="buildingPic" src="/img/buildingTres.webp" alt="" />
+                                    <img className="buildingPic" src="/img/buildingTres.webp" alt="Building pic" />
                                     <div className="info">
                                         <div>
                                             <img src="/img/location.svg" alt="location" />
@@ -66,7 +66,7 @@ const ContactUsPage = () => {
                             </article>
                             <article className="location">
                                 <div className="picInfo">
-                                    <img className="buildingPic" src="/img/buildingCuatro.webp" alt="" />
+                                    <img className="buildingPic" src="/img/buildingCuatro.webp" alt="Building pic" />
                                     <div className="info">
                                         <div>
                                             <img src="/img/location.svg" alt="location" />
@@ -83,7 +83,7 @@ const ContactUsPage = () => {
                             </article>
                             <article className="location">
                                 <div className="picInfo">
-                                    <img className="buildingPic" src="/img/buildingCinco.webp" alt="" />
+                                    <img className="buildingPic" src="/img/buildingCinco.webp" alt="Building pic" />
                                     <div className="info">
                                         <div>
                                             <img src="/img/location.svg" alt="location" />
@@ -100,7 +100,7 @@ const ContactUsPage = () => {
                             </article>
                             <article className="location">
                                 <div className="picInfo">
-                                    <img className="buildingPic" src="/img/buildingSeis.webp" alt="" />
+                                    <img className="buildingPic" src="/img/buildingSeis.webp" alt="Building pic" />
                                     <div className="info">
                                         <div>
                                             <img src="/img/location.svg" alt="location" />
@@ -125,7 +125,7 @@ const ContactUsPage = () => {
                         <div className="splitLocation">
                             <article className="location">
                                 <div className="picInfo">
-                                    <img className="buildingPic" src="/img/buildingSiete.webp" alt="" />
+                                    <img className="buildingPic" src="/img/buildingSiete.webp" alt="Building pic" />
                                     <div className="info">
                                         <div>
                                             <img src="/img/location.svg" alt="location" />
@@ -142,7 +142,7 @@ const ContactUsPage = () => {
                             </article>
                             <article className="location">
                                 <div className="picInfo">
-                                    <img className="buildingPic" src="/img/buildingOcho.webp" alt="" />
+                                    <img className="buildingPic" src="/img/buildingOcho.webp" alt="Building pic" />
                                     <div className="info">
                                         <div>
                                             <img src="/img/location.svg" alt="location" />
@@ -159,7 +159,7 @@ const ContactUsPage = () => {
                             </article>
                             <article className="location">
                                 <div className="picInfo">
-                                    <img className="buildingPic" src="/img/buildingNueve.webp" alt="" />
+                                    <img className="buildingPic" src="/img/buildingNueve.webp" alt="Building pic" />
                                     <div className="info">
                                         <div>
                                             <img src="/img/location.svg" alt="location" />

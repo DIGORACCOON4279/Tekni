@@ -129,7 +129,7 @@ const handleSubmit = (event) => {
                     {
                         cart.map(product => (
                             <div className="resumeProduct" key={product.item.id}>
-                                <img className="img" src={product.item.img} alt="" />
+                                <img className="img" src={product.item.img} alt="Image" />
                                 <div className="description">
                                     <div className="info">
                                         <div className="text">
