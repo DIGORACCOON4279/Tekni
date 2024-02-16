@@ -132,6 +132,8 @@ En esta entrega final se pide ya tener listo y realizar:</br>
 ** ✔ --.env</br>
 ** ✔ --context/CartContext.jsx</br>
 ** ✔ --services/config.js</br>
+** ✔ -- App.jsx</br>
+
 
 La estructura a trabajar en los componentes src se crea una carpeta principal llamada components y se derivan los componentes antes nombrados con su respectivo archivos file.jsx & file.css por cada componente.</br>
 
