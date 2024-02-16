@@ -17,7 +17,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
-    order:1;
     gap:180px;
     overflow: hidden;
     margin: 50px auto;
@@ -109,8 +108,8 @@
 .footerSection .developerInfo{
     width:100%;
     height:auto;
-    order:2;
     margin: 10px auto;
+    order:3;
 }
 .footerSection .developerInfo p{
     display: flex;
@@ -125,6 +124,27 @@
 .footerSection .developerInfo .personalBrand{
     width:20px;
     height: auto;
+}
+.footerSection .cartsPayment{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px auto;
+    gap:10px;
+}
+.footerSection .cartsPayment p{
+    width:25%;
+    font-size: 0.7rem;
+    font-weight:300 ;
+    color: #747474;
+}
+.footerSection .cartsPayment .payout{
+    width:25%;
+    height: auto;
+    border-top : 1px solid #323232;
+    padding-top:10px;
 }
 
 /* MediaQueries */

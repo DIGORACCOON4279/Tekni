@@ -119,6 +119,10 @@ const Footer = () => {
                     </ul>
                 </article>
             </div>
+            <div className="cartsPayment">
+                <p>Payments</p>
+                <img className="payout" src="/img/payments.webp" alt="Payment carts" />
+            </div>
             <div className="developerInfo">
                 <p>Developer with 🧡 by Diego Marin | <img src="/img/logoRaccoon.svg" alt="" className="personalBrand" /> | Colombia - Canada | 2024</p>
             </div>
