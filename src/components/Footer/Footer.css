@@ -174,4 +174,13 @@
     .footerSection .sections .sectionContact{
         order:1;
     }
+    .footerSection .cartsPayment{
+        width:90%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .footerSection .cartsPayment p,
+    .footerSection .cartsPayment .payout{
+        width:100%;
+    }
 }
