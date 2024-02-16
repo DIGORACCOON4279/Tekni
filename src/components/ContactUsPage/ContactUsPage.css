@@ -98,10 +98,17 @@
     color:#b0b0b0;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation .location .picInfo .info p{
-    font-size:0.9rem;
+    font-size:0.8rem;
     font-weight: 500;
     font-family: 'Ubuntu', sans-serif;
     color:#cccccc;
+    padding-left:26px;
+}
+.sectionContactUs .sideBySide .contactUs .columnLocation .location .picInfo .info .open{
+    font-size:0.9rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    color:#747474;
     padding-left:26px;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation .location .picInfo .info p span{

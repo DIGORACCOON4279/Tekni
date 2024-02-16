@@ -22,7 +22,7 @@ const ContactUsPage = () => {
                                             <h4>Av. 80 58-99</h4>
                                         </div>
                                         <p><span>Medellin</span></p>
-                                        <p>Business hours: 9am - 5pm</p>
+                                        <p className="open" >Business hours: 9am - 5pm</p>
                                         <p>Monday - Friday</p>
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@ const ContactUsPage = () => {
                                             <h4>Av. 74 85-40</h4>
                                         </div>
                                         <p><span>Bucaramanga</span></p>
-                                        <p>Business hours: 9am - 5pm</p>
+                                        <p className="open">Business hours: 9am - 5pm</p>
                                         <p>Monday - Friday</p>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ const ContactUsPage = () => {
                                             <h4>Calle. 10 25-30</h4>
                                         </div>
                                         <p><span>Barranquilla</span></p>
-                                        <p>Business hours: 9am - 5pm</p>
+                                        <p className="open">Business hours: 9am - 5pm</p>
                                         <p>Monday - Friday</p>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ const ContactUsPage = () => {
                                             <h4>Av. 58 38-92</h4>
                                         </div>
                                         <p><span>Bogota</span></p>
-                                        <p>Business hours: 9am - 5pm</p>
+                                        <p className="open">Business hours: 9am - 5pm</p>
                                         <p>Monday - Friday</p>
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@ const ContactUsPage = () => {
                                             <h4>Av. 97 22-09</h4>
                                         </div>
                                         <p><span>Ibague</span></p>
-                                        <p>Business hours: 9am - 5pm</p>
+                                        <p className="open">Business hours: 9am - 5pm</p>
                                         <p>Monday - Friday</p>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@ const ContactUsPage = () => {
                                             <h4>Av. 12 15-65</h4>
                                         </div>
                                         <p><span>Armenia</span></p>
-                                        <p>Business hours: 9am - 5pm</p>
+                                        <p className="open">Business hours: 9am - 5pm</p>
                                         <p>Monday - Friday</p>
                                     </div>
                                 </div>
@@ -132,7 +132,7 @@ const ContactUsPage = () => {
                                             <h4>123 Main Street</h4>
                                         </div>
                                         <p><span>Montreal</span></p>
-                                        <p>Business hours: 9am - 4pm</p>
+                                        <p className="open">Business hours: 9am - 4pm</p>
                                         <p>Monday - Friday</p>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@ const ContactUsPage = () => {
                                             <h4>456 Rue Maple</h4>
                                         </div>
                                         <p><span>Ville Quebec</span></p>
-                                        <p>Business hours: 9am - 4pm</p>
+                                        <p className="open">Business hours: 9am - 4pm</p>
                                         <p>Monday - Friday</p>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@ const ContactUsPage = () => {
                                             <h4>548 Kelglen Crescent</h4>
                                         </div>
                                         <p><span>Manitoba</span></p>
-                                        <p>Business hours: 9am - 4pm</p>
+                                        <p className="open">Business hours: 9am - 4pm</p>
                                         <p>Monday - Friday</p>
                                     </div>
                                 </div>
