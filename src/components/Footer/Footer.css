@@ -144,7 +144,7 @@
     width:300px;
     height: auto;
     border-top : 1px solid #323232;
-    padding-top:5px;
+    padding-top:10px;
 }
 
 /* MediaQueries */
@@ -179,8 +179,12 @@
         display: flex;
         align-items: flex-start;
     }
+}
+
+@media screen and (max-width: 360px){
     .footerSection .cartsPayment p,
     .footerSection .cartsPayment .payout{
         width:100%;
     }
 }
+
