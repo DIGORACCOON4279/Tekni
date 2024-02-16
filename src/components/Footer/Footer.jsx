@@ -120,7 +120,7 @@ const Footer = () => {
                 </article>
             </div>
             <div className="cartsPayment">
-                <p>Payments</p>
+                <p>Secure Payments</p>
                 <img className="payout" src="/img/payments.webp" alt="Payment carts" />
             </div>
             <div className="developerInfo">

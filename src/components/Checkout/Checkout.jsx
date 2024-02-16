@@ -152,6 +152,10 @@ const handleSubmit = (event) => {
                     </div>
                     <p className="totalCheckout"> Total... <span> ${total} </span> </p>
                     <Link to="../ItemListContainer" className="emptyCartLink"> View products 🚀</Link>
+                    <div className="cartsPayment">
+                        <p>Secure Payments</p>
+                        <img className="payout" src="/img/payments.webp" alt="Payment carts" />
+                    </div>
                 </div>
 
                 <div className="informationClient">

@@ -58,7 +58,7 @@
     color: #000000;
     font-size:1.5rem;
     font-weight: 700;
-    margin: 0px auto;
+    margin: 20px auto;
 }
 .checkout .formUpDate{
     width:90%;
@@ -212,6 +212,29 @@
     background-color: #f2f2f2;
     color:#747474;
 }
+.checkout .formUpDate .checkoutProducts .cartsPayment{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px auto;
+    gap:5px;
+}
+.checkout .formUpDate .checkoutProducts .cartsPayment p{
+    width:300px;
+    font-size: 0.7rem;
+    font-weight:300 ;
+    color: #747474;
+}
+.checkout .formUpDate .checkoutProducts .payout{
+    width:300px;
+    height: auto;
+    border-top : 1px solid #f2f2f2;
+    padding-top:10px;
+}
+
+
 .checkout .formUpDate .informationClient{
     width:55%;
     height: 100vh;
@@ -442,10 +465,17 @@
     .checkout .formUpDate .checkoutProducts .emptySection .emptyCartWord{
         width: 100%;
     }
+
+    .checkout .formUpDate .checkoutProducts .cartsPayment{
+        width:100%;
+        display: flex;
+        align-items: flex-start;
+    }
     .checkout .formUpDate .informationClient{
         margin: 100px auto;
     }
 }
+
 @media screen and (max-width: 500px){
     .checkout .formUpDate .checkoutProducts .emptyCartLink{
         width:100%;
@@ -457,3 +487,11 @@
         width:30px;
     }
 }
+
+@media screen and (max-width: 360px){
+    .checkout .formUpDate .checkoutProducts .cartsPayment p,
+    .checkout .formUpDate .checkoutProducts .cartsPayment .payout{
+        width:100%;
+    }
+}
+
