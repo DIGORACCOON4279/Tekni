@@ -121,6 +121,7 @@ En esta entrega final se pide ya tener listo y realizar:</br>
 
 ** ✔ --NavBar</br>
 ** ✔ --CartWidget</br>
+** ✔ --Counter</br>
 ** ✔ --Item</br>
 ** ✔ --ItemList</br>
 ** ✔ --ItemListContainer</br>
