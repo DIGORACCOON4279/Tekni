@@ -99,22 +99,22 @@ A continuacion muestro algunas imagenes del proyecto </br>
 📱Cellphone </br>
 
 ✔** Home</br>
-![cellHome](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/bb0a5ff5-0165-4b32-9bc2-1c33ef6d7155)</br>
+![cellHome](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/30659b54-56c8-409d-a9da-630629a9da02)</br>
 
 ✔** Menu</br>
-![cellMenu](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/74f7c9ae-98e0-441e-9dec-d2746057b326)</br>
+![cellMenu](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/3dafe5d8-25b5-4dce-9697-00f3abb494b1)</br>
 
 ✔** Shopping Cart</br>
-![cellShoppingCart](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/61985952-4985-4142-b2b6-a7d9a8edcc34)</br>
+![cellShoppingCart](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/4d1ab113-5d64-4c8b-a668-0811ef6c32a7)</br>
 
 ✔** Form</br>
-![celForm](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/f293ad2a-8ccc-4ea6-b346-36f053ebb2a5)</br>
+![celForm](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/6186fc22-3076-4fc2-906a-a0215f3c12b0)</br>
 
 ✔** ContactUs</br>
-![cellContactUs](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/ec04af0e-db8b-4d01-b160-9de9fe249334)</br>
+![cellContactUs](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/a9abeb2a-5cad-4299-a2c8-c711e06c9302)</br>
 
 ✔** Services</br>
-![cellServices](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/d403edd5-6427-4249-bcc3-1497185f6381)</br>
+![cellServices](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/e6f9dd46-23ab-4c99-877c-04c0a4f931d4)</br>
 
 
 En esta entrega final se pide ya tener listo y realizar:</br>
