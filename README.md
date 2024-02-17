@@ -99,15 +99,10 @@ A continuacion muestro algunas imagenes del proyecto </br>
 📱Cellphone </br>
 
 ![cellHome](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/30659b54-56c8-409d-a9da-630629a9da02)
-
 ![cellMenu](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/3dafe5d8-25b5-4dce-9697-00f3abb494b1)
-
-![cellShoppingCart](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/4d1ab113-5d64-4c8b-a668-0811ef6c32a7)
-
+![cellShoppingCart](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/4d1ab113-5d64-4c8b-a668-0811ef6c32a7)</br>
 ![celForm](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/6186fc22-3076-4fc2-906a-a0215f3c12b0)
-
 ![cellContactUs](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/a9abeb2a-5cad-4299-a2c8-c711e06c9302)
-
 ![cellServices](https://github.com/DIGORACCOON4279/Tekni/assets/88150970/e6f9dd46-23ab-4c99-877c-04c0a4f931d4)</br>
 
 
