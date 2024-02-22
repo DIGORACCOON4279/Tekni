@@ -44,6 +44,9 @@ const handleSubmit = (event) => {
             id: product.item.id,
             category: product.item.category,
             quantity: product.quantity,
+            compatibility: product.item.compatibility,
+            features: product.item.features,
+            updates: product.item.updates
 
         })),
         total: total,
@@ -76,7 +79,7 @@ const handleSubmit = (event) => {
 
 
                 //Acá pueden limpiar los input y usar el Sweet Alert 2 para mostrar el Order ID.
-                // Función para manejar el clic en el enlace de continuar comprando
+                // Función para manejar el clic en el enlace de continuar comprando o home
                 Swal.fire({
                     text: `
                     <div class="popup">
@@ -88,27 +91,39 @@ const handleSubmit = (event) => {
                     imageWidth: 80,
                     html: `
                         <div class="message">
-                            <p> "Your order has been successfully registered."</p>
+                            <p>Your order has been successfully registered.</p>
                             <p>Thank you for your purchase! Your order number is: </p>
-                            <p> ${docRef.id} </p>
+                            <p>${docRef.id}</p>
                         </div>
                     `,
-                    showCancelButton: false,
-                    confirmButtonText: 'Ok',
+                    showCancelButton: true,
+                    confirmButtonText: 'Home',
+                    cancelButtonText: 'Continue Shopping',
                     customClass: {
                         popup: 'custom-popup-container',
-                        confirmButton: 'btnOk',
+                        confirmButton: 'btnContinueShopping',
+                        cancelButton: 'btnOk'
                     },
+                    allowOutsideClick: false // Evita que el usuario cierre el SweetAlert haciendo clic fuera de él
+                })
+                .then((result) => {
+                    if (result.isConfirmed) {
+                        // Redirigir al usuario a la página de inicio
+                        window.location.href = '/';
+                    } else {
+                        // Redirigir al usuario para continuar comprando
+                        window.location.href = '/ItemListContainer';
+                    }
                 });
 
             })
             .catch(error => console.log("Error, making the order", error))
-    })
-    .catch(error => {
-        console.log("Couldn't update the stock", error);
-        setError("Error, updating the stock");
-    })
-}
+        })
+        .catch(error => {
+            console.log("Couldn't update the stock", error);
+            setError("Error, updating the stock");
+        })
+    }
 
     return (
         <section className="checkout">

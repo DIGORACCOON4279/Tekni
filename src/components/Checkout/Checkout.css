@@ -28,18 +28,21 @@
     color: #FF5207;
     font-size:0.9rem;
 }
-.swal2-confirm.btnOk {
+.custom-popup-container .btnOk,
+.custom-popup-container .btnContinueShopping{
+    width:calc(100% - 10% );
     color: #ffffff;
     font-size:1rem;
     font-weight: 500;
-    max-width: 300px;
-    padding: 10px 130px;
+    padding: 10px 50px;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #000000;
     border:1px solid #000000;
     border-radius: 0%;
-    transition-duration: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
-.swal2-confirm.btnOk:hover {
+.custom-popup-container .btnOk:hover,
+.custom-popup-container .btnContinueShopping:hover {
     color: #442929;
     background-color: #ffffff;
     box-shadow: 0 0 0 transparent;
@@ -234,6 +237,7 @@
     padding-top:10px;
 }
 
+/* Checkout information */
 
 .checkout .formUpDate .informationClient{
     width:55%;
