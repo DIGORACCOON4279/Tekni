@@ -20,8 +20,8 @@ li label p{
     top:-5px;
     right:-5px;
     background-color:#FF5207;
-    border-radius: 50%;
-    padding:3px 6px;
+    border-radius: 100%;
+    padding:2px 7px;
     font-size: 0.6rem;
     color: #ffffff;
 }
