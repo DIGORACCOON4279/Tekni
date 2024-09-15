@@ -9,11 +9,13 @@
     gap:100px;
 }
 .bestSellersSection  .info{
-    width:60%;
+    width:70%;
+    max-width:700px;
     height:auto;
     display:flex;
     flex-direction: column;
     gap:20px;
+
 }
 .bestSellersSection  .info .titleSection{
     font-size: 2.5rem;
@@ -123,6 +125,9 @@
     }
 }
 @media screen and (max-width: 500px){
+    .bestSellersSection  .info{
+        width:90%;
+    }
     .bestSellersSection  .info .titleSection{
         font-size: 2.1rem;
         font-family: 'Expletus Sans', sans-serif;

@@ -1,6 +1,8 @@
 
 .headsetSection{
     width:100%;
+    max-width: 1200px;
+    overflow: hidden;
     height:auto;
     margin:300px auto;
     display: flex;
@@ -11,7 +13,8 @@
     overflow: hidden;
 }
 .headsetSection  .info{
-    width:60%;
+    width:70%;
+    max-width: 700px;
     height:auto;
     display:flex;
     flex-direction: column;
@@ -184,4 +187,12 @@
     background-color: #000000;
     letter-spacing:3px;
     color: #ffffff;
+}
+
+/* MediaQueries */
+
+@media screen and (max-width: 500px){
+    .headsetSection  .info{
+        width:90%;
+    }
 }

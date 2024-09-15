@@ -6,31 +6,37 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-.servicePage .sectionServices{
-    width: 45%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.servicePage .sectionServices{
+    width: 90%;
+    max-width:1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
+    margin:auto;
     padding:100px 0px;
-    margin-left: 5%;
     gap:15px;
 }
 .servicePage .sectionServices div{
-    width: 100%;
+    width: 50%;
+    height:auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     background-image: linear-gradient(to bottom right, #414141, #323232);
     cursor:pointer;
     transition: 0.3s ease-in-out;
 }
 .servicePage .sectionServices div:hover{
-    box-shadow: 0 0 3px 4px #323232;
+    box-shadow: 0 0 2px 1px #020202;
     background-image: linear-gradient(to bottom right, #323232,  #414141);
 }
 .servicePage .sectionServices div img{
@@ -67,9 +73,23 @@
 
 /* MediaQueries */
 
-@media screen and (max-width: 800px){
-    .servicePage .sectionServices{
-        width: 90%;
+@media screen and (max-width: 1000px){
+    .servicePage .sectionServices div{
+        width: 70%;
+        margin: auto
+    }
+}
+
+@media screen and (max-width: 750px){
+    .servicePage .sectionServices div{
+        width: 85%;
+        margin: auto
+    }
+}
+
+@media screen and (max-width: 600px){
+    .servicePage .sectionServices div{
+        width: 100%;
         margin: auto
     }
 }

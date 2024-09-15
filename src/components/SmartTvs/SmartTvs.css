@@ -10,7 +10,8 @@
     overflow: hidden;
 }
 .smartTvsSection  .info{
-    width:60%;
+    width:70%;
+    max-width: 700px;
     height:auto;
     display:flex;
     flex-direction: column;
@@ -81,7 +82,7 @@
 .smartTvsSection .imgSmartTvsSection .smartTvsSectionUno .btnInfo .cta,
 .smartTvsSection .imgSmartTvsSection .smartTvsSectionDos .btnInfo .cta,
 .smartTvsSection .imgSmartTvsSection .smartTvsSectionTres .btnInfo .cta{
-    width: 80%;
+    width: 180px;
     padding:15px;
     font-size: 1rem;
     font-family: 'Ubuntu', sans-serif;
@@ -121,12 +122,24 @@
 }
 
 @media screen and (max-width: 500px){
+    .smartTvsSection  .info{
+        width:90%;
+    }
     .smartTvsSection .info .titleSection{
         font-size: 2.1rem;
     }
     .smartTvsSection .info .description{
         font-size: 1rem;
     }
+    .smartTvsSection .imgSmartTvsSection .smartTvsSectionUno .btnInfo .cta,
+    .smartTvsSection .imgSmartTvsSection .smartTvsSectionDos .btnInfo .cta,
+    .smartTvsSection .imgSmartTvsSection .smartTvsSectionTres .btnInfo .cta{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
     .smartTvsSection .imgSmartTvsSection .smartTvsSectionUno .btnInfo .cta,
     .smartTvsSection .imgSmartTvsSection .smartTvsSectionDos .btnInfo .cta,
     .smartTvsSection .imgSmartTvsSection .smartTvsSectionTres .btnInfo .cta{

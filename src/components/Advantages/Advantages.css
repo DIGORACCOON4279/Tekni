@@ -1,6 +1,6 @@
 .advantageSection{
-    width:100%;
-    max-width: 90%;
+    width:90%;
+    max-width: 1300px;
     height:auto;
     margin:300px auto;
     display: flex;
@@ -12,7 +12,6 @@
 }
 .advantageSection .cards{
     width:30%;
-    /* max-width: 300px; */
     height:220px;
     display: flex;
     flex-direction: column;
@@ -78,6 +77,6 @@
         flex-direction: column;
     }
     .advantageSection .cards{
-        width:100%;
+        width:90%;
     }
 }

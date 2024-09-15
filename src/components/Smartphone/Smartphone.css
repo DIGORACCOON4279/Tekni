@@ -81,7 +81,7 @@
 }
 .smartphoneSection .imgSmartphoneSection .smartphoneSectionUno .btnInfo .cta,
 .smartphoneSection .imgSmartphoneSection .smartphoneSectionDos .btnInfo .cta{
-    width: 70%;
+    width: 180px;
     padding:15px;
     font-size: 1rem;
     font-family: 'Ubuntu', sans-serif;
@@ -117,12 +117,22 @@
 }
 
 @media screen and (max-width: 500px){
+    .smartphoneSection .imgSmartphoneSection .info{
+        width:90%;
+    }
     .smartphoneSection .imgSmartphoneSection .info .titleSection{
         font-size: 2.1rem;
     }
     .smartphoneSection .imgSmartphoneSection .info .description{
         font-size: 1.1rem;
     }
+    .smartphoneSection .imgSmartphoneSection .smartphoneSectionUno .btnInfo .cta,
+    .smartphoneSection .imgSmartphoneSection .smartphoneSectionDos .btnInfo .cta{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px){
     .smartphoneSection .imgSmartphoneSection .smartphoneSectionUno .btnInfo .cta,
     .smartphoneSection .imgSmartphoneSection .smartphoneSectionDos .btnInfo .cta{
         width: 100%;

@@ -52,11 +52,13 @@
 /* Section Checkout */
 
 .checkout{
-    width:100%;
+    width:90%;
+    max-width:1300px;
     height: auto;
+    margin: auto;
 }
 .checkout .endingPurchaseTitle{
-    width:90%;
+    width:100%;
     padding-top:50px;
     color: #000000;
     font-size:1.5rem;
@@ -64,7 +66,8 @@
     margin: 20px auto;
 }
 .checkout .formUpDate{
-    width:90%;
+    width:100%;
+    height:auto;
     display: flex;
     flex-direction: row;
     justify-content:space-between ;
@@ -254,7 +257,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     background-color: #F9F9F9;
     margin: 0px auto 10px;
     padding:20px;
@@ -266,7 +269,8 @@
 .checkout .formUpDate .informationClient .shippingFree .message{
     width:100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
     color: #747474;
     font-size:0.8rem;
     font-weight: 500;

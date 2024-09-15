@@ -1,5 +1,6 @@
 .advertisingSection{
     width:90%;
+    max-width: 1300px;
     display: grid;
     grid-template-areas:
     "adv1 adv1 adv1 adv2 adv2 adv2"

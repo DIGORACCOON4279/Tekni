@@ -8,15 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    object-fit: cover;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
-    margin: 0px auto;
-    position:relative;
+    display: flex;
+    margin:auto;
     animation: background 10s linear infinite;
 }
 @keyframes background{
@@ -36,7 +30,20 @@
         background-color: #000000;
     }
 }
-.errorSection .earth{
+.errorSection .errorContainer{
+    width:100%;
+    max-width:1400px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    position:relative;
+    object-fit: cover;
+}
+.earth{
     width:3.5%;
     overflow: visible;
     position:absolute;

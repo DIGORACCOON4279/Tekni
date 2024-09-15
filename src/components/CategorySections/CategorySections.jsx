@@ -5,7 +5,7 @@ const CategorySections = () => {
     return (
         <li className="categorySection">
             <img src="/img/categories.svg" alt=""/>Categories
-            <nav className="categoryItems">
+            <nav className="categoryItems" >
                 <ul>
                     <NavLink className="navLinkCategory" to="../category/laptop">
                         <li className="li" >

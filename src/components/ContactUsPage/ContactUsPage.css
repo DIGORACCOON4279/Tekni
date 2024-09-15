@@ -9,7 +9,7 @@
 }
 .sectionContactUs .sideBySide{
     width:90%;
-    max-width: 100%;
+    max-width: 1300px;
     height:auto;
     display: flex;
     flex-direction: row-reverse;
@@ -63,7 +63,7 @@
     transition: 0.3s ease-in-out;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation .location:hover{
-    box-shadow:0 0 15px 2px #f9f9f9;
+    box-shadow:0 0 16px 2px #e9e9e9;
 }
 .sectionContactUs .sideBySide .contactUs .columnLocation .location .picInfo {
     width:100%;
@@ -261,7 +261,7 @@
         gap:20px;
     }
     .sectionContactUs .sideBySide .contactUs .columnLocation .location{
-        width:max-content;
+        width:45%;
         height:auto;
         flex-direction: column;
         align-items: flex-start;

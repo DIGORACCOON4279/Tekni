@@ -49,6 +49,7 @@
 .contactUsSection .contactUsContainer .columnLocation,
 .contactUsSection .contactUsContainer .columnContactNumber{
     width:25%;
+    max-width:290px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -103,8 +104,21 @@
 }
 .contactUsSection .contactUsContainer .columnContactNumber{
     height: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 15px;
+    align-self: flex-start;
+    gap: 40px;
+    padding-top:20px;
+}
+.contactUsSection .contactUsContainer .columnContactNumber .contactCountry{
+    width:100%;
+    font-size:0.7rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color:#B0B0B0;
+    padding: 10px 0px;
 }
 .contactUsSection .contactUsContainer .columnContactNumber .contactCountry .title{
     width:100%;
@@ -124,11 +138,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 150px;
+    gap: 80px;
     overflow:hidden;
     padding: 5px 0px;
 }
-.contactUsSection .contactUsContainer .btnContactUs{
+/* .contactUsSection .contactUsContainer .btnContactUs{
     width:100%;
     display: flex;
     flex-direction: row;
@@ -150,7 +164,7 @@
 .contactUsSection .contactUsContainer .btnContactUs:hover{
     background-color: #ffffff;
     color:#000000;
-}
+} */
 
 /* MediaQueries */
 

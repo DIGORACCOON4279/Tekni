@@ -10,7 +10,8 @@
     gap:100px;
 }
 .laptopsSection  .info{
-    width:60%;
+    width:70%;
+    max-width:700px;
     height:auto;
     display:flex;
     flex-direction: column;
@@ -138,7 +139,7 @@
 .laptopsSection .imgLaptopsSection .laptopsSectionSeis .btnInfo .cta,
 .laptopsSection .imgLaptopsSection .laptopsSectionSiete .btnInfo .cta,
 .laptopsSection .imgLaptopsSection .laptopsSectionOcho .btnInfo .cta{
-    width: 100%;
+    width: 180px;
     padding:10px;
     font-size: 1rem;
     font-family: 'Ubuntu', sans-serif;
@@ -166,6 +167,19 @@
 
 /* MediaQueries */
 
+@media screen and (max-width: 1250px){
+    .laptopsSection .imgLaptopsSection .laptopsSectionUno .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionDos .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionTres .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionCuatro .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionCinco .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionSeis .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionSiete .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionOcho .btnInfo .cta{
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 950px){
     .newGenerationSection  .info{
         width:100%;
@@ -185,6 +199,9 @@
 }
 
 @media screen and (max-width: 500px){
+    .laptopsSection  .info{
+        width:90%;
+    }
     .laptopsSection  .info .titleSection{
         font-size: 2.1rem;
     }
@@ -207,3 +224,17 @@
         overflow: hidden;
     }
 }
+
+@media screen and (max-width: 400px){
+    .laptopsSection .imgLaptopsSection .laptopsSectionUno .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionDos .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionTres .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionCuatro .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionCinco .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionSeis .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionSiete .btnInfo .cta,
+    .laptopsSection .imgLaptopsSection .laptopsSectionOcho .btnInfo .cta{
+        width: 60%;
+    }
+}
+

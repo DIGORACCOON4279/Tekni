@@ -1,5 +1,6 @@
 .cardItem{
     width:90%;
+    max-width: 1300px;
     height:auto;
     display: flex;
     flex-direction: row;

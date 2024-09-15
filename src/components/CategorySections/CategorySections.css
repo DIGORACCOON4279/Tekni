@@ -98,11 +98,12 @@
         width: 100vw;
     }
     .categorySection .categoryItems ul{
-        width: 100vw;height: 100px;
-        display: flex;
+        width: 100vw;
+        height: auto;
     }
     .categorySection .categoryItems ul .navLinkCategory{
         width:50%;
+        border-top: 4px solid transparent;
     }
     .categorySection .categoryItems ul .navLinkCategory:hover{
         border-bottom:  4px solid #F2F2F2;
